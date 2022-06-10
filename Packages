@@ -323,6 +323,27 @@ Homepage: http://www.deepin.org/
 Description: Music software for UOS
  Music is a local music player with beautiful design and simple functions.
 
+Package: deepin-terminal
+Version: 5.4.28-1+kt286
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6589
+Depends: libc6 (>= 2.15), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-3, expect, zssh
+Filename: ./deepin-terminal_5.4.28-1+kt286_amd64.deb
+Size: 3330716
+MD5sum: ef12e1f6774b8d46069274cc37326b58
+SHA1: 3b5bb0261895a3bc317c492a2e96822361110b50
+SHA256: 01f903aa063b57658ee5682ea6d6c399d22dbea95725d886b070858ab3df94c1
+Section: utils
+Priority: optional
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
 Package: dock-network-plugin
 Source: dde-network-core
 Version: 1.0.34-1+kt286+1
@@ -2773,35 +2794,6 @@ Description: Fcitx Input Method Framework v5 (utils library)
 Package: libgl1-nvidia-legacy-390xx-glvnd-glx
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 365
-Depends: libgl1 (>= 0.2.999) | libgl1-glvnd-nvidia-glx, libglx-nvidia-legacy-390xx0 (= 390.151-1)
-Provides: libgl1-nvidia-glx-any
-Filename: ./libgl1-nvidia-legacy-390xx-glvnd-glx_390.151-1_i386.deb
-Size: 354112
-MD5sum: 61157260caa807caf9ffb967e6b23224
-SHA1: 9300aac531dba02cc70c66ad3499004fbd8dcca3
-SHA256: 11dc5761a9e3d57b44dbe29a7200a5392fe08ae008ce26c2beb6987cb7207ab6
-Section: non-free/libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.nvidia.com
-Description: NVIDIA binary OpenGL/GLX library (GLVND variant) (390xx legacy version)
- The NVIDIA binary driver provides optimized hardware acceleration of
- OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
- for graphics cards using NVIDIA chip sets.
- .
- See the description of the nvidia-legacy-390xx-driver package
- or /usr/share/doc/libgl1-nvidia-legacy-390xx-glvnd-glx/README.txt.gz
- for a complete list of supported GPUs and PCI IDs.
- .
- This metapackage depends on the NVIDIA binary OpenGL/GLX implementation using
- GLVND and the corresponding GLVND loader library.
-
-Package: libgl1-nvidia-legacy-390xx-glvnd-glx
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 365
@@ -2828,38 +2820,34 @@ Description: NVIDIA binary OpenGL/GLX library (GLVND variant) (390xx legacy vers
  This metapackage depends on the NVIDIA binary OpenGL/GLX implementation using
  GLVND and the corresponding GLVND loader library.
 
-Package: libgl1-nvidia-legacy-390xx-glx
+Package: libgl1-nvidia-legacy-390xx-glvnd-glx
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1567
-Pre-Depends: nvidia-installer-cleanup
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), nvidia-support, libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-1), libx11-6, libxext6
-Recommends: nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-1), nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151
-Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
-Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx
+Installed-Size: 365
+Depends: libgl1 (>= 0.2.999) | libgl1-glvnd-nvidia-glx, libglx-nvidia-legacy-390xx0 (= 390.151-1)
 Provides: libgl1-nvidia-glx-any
-Filename: ./libgl1-nvidia-legacy-390xx-glx_390.151-1_i386.deb
-Size: 597484
-MD5sum: d4a104c2ec96d1243fe56928ffb282a8
-SHA1: 33ab4f7fdd15df2517a51553010baa0bd69b34d4
-SHA256: 9ef4369f622dbba250a9ab63c825c0f6b16fba75fa2df362f695c943c2cf57ed
+Filename: ./libgl1-nvidia-legacy-390xx-glvnd-glx_390.151-1_i386.deb
+Size: 354112
+MD5sum: 61157260caa807caf9ffb967e6b23224
+SHA1: 9300aac531dba02cc70c66ad3499004fbd8dcca3
+SHA256: 11dc5761a9e3d57b44dbe29a7200a5392fe08ae008ce26c2beb6987cb7207ab6
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://www.nvidia.com
-Description: NVIDIA binary OpenGL/GLX library (non-GLVND variant) (390xx legacy version)
+Description: NVIDIA binary OpenGL/GLX library (GLVND variant) (390xx legacy version)
  The NVIDIA binary driver provides optimized hardware acceleration of
  OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
  for graphics cards using NVIDIA chip sets.
  .
  See the description of the nvidia-legacy-390xx-driver package
- or /usr/share/doc/libgl1-nvidia-legacy-390xx-glx/README.txt.gz
+ or /usr/share/doc/libgl1-nvidia-legacy-390xx-glvnd-glx/README.txt.gz
  for a complete list of supported GPUs and PCI IDs.
  .
- This package contains the driver specific binary OpenGL/GLX implementation
- provided by NVIDIA as a non-GLVND alternative.
+ This metapackage depends on the NVIDIA binary OpenGL/GLX implementation using
+ GLVND and the corresponding GLVND loader library.
 
 Package: libgl1-nvidia-legacy-390xx-glx
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -2894,18 +2882,51 @@ Description: NVIDIA binary OpenGL/GLX library (non-GLVND variant) (390xx legacy 
  This package contains the driver specific binary OpenGL/GLX implementation
  provided by NVIDIA as a non-GLVND alternative.
 
-Package: libgles-nvidia-legacy-390xx1
+Package: libgl1-nvidia-legacy-390xx-glx
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 272
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-1), libc6 (>= 2.3.6-6~)
-Filename: ./libgles-nvidia-legacy-390xx1_390.151-1_i386.deb
-Size: 213324
-MD5sum: 00af74da2567b8053d89176c43976955
-SHA1: 2fd35de0a6dc5f990ca1b6bb0fcf39c360e01aa3
-SHA256: 7f95b99e5c6eb9d6e9e9c60e1c5ee879948510184b72b574e0fbf19982e21a15
+Installed-Size: 1567
+Pre-Depends: nvidia-installer-cleanup
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), nvidia-support, libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-1), libx11-6, libxext6
+Recommends: nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-1), nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151
+Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
+Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx
+Provides: libgl1-nvidia-glx-any
+Filename: ./libgl1-nvidia-legacy-390xx-glx_390.151-1_i386.deb
+Size: 597484
+MD5sum: d4a104c2ec96d1243fe56928ffb282a8
+SHA1: 33ab4f7fdd15df2517a51553010baa0bd69b34d4
+SHA256: 9ef4369f622dbba250a9ab63c825c0f6b16fba75fa2df362f695c943c2cf57ed
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description: NVIDIA binary OpenGL/GLX library (non-GLVND variant) (390xx legacy version)
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ See the description of the nvidia-legacy-390xx-driver package
+ or /usr/share/doc/libgl1-nvidia-legacy-390xx-glx/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+ .
+ This package contains the driver specific binary OpenGL/GLX implementation
+ provided by NVIDIA as a non-GLVND alternative.
+
+Package: libgles-nvidia-legacy-390xx1
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 284
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-1), libc6 (>= 2.2.5)
+Filename: ./libgles-nvidia-legacy-390xx1_390.151-1_amd64.deb
+Size: 216996
+MD5sum: d50e9e2f4ef83e19e95d4f2378d866b6
+SHA1: 2f74038739606cbe69331bd9d54ff8e22b4b0e69
+SHA256: 3cf6b68d62127823c9cea37ad8c4da708714d86fa9710b5cde3902214e258f97
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -2928,15 +2949,15 @@ Description: NVIDIA binary OpenGL|ES 1.x library (390xx legacy version)
 Package: libgles-nvidia-legacy-390xx1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 284
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-1), libc6 (>= 2.2.5)
-Filename: ./libgles-nvidia-legacy-390xx1_390.151-1_amd64.deb
-Size: 216996
-MD5sum: d50e9e2f4ef83e19e95d4f2378d866b6
-SHA1: 2f74038739606cbe69331bd9d54ff8e22b4b0e69
-SHA256: 3cf6b68d62127823c9cea37ad8c4da708714d86fa9710b5cde3902214e258f97
+Installed-Size: 272
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-1), libc6 (>= 2.3.6-6~)
+Filename: ./libgles-nvidia-legacy-390xx1_390.151-1_i386.deb
+Size: 213324
+MD5sum: 00af74da2567b8053d89176c43976955
+SHA1: 2fd35de0a6dc5f990ca1b6bb0fcf39c360e01aa3
+SHA256: 7f95b99e5c6eb9d6e9e9c60e1c5ee879948510184b72b574e0fbf19982e21a15
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3023,16 +3044,16 @@ Description: NVIDIA binary OpenGL|ES 2.x library (390xx legacy version)
 Package: libglx-nvidia-legacy-390xx0
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1413
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-1), libx11-6, libxext6
+Installed-Size: 1548
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.2.5), libnvidia-legacy-390xx-glcore (= 390.151-1), libx11-6, libxext6
 Provides: libglx-vendor
-Filename: ./libglx-nvidia-legacy-390xx0_390.151-1_i386.deb
-Size: 441272
-MD5sum: 98527abf84177310718cba417fb5e00c
-SHA1: 536adaa38b6c097866cc77b3f27874bc43139feb
-SHA256: b0737d8928971c9593e0df5dae72dd91de928bc4869e41bd549964d2011b76d4
+Filename: ./libglx-nvidia-legacy-390xx0_390.151-1_amd64.deb
+Size: 452804
+MD5sum: f1849d9f304916d03fc89729f1b4adf5
+SHA1: 81327fad25bb3afd44a7a0d29957319be4b38cd6
+SHA256: afce43f5c826dcdc598ea9f749bf98a47c2289a692da0111d83d56bc319c6963
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3051,16 +3072,16 @@ Description: NVIDIA binary GLX library (390xx legacy version)
 Package: libglx-nvidia-legacy-390xx0
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1548
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.2.5), libnvidia-legacy-390xx-glcore (= 390.151-1), libx11-6, libxext6
+Installed-Size: 1413
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-1), libx11-6, libxext6
 Provides: libglx-vendor
-Filename: ./libglx-nvidia-legacy-390xx0_390.151-1_amd64.deb
-Size: 452804
-MD5sum: f1849d9f304916d03fc89729f1b4adf5
-SHA1: 81327fad25bb3afd44a7a0d29957319be4b38cd6
-SHA256: afce43f5c826dcdc598ea9f749bf98a47c2289a692da0111d83d56bc319c6963
+Filename: ./libglx-nvidia-legacy-390xx0_390.151-1_i386.deb
+Size: 441272
+MD5sum: 98527abf84177310718cba417fb5e00c
+SHA1: 536adaa38b6c097866cc77b3f27874bc43139feb
+SHA256: b0737d8928971c9593e0df5dae72dd91de928bc4869e41bd549964d2011b76d4
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3383,18 +3404,18 @@ Description: Generic Input Method Implementation (table library)
 Package: libnvidia-legacy-390xx-cfg1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 417
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.1)
+Installed-Size: 409
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.2.5)
 Breaks: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Replaces: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Provides: libnvidia-cfg.so.1 (= 390.151), libnvidia-cfg1-any
-Filename: ./libnvidia-legacy-390xx-cfg1_390.151-1_i386.deb
-Size: 262972
-MD5sum: f80294b4d852816aa67dc111e895c8d0
-SHA1: 60d7eea4879393063f50425c92a7bd58a72cc9aa
-SHA256: 1c117e129b3fcc937e879d34a69b503059a71c051a77de416227a56aecd2eaff
+Filename: ./libnvidia-legacy-390xx-cfg1_390.151-1_amd64.deb
+Size: 261796
+MD5sum: 7ed729e63a0530131bace7963c1a5e4e
+SHA1: dcb78a07eedd44099784a28960adcad72e8b0f13
+SHA256: dab571f1424f56b342d14f325d5ca5c5cc04f08b533374ef1c745e99a6bb0e92
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3409,18 +3430,18 @@ Description: NVIDIA binary OpenGL/GLX configuration library (390xx legacy versio
 Package: libnvidia-legacy-390xx-cfg1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 409
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.2.5)
+Installed-Size: 417
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.1)
 Breaks: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Replaces: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Provides: libnvidia-cfg.so.1 (= 390.151), libnvidia-cfg1-any
-Filename: ./libnvidia-legacy-390xx-cfg1_390.151-1_amd64.deb
-Size: 261796
-MD5sum: 7ed729e63a0530131bace7963c1a5e4e
-SHA1: dcb78a07eedd44099784a28960adcad72e8b0f13
-SHA256: dab571f1424f56b342d14f325d5ca5c5cc04f08b533374ef1c745e99a6bb0e92
+Filename: ./libnvidia-legacy-390xx-cfg1_390.151-1_i386.deb
+Size: 262972
+MD5sum: f80294b4d852816aa67dc111e895c8d0
+SHA1: 60d7eea4879393063f50425c92a7bd58a72cc9aa
+SHA256: 1c117e129b3fcc937e879d34a69b503059a71c051a77de416227a56aecd2eaff
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3576,17 +3597,17 @@ Description: NVIDIA CUDA 32-bit runtime library (390xx legacy version)
 Package: libnvidia-legacy-390xx-eglcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 29412
-Depends: libc6 (>= 2.3.6-6~)
+Installed-Size: 27685
+Depends: libc6 (>= 2.2.5)
 Conflicts: libnvidia-eglcore-390.151
 Provides: libnvidia-eglcore-390.151
-Filename: ./libnvidia-legacy-390xx-eglcore_390.151-1_i386.deb
-Size: 7221020
-MD5sum: b992bc63d331eccd7236245b0515d7be
-SHA1: 42462c25fceafb1f06f79872f1ae2586ec1d3e09
-SHA256: 64e4da4b4c3f52fe54539949ae6a667219d9204f69875bfb34fa4f7510a2c933
+Filename: ./libnvidia-legacy-390xx-eglcore_390.151-1_amd64.deb
+Size: 6766456
+MD5sum: 069fa689d9d508ce28f53095f560673c
+SHA1: 7f742cfa418b49a1b755a84ea9306e397adfb586
+SHA256: a236040ca32c65e90342e18b407927712917685981b6d175f8db97ab74e64e81
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3606,17 +3627,17 @@ Description: NVIDIA binary EGL core libraries (390xx legacy version)
 Package: libnvidia-legacy-390xx-eglcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 27685
-Depends: libc6 (>= 2.2.5)
+Installed-Size: 29412
+Depends: libc6 (>= 2.3.6-6~)
 Conflicts: libnvidia-eglcore-390.151
 Provides: libnvidia-eglcore-390.151
-Filename: ./libnvidia-legacy-390xx-eglcore_390.151-1_amd64.deb
-Size: 6766456
-MD5sum: 069fa689d9d508ce28f53095f560673c
-SHA1: 7f742cfa418b49a1b755a84ea9306e397adfb586
-SHA256: a236040ca32c65e90342e18b407927712917685981b6d175f8db97ab74e64e81
+Filename: ./libnvidia-legacy-390xx-eglcore_390.151-1_i386.deb
+Size: 7221020
+MD5sum: b992bc63d331eccd7236245b0515d7be
+SHA1: 42462c25fceafb1f06f79872f1ae2586ec1d3e09
+SHA256: 64e4da4b4c3f52fe54539949ae6a667219d9204f69875bfb34fa4f7510a2c933
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3730,30 +3751,6 @@ Description: NVIDIA FAT binary loader (390xx legacy version)
 Package: libnvidia-legacy-390xx-fbc1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 322
-Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-1), libc6 (>= 2.3.6-6~), libgl1 (>= 0.2.999) | libgl1-mesa-glx, libx11-6, libxext6
-Filename: ./libnvidia-legacy-390xx-fbc1_390.151-1_i386.deb
-Size: 229812
-MD5sum: 239a4055a9357788af9525a24ee4d6cd
-SHA1: fc0da9626a3e90018dfe4740496fc125a1c832b9
-SHA256: 474c019ef000c93932ad263a08f52bc40fdbda9c2476a15c38c11338b12576b3
-Section: non-free/libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.nvidia.com
-Description: NVIDIA OpenGL-based Framebuffer Capture runtime library (390xx legacy version)
- The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
- a high performance, low latency interface to capture and optionally encode an
- OpenGL framebuffer. NvFBCOpenGL is a private API that is only available to
- approved partners for use in remote graphics scenarios.
- .
- This package contains the NvFBCOpenGL runtime library.
-
-Package: libnvidia-legacy-390xx-fbc1
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 332
@@ -3775,31 +3772,29 @@ Description: NVIDIA OpenGL-based Framebuffer Capture runtime library (390xx lega
  .
  This package contains the NvFBCOpenGL runtime library.
 
-Package: libnvidia-legacy-390xx-glcore
+Package: libnvidia-legacy-390xx-fbc1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 31995
-Depends: libc6 (>= 2.1.3)
-Conflicts: libnvidia-glcore-390.151
-Provides: libnvidia-glcore-390.151
-Filename: ./libnvidia-legacy-390xx-glcore_390.151-1_i386.deb
-Size: 7239472
-MD5sum: 3245345f79e5e1686133175180cb7b57
-SHA1: def51a40d8ca29110273844821005d755cec146d
-SHA256: 70cea710019649020f661c002dc139731ac678746d8d4497da6c700f663a6dbd
+Installed-Size: 322
+Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-1), libc6 (>= 2.3.6-6~), libgl1 (>= 0.2.999) | libgl1-mesa-glx, libx11-6, libxext6
+Filename: ./libnvidia-legacy-390xx-fbc1_390.151-1_i386.deb
+Size: 229812
+MD5sum: 239a4055a9357788af9525a24ee4d6cd
+SHA1: fc0da9626a3e90018dfe4740496fc125a1c832b9
+SHA256: 474c019ef000c93932ad263a08f52bc40fdbda9c2476a15c38c11338b12576b3
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://www.nvidia.com
-Description: NVIDIA binary OpenGL/GLX core libraries (390xx legacy version)
- The NVIDIA binary driver provides optimized hardware acceleration of
- OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
- for graphics cards using NVIDIA chip sets.
+Description: NVIDIA OpenGL-based Framebuffer Capture runtime library (390xx legacy version)
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode an
+ OpenGL framebuffer. NvFBCOpenGL is a private API that is only available to
+ approved partners for use in remote graphics scenarios.
  .
- This package contains the private core libraries used by the NVIDIA
- implementation of OpenGL and GLX.
+ This package contains the NvFBCOpenGL runtime library.
 
 Package: libnvidia-legacy-390xx-glcore
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -3815,6 +3810,32 @@ Size: 6812580
 MD5sum: 79091a206babb17cdb29ab16ef9889dc
 SHA1: 7b9ccae13a4754055c946d6a6b094a01b7930f40
 SHA256: 11d509bfdd5baefd3a2a2b59440c929f0f5a197028bbb3117f1b793fe432e654
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description: NVIDIA binary OpenGL/GLX core libraries (390xx legacy version)
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ This package contains the private core libraries used by the NVIDIA
+ implementation of OpenGL and GLX.
+
+Package: libnvidia-legacy-390xx-glcore
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: i386
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 31995
+Depends: libc6 (>= 2.1.3)
+Conflicts: libnvidia-glcore-390.151
+Provides: libnvidia-glcore-390.151
+Filename: ./libnvidia-legacy-390xx-glcore_390.151-1_i386.deb
+Size: 7239472
+MD5sum: 3245345f79e5e1686133175180cb7b57
+SHA1: def51a40d8ca29110273844821005d755cec146d
+SHA256: 70cea710019649020f661c002dc139731ac678746d8d4497da6c700f663a6dbd
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3878,29 +3899,6 @@ Description: NVIDIA OpenGL-based Inband Frame Readback runtime library (390xx le
 Package: libnvidia-legacy-390xx-ml1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1549
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.3.6-6~)
-Provides: libnvidia-ml.so.1 (= 390.151)
-Filename: ./libnvidia-legacy-390xx-ml1_390.151-1_i386.deb
-Size: 574524
-MD5sum: 85d662dcb1fbe7e66d3bc2edf6a219fb
-SHA1: f3b63c35578ac016deb4e7c9c94af6df9fff9922
-SHA256: 03717f7ef84ea52c97537f7dbcc90c273788d4d8d9ee4a4ac0bcdd07cb81cb99
-Section: non-free/libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://developer.nvidia.com/nvidia-management-library-NVML
-Description: NVIDIA Management Library (NVML) runtime library (390xx legacy version)
- The NVIDIA Management Library (NVML) provides a monitoring and management API.
- It provides a direct access to the queries and commands exposed via nvidia-smi.
- .
- This package contains the nvidia-ml runtime library.
-
-Package: libnvidia-legacy-390xx-ml1
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1514
@@ -3921,18 +3919,41 @@ Description: NVIDIA Management Library (NVML) runtime library (390xx legacy vers
  .
  This package contains the nvidia-ml runtime library.
 
-Package: libnvidia-legacy-390xx-nvcuvid1
+Package: libnvidia-legacy-390xx-ml1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 2819
-Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-1), libc6 (>= 2.1.3)
-Filename: ./libnvidia-legacy-390xx-nvcuvid1_390.151-1_i386.deb
-Size: 898680
-MD5sum: 4ed273ea11c13a68c0e2f42eae94747f
-SHA1: 0e602c3ed259e86d34c34bcb9c7b89a32d91b13b
-SHA256: b0334be8c01549593d07b4c824e702da47a6cb08a6c74427fdcfb439f7fc95eb
+Installed-Size: 1549
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.3.6-6~)
+Provides: libnvidia-ml.so.1 (= 390.151)
+Filename: ./libnvidia-legacy-390xx-ml1_390.151-1_i386.deb
+Size: 574524
+MD5sum: 85d662dcb1fbe7e66d3bc2edf6a219fb
+SHA1: f3b63c35578ac016deb4e7c9c94af6df9fff9922
+SHA256: 03717f7ef84ea52c97537f7dbcc90c273788d4d8d9ee4a4ac0bcdd07cb81cb99
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://developer.nvidia.com/nvidia-management-library-NVML
+Description: NVIDIA Management Library (NVML) runtime library (390xx legacy version)
+ The NVIDIA Management Library (NVML) provides a monitoring and management API.
+ It provides a direct access to the queries and commands exposed via nvidia-smi.
+ .
+ This package contains the nvidia-ml runtime library.
+
+Package: libnvidia-legacy-390xx-nvcuvid1
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 2644
+Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-1), libc6 (>= 2.2.5)
+Filename: ./libnvidia-legacy-390xx-nvcuvid1_390.151-1_amd64.deb
+Size: 838508
+MD5sum: 5c19853aaaf3b57e0886903985fdf252
+SHA1: bf1083372c89082fa4b66972bc90c18be1843d82
+SHA256: 2c4d6a38d2cd28e5745e5370a63660dbb448a619bec4efe8275e527873b9a4c1
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -3950,15 +3971,15 @@ Description: NVIDIA CUDA Video Decoder runtime library (390xx legacy version)
 Package: libnvidia-legacy-390xx-nvcuvid1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 2644
-Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-1), libc6 (>= 2.2.5)
-Filename: ./libnvidia-legacy-390xx-nvcuvid1_390.151-1_amd64.deb
-Size: 838508
-MD5sum: 5c19853aaaf3b57e0886903985fdf252
-SHA1: bf1083372c89082fa4b66972bc90c18be1843d82
-SHA256: 2c4d6a38d2cd28e5745e5370a63660dbb448a619bec4efe8275e527873b9a4c1
+Installed-Size: 2819
+Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-1), libc6 (>= 2.1.3)
+Filename: ./libnvidia-legacy-390xx-nvcuvid1_390.151-1_i386.deb
+Size: 898680
+MD5sum: 4ed273ea11c13a68c0e2f42eae94747f
+SHA1: 0e602c3ed259e86d34c34bcb9c7b89a32d91b13b
+SHA256: b0334be8c01549593d07b4c824e702da47a6cb08a6c74427fdcfb439f7fc95eb
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -4333,114 +4354,6 @@ Description: allows the selection of NVIDIA as GLX provider (390xx legacy versio
 Package: nvidia-legacy-390xx-driver
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1189
-Pre-Depends: nvidia-installer-cleanup
-Depends: nvidia-legacy-390xx-driver-libs (= 390.151-1) | nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-1), nvidia-legacy-390xx-driver-bin (= 390.151-1), xserver-xorg-video-nvidia-legacy-390xx (= 390.151-1), nvidia-legacy-390xx-vdpau-driver (= 390.151-1), nvidia-legacy-390xx-alternative (= 390.151-1), nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151, nvidia-support
-Recommends: nvidia-settings-legacy-390xx, libnvidia-legacy-390xx-cfg1 (= 390.151-1), nvidia-persistenced
-Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
-Provides: nvidia-driver-any, nvidia-glx-any
-Filename: ./nvidia-legacy-390xx-driver_390.151-1_i386.deb
-Size: 499432
-MD5sum: b60a6638f5c535d10c4fb2e8e2e21044
-SHA1: 52a96859f5ffac87b4a390b6a0d0da82e85088dd
-SHA256: 69bc38fa039a05e6ea7bb1188c0f79ad3eb31473c781c7d186a37fc9773ca651
-Section: non-free/x11
-Priority: optional
-Homepage: https://www.nvidia.com
-Description: NVIDIA metapackage (390xx legacy version)
- This metapackage depends on the NVIDIA binary driver and libraries
- that provide optimized hardware acceleration of
- OpenGL/GLX/EGL/GLES/Vulkan applications via a direct-rendering X Server.
- .
- Please see the nvidia-legacy-390xx-kernel-dkms or
- nvidia-legacy-390xx-kernel-source packages
- for building the kernel module required by this package.
- This will provide nvidia-legacy-390xx-kernel-390.151.
- .
- This legacy version is the last release that supports the following GPUs:
- GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
- GeForce 610M [GF108M], GeForce 610M [GF119M], GeForce 610M [GF117M],
- GeForce 705M [GF119M], GeForce 710A [GK107M], GeForce 710M [GF117M],
- GeForce 810M [GF117M], GeForce 810M [GK107M], GeForce 820M [GF117M],
- GeForce 820M [GK107M], GeForce 825M [GK208M], GeForce 910M [GK208BM],
- GeForce GT 415M [GF108M], GeForce GT 420 [GF108], GeForce GT 420M [GF108M],
- GeForce GT 425M [GF108M], GeForce GT 430 [GF108], GeForce GT 435M [GF106M],
- GeForce GT 435M [GF108M], GeForce GT 440 [GF106], GeForce GT 440 [GF108],
- GeForce GT 445M [GF106M], GeForce GT 520 [GF108], GeForce GT 520 [GF119],
- GeForce GT 520M [GF108M], GeForce GT 520M [GF119M],
- GeForce GT 520MX [GF119M], GeForce GT 525M [GF108M], GeForce GT 530 [GF108],
- GeForce GT 540M [GF108M], GeForce GT 545 OEM [GF116], GeForce GT 545 [GF116],
- GeForce GT 550M [GF106M], GeForce GT 550M [GF108M], GeForce GT 550M [GF116M],
- GeForce GT 555M [GF106M], GeForce GT 555M [GF108M], GeForce GT 555M [GF116M],
- GeForce GT 560M [GF116M], GeForce GT 610 [GF108], GeForce GT 610 [GF119],
- GeForce GT 620 OEM [GF119], GeForce GT 620 [GF108], GeForce GT 620M [GF108M],
- GeForce GT 620M [GF117M], GeForce GT 620M LE [GF108M],
- GeForce GT 625 OEM [GF119], GeForce GT 625M [GF117M], GeForce GT 630 [GF108],
- GeForce GT 630M [GF117M], GeForce GT 630M LE [GF108M],
- GeForce GT 635M [GF108M], GeForce GT 635M [GF116M],
- GeForce GT 635M LE [GF108M], GeForce GT 640 OEM [GF116],
- GeForce GT 640M LE [GF108M], GeForce GT 640M LE [GK107M],
- GeForce GT 640M Mac Edition [GK107M], GeForce GT 645 OEM [GF114],
- GeForce GT 645M [GK107M], GeForce GT 650M [GK107M],
- GeForce GT 650M Mac Edition [GK107M], GeForce GT 705 [GF119],
- GeForce GT 720M [GF117M], GeForce GT 720M [GK208M], GeForce GT 730 [GF108],
- GeForce GT 730M [GK107M], GeForce GT 730M [GK208M], GeForce GT 735M [GK208M],
- GeForce GT 740M [GK107M], GeForce GT 745M [GK107M], GeForce GT 750M [GK107M],
- GeForce GT 750M Mac Edition [GK107M], GeForce GT 755M [GK107M],
- GeForce GT 755M Mac Edition [GK107M], GeForce GTS 450 OEM [GF106],
- GeForce GTS 450 [GF106], GeForce GTS 450 Rev. 2 [GF116],
- GeForce GTS 450 Rev. 3 [GF116], GeForce GTX 460 OEM [GF104],
- GeForce GTX 460 [GF104], GeForce GTX 460 v2 [GF114],
- GeForce GTX 460 SE [GF104], GeForce GTX 460 SE v2 [GF114],
- GeForce GTX 460M [GF106M], GeForce GTX 465 [GF100], GeForce GTX 470 [GF100],
- GeForce GTX 470M [GF104M], GeForce GTX 480 [GF100],
- GeForce GTX 480M [GF100M], GeForce GTX 485M [GF104M],
- GeForce GTX 550 Ti [GF116], GeForce GTX 555 [GF114],
- GeForce GTX 560 OEM [GF110], GeForce GTX 560 [GF114],
- GeForce GTX 560 SE [GF114], GeForce GTX 560 Ti [GF114],
- GeForce GTX 560 Ti OEM [GF110], GeForce GTX 560 Ti 448 Cores [GF110],
- GeForce GTX 570 [GF110], GeForce GTX 570 Rev. 2 [GF110],
- GeForce GTX 570M [GF114M], GeForce GTX 580 [GF110],
- GeForce GTX 580 Rev. 2 [GF110], GeForce GTX 580M [GF114M],
- GeForce GTX 590 [GF110], GeForce GTX 660M [GK107M],
- GeForce GTX 660M Mac Edition [GK107M], GeForce GTX 670M [GF114M],
- GeForce GTX 670MX [GK104M], GeForce GTX 675M [GF114M],
- GeForce GTX 675MX [GK104M], GeForce GTX 675MX Mac Edition [GK104M],
- GeForce GTX 680M [GK104M], GeForce GTX 680MX [GK104M],
- GeForce GTX 765M [GK106M], GeForce GTX 770M [GK106M],
- GeForce GTX 775M Mac Edition [GK104M], GeForce GTX 780M [GK104M],
- GeForce GTX 780M Mac Edition [GK104M], GeForce GTX 860M [GK104M],
- GeForce GTX 880M [GK104M], NVS 310 [GF119], NVS 315 [GF119],
- NVS 4200M [GF119M], NVS 5200M [GF108GLM], NVS 5400M [GF108M],
- Quadro 500M [GF108GLM], Quadro 600 [GF108GL], Quadro 1000M [GF108GLM],
- Quadro 2000 [GF106GL], Quadro 2000M [GF106GLM], Quadro 3000M [GF104GLM],
- Quadro 4000 [GF100GL], Quadro 4000M [GF104GLM], Quadro 5000 [GF100GL],
- Quadro 5000M [GF100GLM], Quadro 5010M [GF100GLM], Quadro 6000 [GF100GL],
- Quadro 7000 [GF100GL], Quadro K500M [GK107GLM], Quadro K510M [GK208GLM],
- Quadro K610M [GK208GLM], Quadro K1000M [GK107GLM], Quadro K1100M [GK107GLM],
- Quadro K2000M [GK107GLM], Quadro K2100M [GK106GLM], Quadro K3000M [GK104GLM],
- Quadro K3100M [GK104GLM], Quadro K4000M [GK104GLM], Quadro K4100M [GK104GLM],
- Quadro K5000M [GK104GLM], Quadro K5100M [GK104GLM],
- Quadro NVS 4200M [GF119M], Tesla C2050 [GF100GL], Tesla C2050 [GF110GL],
- Tesla C2070 [GF100GL], Tesla C2075 [GF110GL], Tesla M2070 [GF100GL],
- Tesla M2070-Q [GF100GL], Tesla M2075 [GF110GL], Tesla M2090 [GF110GL],
- Tesla T20 Processor [GF100GL].
- .
- There are several "more modern" GPUs supported by this package, too, but the
- updated drivers in the newer legacy packages or the current nvidia-driver
- package usually provide more features and better support.
- Look at the other legacy packages for older cards.
- .
- See /usr/share/doc/nvidia-legacy-390xx-driver/README.txt.gz
- for a complete list of supported GPUs and PCI IDs.
- .
- Building the kernel module has been tested up to Linux 5.17.
-
-Package: nvidia-legacy-390xx-driver
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1190
@@ -4546,30 +4459,113 @@ Description: NVIDIA metapackage (390xx legacy version)
  .
  Building the kernel module has been tested up to Linux 5.17.
 
-Package: nvidia-legacy-390xx-driver-bin
+Package: nvidia-legacy-390xx-driver
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 447
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.1), libnvidia-legacy-390xx-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
-Recommends: nvidia-legacy-390xx-driver
-Conflicts: nvidia-driver-bin-390.151
-Provides: nvidia-driver-bin-390.151
-Filename: ./nvidia-legacy-390xx-driver-bin_390.151-1_i386.deb
-Size: 280932
-MD5sum: 7fead64cad6a990266d37bc47a3401b4
-SHA1: 7b7cc6a2ae6d3f50d8812c591f16322b2c561a35
-SHA256: 4cd133e07fef7ecbcd3c01b8db4f95a145dc5afcc1f3e6672ab0735e7a7fc286
+Installed-Size: 1189
+Pre-Depends: nvidia-installer-cleanup
+Depends: nvidia-legacy-390xx-driver-libs (= 390.151-1) | nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-1), nvidia-legacy-390xx-driver-bin (= 390.151-1), xserver-xorg-video-nvidia-legacy-390xx (= 390.151-1), nvidia-legacy-390xx-vdpau-driver (= 390.151-1), nvidia-legacy-390xx-alternative (= 390.151-1), nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151, nvidia-support
+Recommends: nvidia-settings-legacy-390xx, libnvidia-legacy-390xx-cfg1 (= 390.151-1), nvidia-persistenced
+Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
+Provides: nvidia-driver-any, nvidia-glx-any
+Filename: ./nvidia-legacy-390xx-driver_390.151-1_i386.deb
+Size: 499432
+MD5sum: b60a6638f5c535d10c4fb2e8e2e21044
+SHA1: 52a96859f5ffac87b4a390b6a0d0da82e85088dd
+SHA256: 69bc38fa039a05e6ea7bb1188c0f79ad3eb31473c781c7d186a37fc9773ca651
 Section: non-free/x11
 Priority: optional
 Homepage: https://www.nvidia.com
-Description: NVIDIA driver support binaries (390xx legacy version)
- The NVIDIA binary driver provides optimized hardware acceleration of
- OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
- for graphics cards using NVIDIA chip sets.
+Description: NVIDIA metapackage (390xx legacy version)
+ This metapackage depends on the NVIDIA binary driver and libraries
+ that provide optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES/Vulkan applications via a direct-rendering X Server.
  .
- This package contains supporting binaries for the driver.
+ Please see the nvidia-legacy-390xx-kernel-dkms or
+ nvidia-legacy-390xx-kernel-source packages
+ for building the kernel module required by this package.
+ This will provide nvidia-legacy-390xx-kernel-390.151.
+ .
+ This legacy version is the last release that supports the following GPUs:
+ GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
+ GeForce 610M [GF108M], GeForce 610M [GF119M], GeForce 610M [GF117M],
+ GeForce 705M [GF119M], GeForce 710A [GK107M], GeForce 710M [GF117M],
+ GeForce 810M [GF117M], GeForce 810M [GK107M], GeForce 820M [GF117M],
+ GeForce 820M [GK107M], GeForce 825M [GK208M], GeForce 910M [GK208BM],
+ GeForce GT 415M [GF108M], GeForce GT 420 [GF108], GeForce GT 420M [GF108M],
+ GeForce GT 425M [GF108M], GeForce GT 430 [GF108], GeForce GT 435M [GF106M],
+ GeForce GT 435M [GF108M], GeForce GT 440 [GF106], GeForce GT 440 [GF108],
+ GeForce GT 445M [GF106M], GeForce GT 520 [GF108], GeForce GT 520 [GF119],
+ GeForce GT 520M [GF108M], GeForce GT 520M [GF119M],
+ GeForce GT 520MX [GF119M], GeForce GT 525M [GF108M], GeForce GT 530 [GF108],
+ GeForce GT 540M [GF108M], GeForce GT 545 OEM [GF116], GeForce GT 545 [GF116],
+ GeForce GT 550M [GF106M], GeForce GT 550M [GF108M], GeForce GT 550M [GF116M],
+ GeForce GT 555M [GF106M], GeForce GT 555M [GF108M], GeForce GT 555M [GF116M],
+ GeForce GT 560M [GF116M], GeForce GT 610 [GF108], GeForce GT 610 [GF119],
+ GeForce GT 620 OEM [GF119], GeForce GT 620 [GF108], GeForce GT 620M [GF108M],
+ GeForce GT 620M [GF117M], GeForce GT 620M LE [GF108M],
+ GeForce GT 625 OEM [GF119], GeForce GT 625M [GF117M], GeForce GT 630 [GF108],
+ GeForce GT 630M [GF117M], GeForce GT 630M LE [GF108M],
+ GeForce GT 635M [GF108M], GeForce GT 635M [GF116M],
+ GeForce GT 635M LE [GF108M], GeForce GT 640 OEM [GF116],
+ GeForce GT 640M LE [GF108M], GeForce GT 640M LE [GK107M],
+ GeForce GT 640M Mac Edition [GK107M], GeForce GT 645 OEM [GF114],
+ GeForce GT 645M [GK107M], GeForce GT 650M [GK107M],
+ GeForce GT 650M Mac Edition [GK107M], GeForce GT 705 [GF119],
+ GeForce GT 720M [GF117M], GeForce GT 720M [GK208M], GeForce GT 730 [GF108],
+ GeForce GT 730M [GK107M], GeForce GT 730M [GK208M], GeForce GT 735M [GK208M],
+ GeForce GT 740M [GK107M], GeForce GT 745M [GK107M], GeForce GT 750M [GK107M],
+ GeForce GT 750M Mac Edition [GK107M], GeForce GT 755M [GK107M],
+ GeForce GT 755M Mac Edition [GK107M], GeForce GTS 450 OEM [GF106],
+ GeForce GTS 450 [GF106], GeForce GTS 450 Rev. 2 [GF116],
+ GeForce GTS 450 Rev. 3 [GF116], GeForce GTX 460 OEM [GF104],
+ GeForce GTX 460 [GF104], GeForce GTX 460 v2 [GF114],
+ GeForce GTX 460 SE [GF104], GeForce GTX 460 SE v2 [GF114],
+ GeForce GTX 460M [GF106M], GeForce GTX 465 [GF100], GeForce GTX 470 [GF100],
+ GeForce GTX 470M [GF104M], GeForce GTX 480 [GF100],
+ GeForce GTX 480M [GF100M], GeForce GTX 485M [GF104M],
+ GeForce GTX 550 Ti [GF116], GeForce GTX 555 [GF114],
+ GeForce GTX 560 OEM [GF110], GeForce GTX 560 [GF114],
+ GeForce GTX 560 SE [GF114], GeForce GTX 560 Ti [GF114],
+ GeForce GTX 560 Ti OEM [GF110], GeForce GTX 560 Ti 448 Cores [GF110],
+ GeForce GTX 570 [GF110], GeForce GTX 570 Rev. 2 [GF110],
+ GeForce GTX 570M [GF114M], GeForce GTX 580 [GF110],
+ GeForce GTX 580 Rev. 2 [GF110], GeForce GTX 580M [GF114M],
+ GeForce GTX 590 [GF110], GeForce GTX 660M [GK107M],
+ GeForce GTX 660M Mac Edition [GK107M], GeForce GTX 670M [GF114M],
+ GeForce GTX 670MX [GK104M], GeForce GTX 675M [GF114M],
+ GeForce GTX 675MX [GK104M], GeForce GTX 675MX Mac Edition [GK104M],
+ GeForce GTX 680M [GK104M], GeForce GTX 680MX [GK104M],
+ GeForce GTX 765M [GK106M], GeForce GTX 770M [GK106M],
+ GeForce GTX 775M Mac Edition [GK104M], GeForce GTX 780M [GK104M],
+ GeForce GTX 780M Mac Edition [GK104M], GeForce GTX 860M [GK104M],
+ GeForce GTX 880M [GK104M], NVS 310 [GF119], NVS 315 [GF119],
+ NVS 4200M [GF119M], NVS 5200M [GF108GLM], NVS 5400M [GF108M],
+ Quadro 500M [GF108GLM], Quadro 600 [GF108GL], Quadro 1000M [GF108GLM],
+ Quadro 2000 [GF106GL], Quadro 2000M [GF106GLM], Quadro 3000M [GF104GLM],
+ Quadro 4000 [GF100GL], Quadro 4000M [GF104GLM], Quadro 5000 [GF100GL],
+ Quadro 5000M [GF100GLM], Quadro 5010M [GF100GLM], Quadro 6000 [GF100GL],
+ Quadro 7000 [GF100GL], Quadro K500M [GK107GLM], Quadro K510M [GK208GLM],
+ Quadro K610M [GK208GLM], Quadro K1000M [GK107GLM], Quadro K1100M [GK107GLM],
+ Quadro K2000M [GK107GLM], Quadro K2100M [GK106GLM], Quadro K3000M [GK104GLM],
+ Quadro K3100M [GK104GLM], Quadro K4000M [GK104GLM], Quadro K4100M [GK104GLM],
+ Quadro K5000M [GK104GLM], Quadro K5100M [GK104GLM],
+ Quadro NVS 4200M [GF119M], Tesla C2050 [GF100GL], Tesla C2050 [GF110GL],
+ Tesla C2070 [GF100GL], Tesla C2075 [GF110GL], Tesla M2070 [GF100GL],
+ Tesla M2070-Q [GF100GL], Tesla M2075 [GF110GL], Tesla M2090 [GF110GL],
+ Tesla T20 Processor [GF100GL].
+ .
+ There are several "more modern" GPUs supported by this package, too, but the
+ updated drivers in the newer legacy packages or the current nvidia-driver
+ package usually provide more features and better support.
+ Look at the other legacy packages for older cards.
+ .
+ See /usr/share/doc/nvidia-legacy-390xx-driver/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+ .
+ Building the kernel module has been tested up to Linux 5.17.
 
 Package: nvidia-legacy-390xx-driver-bin
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -4586,6 +4582,31 @@ Size: 284388
 MD5sum: 0616e099f6eda8f46451984ae5d01abe
 SHA1: 2ed9b3833d5340ebe79620e2980b07cb5a1b041d
 SHA256: ec69711dc6b4376903a8f0fd12a156b144f4d789961e1e11e6fb092c58b8785f
+Section: non-free/x11
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: NVIDIA driver support binaries (390xx legacy version)
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ This package contains supporting binaries for the driver.
+
+Package: nvidia-legacy-390xx-driver-bin
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: i386
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 447
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.1), libnvidia-legacy-390xx-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
+Recommends: nvidia-legacy-390xx-driver
+Conflicts: nvidia-driver-bin-390.151
+Provides: nvidia-driver-bin-390.151
+Filename: ./nvidia-legacy-390xx-driver-bin_390.151-1_i386.deb
+Size: 280932
+MD5sum: 7fead64cad6a990266d37bc47a3401b4
+SHA1: 7b7cc6a2ae6d3f50d8812c591f16322b2c561a35
+SHA256: 4cd133e07fef7ecbcd3c01b8db4f95a145dc5afcc1f3e6672ab0735e7a7fc286
 Section: non-free/x11
 Priority: optional
 Homepage: https://www.nvidia.com
@@ -4794,117 +4815,6 @@ Description: NVIDIA EGL installable client driver (ICD)
 Package: nvidia-legacy-390xx-kernel-dkms
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 19806
-Pre-Depends: nvidia-installer-cleanup
-Depends: dkms (>= 2.1.0.0), nvidia-legacy-390xx-kernel-support--v1
-Recommends: nvidia-legacy-390xx-driver (>= 390.151) | libnvidia-legacy-390xx-cuda1 (>= 390.151)
-Provides: nvidia-legacy-390xx-kernel-390.151
-Filename: ./nvidia-legacy-390xx-kernel-dkms_390.151-1_i386.deb
-Size: 9522516
-MD5sum: 415f6d5eb2c432c9260ddd414a5c36fa
-SHA1: ff045aff6870511781d590372f7261ab5ccebe4a
-SHA256: 520d45db5fa0773c140d07a742e64af5c73b59266f831faa9fa17324236fa111
-Section: non-free/kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.nvidia.com
-Description: NVIDIA binary kernel module DKMS source (390xx legacy version)
- This package builds the NVIDIA Xorg binary kernel module needed by
- nvidia-legacy-390xx-driver, using DKMS.
- Provided that you have the kernel header packages installed, the kernel
- module will be built for your running kernel and automatically rebuilt for
- any new kernel headers that are installed.
- .
- The NVIDIA binary driver provides optimized hardware acceleration of
- OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
- for graphics cards using NVIDIA chip sets.
- .
- This legacy version is the last release that supports the following GPUs:
- GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
- GeForce 610M [GF108M], GeForce 610M [GF119M], GeForce 610M [GF117M],
- GeForce 705M [GF119M], GeForce 710A [GK107M], GeForce 710M [GF117M],
- GeForce 810M [GF117M], GeForce 810M [GK107M], GeForce 820M [GF117M],
- GeForce 820M [GK107M], GeForce 825M [GK208M], GeForce 910M [GK208BM],
- GeForce GT 415M [GF108M], GeForce GT 420 [GF108], GeForce GT 420M [GF108M],
- GeForce GT 425M [GF108M], GeForce GT 430 [GF108], GeForce GT 435M [GF106M],
- GeForce GT 435M [GF108M], GeForce GT 440 [GF106], GeForce GT 440 [GF108],
- GeForce GT 445M [GF106M], GeForce GT 520 [GF108], GeForce GT 520 [GF119],
- GeForce GT 520M [GF108M], GeForce GT 520M [GF119M],
- GeForce GT 520MX [GF119M], GeForce GT 525M [GF108M], GeForce GT 530 [GF108],
- GeForce GT 540M [GF108M], GeForce GT 545 OEM [GF116], GeForce GT 545 [GF116],
- GeForce GT 550M [GF106M], GeForce GT 550M [GF108M], GeForce GT 550M [GF116M],
- GeForce GT 555M [GF106M], GeForce GT 555M [GF108M], GeForce GT 555M [GF116M],
- GeForce GT 560M [GF116M], GeForce GT 610 [GF108], GeForce GT 610 [GF119],
- GeForce GT 620 OEM [GF119], GeForce GT 620 [GF108], GeForce GT 620M [GF108M],
- GeForce GT 620M [GF117M], GeForce GT 620M LE [GF108M],
- GeForce GT 625 OEM [GF119], GeForce GT 625M [GF117M], GeForce GT 630 [GF108],
- GeForce GT 630M [GF117M], GeForce GT 630M LE [GF108M],
- GeForce GT 635M [GF108M], GeForce GT 635M [GF116M],
- GeForce GT 635M LE [GF108M], GeForce GT 640 OEM [GF116],
- GeForce GT 640M LE [GF108M], GeForce GT 640M LE [GK107M],
- GeForce GT 640M Mac Edition [GK107M], GeForce GT 645 OEM [GF114],
- GeForce GT 645M [GK107M], GeForce GT 650M [GK107M],
- GeForce GT 650M Mac Edition [GK107M], GeForce GT 705 [GF119],
- GeForce GT 720M [GF117M], GeForce GT 720M [GK208M], GeForce GT 730 [GF108],
- GeForce GT 730M [GK107M], GeForce GT 730M [GK208M], GeForce GT 735M [GK208M],
- GeForce GT 740M [GK107M], GeForce GT 745M [GK107M], GeForce GT 750M [GK107M],
- GeForce GT 750M Mac Edition [GK107M], GeForce GT 755M [GK107M],
- GeForce GT 755M Mac Edition [GK107M], GeForce GTS 450 OEM [GF106],
- GeForce GTS 450 [GF106], GeForce GTS 450 Rev. 2 [GF116],
- GeForce GTS 450 Rev. 3 [GF116], GeForce GTX 460 OEM [GF104],
- GeForce GTX 460 [GF104], GeForce GTX 460 v2 [GF114],
- GeForce GTX 460 SE [GF104], GeForce GTX 460 SE v2 [GF114],
- GeForce GTX 460M [GF106M], GeForce GTX 465 [GF100], GeForce GTX 470 [GF100],
- GeForce GTX 470M [GF104M], GeForce GTX 480 [GF100],
- GeForce GTX 480M [GF100M], GeForce GTX 485M [GF104M],
- GeForce GTX 550 Ti [GF116], GeForce GTX 555 [GF114],
- GeForce GTX 560 OEM [GF110], GeForce GTX 560 [GF114],
- GeForce GTX 560 SE [GF114], GeForce GTX 560 Ti [GF114],
- GeForce GTX 560 Ti OEM [GF110], GeForce GTX 560 Ti 448 Cores [GF110],
- GeForce GTX 570 [GF110], GeForce GTX 570 Rev. 2 [GF110],
- GeForce GTX 570M [GF114M], GeForce GTX 580 [GF110],
- GeForce GTX 580 Rev. 2 [GF110], GeForce GTX 580M [GF114M],
- GeForce GTX 590 [GF110], GeForce GTX 660M [GK107M],
- GeForce GTX 660M Mac Edition [GK107M], GeForce GTX 670M [GF114M],
- GeForce GTX 670MX [GK104M], GeForce GTX 675M [GF114M],
- GeForce GTX 675MX [GK104M], GeForce GTX 675MX Mac Edition [GK104M],
- GeForce GTX 680M [GK104M], GeForce GTX 680MX [GK104M],
- GeForce GTX 765M [GK106M], GeForce GTX 770M [GK106M],
- GeForce GTX 775M Mac Edition [GK104M], GeForce GTX 780M [GK104M],
- GeForce GTX 780M Mac Edition [GK104M], GeForce GTX 860M [GK104M],
- GeForce GTX 880M [GK104M], NVS 310 [GF119], NVS 315 [GF119],
- NVS 4200M [GF119M], NVS 5200M [GF108GLM], NVS 5400M [GF108M],
- Quadro 500M [GF108GLM], Quadro 600 [GF108GL], Quadro 1000M [GF108GLM],
- Quadro 2000 [GF106GL], Quadro 2000M [GF106GLM], Quadro 3000M [GF104GLM],
- Quadro 4000 [GF100GL], Quadro 4000M [GF104GLM], Quadro 5000 [GF100GL],
- Quadro 5000M [GF100GLM], Quadro 5010M [GF100GLM], Quadro 6000 [GF100GL],
- Quadro 7000 [GF100GL], Quadro K500M [GK107GLM], Quadro K510M [GK208GLM],
- Quadro K610M [GK208GLM], Quadro K1000M [GK107GLM], Quadro K1100M [GK107GLM],
- Quadro K2000M [GK107GLM], Quadro K2100M [GK106GLM], Quadro K3000M [GK104GLM],
- Quadro K3100M [GK104GLM], Quadro K4000M [GK104GLM], Quadro K4100M [GK104GLM],
- Quadro K5000M [GK104GLM], Quadro K5100M [GK104GLM],
- Quadro NVS 4200M [GF119M], Tesla C2050 [GF100GL], Tesla C2050 [GF110GL],
- Tesla C2070 [GF100GL], Tesla C2075 [GF110GL], Tesla M2070 [GF100GL],
- Tesla M2070-Q [GF100GL], Tesla M2075 [GF110GL], Tesla M2090 [GF110GL],
- Tesla T20 Processor [GF100GL].
- .
- There are several "more modern" GPUs supported by this package, too, but the
- updated drivers in the newer legacy packages or the current nvidia-driver
- package usually provide more features and better support.
- Look at the other legacy packages for older cards.
- .
- See /usr/share/doc/nvidia-legacy-390xx-kernel-dkms/README.txt.gz
- for a complete list of supported GPUs and PCI IDs.
- .
- This package contains the blobs for building kernel modules for the
- i386 architecture.
- Building the kernel modules has been tested up to Linux 5.17.
-
-Package: nvidia-legacy-390xx-kernel-dkms
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 28441
@@ -5013,35 +4923,35 @@ Description: NVIDIA binary kernel module DKMS source (390xx legacy version)
  amd64 architecture.
  Building the kernel modules has been tested up to Linux 5.17.
 
-Package: nvidia-legacy-390xx-kernel-source
+Package: nvidia-legacy-390xx-kernel-dkms
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 9366
-Depends: debhelper-compat (= 12), make:any, quilt, xz-utils
-Recommends: module-assistant | kernel-package, nvidia-legacy-390xx-kernel-support
-Suggests: nvidia-legacy-390xx-driver (>= 390.151)
-Filename: ./nvidia-legacy-390xx-kernel-source_390.151-1_i386.deb
-Size: 9573256
-MD5sum: af2d902bc9689f54f512d236d2ed2d2a
-SHA1: 5175d52d26e8fffbb58b397aadb9784417b55dce
-SHA256: 808791f1e7b4dacd0d19da4ecf1ae0ca44f09dcfaaa19a01472ac3b18eef061b
+Installed-Size: 19806
+Pre-Depends: nvidia-installer-cleanup
+Depends: dkms (>= 2.1.0.0), nvidia-legacy-390xx-kernel-support--v1
+Recommends: nvidia-legacy-390xx-driver (>= 390.151) | libnvidia-legacy-390xx-cuda1 (>= 390.151)
+Provides: nvidia-legacy-390xx-kernel-390.151
+Filename: ./nvidia-legacy-390xx-kernel-dkms_390.151-1_i386.deb
+Size: 9522516
+MD5sum: 415f6d5eb2c432c9260ddd414a5c36fa
+SHA1: ff045aff6870511781d590372f7261ab5ccebe4a
+SHA256: 520d45db5fa0773c140d07a742e64af5c73b59266f831faa9fa17324236fa111
 Section: non-free/kernel
 Priority: optional
+Multi-Arch: foreign
 Homepage: https://www.nvidia.com
-Description: NVIDIA binary kernel module source (390xx legacy version)
- This package provides the source for the NVIDIA Xorg binary kernel module
- needed by nvidia-legacy-390xx-driver in a form suitable
- for use by module-assistant or kernel-package.
+Description: NVIDIA binary kernel module DKMS source (390xx legacy version)
+ This package builds the NVIDIA Xorg binary kernel module needed by
+ nvidia-legacy-390xx-driver, using DKMS.
+ Provided that you have the kernel header packages installed, the kernel
+ module will be built for your running kernel and automatically rebuilt for
+ any new kernel headers that are installed.
  .
  The NVIDIA binary driver provides optimized hardware acceleration of
  OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
  for graphics cards using NVIDIA chip sets.
- .
- PLEASE read /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.Debian.gz
- for building information. If you want the kernel module to be automatically
- installed via DKMS, install nvidia-legacy-390xx-kernel-dkms instead.
  .
  This legacy version is the last release that supports the following GPUs:
  GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
@@ -5117,7 +5027,7 @@ Description: NVIDIA binary kernel module source (390xx legacy version)
  package usually provide more features and better support.
  Look at the other legacy packages for older cards.
  .
- See /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.txt.gz
+ See /usr/share/doc/nvidia-legacy-390xx-kernel-dkms/README.txt.gz
  for a complete list of supported GPUs and PCI IDs.
  .
  This package contains the blobs for building kernel modules for the
@@ -5235,6 +5145,117 @@ Description: NVIDIA binary kernel module source (390xx legacy version)
  amd64 architecture.
  Building the kernel modules has been tested up to Linux 5.17.
 
+Package: nvidia-legacy-390xx-kernel-source
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: i386
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 9366
+Depends: debhelper-compat (= 12), make:any, quilt, xz-utils
+Recommends: module-assistant | kernel-package, nvidia-legacy-390xx-kernel-support
+Suggests: nvidia-legacy-390xx-driver (>= 390.151)
+Filename: ./nvidia-legacy-390xx-kernel-source_390.151-1_i386.deb
+Size: 9573256
+MD5sum: af2d902bc9689f54f512d236d2ed2d2a
+SHA1: 5175d52d26e8fffbb58b397aadb9784417b55dce
+SHA256: 808791f1e7b4dacd0d19da4ecf1ae0ca44f09dcfaaa19a01472ac3b18eef061b
+Section: non-free/kernel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: NVIDIA binary kernel module source (390xx legacy version)
+ This package provides the source for the NVIDIA Xorg binary kernel module
+ needed by nvidia-legacy-390xx-driver in a form suitable
+ for use by module-assistant or kernel-package.
+ .
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ PLEASE read /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.Debian.gz
+ for building information. If you want the kernel module to be automatically
+ installed via DKMS, install nvidia-legacy-390xx-kernel-dkms instead.
+ .
+ This legacy version is the last release that supports the following GPUs:
+ GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
+ GeForce 610M [GF108M], GeForce 610M [GF119M], GeForce 610M [GF117M],
+ GeForce 705M [GF119M], GeForce 710A [GK107M], GeForce 710M [GF117M],
+ GeForce 810M [GF117M], GeForce 810M [GK107M], GeForce 820M [GF117M],
+ GeForce 820M [GK107M], GeForce 825M [GK208M], GeForce 910M [GK208BM],
+ GeForce GT 415M [GF108M], GeForce GT 420 [GF108], GeForce GT 420M [GF108M],
+ GeForce GT 425M [GF108M], GeForce GT 430 [GF108], GeForce GT 435M [GF106M],
+ GeForce GT 435M [GF108M], GeForce GT 440 [GF106], GeForce GT 440 [GF108],
+ GeForce GT 445M [GF106M], GeForce GT 520 [GF108], GeForce GT 520 [GF119],
+ GeForce GT 520M [GF108M], GeForce GT 520M [GF119M],
+ GeForce GT 520MX [GF119M], GeForce GT 525M [GF108M], GeForce GT 530 [GF108],
+ GeForce GT 540M [GF108M], GeForce GT 545 OEM [GF116], GeForce GT 545 [GF116],
+ GeForce GT 550M [GF106M], GeForce GT 550M [GF108M], GeForce GT 550M [GF116M],
+ GeForce GT 555M [GF106M], GeForce GT 555M [GF108M], GeForce GT 555M [GF116M],
+ GeForce GT 560M [GF116M], GeForce GT 610 [GF108], GeForce GT 610 [GF119],
+ GeForce GT 620 OEM [GF119], GeForce GT 620 [GF108], GeForce GT 620M [GF108M],
+ GeForce GT 620M [GF117M], GeForce GT 620M LE [GF108M],
+ GeForce GT 625 OEM [GF119], GeForce GT 625M [GF117M], GeForce GT 630 [GF108],
+ GeForce GT 630M [GF117M], GeForce GT 630M LE [GF108M],
+ GeForce GT 635M [GF108M], GeForce GT 635M [GF116M],
+ GeForce GT 635M LE [GF108M], GeForce GT 640 OEM [GF116],
+ GeForce GT 640M LE [GF108M], GeForce GT 640M LE [GK107M],
+ GeForce GT 640M Mac Edition [GK107M], GeForce GT 645 OEM [GF114],
+ GeForce GT 645M [GK107M], GeForce GT 650M [GK107M],
+ GeForce GT 650M Mac Edition [GK107M], GeForce GT 705 [GF119],
+ GeForce GT 720M [GF117M], GeForce GT 720M [GK208M], GeForce GT 730 [GF108],
+ GeForce GT 730M [GK107M], GeForce GT 730M [GK208M], GeForce GT 735M [GK208M],
+ GeForce GT 740M [GK107M], GeForce GT 745M [GK107M], GeForce GT 750M [GK107M],
+ GeForce GT 750M Mac Edition [GK107M], GeForce GT 755M [GK107M],
+ GeForce GT 755M Mac Edition [GK107M], GeForce GTS 450 OEM [GF106],
+ GeForce GTS 450 [GF106], GeForce GTS 450 Rev. 2 [GF116],
+ GeForce GTS 450 Rev. 3 [GF116], GeForce GTX 460 OEM [GF104],
+ GeForce GTX 460 [GF104], GeForce GTX 460 v2 [GF114],
+ GeForce GTX 460 SE [GF104], GeForce GTX 460 SE v2 [GF114],
+ GeForce GTX 460M [GF106M], GeForce GTX 465 [GF100], GeForce GTX 470 [GF100],
+ GeForce GTX 470M [GF104M], GeForce GTX 480 [GF100],
+ GeForce GTX 480M [GF100M], GeForce GTX 485M [GF104M],
+ GeForce GTX 550 Ti [GF116], GeForce GTX 555 [GF114],
+ GeForce GTX 560 OEM [GF110], GeForce GTX 560 [GF114],
+ GeForce GTX 560 SE [GF114], GeForce GTX 560 Ti [GF114],
+ GeForce GTX 560 Ti OEM [GF110], GeForce GTX 560 Ti 448 Cores [GF110],
+ GeForce GTX 570 [GF110], GeForce GTX 570 Rev. 2 [GF110],
+ GeForce GTX 570M [GF114M], GeForce GTX 580 [GF110],
+ GeForce GTX 580 Rev. 2 [GF110], GeForce GTX 580M [GF114M],
+ GeForce GTX 590 [GF110], GeForce GTX 660M [GK107M],
+ GeForce GTX 660M Mac Edition [GK107M], GeForce GTX 670M [GF114M],
+ GeForce GTX 670MX [GK104M], GeForce GTX 675M [GF114M],
+ GeForce GTX 675MX [GK104M], GeForce GTX 675MX Mac Edition [GK104M],
+ GeForce GTX 680M [GK104M], GeForce GTX 680MX [GK104M],
+ GeForce GTX 765M [GK106M], GeForce GTX 770M [GK106M],
+ GeForce GTX 775M Mac Edition [GK104M], GeForce GTX 780M [GK104M],
+ GeForce GTX 780M Mac Edition [GK104M], GeForce GTX 860M [GK104M],
+ GeForce GTX 880M [GK104M], NVS 310 [GF119], NVS 315 [GF119],
+ NVS 4200M [GF119M], NVS 5200M [GF108GLM], NVS 5400M [GF108M],
+ Quadro 500M [GF108GLM], Quadro 600 [GF108GL], Quadro 1000M [GF108GLM],
+ Quadro 2000 [GF106GL], Quadro 2000M [GF106GLM], Quadro 3000M [GF104GLM],
+ Quadro 4000 [GF100GL], Quadro 4000M [GF104GLM], Quadro 5000 [GF100GL],
+ Quadro 5000M [GF100GLM], Quadro 5010M [GF100GLM], Quadro 6000 [GF100GL],
+ Quadro 7000 [GF100GL], Quadro K500M [GK107GLM], Quadro K510M [GK208GLM],
+ Quadro K610M [GK208GLM], Quadro K1000M [GK107GLM], Quadro K1100M [GK107GLM],
+ Quadro K2000M [GK107GLM], Quadro K2100M [GK106GLM], Quadro K3000M [GK104GLM],
+ Quadro K3100M [GK104GLM], Quadro K4000M [GK104GLM], Quadro K4100M [GK104GLM],
+ Quadro K5000M [GK104GLM], Quadro K5100M [GK104GLM],
+ Quadro NVS 4200M [GF119M], Tesla C2050 [GF100GL], Tesla C2050 [GF110GL],
+ Tesla C2070 [GF100GL], Tesla C2075 [GF110GL], Tesla M2070 [GF100GL],
+ Tesla M2070-Q [GF100GL], Tesla M2075 [GF110GL], Tesla M2090 [GF110GL],
+ Tesla T20 Processor [GF100GL].
+ .
+ There are several "more modern" GPUs supported by this package, too, but the
+ updated drivers in the newer legacy packages or the current nvidia-driver
+ package usually provide more features and better support.
+ Look at the other legacy packages for older cards.
+ .
+ See /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+ .
+ This package contains the blobs for building kernel modules for the
+ i386 architecture.
+ Building the kernel modules has been tested up to Linux 5.17.
+
 Package: nvidia-legacy-390xx-kernel-support
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
@@ -5290,32 +5311,6 @@ Description: NVIDIA binary kernel module support files (390xx legacy version)
 Package: nvidia-legacy-390xx-nonglvnd-vulkan-icd
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 211
-Depends: nvidia-nonglvnd-vulkan-common, libvulkan1 (>= 1.0.42), libgl1-nvidia-legacy-390xx-glx (= 390.151-1)
-Suggests: vulkan-utils
-Enhances: libvulkan1
-Conflicts: nvidia-legacy-390xx-vulkan-icd
-Provides: nvidia-vulkan-icd-any, vulkan-icd
-Filename: ./nvidia-legacy-390xx-nonglvnd-vulkan-icd_390.151-1_i386.deb
-Size: 198464
-MD5sum: 4195c83de32424f647d15dd9003cf340
-SHA1: ee89c8e701f436246f86074266307f06865a2629
-SHA256: 1688dfa401a13c4b2aeead451f719d208a01924a1eac0fec8e2f3a4080b4b925
-Section: non-free/libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.nvidia.com
-Description: NVIDIA Vulkan ICD (non-GLVND variant) (390xx legacy version)
- Vulkan is a multivendor open standard by the Khronos Group for 3D graphics.
- .
- This metapackage provides the NVIDIA installable client driver (ICD) for
- Vulkan (non-GLVND variant) which supports NVIDIA GPUs.
-
-Package: nvidia-legacy-390xx-nonglvnd-vulkan-icd
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 211
@@ -5329,6 +5324,32 @@ Size: 198464
 MD5sum: 9d02d23c6583810b919400634c23b8da
 SHA1: 4a6d9dbd1331bb1e7e8f2643429d478e74db4351
 SHA256: 4ad5327e08fc9b18bff31bca2daeb9ffd961f5671f80f7313548c5fdbc2af44e
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description: NVIDIA Vulkan ICD (non-GLVND variant) (390xx legacy version)
+ Vulkan is a multivendor open standard by the Khronos Group for 3D graphics.
+ .
+ This metapackage provides the NVIDIA installable client driver (ICD) for
+ Vulkan (non-GLVND variant) which supports NVIDIA GPUs.
+
+Package: nvidia-legacy-390xx-nonglvnd-vulkan-icd
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: i386
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 211
+Depends: nvidia-nonglvnd-vulkan-common, libvulkan1 (>= 1.0.42), libgl1-nvidia-legacy-390xx-glx (= 390.151-1)
+Suggests: vulkan-utils
+Enhances: libvulkan1
+Conflicts: nvidia-legacy-390xx-vulkan-icd
+Provides: nvidia-vulkan-icd-any, vulkan-icd
+Filename: ./nvidia-legacy-390xx-nonglvnd-vulkan-icd_390.151-1_i386.deb
+Size: 198464
+MD5sum: 4195c83de32424f647d15dd9003cf340
+SHA1: ee89c8e701f436246f86074266307f06865a2629
+SHA256: 1688dfa401a13c4b2aeead451f719d208a01924a1eac0fec8e2f3a4080b4b925
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5394,31 +5415,6 @@ Description: NVIDIA OpenCL installable client driver (ICD) (390xx legacy version
 Package: nvidia-legacy-390xx-smi
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
-Architecture: i386
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 739
-Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libnvidia-legacy-390xx-ml1 (= 390.151-1), libc6 (>= 2.3.6-6~)
-Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151
-Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
-Filename: ./nvidia-legacy-390xx-smi_390.151-1_i386.deb
-Size: 380204
-MD5sum: 0784c2f3e1855c60f329a4135347a170
-SHA1: 4833f77369257ed3ad6907d15823bad18c3dbe31
-SHA256: 9a6a06881d7738c4168f98a9035107b417a7fca180fbf052ea9ce297e7828e64
-Section: non-free/utils
-Priority: optional
-Homepage: https://www.nvidia.com
-Description: NVIDIA System Management Interface (390xx legacy version)
- The NVIDIA Management Library (NVML) provides a monitoring and management API.
- The application "nvidia-smi" is the NVIDIA System Management Interface (NVSMI)
- and provides a command line interface to this functionality.
- .
- See the output from the --help command line option for supported models and
- further information.
-
-Package: nvidia-legacy-390xx-smi
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.151-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 739
@@ -5441,41 +5437,30 @@ Description: NVIDIA System Management Interface (390xx legacy version)
  See the output from the --help command line option for supported models and
  further information.
 
-Package: nvidia-legacy-390xx-vdpau-driver
+Package: nvidia-legacy-390xx-smi
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1298
-Pre-Depends: nvidia-installer-cleanup
-Depends: libvdpau1 (>= 0.9), nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.1), libx11-6, libxext6
+Installed-Size: 739
+Depends: nvidia-legacy-390xx-alternative (= 390.151-1), libnvidia-legacy-390xx-ml1 (= 390.151-1), libc6 (>= 2.3.6-6~)
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
-Enhances: libvdpau1
-Provides: vdpau-driver
-Filename: ./nvidia-legacy-390xx-vdpau-driver_390.151-1_i386.deb
-Size: 853464
-MD5sum: dc5caa07eb8003bc703b4f6c0dd1e02c
-SHA1: ee9c57a5edac0e73cf481fb3e262369ddf7159bb
-SHA256: af8345b23ffe77dc7ad8792e1423f942bab012afd2075a1e4541257e7ae140f4
-Section: non-free/video
+Filename: ./nvidia-legacy-390xx-smi_390.151-1_i386.deb
+Size: 380204
+MD5sum: 0784c2f3e1855c60f329a4135347a170
+SHA1: 4833f77369257ed3ad6907d15823bad18c3dbe31
+SHA256: 9a6a06881d7738c4168f98a9035107b417a7fca180fbf052ea9ce297e7828e64
+Section: non-free/utils
 Priority: optional
-Multi-Arch: same
 Homepage: https://www.nvidia.com
-Description: Video Decode and Presentation API for Unix - NVIDIA driver (390xx legacy)
- These libraries provide the Video Decode and Presentation API for Unix.
- They provide accelerated video playback (incl. H.264) for the supported
- graphics cards.
+Description: NVIDIA System Management Interface (390xx legacy version)
+ The NVIDIA Management Library (NVML) provides a monitoring and management API.
+ The application "nvidia-smi" is the NVIDIA System Management Interface (NVSMI)
+ and provides a command line interface to this functionality.
  .
- This package contains the NVIDIA VDPAU driver.
- .
- See /usr/share/doc/nvidia-legacy-390xx-vdpau-driver/README.txt.gz
- for more information.
- .
- Please see the nvidia-legacy-390xx-kernel-dkms or
- nvidia-legacy-390xx-kernel-source packages
- for building the kernel module required by this package.
- This will provide nvidia-legacy-390xx-kernel-390.151.
+ See the output from the --help command line option for supported models and
+ further information.
 
 Package: nvidia-legacy-390xx-vdpau-driver
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -5513,31 +5498,41 @@ Description: Video Decode and Presentation API for Unix - NVIDIA driver (390xx l
  for building the kernel module required by this package.
  This will provide nvidia-legacy-390xx-kernel-390.151.
 
-Package: nvidia-legacy-390xx-vulkan-icd
+Package: nvidia-legacy-390xx-vdpau-driver
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 211
-Depends: nvidia-vulkan-common, libvulkan1 (>= 1.0.42), libglx-nvidia-legacy-390xx0 (= 390.151-1)
-Suggests: vulkan-utils
-Enhances: libvulkan1
-Conflicts: nvidia-legacy-390xx-nonglvnd-vulkan-icd
-Provides: nvidia-vulkan-icd-any, vulkan-icd
-Filename: ./nvidia-legacy-390xx-vulkan-icd_390.151-1_i386.deb
-Size: 198428
-MD5sum: b07ea709a7121079a41dae0933155fa0
-SHA1: eddc51457c01d383571d197f0d71993d558371bb
-SHA256: d3ba9c32b0afae073a80475cccc9b81913de91d42724ab43028018f1a8c0dae9
-Section: non-free/libs
+Installed-Size: 1298
+Pre-Depends: nvidia-installer-cleanup
+Depends: libvdpau1 (>= 0.9), nvidia-legacy-390xx-alternative (= 390.151-1), libc6 (>= 2.1), libx11-6, libxext6
+Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-1) | nvidia-legacy-390xx-kernel-390.151
+Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
+Enhances: libvdpau1
+Provides: vdpau-driver
+Filename: ./nvidia-legacy-390xx-vdpau-driver_390.151-1_i386.deb
+Size: 853464
+MD5sum: dc5caa07eb8003bc703b4f6c0dd1e02c
+SHA1: ee9c57a5edac0e73cf481fb3e262369ddf7159bb
+SHA256: af8345b23ffe77dc7ad8792e1423f942bab012afd2075a1e4541257e7ae140f4
+Section: non-free/video
 Priority: optional
 Multi-Arch: same
 Homepage: https://www.nvidia.com
-Description: NVIDIA Vulkan installable client driver (ICD) (390xx legacy version)
- Vulkan is a multivendor open standard by the Khronos Group for 3D graphics.
+Description: Video Decode and Presentation API for Unix - NVIDIA driver (390xx legacy)
+ These libraries provide the Video Decode and Presentation API for Unix.
+ They provide accelerated video playback (incl. H.264) for the supported
+ graphics cards.
  .
- This metapackage provides the NVIDIA installable client driver (ICD) for
- Vulkan (GLVND variant) which supports NVIDIA GPUs.
+ This package contains the NVIDIA VDPAU driver.
+ .
+ See /usr/share/doc/nvidia-legacy-390xx-vdpau-driver/README.txt.gz
+ for more information.
+ .
+ Please see the nvidia-legacy-390xx-kernel-dkms or
+ nvidia-legacy-390xx-kernel-source packages
+ for building the kernel module required by this package.
+ This will provide nvidia-legacy-390xx-kernel-390.151.
 
 Package: nvidia-legacy-390xx-vulkan-icd
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -5555,6 +5550,32 @@ Size: 198432
 MD5sum: d37c827d80d8d2ec2c6214705ede924e
 SHA1: 5444f9cf7310e0f8ceb5bcda71dca9d77803ec11
 SHA256: 130b70b42d3ba341923bd16c931693afcc6794df452c613abbf757b10e543836
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description: NVIDIA Vulkan installable client driver (ICD) (390xx legacy version)
+ Vulkan is a multivendor open standard by the Khronos Group for 3D graphics.
+ .
+ This metapackage provides the NVIDIA installable client driver (ICD) for
+ Vulkan (GLVND variant) which supports NVIDIA GPUs.
+
+Package: nvidia-legacy-390xx-vulkan-icd
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.151-1
+Architecture: i386
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 211
+Depends: nvidia-vulkan-common, libvulkan1 (>= 1.0.42), libglx-nvidia-legacy-390xx0 (= 390.151-1)
+Suggests: vulkan-utils
+Enhances: libvulkan1
+Conflicts: nvidia-legacy-390xx-nonglvnd-vulkan-icd
+Provides: nvidia-vulkan-icd-any, vulkan-icd
+Filename: ./nvidia-legacy-390xx-vulkan-icd_390.151-1_i386.deb
+Size: 198428
+MD5sum: b07ea709a7121079a41dae0933155fa0
+SHA1: eddc51457c01d383571d197f0d71993d558371bb
+SHA256: d3ba9c32b0afae073a80475cccc9b81913de91d42724ab43028018f1a8c0dae9
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
