@@ -60,7 +60,7 @@ Description: daemon handling the DDE session settings
  under it.
 
 Package: dde-daemon
-Version: 5.14.44-1+kt286+1
+Version: 5.14.44-1+kt286+2
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 109667
@@ -71,11 +71,11 @@ Conflicts: dde-workspace, lastore-daemon-migration
 Breaks: lastore-daemon (<< 0.9.64)
 Replaces: lastore-daemon (<< 0.9.64)
 Provides: lastore-daemon-migration
-Filename: ./dde-daemon_5.14.44-1+kt286+1_amd64.deb
-Size: 20073564
-MD5sum: 17f17fa03a196fe255d160388da61a34
-SHA1: 38a4132d3bdd15a30df3dd76d3b5eb8ef22281b5
-SHA256: ad180836143b277a848d218b7bba3f64c5125d378cb99c7ec7008b7ce7e007b4
+Filename: ./dde-daemon_5.14.44-1+kt286+2_amd64.deb
+Size: 20073492
+MD5sum: d42ca7b5ce568d339a05b33934bfe28e
+SHA1: b11443281214d7e8c8e2b03fa0285a4945258ca9
+SHA256: 617427bc30e4cff6392768789022d6efb096412ddb4f746868a39c23d36de273
 Section: admin
 Priority: optional
 Homepage: http://www.deepin.org
