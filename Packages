@@ -86,19 +86,19 @@ Description: daemon handling the DDE session settings
 
 Package: dde-desktop
 Source: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 1691
-Depends: libc6 (>= 2.14), libdde-file-manager (= 5.6.4-1+kt286+2), libdfm-extension, libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgio-qt, libgl1, libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.54.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb-shape0, libxcb1
+Depends: libc6 (>= 2.14), libdde-file-manager (= 5.6.4-1+kt286+3), libdfm-extension, libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgio-qt, libgl1, libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.54.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb-shape0, libxcb1
 Recommends: qt5dxcb-plugin, deepin-screensaver
 Conflicts: dde-file-manager-oem, dde-workspace (<< 2.90.5)
 Replaces: dde-file-manager-oem
-Filename: ./dde-desktop_5.6.4-1+kt286+2_amd64.deb
-Size: 455024
-MD5sum: 62e0956deaa97d3f7b563e776b6ce693
-SHA1: b39d190558f1da4fbcb0a11e18b7bd491b79cf85
-SHA256: 28d55a510604b7fe5b3a7dc535b052f55eba723f2fdde22ca5017e959030d640
+Filename: ./dde-desktop_5.6.4-1+kt286+3_amd64.deb
+Size: 455040
+MD5sum: 30d9cc36bc1bb6d91070d30f672b7255
+SHA1: 7cb7a3d04193cbdc5598e3f2d1fc210422f137ba
+SHA256: b6d0c15f05790d65cfd12e3b2461fe6d79e09ff299e807d788076c7f3dabba62
 Section: libdevel
 Priority: optional
 Homepage: http://www.deepin.org
@@ -107,16 +107,16 @@ Description: deepin desktop-environment - desktop module
 
 Package: dde-disk-mount-plugin
 Source: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 641
-Depends: libc6 (>= 2.4), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgio-qt, libgl1, libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.54.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 4.5), libudisks2-qt5, dconf-gsettings-backend | gsettings-backend, libdde-file-manager (= 5.6.4-1+kt286+2)
-Filename: ./dde-disk-mount-plugin_5.6.4-1+kt286+2_amd64.deb
-Size: 201632
-MD5sum: cdbeb6580082d181f8fc50d954318e88
-SHA1: aebfc3462e4f81cd7ec9877fec6ae806ae8ebd6c
-SHA256: 6edebd94fed081f3f5733dfab3a3bacdf8583412fbaf9f356d6e7e726872f4ad
+Depends: libc6 (>= 2.4), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgio-qt, libgl1, libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.54.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 4.5), libudisks2-qt5, dconf-gsettings-backend | gsettings-backend, libdde-file-manager (= 5.6.4-1+kt286+3)
+Filename: ./dde-disk-mount-plugin_5.6.4-1+kt286+3_amd64.deb
+Size: 201648
+MD5sum: 4133af2b21c18f98fed21e788df61a36
+SHA1: 8a5cc5310760ccae11e7497e5b7f7ad9690b4861
+SHA256: d6b01bcf9f1f5d5cf7c1e64a7de829927a0870b4406618db755282f86d8c76aa
 Section: libdevel
 Priority: optional
 Homepage: http://www.deepin.org
@@ -198,19 +198,19 @@ Description: deepin desktop-environment - dock plugin for onboard
  Dock plugin for onboard of deepin desktop-environment
 
 Package: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 30661
-Depends: deepin-anything-server, libc6 (>= 2.14), libdde-file-manager (= 5.6.4-1+kt286+2), libdfm-extension, libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgl1, libglib2.0-0 (>= 2.16.0), libjemalloc2 (>= 5.0.0), libkf5codecs5 (>= 4.96.0), libpolkit-agent-1-0 (>= 0.94), libpolkit-gobject-1-0 (>= 0.94), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5.2), libudisks2-qt5, libx11-6, socat, cryfs, deepin-anything-dkms, libblockdev-crypto2, dde-device-formatter
+Depends: deepin-anything-server, libc6 (>= 2.14), libdde-file-manager (= 5.6.4-1+kt286+3), libdfm-extension, libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgl1, libglib2.0-0 (>= 2.16.0), libjemalloc2 (>= 5.0.0), libkf5codecs5 (>= 4.96.0), libpolkit-agent-1-0 (>= 0.94), libpolkit-gobject-1-0 (>= 0.94), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5.2), libudisks2-qt5, libx11-6, socat, cryfs, deepin-anything-dkms, libblockdev-crypto2, dde-device-formatter
 Recommends: dde-qt5integration, avfs, samba
 Conflicts: dde-file-manager-oem
 Replaces: dde-file-manager-oem
-Filename: ./dde-file-manager_5.6.4-1+kt286+2_amd64.deb
-Size: 23508492
-MD5sum: 3dafa2f1d483922121ab2919ce84f510
-SHA1: 3df32901e959eecb4d3876eaf7adf07d16d81b72
-SHA256: 5bc641bddcdb2db79f76dd01424017cb6ac8c4c61e04cb6b5add7918c937635e
+Filename: ./dde-file-manager_5.6.4-1+kt286+3_amd64.deb
+Size: 23507820
+MD5sum: f2fa071ef9b577ef51493628639e1c0c
+SHA1: 7675ac66b025b91a492a176006921bb5f4d3a3db
+SHA256: ec36cbfd1e920c655ebd397ad21b54a4458b583881b2bdd3307530f75cc88beb
 Section: libdevel
 Priority: optional
 Homepage: http://www.deepin.org
@@ -2234,18 +2234,18 @@ Description: extensions to the C++ standard library
 
 Package: libdde-file-manager
 Source: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 14189
+Installed-Size: 14199
 Depends: libboost-system1.67.0, libc6 (>= 2.14), libdfm-extension, libdframeworkdbus2 (>= 5.5.12), libdisomaster (>= 5.0.7), libdmr, libdocparser, libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libffmpegthumbnailer4v5, libgcc1 (>= 1:3.0), libgio-qt, libglib2.0-0 (>= 2.49.2), libjemalloc2 (>= 5.0.0), libkf5codecs5 (>= 4.96.0), liblucene++-contrib0v5, liblucene++0v5, libmediainfo0v5 (>= 0.7.56), libpolkit-qt5-1-1 (>= 0.112.0), libpoppler-cpp0v5 (>= 0.48.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.1.0), libsecret-1-0 (>= 0.7), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5 (>= 5.0.6), qtbase-abi-5-15-3, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gvfs-backends (>= 1.27.3), cryptsetup, deepin-anything-libs
 Recommends: libudfburn
 Breaks: dde-file-manager (<= 1.2.3-3)
-Filename: ./libdde-file-manager_5.6.4-1+kt286+2_amd64.deb
-Size: 3534288
-MD5sum: 22286281fae68184baf7337ad569a1d4
-SHA1: b75465e21e8e5e048f373c2fbc52fb21222f0d38
-SHA256: 80382bd514d4a484039479cdb90e49de1bff329296b654f4cbed01436b792adb
+Filename: ./libdde-file-manager_5.6.4-1+kt286+3_amd64.deb
+Size: 3532224
+MD5sum: 8d5ce9cb6adbfa8c20f8d32710813b26
+SHA1: ef55ffe4fc47f2eb65d79b8ba572bb1819eb27a7
+SHA256: ed344c463dc1d1f6385f5541d9bfcae1f04fc4aeffcd79bc9c815ab53bfcae15
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -2255,16 +2255,16 @@ Description: DDE File Manager library
 
 Package: libdde-file-manager-dev
 Source: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 359
-Depends: libdde-file-manager (= 5.6.4-1+kt286+2)
-Filename: ./libdde-file-manager-dev_5.6.4-1+kt286+2_amd64.deb
+Depends: libdde-file-manager (= 5.6.4-1+kt286+3)
+Filename: ./libdde-file-manager-dev_5.6.4-1+kt286+3_amd64.deb
 Size: 84752
-MD5sum: 72bf73a601875f739f36f5a4863cef6d
-SHA1: 5a7c043b83a09b01d1fb368284067ca2a8b2e71b
-SHA256: f518e6e3df21b7c166c3f36b10403c0adeef1cd9e35a07d7207b5b2c03ef1e8a
+MD5sum: 466a361b9fa6fedde118b511dede8edc
+SHA1: ce6896df1658d0f0ca724d4f347330ea89d19f7d
+SHA256: 37f85c2fb5e99abb2766fa702f1b360c6322a4eacdf13157931d9845944d42ae
 Section: libdevel
 Priority: optional
 Homepage: http://www.deepin.org
@@ -2309,16 +2309,16 @@ Description: the interface of networkcode,used for developers
 
 Package: libdfm-extension
 Source: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 99
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libjemalloc2 (>= 5.0.0), libstdc++6 (>= 5.2)
-Filename: ./libdfm-extension_5.6.4-1+kt286+2_amd64.deb
-Size: 53888
-MD5sum: a888ab70e67f3f74e61682034693cec9
-SHA1: dc3a3f8ea93c5ea852053d471dc7df74547c8925
-SHA256: 74e331cd7859d86260b59174868f89a5deb4b8664500b19617a765bde8998cf0
+Filename: ./libdfm-extension_5.6.4-1+kt286+3_amd64.deb
+Size: 53900
+MD5sum: 988bc7bc8d9ee9376cfd9ac343eaea01
+SHA1: cef578ba1c63e74426970d85c0e7d8696c640b6f
+SHA256: c22ede082441a64d4d117f2b937349f657536bf989099ec85d2e8ea314e1172a
 Section: libdevel
 Priority: optional
 Homepage: http://www.deepin.org
@@ -2327,16 +2327,16 @@ Description: extension library of dde-file-manager
 
 Package: libdfm-extension-dev
 Source: dde-file-manager
-Version: 5.6.4-1+kt286+2
+Version: 5.6.4-1+kt286+3
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 78
 Depends: libdfm-extension
-Filename: ./libdfm-extension-dev_5.6.4-1+kt286+2_amd64.deb
-Size: 46832
-MD5sum: 29df8a2895e79e85038c6cc341fb1d32
-SHA1: 2b74578a531e8637515c2c5b9a54ca2e411029ea
-SHA256: 94787c097f37717d5dca8f604fbf4f6be6e4c2c4c441c0a6b4f03c9cdb67e33a
+Filename: ./libdfm-extension-dev_5.6.4-1+kt286+3_amd64.deb
+Size: 46836
+MD5sum: 7e84959919b8f287406242e5ac22e55a
+SHA1: 73d393f422333a2f109996ad3c35512f15ee1f58
+SHA256: 6ef0b3af3e5c1ee5ea523348ce71cf6459581f89a156ea703d6d9ad750437ea6
 Section: libdevel
 Priority: optional
 Homepage: http://www.deepin.org
