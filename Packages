@@ -2005,6 +2005,121 @@ Description: Flexible Input Method Framework v5 - Yawerty table
  .
  This package provides Yawerty table used by the Fcitx5 table engine.
 
+Package: freerdp2-dev
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 896
+Depends: libfreerdp-client2-2 (= 2.7.0+dfsg1-1), libfreerdp-server2-2 (= 2.7.0+dfsg1-1), libfreerdp-shadow-subsystem2-2 (= 2.7.0+dfsg1-1), libfreerdp-shadow2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (= 2.7.0+dfsg1-1), libwinpr2-dev (= 2.7.0+dfsg1-1), winpr-utils (= 2.7.0+dfsg1-1)
+Filename: ./freerdp2-dev_2.7.0+dfsg1-1_amd64.deb
+Size: 130736
+MD5sum: 75f7129cb4149f20e34caeba9bdd5f2f
+SHA1: ced68cecb4168601ae07d099e561cb7e84e7a91c
+SHA256: 8ad08b521725c385874eba999eeab1face4c4c399870f209f8d56ebca785aebd
+Section: devel
+Priority: optional
+Homepage: https://www.freerdp.com/
+Description: Free Remote Desktop Protocol library (development files)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the FreeRDP development files.
+
+Package: freerdp2-shadow-x11
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 153
+Depends: libc6 (>= 2.4), libfreerdp-shadow-subsystem2-2 (= 2.7.0+dfsg1-1), libfreerdp-shadow2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1), libwinpr2-2 (>= 2.1.0+dfsg1)
+Provides: freerdp
+Filename: ./freerdp2-shadow-x11_2.7.0+dfsg1-1_amd64.deb
+Size: 36632
+MD5sum: 236a076c7b6e85fff796128f0d2e2065
+SHA1: c87b8ac9ed2f528fbebfde0a7b48b377e5e4a10c
+SHA256: 06a19851ddece7784f2ef787d452887aa788781909453bf2eb25eac5d5420aff
+Section: x11
+Priority: optional
+Homepage: https://www.freerdp.com/
+Description: FreeRDP x11 shadowing server
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains a "shadowing" server that can be used to
+ share an already started X11 DISPLAY.
+
+Package: freerdp2-wayland
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 181
+Depends: libc6 (>= 2.14), libfreerdp-client2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.3.0+dfsg1), libuwac0-0 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.1.0+dfsg1)
+Filename: ./freerdp2-wayland_2.7.0+dfsg1-1_amd64.deb
+Size: 47380
+MD5sum: a9c141c96c3a76cce172d103c2536239
+SHA1: 9fdf3062885df802245cc57ad1fa6af0c267b900
+SHA256: ad0ce47ee86cabe5bea921a8bf5f0810ba146d7e454b0ef1ac29253b6191828a
+Section: x11
+Priority: optional
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (wayland client)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ Currently, the FreeRDP clients supports the following Windows Versions:
+ .
+  * Windows NT Server
+  * Windows 2000 Terminal Server
+  * Windows XP
+  * Windows 2003 Server
+  * Windows Vista
+  * Windows 2008/2008r2/2011SBS Server
+  * Windows 7
+  * Windows 2012/2012r2 Server
+  * Windows 8
+  * Windows 10
+ .
+ This package contains the wayland based client.
+
+Package: freerdp2-x11
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 815
+Depends: libc6 (>= 2.14), libfreerdp-client2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.3.0+dfsg1), libwinpr2-2 (>= 2.4.1+dfsg1), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2 (>= 2:1.5.0), libxrender1, libxv1
+Conflicts: freerdp-x11
+Replaces: freerdp-x11
+Provides: freerdp
+Filename: ./freerdp2-x11_2.7.0+dfsg1-1_amd64.deb
+Size: 106244
+MD5sum: e896b7937b94dcd2a4abd589a8879ba3
+SHA1: 0a2a351ca48115164a3f578405aee8e0891b6b61
+SHA256: 0a383160685f21bee0420e59b86100b86b9bffdcfe9f11d052e03ce825c09b46
+Section: x11
+Priority: optional
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (X11 client)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ Currently, the FreeRDP client supports the following Windows Versions:
+ .
+  * Windows NT Server
+  * Windows 2000 Terminal Server
+  * Windows XP
+  * Windows 2003 Server
+  * Windows Vista
+  * Windows 2008/2008r2/2011SBS Server
+  * Windows 7
+  * Windows 2012/2012r2 Server
+  * Windows 8
+  * Windows 10
+ .
+ This package contains the X11 based client.
+
 Package: gir1.2-fcitxg-1.0
 Source: fcitx5-gtk
 Version: 5.0.15-1
@@ -2833,6 +2948,127 @@ Description: Fcitx Input Method Framework v5 (utils library)
  and desktop environments.
  .
  This package provides fcitx5 utils libraries.
+
+Package: libfreerdp-client2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 880
+Depends: libasound2 (>= 1.0.18), libc6 (>= 2.28), libcups2 (>= 1.7.0), libfreerdp2-2 (= 2.7.0+dfsg1-1), libpulse0 (>= 0.99.1), libusb-1.0-0 (>= 2:1.0.19), libwinpr2-2 (>= 2.4.1+dfsg1)
+Breaks: libfreerdp-client2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libfreerdp-client2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libfreerdp-client2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 280388
+MD5sum: 7cbb815b22e9a3b92aa7ff20ce07a9d3
+SHA1: d91848804cb9b81fdeac63ca03d803ad1ce2e7de
+SHA256: 8054fe27fcb4eff9115ae7984283891095b37a3d3850198d94a5bb85cda53a15
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Free Remote Desktop Protocol library (client library)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the shared library for common client functionality.
+
+Package: libfreerdp-server2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 376
+Depends: libc6 (>= 2.14), libfreerdp2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.1.0+dfsg1)
+Breaks: libfreerdp-server2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libfreerdp-server2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libfreerdp-server2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 111492
+MD5sum: 409ac95e52b3e1ffb383c356cdfe5dd9
+SHA1: 73a6a5bf70b4e45a840dc7b190e9528d177059c1
+SHA256: 62a444be0c37ea9308cbe2634c6d275685c6152f13ec6eb767dccae37771863c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Free Remote Desktop Protocol library (server library)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the shared library with common server functionality.
+
+Package: libfreerdp-shadow-subsystem2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.4), libfreerdp-shadow2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1), libpam0g (>= 0.99.7.1), libwinpr2-2 (>= 2.4.1+dfsg1), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1, libxtst6
+Breaks: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libfreerdp-shadow-subsystem2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 42820
+MD5sum: d1e4e23b541de31150db32d42d52e9b6
+SHA1: b75a6950b97671f82ed8828db1ca9d4e99856e88
+SHA256: 5579960c52c97bad3b419b6f59f708779fbced45559dfe795dd7d3f2d552f90d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: FreeRDP Remote Desktop Protocol shadow subsystem libraries
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the shadow subsystem libraries.
+
+Package: libfreerdp-shadow2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 242
+Depends: libc6 (>= 2.14), libfreerdp-server2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.3.0+dfsg1), libwinpr-tools2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.4.1+dfsg1)
+Breaks: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libfreerdp-shadow2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 76048
+MD5sum: a4a8e5427e95cbc4b154b57fd696f9c9
+SHA1: aef263cae9b9685cf2465ebace9cf01945b1cc2b
+SHA256: c64b2236cacbb87d88f0684b0b187eac6567aaddaa4b5e0330b41f37b9b5fb15
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: FreeRDP Remote Desktop Protocol shadow libraries
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the shadow libraries.
+
+Package: libfreerdp2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 1662
+Depends: libavcodec58 (>= 7:4.0), libavutil56 (>= 7:4.0), libc6 (>= 2.28), libgsm1 (>= 1.0.18), libjpeg62-turbo (>= 1.3.1), libssl1.1 (>= 1.1.0), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libwinpr2-2 (= 2.7.0+dfsg1-1), libx11-6, libxkbfile1
+Suggests: freerdp2-x11
+Breaks: libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libfreerdp2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 544392
+MD5sum: 8d29559b2f91cc39c1feb4cc7acf5f88
+SHA1: 30f5c2861aa452d7709c3da5f1ddf326addb6405
+SHA256: 84101a5bed537786a10abde32af77bf7c55b4febc8e41f95e8a6afa329a091a2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Free Remote Desktop Protocol library (core library)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the shared library with all core functionality.
 
 Package: libgl1-nvidia-legacy-390xx-glvnd-glx
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -4261,6 +4497,136 @@ Description: Rime Input Method Engine - core library
  .
  This package provides the core library of RIME.
 
+Package: libuwac0-0
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 198
+Depends: libc6 (>= 2.28), libfreerdp2-2 (= 2.7.0+dfsg1-1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 0.5.0)
+Breaks: libuwac0 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libuwac0 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libuwac0-0_2.7.0+dfsg1-1_amd64.deb
+Size: 51212
+MD5sum: 013d9e5cafea0c162b4387e621765922
+SHA1: 13ef4986f431dbb2c49292a4e5ad8b06c77e4666
+SHA256: e3cdb3c3a798b923fefb4fb7e4ca76bcc5ffd07468963c8b07a2f44c32864200
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Using wayland as a client library
+ Using wayland as a client (uwac) is a library to provide common
+ functionality for wayland clients.
+ .
+ This package contains the using wayland as a client library.
+
+Package: libuwac0-dev
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 174
+Depends: libuwac0-0 (= 2.7.0+dfsg1-1)
+Filename: ./libuwac0-dev_2.7.0+dfsg1-1_amd64.deb
+Size: 40008
+MD5sum: e2130ed90dd713abe3f301b98b2b845a
+SHA1: bd39258265a07392067211cb4e26032652baa08a
+SHA256: 56f88cb5fba65cf92f084c6d7f842dc03940908b5034a961a763425aa1b0d9e1
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Using wayland as a client (development files)
+ Using wayland as a client (uwac) is a library to provide common
+ functionality for wayland clients.
+ .
+ This package contains the libuwac development files
+
+Package: libwinpr-tools2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 173
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.0), libwinpr2-2 (= 2.7.0+dfsg1-1)
+Breaks: libwinpr-tools2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libwinpr-tools2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libwinpr-tools2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 41316
+MD5sum: 3a2e883e30607625de7e4f37235e6dff
+SHA1: 0bebf0c3df45f500df2abaf7610e363508c5676b
+SHA256: 916be318815bb33ef7a6722e17bbeb80537ae2b8368636a5712a680f23ecdc5b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Windows Portable Runtime Tools library
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the shared library for Windows Portable Runtime
+ utilities and tools.
+
+Package: libwinpr2-2
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 1341
+Depends: libc6 (>= 2.28), libicu70 (>= 70.1-1~), libssl1.1 (>= 1.1.0), libsystemd0
+Suggests: freerdp2-x11
+Breaks: libwinpr2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Replaces: libwinpr2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
+Filename: ./libwinpr2-2_2.7.0+dfsg1-1_amd64.deb
+Size: 348160
+MD5sum: 84f18213b89ae2dee0528344fcd505ce
+SHA1: b7c2dfcd1b279f0c2dbe7f18452ba0e47dfe84e6
+SHA256: 9264a927dc29aafea37a3fb9fdcc279b10ad3c33eaa37e5066f5ae5175cbdf7b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Windows Portable Runtime library
+ WinPR is a spin-off project of FreeRDP which aims at providing a portable
+ implementation of important portions of the Windows API. Just like FreeRDP,
+ WinPR is released under the Apache license. Unlike Wine, WinPR does not provide
+ binary compatibility, and does not require applications to be built for
+ Windows. Instead, WinPR provides API compatibility for applications targeting
+ non-Windows environments. When on Windows, the original native API is being
+ used instead of the equivalent WinPR implementation, without having to modify
+ the code using it.
+ .
+ This package contains the WinPR shared library.
+
+Package: libwinpr2-dev
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 1120
+Depends: libssl-dev, libwinpr-tools2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (= 2.7.0+dfsg1-1)
+Filename: ./libwinpr2-dev_2.7.0+dfsg1-1_amd64.deb
+Size: 173496
+MD5sum: 08b6774b6cac9f9cd8bef11c093ea752
+SHA1: 531e2201303dba07d43ac38f69dc3100466d4fc6
+SHA256: 7ab35c93c9966e0a41acd348962c56fc9a976317784985c0615082e5d59ac897
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freerdp.com/
+Description: Windows Portable Runtime library (development files)
+ WinPR is a spin-off project of FreeRDP which aims at providing a portable
+ implementation of important portions of the Windows API. Just like FreeRDP,
+ WinPR is released under the Apache license. Unlike Wine, WinPR does not provide
+ binary compatibility, and does not require applications to be built for
+ Windows. Instead, WinPR provides API compatibility for applications targeting
+ non-Windows environments. When on Windows, the original native API is being
+ used instead of the equivalent WinPR implementation, without having to modify
+ the code using it.
+ .
+ This package contains the WinPR development files.
+
 Package: mozc-data
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
@@ -5629,6 +5995,390 @@ Description: NVIDIA Vulkan installable client driver (ICD) (390xx legacy version
  This metapackage provides the NVIDIA installable client driver (ICD) for
  Vulkan (GLVND variant) which supports NVIDIA GPUs.
 
+Package: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 899
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgcrypt20 (>= 1.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.2.0), libpango-1.0-0 (>= 1.14.0), libsm6, libsodium23 (>= 1.0.10), libsoup2.4-1 (>= 2.30.0), libssh-4 (>= 0.8.1), libssl1.1 (>= 1.1.0), libvte-2.91-0 (>= 0.51.90), libwayland-client0 (>= 1.0.2), libx11-6, libxext6, remmina-common (= 1.4.26+dfsg-1), default-dbus-session-bus | dbus-session-bus
+Recommends: remmina-plugin-rdp, remmina-plugin-vnc, remmina-plugin-secret
+Suggests: remmina-plugin-exec, remmina-plugin-kwallet, remmina-plugin-python, remmina-plugin-spice, remmina-plugin-www, remmina-plugin-x2go
+Filename: ./remmina_1.4.26+dfsg-1_amd64.deb
+Size: 221824
+MD5sum: 45ec7644613d3e644572518786f4718d
+SHA1: b2e056cc52dd4e00f2ded69bceca19ee1aa24bb2
+SHA256: 9a2f0fa24738f803d31f445471b19bd364845d7e86ed611a81ab96b3e94386ae
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.remmina.org/
+Description: GTK+ Remote Desktop Client
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+
+Package: remmina-common
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: all
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 3559
+Recommends: remmina
+Filename: ./remmina-common_1.4.26+dfsg-1_all.deb
+Size: 631360
+MD5sum: e945f65fb86212bc81655213b56812e8
+SHA1: 69c9407455f9d12ebaf170b73dc0b2f215e3bbeb
+SHA256: d136106de4afbe49ef186efeecb18d243c233509bdc5bdf31d9ffe6c9890ecf1
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.remmina.org/
+Description: Common files for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the common files.
+
+Package: remmina-dev
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 57
+Depends: remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-dev_1.4.26+dfsg-1_amd64.deb
+Size: 21016
+MD5sum: 70d68c7fc5fb64f2bf08abcb62bd1638
+SHA1: a19b735c3502b2a8d373d0b79d1f7f5b786ae04c
+SHA256: 810a7e7bbc28c27987393612b9ac3a3d71d360e80e484641d8513f7f05544898
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: Headers for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the development headers for Remmina, to develop
+ new plugins.
+
+Package: remmina-plugin-exec
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-exec_1.4.26+dfsg-1_amd64.deb
+Size: 21068
+MD5sum: 37f3f747c50a47b99d7f694ef68e1fa4
+SHA1: dcd90a45d86ccc48330b500d3da19a8b21b7c918
+SHA256: 98f9e19933acac68eeb92ab31f536ee3ef63cc5f2092a2c415d2b19e1d38cc2a
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: EXEC plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the EXEC plugin for Remmina.
+
+Package: remmina-plugin-kiosk
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 32
+Depends: remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-kiosk_1.4.26+dfsg-1_amd64.deb
+Size: 17660
+MD5sum: 15e0ee59e2bef6ad023c71dc58291943
+SHA1: 6249274c01c31c785c38fd031a166674a329f029
+SHA256: 68cfe486e7023d464190b8874c384d080038ac8e7448e5c60a4fba1dd960d6a4
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: Kiosk plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the Kiosk plugin for Remmina.
+
+Package: remmina-plugin-kwallet
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 44
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.31.8), libkf5wallet-bin, libkf5wallet5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1), remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-kwallet_1.4.26+dfsg-1_amd64.deb
+Size: 21224
+MD5sum: a28b7b5e473588d56e4d454f5e11409c
+SHA1: 670fe6aae0d38edf212fdb373916c7932fa46c28
+SHA256: a11a1dd9923ced8b5aa543f2b5ef26dc65f45d139ffa84ed0b39e40a286de204
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: KWallet plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the KWallet plugin for Remmina, which
+ allows one to store and retrieve passwords using the KDE wallet.
+
+Package: remmina-plugin-python
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 102
+Depends: remmina (= 1.4.26+dfsg-1), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpython3.7 (>= 3.7.0), libwayland-client0 (>= 1.0.2)
+Filename: ./remmina-plugin-python_1.4.26+dfsg-1_amd64.deb
+Size: 36596
+MD5sum: ee18a423d00e242aac9816d837ba9f38
+SHA1: 76d2b0a099b0732dfd3f075ad1ff91d4846f79f7
+SHA256: dc198697cb8509eb7b848919eee5213206127f19225b13036600e0e710c0f44e
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: Python support for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the Python API, it can be used to run and
+ develop plugins for Remmina in Python.
+
+Package: remmina-plugin-rdp
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 179
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libfreerdp-client2-2 (>= 2.2.0~), libfreerdp2-2 (>= 2.3.0+dfsg1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.4), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6, libwayland-client0 (>= 1.0.2), libwinpr2-2 (>= 2.1.0+dfsg1), libx11-6, libxext6, remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-rdp_1.4.26+dfsg-1_amd64.deb
+Size: 62996
+MD5sum: f5f31e6e97e9e947863bbb0eca6bb43c
+SHA1: cc78e401efa81c833b870a23767ec39eb071ad29
+SHA256: 9a282f391afb90a945548fc98192c7795dc99692ed0d283809240c40b64c2ab9
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: RDP plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the RDP plugin for Remmina.
+
+Package: remmina-plugin-secret
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 44
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
+Breaks: remmina-plugin-gnome
+Replaces: remmina-plugin-gnome
+Filename: ./remmina-plugin-secret_1.4.26+dfsg-1_amd64.deb
+Size: 20280
+MD5sum: 3fadfe29149c8007f2ca22bba85a1fa8
+SHA1: a7550eacf4ac7d6a5ce20c4cdd3c7d664d382fee
+SHA256: ee52fd47f7b8959959d9351ffe55d5999500642562fe71d50704d924d6a1fc09
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: Secret plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the secret plugin for Remmina, which
+ allows one to store and retrieve passwords from GNOME Keyring
+ or KWallet.
+
+Package: remmina-plugin-spice
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libspice-client-glib-2.0-8 (>= 0.35), libspice-client-gtk-3.0-5 (>= 0.32), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-spice_1.4.26+dfsg-1_amd64.deb
+Size: 26140
+MD5sum: ef1cbee659a75b5ad01c587b39172b79
+SHA1: 32815ec051531673dc8e3cee027c05aaaca015e4
+SHA256: c3f1e9f7b689743f2995013331119352a74bee161fdf15d538cdffac4164783b
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: Spice plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the Spice plugin for Remmina.
+
+Package: remmina-plugin-vnc
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 81
+Depends: libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libvncclient1 (>= 0.9.10), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-vnc_1.4.26+dfsg-1_amd64.deb
+Size: 33428
+MD5sum: 9dd7b45dbadac1cf963140bcdaed0550
+SHA1: 04b73d7e67d0108b3df8a7d5120abacfa37f89a4
+SHA256: f6a1726929d3dc7eabab526c77e9ef4dd9ab61ade0c831eb67fce7ddec444d6f
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: VNC plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the VNC plugin for Remmina.
+
+Package: remmina-plugin-www
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 68
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.2), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.4.0), libwayland-client0 (>= 1.0.2), libwebkit2gtk-4.0-37 (>= 2.31.1), remmina (= 1.4.26+dfsg-1)
+Filename: ./remmina-plugin-www_1.4.26+dfsg-1_amd64.deb
+Size: 26948
+MD5sum: 89d9bf5daf565f7596169c7fefed5054
+SHA1: e0587cd124f9129b201bfc4ec1f1b86291514823
+SHA256: 6ee21c02503c0d6431c45a39df59f30ef6038253c5b5a29bb2cd58bbe3d4f0be
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: WWW plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, EXEC and SSH are supported.
+ .
+ This package contains the WWW plugin for Remmina, used to open
+ Web based consoles.
+
+Package: remmina-plugin-x2go
+Source: remmina
+Version: 1.4.26+dfsg-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 96
+Depends: pyhoca-cli, remmina (= 1.4.26+dfsg-1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libssh-4 (>= 0.8.1), libwayland-client0 (>= 1.0.2), libx11-6
+Filename: ./remmina-plugin-x2go_1.4.26+dfsg-1_amd64.deb
+Size: 38620
+MD5sum: df9a213ad7a88e9924fa4f5c11c5ce73
+SHA1: 2718eb16ce5a36a9c6bff422b320030c0dab5263
+SHA256: 4e55870ff960fef9b3a2547baeda66484aaf22de6f93e16d77ce1c73d72daa0c
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.remmina.org/
+Description: X2Go plugin for Remmina
+ Remmina is a remote desktop client written in GTK+, aiming to be
+ useful for system administrators and travellers, who need to work
+ with lots of remote computers in front of either large monitors or
+ tiny netbooks.
+ .
+ Remmina supports multiple network protocols in an integrated and
+ consistent user interface.
+ .
+ Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
+ .
+ This package contains the X2Go plugin for Remmina.
+
 Package: uim-mozc
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
@@ -5658,6 +6408,34 @@ Description: Mozc engine for uim - Client of the Mozc input method
  such as Chromium OS, Windows, Mac and Linux.
  .
  uim-mozc provides client part of the Mozc input method.
+
+Package: winpr-utils
+Source: freerdp2
+Version: 2.7.0+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.4), libwinpr-tools2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1)
+Filename: ./winpr-utils_2.7.0+dfsg1-1_amd64.deb
+Size: 39272
+MD5sum: fa7c97088da72ec12bd8ddd2f34b95ea
+SHA1: 6e176fc70f2fa899a64337fb277e69909c6b1a33
+SHA256: ac0518453c8f8d0826ef1d94ac529229faccf3015bd424d2585874e9799e7068
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freerdp.com/
+Description: Windows Portable Runtime library command line utilities
+ WinPR is a spin-off project of FreeRDP which aims at providing a portable
+ implementation of important portions of the Windows API. Just like FreeRDP,
+ WinPR is released under the Apache license. Unlike Wine, WinPR does not provide
+ binary compatibility, and does not require applications to be built for
+ Windows. Instead, WinPR provides API compatibility for applications targeting
+ non-Windows environments. When on Windows, the original native API is being
+ used instead of the equivalent WinPR implementation, without having to modify
+ the code using it.
+ .
+ This package contains WinPR command line utils (winpr-hash, winpr-makecert).
 
 Package: xserver-xorg-video-nvidia-legacy-390xx
 Source: nvidia-graphics-drivers-legacy-390xx
