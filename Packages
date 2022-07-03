@@ -18,16 +18,16 @@ Description: deepin desktop-environment - dcc plugin for dock settings
 
 Package: dcc-network-plugin
 Source: dde-network-core
-Version: 1.0.47-1+kt286
+Version: 1.0.47-1+kt286+1
 Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 3892
-Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), libdde-network-core (= 1.0.47-1+kt286)
-Filename: ./dcc-network-plugin_1.0.47-1+kt286_amd64.deb
-Size: 910428
-MD5sum: a210749c2b01f4145b366ce7b0b7d825
-SHA1: e1c24c26b9f17c7c484095e7fe1fabede6f0824e
-SHA256: 0921be108b9892ac89fd41ab52c122e33930a760f4c4b9e6996094f7fbdec60f
+Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), libdde-network-core (= 1.0.47-1+kt286+1)
+Filename: ./dcc-network-plugin_1.0.47-1+kt286+1_amd64.deb
+Size: 910116
+MD5sum: 52e02b78949df1e87da9b698d4908a8e
+SHA1: b6e6cc65eb6c8c36b64565a804fe982ab3c08699
+SHA256: 0a3fed2347dbc7332c71941d6077c58d773a6f03bba8e714dde9aec992f612db
 Section: lib
 Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
@@ -206,16 +206,16 @@ Description: deepin desktop-environment - dde-launcher module
 
 Package: dde-network-dialog
 Source: dde-network-core
-Version: 1.0.47-1+kt286
+Version: 1.0.47-1+kt286+1
 Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 640
-Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.1.1+git20141212), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286)
-Filename: ./dde-network-dialog_1.0.47-1+kt286_amd64.deb
-Size: 133468
-MD5sum: 499c6d40e7f55dd5d012687be781eb4d
-SHA1: c7c2fa155bc1e0e0bc40c30b06cfe7f54090f4ac
-SHA256: 950c778fa711eadde3b9ae089808f493e3c620c4a6eb688805893a2d80cd374c
+Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.1.1+git20141212), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286+1)
+Filename: ./dde-network-dialog_1.0.47-1+kt286+1_amd64.deb
+Size: 133460
+MD5sum: 477f0aabcc71dc9dcda37ce8e0bd9ddc
+SHA1: 058c94a5d2c2a8b0a1bc3616ac40715ed172c98c
+SHA256: 899b505cafceac5019a7e958a3dcf3a123713b23eb1f9291c93f4000e823671c
 Section: lib
 Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
@@ -339,16 +339,16 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
 
 Package: dock-network-plugin
 Source: dde-network-core
-Version: 1.0.47-1+kt286
+Version: 1.0.47-1+kt286+1
 Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 574
-Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.1.1+git20141203.0020+15.04), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286)
-Filename: ./dock-network-plugin_1.0.47-1+kt286_amd64.deb
-Size: 101568
-MD5sum: 8b06caf08d9d6fae8e94dc318d0e8b44
-SHA1: 163bf5e71be2d6df9482b01ca3dc41b3a9fa1687
-SHA256: 329d280058916231fef4c4727b3a469b12bc2a8d4a31aafc0380ff50e2a9cb3d
+Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.1.1+git20141203.0020+15.04), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286+1)
+Filename: ./dock-network-plugin_1.0.47-1+kt286+1_amd64.deb
+Size: 101456
+MD5sum: a4de4b602be54e702a2518ad33aafd2b
+SHA1: 453a0c42bb8feba277967a7c6af04925e5b2547c
+SHA256: d78245513890f9cb5812cefd801895bf058257b2e96ff7fea624144522a1e958
 Section: lib
 Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
@@ -357,16 +357,16 @@ Description: the plugin of network for dde-dock
 
 Package: dss-network-plugin
 Source: dde-network-core
-Version: 1.0.47-1+kt286
+Version: 1.0.47-1+kt286+1
 Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 862
-Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286)
-Filename: ./dss-network-plugin_1.0.47-1+kt286_amd64.deb
-Size: 172776
-MD5sum: a4aa86fd818675366e80f1b86f4d7ade
-SHA1: 6fec4caeb57275118314c775d1997ab55d370bf4
-SHA256: 6665a36c7adf770dc5eec318a700ff37df7ecdbe4d0b397d3c8dbef89bc5c4c4
+Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286+1)
+Filename: ./dss-network-plugin_1.0.47-1+kt286+1_amd64.deb
+Size: 172572
+MD5sum: ff47e164ff3e5ec8c158fe4432059f82
+SHA1: 4c8692a9838bdc2fc5ffb35f386a11a712df7e37
+SHA256: 60faf5f9efc4058395d9f6c2ef0b7c26d7874283e9e52cf85a9084e5121b3774
 Section: lib
 Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
@@ -2339,16 +2339,16 @@ Description: DDE File Manager Devel library
 
 Package: libdde-network-core
 Source: dde-network-core
-Version: 1.0.47-1+kt286
+Version: 1.0.47-1+kt286+1
 Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 694
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
-Filename: ./libdde-network-core_1.0.47-1+kt286_amd64.deb
-Size: 180356
-MD5sum: 8f34e8a20210a6a028e0ced1dc5a164e
-SHA1: 1dba549692b0f109b0419dd568ffda73d6a3243a
-SHA256: 44ff66c1a1171eef13a7bcc4a1adb6af77f799c19f08138ae17cb813dd1172e5
+Filename: ./libdde-network-core_1.0.47-1+kt286+1_amd64.deb
+Size: 180068
+MD5sum: d588ade2f0fdfe8fd6f7534d0fa2abb5
+SHA1: 66fb91a9eacaa15123b09a41f8ad3a449ccc0d57
+SHA256: b44a2a72be3e9a73075d268316a3c594b2ffbdeedc6730ef46e602fc761d0a0f
 Section: lib
 Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
@@ -2357,16 +2357,16 @@ Description: the library of network
 
 Package: libdde-network-core-dev
 Source: dde-network-core
-Version: 1.0.47-1+kt286
+Version: 1.0.47-1+kt286+1
 Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 62
-Depends: libdde-network-core (= 1.0.47-1+kt286)
-Filename: ./libdde-network-core-dev_1.0.47-1+kt286_amd64.deb
-Size: 9828
-MD5sum: b33fbd84687a9915f6f711d9b8833d68
-SHA1: e7a56b4d8273cd471d5720889f7a5f44b65fc695
-SHA256: 858bd64d0955fa390bd4bbcdc3b7519d831c64b50d8b6e660c1b853375b0f329
+Depends: libdde-network-core (= 1.0.47-1+kt286+1)
+Filename: ./libdde-network-core-dev_1.0.47-1+kt286+1_amd64.deb
+Size: 9836
+MD5sum: b07cd6e9f3d1752473a19db8a723ba1e
+SHA1: bc0b0144066be07d064219dd76ffea672940f5dc
+SHA256: 54e68d7db078b7ab92795091602d667fd8b55df164dae656078d7d056b265d3f
 Section: lib
 Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
