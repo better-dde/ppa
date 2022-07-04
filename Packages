@@ -2297,6 +2297,57 @@ Description: extensions to the C++ standard library
  .
  This package contains Abseil's shared libraries.
 
+Package: libbcg729-0
+Source: bcg729
+Version: 1.1.1-2
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 80
+Depends: libc6 (>= 2.4)
+Filename: ./libbcg729-0_1.1.1-2_amd64.deb
+Size: 33440
+MD5sum: 3f63c3d5250eb5e6f4a16917e20b3ff9
+SHA1: ae2f478202be7c9e551567098f0be8a0d2ba38e4
+SHA256: 791b07143e3408df4118a84222f2a4f5730fdb27ac60bbf6cd0ed243df7769dd
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/BelledonneCommunications/bcg729
+Description: ITU G.729 Annex A compatible audio codec
+ Bcg729 is an open source implementation of the ITU G729 Annex A
+ speech codec. Written in C 99, the library is fully portable. It
+ runs on many platforms, including ARM and x86.
+ .
+ Bcg729 supports concurrent channels encoding/decoding for multi
+ call application such as conferencing.
+ .
+ The project was developed as part of mediastreamer2, Linphone's
+ media processing engine. It therefore also contains the glue for
+ integration into Linphone/mediastreamer2.
+
+Package: libbcg729-dev
+Source: bcg729
+Version: 1.1.1-2
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 122
+Depends: libbcg729-0 (= 1.1.1-2)
+Filename: ./libbcg729-dev_1.1.1-2_amd64.deb
+Size: 36964
+MD5sum: 0d7bb4d3cd5072569d3554f32982ea76
+SHA1: 339ab20912dcd49b0581af1ed81a5c8436198ede
+SHA256: 6c49c78d266d40f890bdd50564a0eab80ff102fced649d6cab823412a7516832
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/BelledonneCommunications/bcg729
+Description: Development files for the ITU G.729 compatible audio codec
+ Bcg729 is an open source implementation of the ITU G729 Annex A
+ speech codec. Written in C 99, the library is fully portable. It
+ runs on many platforms, including ARM and x86.
+ .
+ This package contains the development files.
+
 Package: libdde-file-manager
 Source: dde-file-manager
 Version: 5.6.4-1+kt286+3
@@ -4578,6 +4629,196 @@ Description: Windows Portable Runtime library (development files)
  .
  This package contains the WinPR development files.
 
+Package: libwireshark-data
+Source: wireshark
+Version: 3.6.6-1
+Architecture: all
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 7268
+Suggests: geoipupdate, geoip-database, geoip-database-extra, libjs-leaflet, libjs-leaflet.markercluster, snmp-mibs-downloader
+Filename: ./libwireshark-data_3.6.6-1_all.deb
+Size: 1591556
+MD5sum: c5c594ed197c678c77a8e57ac776486d
+SHA1: a4ee0c39eb7ececc55d5ef791cb5fab508c8d981
+SHA256: c69fe01cec8106c593820178703baa04e0817355671d5543591d7aa0d6f4d6dc
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.wireshark.org/
+Description: network packet dissection library -- data files
+ The libwireshark library provides the network packet dissection services
+ developed by the Wireshark project.
+ .
+ This package contains the platform independent files.
+
+Package: libwireshark-dev
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 4603
+Depends: libwsutil-dev, libwiretap-dev, libwireshark15 (= 3.6.6-1)
+Filename: ./libwireshark-dev_3.6.6-1_amd64.deb
+Size: 703496
+MD5sum: b09cde3a06cbceda3ccf55d0336b84e2
+SHA1: 6fa32106b4e955265f87c6ee4307b7cf6050c950
+SHA256: 04cb573964d29fd0e022bf021453fc5b8b841ae4bf15c0569ba38948c6460228
+Section: libdevel
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network packet dissection library -- development files
+ The "libwireshark" library provides the network packet dissection services
+ developed by the Wireshark project.
+ .
+ This package contains the static library and the C header files that are
+ needed for applications to use libwireshark services.
+
+Package: libwireshark15
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 104006
+Depends: libbcg729-0 (>= 1.0.0), libbrotli1 (>= 0.6.0), libc-ares2 (>= 1.7.1), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.31.18), libgnutls30 (>= 3.6.5), libk5crypto3 (>= 1.7+dfsg), libkrb5-3 (>= 1.7dfsg), liblua5.2-0, liblz4-1 (>= 1.8.0), libnghttp2-14 (>= 1.11.0), libsbc1, libsmi2ldbl (>= 0.4.5+dfsg0), libsnappy1v5, libspandsp2 (>= 0.0.6~pre18), libwiretap12 (>= 3.5.0), libwsutil13 (>= 3.6.6-1), libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4), libwireshark-data (>= 3.6.6-1)
+Suggests: wireshark-doc (>= 3.6.6-1)
+Filename: ./libwireshark15_3.6.6-1_amd64.deb
+Size: 16927856
+MD5sum: f7b8531e2ede41051946807103649d53
+SHA1: c7bed730f53236a7423fa03404235f13dda2782d
+SHA256: c1ea5f57d72f30676f523341b437ca12ca16b03dae9aada8ac57ca30f96af10c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.wireshark.org/
+Description: network packet dissection library -- shared library
+ The libwireshark library provides the network packet dissection services
+ developed by the Wireshark project.
+
+Package: libwiretap-dev
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 225
+Depends: libwiretap12 (= 3.6.6-1)
+Filename: ./libwiretap-dev_3.6.6-1_amd64.deb
+Size: 81572
+MD5sum: 1c52dc2daf4e2422fd6d2a3dd747d700
+SHA1: 4b3f46ee376b97dbe4506bf68eae999b1a316dd4
+SHA256: 27403c7657a378e01c2c500a46ff3b46ca5b4ed74247b800cf06afb45b63ab87
+Section: libdevel
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network packet capture library -- development files
+ Wiretap, part of the Wireshark project, is a library that allows one to
+ read and write several packet capture file formats.
+ .
+ Supported formats are:
+  * Libpcap
+  * Sniffer
+  * LANalyzer
+  * Network Monitor
+  * "snoop"
+  * "iptrace"
+  * Sniffer Basic (NetXRay)/Windows Sniffer Pro
+  * RADCOM WAN/LAN Analyzers
+  * Lucent/Ascend access products
+  * HP-UX nettl
+  * Toshiba ISDN Router
+  * ISDN4BSD "i4btrace" utility
+  * Cisco Secure Intrusion Detection System iplogging facility
+  * pppd logs (pppdump-format files)
+  * VMS TCPTRACE
+  * DBS Etherwatch (text format)
+  * Catapult DCT2000 (.out files)
+ .
+ Wiretap's shortcomings are: no filter capability and no support for packet
+ capture.
+ .
+ This package contains the static library and the C header files.
+
+Package: libwiretap12
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 724
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.31.8), liblz4-1 (>= 1.8.0), libwsutil13 (>= 3.5.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.2.4)
+Filename: ./libwiretap12_3.6.6-1_amd64.deb
+Size: 279004
+MD5sum: b715607a747ff6959fe670f27b7e4ea3
+SHA1: e849069d6e247fb15f7913e0c6cd0a388fde4842
+SHA256: aeb754bb2b76bb618a7ec12205c74b754507a0bcd99220d2ea3b462117dd97a4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.wireshark.org/
+Description: network packet capture library -- shared library
+ Wiretap, part of the Wireshark project, is a library that allows one to
+ read and write several packet capture file formats.
+ .
+ Supported formats are:
+  * Libpcap
+  * Sniffer
+  * LANalyzer
+  * Network Monitor
+  * "snoop"
+  * "iptrace"
+  * Sniffer Basic (NetXRay)/Windows Sniffer Pro
+  * RADCOM WAN/LAN Analyzers
+  * Lucent/Ascend access products
+  * HP-UX nettl
+  * Toshiba ISDN Router
+  * ISDN4BSD "i4btrace" utility
+  * Cisco Secure Intrusion Detection System iplogging facility
+  * pppd logs (pppdump-format files)
+  * VMS TCPTRACE
+  * DBS Etherwatch (text format)
+  * Catapult DCT2000 (.out files)
+ .
+ Wiretap's shortcomings are: no filter capability and no support for packet
+ capture.
+
+Package: libwsutil-dev
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 337
+Depends: libwsutil13 (= 3.6.6-1)
+Filename: ./libwsutil-dev_3.6.6-1_amd64.deb
+Size: 100724
+MD5sum: 73ae9efea6507bd3bf346c8d5136ec02
+SHA1: e8d02f81d30ad8d907d0694b7335363a6bb33e2d
+SHA256: 64dd72b2e48ad97be97253143247e6cef999e48be54bf03e113291f197a4ad18
+Section: libdevel
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network packet dissection utilities library -- development files
+ The libwsutil library provides utility functions for libwireshark6.
+ .
+ This package contains the static library and the C header files that are
+ needed for applications to use the libwsutil library.
+
+Package: libwsutil13
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 282
+Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.49.3), libgnutls30 (>= 3.6.5)
+Filename: ./libwsutil13_3.6.6-1_amd64.deb
+Size: 131980
+MD5sum: d91a0d7e423cf20d9a95ffa7a8b62795
+SHA1: 4ea7ba406687d5b7f6cd617acb0a3a91efa7645a
+SHA256: 6dd90a38c96e8aee9c92ead8874f998513b853c00d810b3730492b89e09f9b23
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.wireshark.org/
+Description: network packet dissection utilities library -- shared library
+ The libwsutil library provides utility functions for libwireshark15.
+
 Package: mozc-data
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
@@ -6330,6 +6571,29 @@ Description: X2Go plugin for Remmina
  .
  This package contains the X2Go plugin for Remmina.
 
+Package: tshark
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 414
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.35.8), libpcap0.8 (>= 1.5.1), libwireshark15 (>= 3.5.0), libwiretap12 (>= 3.5.0), libwsutil13 (>= 3.5.1), zlib1g (>= 1:1.1.4), wireshark-common (= 3.6.6-1)
+Filename: ./tshark_3.6.6-1_amd64.deb
+Size: 189092
+MD5sum: 521f5b9dd04673d7171a78c5dc6689a0
+SHA1: 5b4c345bb35f240fbfd7b27ef676a2c0a6e8d618
+SHA256: db652b74b50efb2ea9df5406b79bd437fada172d9b8bb054d3fdaeecbe2982c3
+Section: net
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network traffic analyzer - console version
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides the console version of wireshark, named
+ "tshark".
+
 Package: uim-mozc
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
@@ -6387,6 +6651,142 @@ Description: Windows Portable Runtime library command line utilities
  the code using it.
  .
  This package contains WinPR command line utils (winpr-hash, winpr-makecert).
+
+Package: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 67
+Depends: wireshark-qt (= 3.6.6-1)
+Filename: ./wireshark_3.6.6-1_amd64.deb
+Size: 51812
+MD5sum: 2557cdac02cb12c88823b8d0ee787e9d
+SHA1: da8d1c5494a4626b06f9bc12922fef5216455fa7
+SHA256: 7368e695077bbee9a7fd456c0fed2026fca2e58cc7d2e90334cc5c1929f7662d
+Section: net
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network traffic analyzer - meta-package
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This is a meta-package for Wireshark.
+
+Package: wireshark-common
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 1328
+Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.35.8), libmaxminddb0 (>= 1.0.2), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.21), libpcap0.8 (>= 1.5.1), libspeexdsp1 (>= 1.2~beta3.2-1), libssh-gcrypt-4 (>= 0.8.0), libsystemd0 (>= 246), libwireshark15 (>= 3.6.6-1), libwiretap12 (>= 3.6.6-1), libwsutil13 (>= 3.6.1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, debconf, libcap2-bin
+Recommends: wireshark (>= 3.6.6-1) | tshark (>= 3.6.6-1)
+Breaks: wireshark (<< 2.0.0~), wireshark-gtk (<< 3.0.0), wireshark-qt (<< 2.0.0~rc3+g841d5e1)
+Replaces: wireshark (<< 2.0.0~), wireshark-qt (<< 2.0.0~rc3+g841d5e1)
+Filename: ./wireshark-common_3.6.6-1_amd64.deb
+Size: 487504
+MD5sum: a06c3d000657cdd11acfb2b4a5663f8f
+SHA1: c410b92830539aa306e4aba4e5f5dc6a39717ee8
+SHA256: 1aaad4f1a131d7e3b01b79ee2df94e0eb6f9e80a2ad08febed78ccfe4e83b284
+Section: net
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network traffic analyzer - common files
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides files common to both wireshark and tshark
+ (the console version).
+
+Package: wireshark-dev
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 577
+Depends: omniidl, libpcap0.8-dev, libglib2.0-dev, python3:any, python3-ply, snacc, libwireshark-dev, libwiretap-dev
+Filename: ./wireshark-dev_3.6.6-1_amd64.deb
+Size: 153532
+MD5sum: 4aa3a338329ad1640af238fa2230ea75
+SHA1: 7d1a858a63859028226a3537f00ea88a414ca396
+SHA256: a88c03734421a7d3d09458f0795f32d3b47653a97277acd0292854f8cad2bd5c
+Section: devel
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network traffic analyzer - development tools
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides idl2wrs and other files necessary for developing
+ new packet dissectors.
+
+Package: wireshark-doc
+Source: wireshark
+Version: 3.6.6-1
+Architecture: all
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 13261
+Filename: ./wireshark-doc_3.6.6-1_all.deb
+Size: 10102812
+MD5sum: f863f8c919fb072db3d29515e6b0d928
+SHA1: 6c23b7911a41f0f7c39a324b89f0b7fd2f637e9d
+SHA256: 1dd801cbc788e72fb5637ed1398e6767491bec91f5cd258653f2a891907095d7
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.wireshark.org/
+Description: network traffic analyzer - documentation
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package contains Wireshark User's guide, Wireshark Developer's Guide
+ and the Lua Reference.
+
+Package: wireshark-gtk
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 65
+Depends: wireshark-qt (>= 3.0.0~)
+Filename: ./wireshark-gtk_3.6.6-1_amd64.deb
+Size: 49972
+MD5sum: 2a9ffa79a3160a4bced6a36611207a2c
+SHA1: df4e41d7c4a3681286a524be9a26f8662168b35b
+SHA256: 02c613aeb37276b0ad0bf56474382a25cc1d6829974871d00d3c053c6d5c9aa1
+Section: net
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: wireshark-qt
+Source: wireshark
+Version: 3.6.6-1
+Architecture: amd64
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Installed-Size: 9032
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.35.8), libminizip1 (>= 1.1), libnl-3-200 (>= 3.2.21), libnl-genl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libpcap0.8 (>= 1.5.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.2.0), libqt5widgets5 (>= 5.15.1), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 5.2), libwireshark15 (>= 3.6.0), libwiretap12 (>= 3.6.3), libwsutil13 (>= 3.6.1), zlib1g (>= 1:1.1.4), wireshark-common (= 3.6.6-1), libqt5svg5
+Recommends: libqt5multimedia5-plugins
+Breaks: wireshark (<< 2.0.0~), wireshark-gtk (<< 3.0.0~)
+Replaces: wireshark (<< 2.0.0~), wireshark-gtk (<< 3.0.0~)
+Filename: ./wireshark-qt_3.6.6-1_amd64.deb
+Size: 4069812
+MD5sum: 96e926933d353b1a3c36359159c8c530
+SHA1: 0090d861bbd9787632911765dc3b1bca2bf1a97e
+SHA256: 77b7d3015c58d017d1bd0531ef1f73540dad126c3eeb896d6ec494e28fe83a04
+Section: net
+Priority: optional
+Homepage: https://www.wireshark.org/
+Description: network traffic analyzer - Qt version
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides the Qt version of Wireshark.
 
 Package: xserver-xorg-video-nvidia-legacy-390xx
 Source: nvidia-graphics-drivers-legacy-390xx
