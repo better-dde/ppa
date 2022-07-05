@@ -476,19 +476,19 @@ Description: Mozc input method - data files for fcitx
  This open-source project originates from Google Japanese Input.
 
 Package: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 593
-Depends: fcitx5-data (= 5.0.17-1), fcitx5-modules (= 5.0.17-1), libfcitx5config6 (= 5.0.17-1), libfcitx5core7 (= 5.0.17-1), libfcitx5utils2 (= 5.0.17-1), libc6 (>= 2.14), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libstdc++6 (>= 5)
+Installed-Size: 601
+Depends: fcitx5-data (= 5.0.18-1), fcitx5-modules (= 5.0.18-1), libfcitx5config6 (= 5.0.18-1), libfcitx5core7 (= 5.0.18-1), libfcitx5utils2 (= 5.0.18-1), libc6 (>= 2.14), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libstdc++6 (>= 5)
 Recommends: fcitx5-config-qt, fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, im-config (>= 0.44)
 Suggests: fcitx5-chinese-addons, fcitx5-frontend-gtk2, kde-config-fcitx5
 Conflicts: fcitx (<< 1:5), fcitx-bin (<< 1:5), fcitx-data (<< 1:5)
-Filename: ./fcitx5_5.0.17-1_amd64.deb
-Size: 161316
-MD5sum: 7486affd704f1ebdcbc824b895062078
-SHA1: b7f488d0f935fa2c9618810e65e4413cf175f8fd
-SHA256: 5f25bde46432b5a780e4a5a9084fd63b84310162496c9ed35dd455e48c91e63e
+Filename: ./fcitx5_5.0.18-1_amd64.deb
+Size: 162172
+MD5sum: ba7958bcd85cf6fb301d9f1a431a35ec
+SHA1: b8803996251b7ba17f8ddae7bb4f168e6bc52151
+SHA256: 61057cb2e01ddc01a9fb94bc309c7e8107f4d0ca1a14c12d753dbbc37e97551e
 Section: utils
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5
@@ -625,15 +625,15 @@ Description: configuration tool for Fcitx5 (Qt version)
 
 Package: fcitx5-data
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 5543
-Filename: ./fcitx5-data_5.0.17-1_all.deb
-Size: 1410712
-MD5sum: 4521e3f30abdc18a7dd5af59a24d4d27
-SHA1: 75f253c146bd394901dd653387fb6d7483140087
-SHA256: 898779cd9b5e7a7218a268e2f5edf2881959419b622b14f8ebb9c258db505bb7
+Installed-Size: 5545
+Filename: ./fcitx5-data_5.0.18-1_all.deb
+Size: 1413364
+MD5sum: f2db1473b8f892a7d74dcc5e7136d20c
+SHA1: 87d44ef5d5486accbd28e59ae34afdfeb77f2d15
+SHA256: 557468b1c927077dd83d9c55bdd873d27098a35e8a65f43ccf67bb101ff1e517
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -905,18 +905,18 @@ Description: Development files for fcitx5 cloudpinyin module
 
 Package: fcitx5-module-emoji
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 80
-Depends: unicode-cldr-core, libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfcitx5core7 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Depends: unicode-cldr-core, libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
 Breaks: fcitx5-modules (<< 0.0~git20200312)
 Replaces: fcitx5-modules (<< 0.0~git20200312)
-Filename: ./fcitx5-module-emoji_5.0.17-1_amd64.deb
+Filename: ./fcitx5-module-emoji_5.0.18-1_amd64.deb
 Size: 23316
-MD5sum: 2d6d407281040e47e63fd35eb8097896
-SHA1: f01ff96cc8f7871102615fe2f3d9a92de18a4b64
-SHA256: 2e792e95607c5986d8f8ac9d6fe10bccbc0ebbf77a072ba38d1216c293e24ec9
+MD5sum: a374b96d1190349dd26351b8583205de
+SHA1: 7862b16b74a029e51c1fbe1b15e07d00ba92f91e
+SHA256: f649d28789de1a02007dd63a6bec468f05e2b9dcdf99f7b9def0539c2c70b9e3
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1184,16 +1184,16 @@ Description: Development files for fcitx5 punctuation module
 
 Package: fcitx5-module-quickphrase
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 172
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.17), libfcitx5core7 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5-module-quickphrase_5.0.17-1_amd64.deb
-Size: 49780
-MD5sum: 5bbe84878c42c22d44d76c160efe2daf
-SHA1: 903a124a10557997ab7c7c0c4f510d3343f88ea5
-SHA256: 1c38f1186e69470dbb87e574ab2897bb3338e7b6ec2735424fcac90da162f250
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Filename: ./fcitx5-module-quickphrase_5.0.18-1_amd64.deb
+Size: 49708
+MD5sum: c93f4f33e0ad5ede126927d11f431773
+SHA1: 0779e8f424f3efe02f3567d308b192053f7faf2f
+SHA256: 06587bc72722331e4281be8fd0b1674d8a902b7749f08ad4ad9fb743ce1e4dfb
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1214,16 +1214,16 @@ Description: Fcitx Input Method Framework v5 (quickphrase module)
 
 Package: fcitx5-module-wayland
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 772
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.17), libfcitx5core7 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-module-wayland_5.0.17-1_amd64.deb
-Size: 129488
-MD5sum: e178b025700cb6c0638381991d0074c4
-SHA1: 8327e28549b2c3daf950de29c277c840303206b7
-SHA256: a0b6f96a2f9a55f14b49d15fc30d0ee450a91bfbbe2e8863ae42e504f1292987
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0)
+Filename: ./fcitx5-module-wayland_5.0.18-1_amd64.deb
+Size: 129672
+MD5sum: 0816d293954098febf08a003d44ebba2
+SHA1: f9dc5d3077bc43b10263c6a56d882735eef71fe8
+SHA256: 47769b783f82faba72ec67bc965ac5ddf193298f8285133b1dacd05531addf2a
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1244,16 +1244,16 @@ Description: Fcitx Input Method Framework v5 (wayland modules)
 
 Package: fcitx5-module-xorg
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 425
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.17), libfcitx5core7 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 6), libxcb-ewmh2 (>= 0.4.1), libxcb-imdkit1 (>= 1.0.1), libxcb-keysyms1 (>= 0.4.0.1), libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1
-Filename: ./fcitx5-module-xorg_5.0.17-1_amd64.deb
-Size: 112176
-MD5sum: c4285ffcaade171a37dd6f0c3735dbb4
-SHA1: b044ae3b4c7d297191ea7f3ede27ae4c568366cc
-SHA256: f37f73e353b7088270ccac826e7d36f4b2389b6556a9e42c2b38979efdcfa8d8
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 6), libxcb-ewmh2 (>= 0.4.1), libxcb-imdkit1 (>= 1.0.1), libxcb-keysyms1 (>= 0.4.0.1), libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1
+Filename: ./fcitx5-module-xorg_5.0.18-1_amd64.deb
+Size: 112136
+MD5sum: 8d60941c9d19471731a408e5fc604bc1
+SHA1: 28e8fe0b27b778b5d2b07e270a11cdbf33460ac9
+SHA256: 8d3a1c1be868ac00a4e2ccbf7cac3e3d5005b008ab6bfa767bf9cf40eb8a5a58
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1274,20 +1274,20 @@ Description: Fcitx Input Method Framework v5 (xorg modules)
 
 Package: fcitx5-modules
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 3200
-Depends: fcitx5-data (= 5.0.17-1), libc6 (>= 2.14), libcairo2 (>= 1.6.4-5~), libenchant-2-2 (>= 2.2.3), libfcitx5config6 (>= 5.0.17), libfcitx5core7 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 6), libuuid1 (>= 2.16), libwayland-client0 (>= 1.9.91), libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb1 (>= 1.12)
+Installed-Size: 3204
+Depends: fcitx5-data (= 5.0.18-1), libc6 (>= 2.14), libcairo2 (>= 1.6.4-5~), libenchant-2-2 (>= 2.2.3), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 6), libuuid1 (>= 2.16), libwayland-client0 (>= 1.9.91), libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb1 (>= 1.12)
 Recommends: fcitx5-module-emoji, fcitx5-module-quickphrase, fcitx5-module-wayland, fcitx5-module-xorg
 Breaks: fcitx5-module-dbus (<< 5.0.4-2), fcitx5-module-fcitx4 (<< 5.0.4-2), fcitx5-module-ibus (<< 5.0.4-2), fcitx5-module-kimpanel (<< 5.0.4-2)
 Replaces: fcitx5-module-dbus (<< 5.0.4-2), fcitx5-module-fcitx4 (<< 5.0.4-2), fcitx5-module-ibus (<< 5.0.4-2), fcitx5-module-kimpanel (<< 5.0.4-2)
 Provides: fcitx5-module-dbus, fcitx5-module-ibus, fcitx5-module-kimpanel
-Filename: ./fcitx5-modules_5.0.17-1_amd64.deb
-Size: 583584
-MD5sum: b9c77e48c77fd637cb341496a2437a68
-SHA1: d755056f6a2920261ffe7897998e12d563510859
-SHA256: d4c4fe4b5fcf3e637bfac369dc39ee23bba1f48ff3af431bcd06d94fcbbda4c6
+Filename: ./fcitx5-modules_5.0.18-1_amd64.deb
+Size: 586892
+MD5sum: 9493058a6c6e35cca988418c0cb6e9f8
+SHA1: 6b6b8a2aecde7edbf9e7d5b252d61e93d4664426
+SHA256: e88c13542ae1321044306e89d2e6ffbd43c1f2cee07be262a25fbef3b88698ea
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1309,16 +1309,16 @@ Description: Fcitx Input Method Framework v5 (core modules)
 
 Package: fcitx5-modules-dev
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 108
-Depends: fcitx5-module-emoji (= 5.0.17-1), fcitx5-module-quickphrase (= 5.0.17-1), fcitx5-module-wayland (= 5.0.17-1), fcitx5-module-xorg (= 5.0.17-1), fcitx5-modules (= 5.0.17-1), libfcitx5core-dev (= 5.0.17-1), libfcitx5utils-dev (= 5.0.17-1)
-Filename: ./fcitx5-modules-dev_5.0.17-1_amd64.deb
-Size: 12184
-MD5sum: cf1c314a4adc54fd6bd5f090428d6696
-SHA1: 8887f1d26865d255b3e5e67653f9efee5e5f242d
-SHA256: 375b84c5793f5a6fc730c2395314eb76759eaa86e89ea03b6e1dee6a9d2257eb
+Depends: fcitx5-module-emoji (= 5.0.18-1), fcitx5-module-quickphrase (= 5.0.18-1), fcitx5-module-wayland (= 5.0.18-1), fcitx5-module-xorg (= 5.0.18-1), fcitx5-modules (= 5.0.18-1), libfcitx5core-dev (= 5.0.18-1), libfcitx5utils-dev (= 5.0.18-1)
+Filename: ./fcitx5-modules-dev_5.0.18-1_amd64.deb
+Size: 12312
+MD5sum: e6aeba9e7594d14bc8b073f6b661b722
+SHA1: 48079709ec436f511a3cce692f192b4e4aac43b1
+SHA256: a421b2e4eb3041c26983797f8f4e52226acb1881d1312c8bd0e37634d8961543
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3192,16 +3192,16 @@ Description: Qt6 library and IM module for fcitx5 (development files)
 
 Package: libfcitx5config-dev
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 79
-Depends: libfcitx5config6 (= 5.0.17-1)
-Filename: ./libfcitx5config-dev_5.0.17-1_amd64.deb
-Size: 16504
-MD5sum: b19a82c90300872ae214311a4a326136
-SHA1: 2aa6966e89b02b08f891c432b253ff386c599630
-SHA256: ce58e30b21133baaf690d823fe6df228bdf5c00aeeecf67034c19d491ffe5681
+Depends: libfcitx5config6 (= 5.0.18-1)
+Filename: ./libfcitx5config-dev_5.0.18-1_amd64.deb
+Size: 16612
+MD5sum: 98938e1d42f6f0e8b9cfa57691f345da
+SHA1: 873a4af4135d15b38390b914224300d110144da4
+SHA256: 2b9478c1945956de0814805ae3eeabdbf96afd72e0335b7e74732b6aa7fe6934
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3222,16 +3222,16 @@ Description: Fcitx Input Method Framework v5 (config library dev files)
 
 Package: libfcitx5config6
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 183
-Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libfcitx5config6_5.0.17-1_amd64.deb
-Size: 54728
-MD5sum: 53ea3d33ff170b22d4ba3b0b136cecaa
-SHA1: 7a6d4168c5f62d74ba24b886dc2ed3224ae32567
-SHA256: 1c4bcf7ea17a280c4836030c59c8b4570bd2a1da92e4e839b3035237be6d0a50
+Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./libfcitx5config6_5.0.18-1_amd64.deb
+Size: 54664
+MD5sum: 119a1a424175a77b8f1d2ba8d443c8c0
+SHA1: 9c80aa49cc3aa6ff3fcff903afe80c94a15efed9
+SHA256: cf92aecd353c5c16ce021b4b9ede2dd9eb44c968637fcee2f33997913052a9b8
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3252,16 +3252,16 @@ Description: Fcitx Input Method Framework v5 (config library)
 
 Package: libfcitx5core-dev
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 160
-Depends: libfcitx5config-dev (= 5.0.17-1), libfcitx5core7 (= 5.0.17-1), libfcitx5utils-dev (= 5.0.17-1)
-Filename: ./libfcitx5core-dev_5.0.17-1_amd64.deb
-Size: 31152
-MD5sum: 1ddd4e81edfe0afc469012c62eade638
-SHA1: c1d89e7c2c73b275c6897efc052f47c8aa2044c8
-SHA256: f80767fc23c1ebd34a3b8e80b8a6c33c8b8f6f418681a05e5e57dcf842e8287a
+Depends: libfcitx5config-dev (= 5.0.18-1), libfcitx5core7 (= 5.0.18-1), libfcitx5utils-dev (= 5.0.18-1)
+Filename: ./libfcitx5core-dev_5.0.18-1_amd64.deb
+Size: 31260
+MD5sum: 81bc64cff34571b290e7aad0e13c374a
+SHA1: d7883ebb72f04556594f59cbc1179bbd8a5c2918
+SHA256: 12cc1b64943d0906339b7bddef434cb8f3e8b0f57cd16a4c67b766398c33c98e
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3282,16 +3282,16 @@ Description: Fcitx Input Method Framework v5 (core library dev files)
 
 Package: libfcitx5core7
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 1000
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), libxkbcommon0 (>= 0.5.0)
-Filename: ./libfcitx5core7_5.0.17-1_amd64.deb
-Size: 280692
-MD5sum: 2e06568ffaf9ee9b809041be7d46bfda
-SHA1: 5a64e6176ed2465d2f963397ebdffc4f43d3f961
-SHA256: e73f72002d29de39ac991c63901fb93e21f4e68f0e2bb8ff4b3adcfd0f6df834
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), libxkbcommon0 (>= 0.5.0)
+Filename: ./libfcitx5core7_5.0.18-1_amd64.deb
+Size: 280368
+MD5sum: f3e04e72eeedecdb8494a5ef4564f444
+SHA1: c7fa8fa7925541a32189abc5829e9df161ee67c2
+SHA256: 6eb18ec3aa0c551ea6e310b562a70e5efd8f431a0e1c70a64a04d4b0b1e5ab7c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3373,16 +3373,16 @@ Description: GLib-based D-Bus client library for fcitx5 (library)
 
 Package: libfcitx5utils-dev
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 403
-Depends: libfcitx5utils2 (= 5.0.17-1)
-Filename: ./libfcitx5utils-dev_5.0.17-1_amd64.deb
-Size: 68444
-MD5sum: 9bc96b5ad7fb2203b6995f585470e348
-SHA1: 0288503ef009ddd103d14912895377237675b9f7
-SHA256: a856bbe763ab7430bbd637ca5cd397387d4a30014a2c90e7b86da24b39dc0a11
+Installed-Size: 404
+Depends: libfcitx5utils2 (= 5.0.18-1)
+Filename: ./libfcitx5utils-dev_5.0.18-1_amd64.deb
+Size: 68676
+MD5sum: ed0af25b0b40f08658cb54f32d2558f3
+SHA1: 91dc0488c4b8a6437a307c4c3d536ed45e8471c3
+SHA256: e659e9a6bb630fcab0fb6cd154384c35a32e08754d44f73afaf9f8c94bc08497
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3403,16 +3403,16 @@ Description: Fcitx Input Method Framework v5 (utils library dev files)
 
 Package: libfcitx5utils2
 Source: fcitx5
-Version: 5.0.17-1
+Version: 5.0.18-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 796
+Installed-Size: 800
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libsystemd0 (>= 243)
-Filename: ./libfcitx5utils2_5.0.17-1_amd64.deb
-Size: 200316
-MD5sum: 63df3e17af81e6c455c2f17ef6574ecf
-SHA1: 2b6d09ae1c3ec067f7e33ec960b9821cbf57048c
-SHA256: b7efcd2641fd64538b63fceb4200dfe740334b3a6fa0a6133b19806461b7f37f
+Filename: ./libfcitx5utils2_5.0.18-1_amd64.deb
+Size: 201548
+MD5sum: af563679e7e8e99f66f22598875e423b
+SHA1: 93fcb7ca7d8c329530a5fdc316f840785c3ba33b
+SHA256: 99e05f97f223c1c2c56631579bf6bf212b07bd15063165cbd97f09ba4917b73d
 Section: libs
 Priority: optional
 Multi-Arch: same
