@@ -735,20 +735,20 @@ Description: GTK3 IM Module for fcitx5
 
 Package: fcitx5-frontend-qt5
 Source: fcitx5-qt
-Version: 5.0.13-1
+Version: 5.0.14-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 396
-Depends: libfcitx5-qt1 (= 5.0.13-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.16+kt286), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-3
-Filename: ./fcitx5-frontend-qt5_5.0.13-1_amd64.deb
-Size: 109672
-MD5sum: 91c6eec2e55b1418913128c39134e099
-SHA1: c72bf60f1a4c7da032121962e7daca7622dd0248
-SHA256: 1c9f444947d3360055682880216f62f91749bb241ca8f3ff3ea29035dc21315f
+Installed-Size: 399
+Depends: libfcitx5-qt1 (= 5.0.14-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-3
+Filename: ./fcitx5-frontend-qt5_5.0.14-1_amd64.deb
+Size: 110500
+MD5sum: 051fdc8dad05533050112f8475fb530b
+SHA1: 12ca3c95e1be0e93aa7995b729fe2987873f985f
+SHA256: f7b6c9679e2ba7ee35da56dbcbbcc5b817cf28e960d57a0924778db6eff01b65
 Section: libs
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5-qt
-Description: IM module for fcitx5
+Description: Qt5 IM module for fcitx5
  Fcitx5 is the next generation of fcitx input method framework. It
  provides pleasant and modern input experience with intuitive graphical
  configuration tools. The framework is highly extensible with support
@@ -761,6 +761,35 @@ Description: IM module for fcitx5
  and desktop environments.
  .
  This package provides the Qt5 IM Module for fcitx5.
+
+Package: fcitx5-frontend-qt6
+Source: fcitx5-qt
+Version: 5.0.14-1
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 269
+Depends: libfcitx5-qt6-1 (= 5.0.14-1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.2.4)
+Filename: ./fcitx5-frontend-qt6_5.0.14-1_amd64.deb
+Size: 78292
+MD5sum: d72ffcf0e3c198178fa36e32c0500d83
+SHA1: 78f9b98e4e171f99ac2274e5fe9f8f6b3d5ea1e2
+SHA256: cf8fd5b07db3f0181084940396f99f4c866793102ae554874f70fc8ee291964d
+Section: libs
+Priority: optional
+Homepage: https://github.com/fcitx/fcitx5-qt
+Description: Qt6 IM module for fcitx5
+ Fcitx5 is the next generation of fcitx input method framework. It
+ provides pleasant and modern input experience with intuitive graphical
+ configuration tools. The framework is highly extensible with support
+ for GTK+ and Qt toolkits, DBus interfaces, a large variety of desktop
+ environments and a developer-friendly API.
+ .
+ Some of its new features include support of both Wayland and Xorg
+ and the ability to mimic IBus Input Method Framework in order to
+ provide better compatibility across different Linux distributions
+ and desktop environments.
+ .
+ This package provides the Qt6 IM Module for fcitx5.
 
 Package: fcitx5-material-color
 Version: 0.2.1-1
@@ -3014,15 +3043,15 @@ Description: NVIDIA binary EGL library (non-GLVND variant) (390xx legacy version
 
 Package: libfcitx5-qt-data
 Source: fcitx5-qt
-Version: 5.0.13-1
+Version: 5.0.14-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 69
-Filename: ./libfcitx5-qt-data_5.0.13-1_all.deb
-Size: 11904
-MD5sum: e12bf33e7fbb180da1889a05e88f49a6
-SHA1: 70980b18ddea7bb77c5b7d36101a927877a8c935
-SHA256: 2ccf265d7683682203fafe27c7c40f306b9b3c9769d73ab1cceec2602d0befe4
+Installed-Size: 72
+Filename: ./libfcitx5-qt-data_5.0.14-1_all.deb
+Size: 12708
+MD5sum: f4b5e42da5cb8111bea339d4f042fcab
+SHA1: b8a3ea2280d8cafb58ea4be0a33f4e4c5b456f77
+SHA256: 4a44f27d4850fff7970e0845246b47446c30b245afead3f5f7b7b9bae3339e82
 Section: libs
 Priority: optional
 Multi-Arch: foreign
@@ -3043,16 +3072,16 @@ Description: Qt library and IM module for fcitx5 (data files)
 
 Package: libfcitx5-qt-dev
 Source: fcitx5-qt
-Version: 5.0.13-1
+Version: 5.0.14-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 83
-Depends: libfcitx5-qt1 (= 5.0.13-1)
-Filename: ./libfcitx5-qt-dev_5.0.13-1_amd64.deb
-Size: 13380
-MD5sum: 7d9e20a02a10c7344825f25c8f9a8922
-SHA1: e2408fe733de31658796080ed52e41a777e09df5
-SHA256: 573e81efda064cce2862607b376a4ff76e26754f66d4c902188b726edf4884d0
+Depends: libfcitx5-qt1 (= 5.0.14-1)
+Filename: ./libfcitx5-qt-dev_5.0.14-1_amd64.deb
+Size: 13484
+MD5sum: fc0e6765b12143176fb7f2c099a3d31a
+SHA1: 0d5f0a898122abb357c4793e2742013c02bd2bdf
+SHA256: cef37c2cbb3c4eda72b24e1a9ec8581e589840dbc805dbce52660525c0423b55
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3073,16 +3102,16 @@ Description: Qt library and IM module for fcitx5 (development files)
 
 Package: libfcitx5-qt1
 Source: fcitx5-qt
-Version: 5.0.13-1
+Version: 5.0.14-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 352
-Depends: libfcitx5-qt-data (= 5.0.13-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.16+kt286), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
-Filename: ./libfcitx5-qt1_5.0.13-1_amd64.deb
-Size: 87728
-MD5sum: 5a8f19f66eba6cb40e1e3900c4cea6e8
-SHA1: dea633952b8d86e7c81bf10ec2a587467b8ccb15
-SHA256: 0d2387b2412cd951e4fc533b664bfdedaed0b51d28fb0cf9ee0957bbce61b836
+Depends: libfcitx5-qt-data (= 5.0.14-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
+Filename: ./libfcitx5-qt1_5.0.14-1_amd64.deb
+Size: 88060
+MD5sum: bc2fbb38d9e4c0024d8d795be20d302b
+SHA1: 35e7f523c646133af138483766c227c6651fbc28
+SHA256: 1420e612e52ee86b03997610cef0ec8935f54622f2cd62f3e618a7dc5409e5b4
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3100,6 +3129,66 @@ Description: Qt library and IM module for fcitx5
  and desktop environments.
  .
  This package provides the Qt5 support for fcitx5.
+
+Package: libfcitx5-qt6-1
+Source: fcitx5-qt
+Version: 5.0.14-1
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 440
+Depends: libfcitx5-qt-data (= 5.0.14-1), libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libstdc++6 (>= 5)
+Filename: ./libfcitx5-qt6-1_5.0.14-1_amd64.deb
+Size: 99588
+MD5sum: 2ad3db1004f4751e2d0e86a00acd09d3
+SHA1: cf6e363d15d01524c43eca21c042701479f82973
+SHA256: a9bb4b97e7e111925eb3a9d9a040c81f4d194c7d6dd895d28b401ad216bb6c20
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/fcitx/fcitx5-qt
+Description: Qt6 library and IM module for fcitx5
+ Fcitx5 is the next generation of fcitx input method framework. It
+ provides pleasant and modern input experience with intuitive graphical
+ configuration tools. The framework is highly extensible with support
+ for GTK+ and Qt toolkits, DBus interfaces, a large variety of desktop
+ environments and a developer-friendly API.
+ .
+ Some of its new features include support of both Wayland and Xorg
+ and the ability to mimic IBus Input Method Framework in order to
+ provide better compatibility across different Linux distributions
+ and desktop environments.
+ .
+ This package provides the Qt6 support for fcitx5.
+
+Package: libfcitx5-qt6-dev
+Source: fcitx5-qt
+Version: 5.0.14-1
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 56
+Depends: libfcitx5-qt6-1 (= 5.0.14-1)
+Filename: ./libfcitx5-qt6-dev_5.0.14-1_amd64.deb
+Size: 10684
+MD5sum: f19390bdf136d3ef86e7a0d002bedb0c
+SHA1: 583bc73d62eb615a02e03d9c009e47ce84c6e8e0
+SHA256: 1cbb4b5949a437ca1ec94a402a76635fc563b176c717d30ee935bf95af64d5d7
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/fcitx/fcitx5-qt
+Description: Qt6 library and IM module for fcitx5 (development files)
+ Fcitx5 is the next generation of fcitx input method framework. It
+ provides pleasant and modern input experience with intuitive graphical
+ configuration tools. The framework is highly extensible with support
+ for GTK+ and Qt toolkits, DBus interfaces, a large variety of desktop
+ environments and a developer-friendly API.
+ .
+ Some of its new features include support of both Wayland and Xorg
+ and the ability to mimic IBus Input Method Framework in order to
+ provide better compatibility across different Linux distributions
+ and desktop environments.
+ .
+ This package provides the development files for fcitx5-qt (qt6).
 
 Package: libfcitx5config-dev
 Source: fcitx5
