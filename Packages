@@ -671,16 +671,16 @@ Description: fcitx5-flypy provides flypy table for fcitx5.
 
 Package: fcitx5-frontend-gtk2
 Source: fcitx5-gtk
-Version: 5.0.15-1
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 53
 Depends: libc6 (>= 2.4), libfcitx5gclient2 (>= 0.0~git20200402.3e6795d), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libx11-6, libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-frontend-gtk2_5.0.15-1_amd64.deb
-Size: 14104
-MD5sum: 9b5fe3e5f17b827e76e63933a47c69cb
-SHA1: 58799a175ca73de7768a9c05e9412ce0e89a989c
-SHA256: ae11fd80a479e0024c809b03692b148d2f7707702ae74c0ac6d6e53f02ba1492
+Filename: ./fcitx5-frontend-gtk2_5.0.16-1_amd64.deb
+Size: 14148
+MD5sum: 86028e0e45181841bfa9ac9307e4d317
+SHA1: 0e7e0f9f005630c68190bca1efa7c76107addc53
+SHA256: 3e86ef1cc21e8a1cd95284c288ff8c6e767e4ae33d5c671e85f3d2e1b9e6683a
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -703,16 +703,16 @@ Description: GTK2 IM Module for fcitx5
 
 Package: fcitx5-frontend-gtk3
 Source: fcitx5-gtk
-Version: 5.0.15-1
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 109
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libfcitx5gclient2 (>= 5.0.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.23.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 5), libx11-6, libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-frontend-gtk3_5.0.15-1_amd64.deb
-Size: 35400
-MD5sum: 7c961ef16c1d9b70ca850317203cfab5
-SHA1: 2c2bba306b911034a70a1130fa0e47f005ed351f
-SHA256: acf537e1b9e2772fd3c0f2275af29f9285527e4ab13e9a27440f60ea18dc02b7
+Filename: ./fcitx5-frontend-gtk3_5.0.16-1_amd64.deb
+Size: 35556
+MD5sum: c4c52a8bbc2a623211ef65f57ebc1784
+SHA1: eaa9b2c5fb1bb2af5695145bb1d38e9fefd58b89
+SHA256: 678321dcc89439a6fd04f9029bfad8abd7a10533b056c78703e4d1bdac8e49cd
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -730,37 +730,6 @@ Description: GTK3 IM Module for fcitx5
  and desktop environments.
  .
  This package provides the im module of fcitx5. Users of GTK3-based
- applications are highly recommended to have this package installed
- for better input method support.
-
-Package: fcitx5-frontend-gtk4
-Source: fcitx5-gtk
-Version: 5.0.15-1
-Architecture: amd64
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 10
-Filename: ./fcitx5-frontend-gtk4_5.0.15-1_amd64.deb
-Size: 3420
-MD5sum: 6ee47eccdf76d6490adc36397762aa9b
-SHA1: ecd3e745d3b3a9e149cdda8ba4b8212add5b8033
-SHA256: b8227eaeeaa8c1360beb97ab901a0d77291ea1e6980dd82ed4d5de3742ef9f73
-Section: utils
-Priority: optional
-Multi-Arch: same
-Homepage: https://github.com/fcitx/fcitx5-gtk
-Description: GTK4 IM Module for fcitx5
- Fcitx5 is the next generation of fcitx input method framework. It
- provides pleasant and modern input experience with intuitive graphical
- configuration tools. The framework is highly extensible with support
- for GTK+ and Qt toolkits, DBus interfaces, a large variety of desktop
- environments and a developer-friendly API.
- .
- Some of its new features include support of both Wayland and Xorg
- and the ability to mimic IBus Input Method Framework in order to
- provide better compatibility across different Linux distributions
- and desktop environments.
- .
- This package provides the im module of fcitx5. Users of GTK4-based
  applications are highly recommended to have this package installed
  for better input method support.
 
@@ -2072,16 +2041,16 @@ Description: RDP client for Windows Terminal Services (X11 client)
 
 Package: gir1.2-fcitxg-1.0
 Source: fcitx5-gtk
-Version: 5.0.15-1
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 18
 Depends: gir1.2-glib-2.0, libfcitx5gclient2 (>= 5.0.4)
-Filename: ./gir1.2-fcitxg-1.0_5.0.15-1_amd64.deb
-Size: 5068
-MD5sum: bd4242c7b5052849179120ba4bf1001a
-SHA1: cf16757db379e895433f2b4b2b6592d0b3af521c
-SHA256: 5718198d08de42779cb52111586558b3b4a901159df1848885a27d8f008ff3e3
+Filename: ./gir1.2-fcitxg-1.0_5.0.16-1_amd64.deb
+Size: 5104
+MD5sum: b4644b8dd2688c7ffff979f80bc0f073
+SHA1: d31f64bceef1b4f16c15a030373bf179233df348
+SHA256: 8d061690e29041ad69bed522131b9a6e552a5b81f41f63f97b5d3afd81f84d43
 Section: introspection
 Priority: optional
 Multi-Arch: same
@@ -3254,16 +3223,16 @@ Description: Fcitx Input Method Framework v5 (core library)
 
 Package: libfcitx5gclient-dev
 Source: fcitx5-gtk
-Version: 5.0.15-1
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 65
-Depends: gir1.2-fcitxg-1.0 (= 5.0.15-1)
-Filename: ./libfcitx5gclient-dev_5.0.15-1_amd64.deb
-Size: 9800
-MD5sum: ac3752e085c8927e101d77427f8d6524
-SHA1: a6789d9801bbcdf1a716582bb6d4b5841cc558a6
-SHA256: 6f081ee7a912009b5275b5adbf035d5a99e157e6ff84f3f0341025a6f4e36279
+Depends: gir1.2-fcitxg-1.0 (= 5.0.16-1)
+Filename: ./libfcitx5gclient-dev_5.0.16-1_amd64.deb
+Size: 9944
+MD5sum: c7ecd09b0052c33bf96fe8819e9960fd
+SHA1: 388077569f0200da95bddc40b2b115ec9e66044a
+SHA256: fc03797896df886a54a4246e077d5d50fb5f7319d159a92a4610581c23d8e017
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3285,16 +3254,16 @@ Description: GLib-based D-Bus client library for fcitx5 (development files)
 
 Package: libfcitx5gclient2
 Source: fcitx5-gtk
-Version: 5.0.15-1
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 59
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3)
-Filename: ./libfcitx5gclient2_5.0.15-1_amd64.deb
-Size: 15324
-MD5sum: 44d69087a0607fdbac6cd3a765c24072
-SHA1: e4d6f5f6a5cc873d7836b3c9f3a4116b915ef47f
-SHA256: 13b9f424afd71863b21fccda2acb83474cf247cb9372a4c9fcdae044b9ce6110
+Filename: ./libfcitx5gclient2_5.0.16-1_amd64.deb
+Size: 15304
+MD5sum: 4483db354102fccf54926eb0a9d1b9cc
+SHA1: 45af8636e05e8498de6ccf5006f6b778bf714e9c
+SHA256: f73ce3924bf2976926cd94a90a33b9f2833b085d90a676e9734fa35ddb049820
 Section: libs
 Priority: optional
 Multi-Arch: same
