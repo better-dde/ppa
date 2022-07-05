@@ -507,17 +507,17 @@ Description: Next generation of Fcitx Input Method Framework
  This package provides core fcitx5 framework files.
 
 Package: fcitx5-anthy
-Version: 5.0.11-1
+Version: 5.0.12-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 700
-Depends: libanthy1, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.16+kt286), libfcitx5core7 (>= 5.0.16+kt286), libfcitx5utils2 (>= 5.0.16+kt286), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Installed-Size: 706
+Depends: libanthy1, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
 Conflicts: fcitx-anthy
-Filename: ./fcitx5-anthy_5.0.11-1_amd64.deb
-Size: 160016
-MD5sum: d6929d408e90d381cd03d80cb0155ec4
-SHA1: 25234c999d678575058befcdb16f6f502100358e
-SHA256: d70b5bb9ab7fa35b82dd2968583a79e2d7a3f0af8ae4e0395619e88207431d05
+Filename: ./fcitx5-anthy_5.0.12-1_amd64.deb
+Size: 161036
+MD5sum: 51d8e0569e1969c247a0dbdcfb15c81f
+SHA1: b6fb06e28fec8d162a87e2cfc49d75cfd463e2d5
+SHA256: d465e19df8d9bf727e2668121a5c8b58fc4826792d6b684562a0814047859607
 Section: utils
 Priority: optional
 Multi-Arch: same
