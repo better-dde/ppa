@@ -742,6 +742,23 @@ Multi-Arch: foreign
 Homepage: https://github.com/kt286/fcitx5-flypy
 Description: fcitx5-flypy provides flypy table for fcitx5.
 
+Package: fcitx5-flypy
+Version: 5.0.1
+Architecture: all
+Maintainer: Cloud <kt286@qq.com>
+Installed-Size: 2754
+Depends: fcitx5, fcitx5-module-lua, fcitx5-table
+Filename: ./fcitx5-flypy_5.0.1_all.deb
+Size: 919448
+MD5sum: e034c19aa797b61946fcd92d97a2519b
+SHA1: eb2d109754cc78a4ac780af6d903f680538557ce
+SHA256: e7faa91b97ac2f6f0fe703a2f05929f780dd8f711f1de0c6891ab1bd2874a524
+Section: metapackages
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/kt286/fcitx5-flypy
+Description: fcitx5-flypy provides flypy table for fcitx5.
+
 Package: fcitx5-frontend-gtk2
 Source: fcitx5-gtk
 Version: 5.0.16-1
