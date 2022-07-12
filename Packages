@@ -51,7 +51,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 263
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), onboard
-Filename: ./dcc-dock-plugin_5.5.53-1+kt286_amd64.deb
+Filename: ./dde-dock/dcc-dock-plugin_5.5.53-1+kt286_amd64.deb
 Size: 97268
 MD5sum: 363bd18b01433b8e744c223c0889592c
 SHA1: bfcfb59e7b20d9e921d0c331bf5e5ee82d0f7a47
@@ -87,7 +87,7 @@ Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 3892
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), libdde-network-core (= 1.0.47-1+kt286+1)
-Filename: ./dcc-network-plugin_1.0.47-1+kt286+1_amd64.deb
+Filename: ./dde-network-core/dcc-network-plugin_1.0.47-1+kt286+1_amd64.deb
 Size: 910116
 MD5sum: 52e02b78949df1e87da9b698d4908a8e
 SHA1: b6e6cc65eb6c8c36b64565a804fe982ab3c08699
@@ -108,7 +108,7 @@ Depends: libc6 (>= 2.14), libdde-file-manager (= 5.6.4-1+kt286+3), libdfm-extens
 Recommends: qt5dxcb-plugin, deepin-screensaver
 Conflicts: dde-file-manager-oem, dde-workspace (<< 2.90.5)
 Replaces: dde-file-manager-oem
-Filename: ./dde-desktop_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/dde-desktop_5.6.4-1+kt286+3_amd64.deb
 Size: 455040
 MD5sum: 30d9cc36bc1bb6d91070d30f672b7255
 SHA1: 7cb7a3d04193cbdc5598e3f2d1fc210422f137ba
@@ -126,7 +126,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 641
 Depends: libc6 (>= 2.4), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgio-qt, libgl1, libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1v5 (>= 2.54.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 4.5), libudisks2-qt5, dconf-gsettings-backend | gsettings-backend, libdde-file-manager (= 5.6.4-1+kt286+3)
-Filename: ./dde-disk-mount-plugin_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/dde-disk-mount-plugin_5.6.4-1+kt286+3_amd64.deb
 Size: 201648
 MD5sum: 4133af2b21c18f98fed21e788df61a36
 SHA1: 8a5cc5310760ccae11e7497e5b7f7ad9690b4861
@@ -146,7 +146,7 @@ Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdframe
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dcc-dock-plugin, dde-network-dialog
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
 Replaces: dde-dock-applets, dde-trash-plugin
-Filename: ./dde-dock_5.5.53-1+kt286_amd64.deb
+Filename: ./dde-dock/dde-dock_5.5.53-1+kt286_amd64.deb
 Size: 971920
 MD5sum: 18b05bd77eeb79b3f3571bb980cfeec4
 SHA1: 975fe38ec4ca3fa3d6bf4923a997349ae0b2d3ff
@@ -183,7 +183,7 @@ Version: 5.5.53-1+kt286
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 47
-Filename: ./dde-dock-dev_5.5.53-1+kt286_amd64.deb
+Filename: ./dde-dock/dde-dock-dev_5.5.53-1+kt286_amd64.deb
 Size: 20656
 MD5sum: 7d250c052ead6372a6dc0e1143a29b83
 SHA1: e470a6e5769d292f0ba617d40eaf7ff21c955563
@@ -237,7 +237,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 130
 Depends: libc6 (>= 2.4), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
-Filename: ./dde-dock-onboard-plugin_5.5.53-1+kt286_amd64.deb
+Filename: ./dde-dock/dde-dock-onboard-plugin_5.5.53-1+kt286_amd64.deb
 Size: 44364
 MD5sum: 0d031ae447feb310ae395d9d4a53f55e
 SHA1: 7e85387f98a3174d69e344910caf022bfff4f7d2
@@ -275,7 +275,7 @@ Depends: deepin-anything-server, libc6 (>= 2.14), libdde-file-manager (= 5.6.4-1
 Recommends: dde-qt5integration, avfs, samba
 Conflicts: dde-file-manager-oem
 Replaces: dde-file-manager-oem
-Filename: ./dde-file-manager_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/dde-file-manager_5.6.4-1+kt286+3_amd64.deb
 Size: 23507820
 MD5sum: f2fa071ef9b577ef51493628639e1c0c
 SHA1: 7675ac66b025b91a492a176006921bb5f4d3a3db
@@ -330,7 +330,7 @@ Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 640
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.1.1+git20141212), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286+1)
-Filename: ./dde-network-dialog_1.0.47-1+kt286+1_amd64.deb
+Filename: ./dde-network-core/dde-network-dialog_1.0.47-1+kt286+1_amd64.deb
 Size: 133460
 MD5sum: 477f0aabcc71dc9dcda37ce8e0bd9ddc
 SHA1: 058c94a5d2c2a8b0a1bc3616ac40715ed172c98c
@@ -352,7 +352,7 @@ Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notific
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Provides: lightdm-greeter
-Filename: ./dde-session-shell_5.5.50-1+kt286_amd64.deb
+Filename: ./dde-session-shell/dde-session-shell_5.5.50-1+kt286_amd64.deb
 Size: 815232
 MD5sum: e41ed719026a27bfe7b903ae6b78f80b
 SHA1: 47e7855f2bd62cbdd4d3f94474b76bf832d3f815
@@ -373,7 +373,7 @@ Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 23
 Depends: dde-session-shell (= 5.5.50-1+kt286)
-Filename: ./dde-session-shell-dev_5.5.50-1+kt286_amd64.deb
+Filename: ./dde-session-shell/dde-session-shell-dev_5.5.50-1+kt286_amd64.deb
 Size: 3664
 MD5sum: 8d99336887d5ea3dc2467c5889430e1d
 SHA1: d079b2a31374e6cc5eb8ce315d6cfc39c8e83d0c
@@ -407,7 +407,7 @@ Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 22
 Depends: dde-session-shell (= 5.5.50-1+kt286), dde-wayland-config
-Filename: ./deepin-greeter-wayland_5.5.50-1+kt286_amd64.deb
+Filename: ./dde-session-shell/deepin-greeter-wayland_5.5.50-1+kt286_amd64.deb
 Size: 4068
 MD5sum: 233b019b899c88b351ecfacdf01a5d05
 SHA1: ee1bb8d1ad9c4edfd5f7b50efa0caa90b5717fef
@@ -456,6 +456,56 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
  and etc. You can instantly start and close Terminal smoothly like normal
  file window, allowing you to input commands with facility and no distractions.
 
+Package: dh-dkms
+Source: dkms
+Version: 3.0.3-4
+Architecture: all
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 40
+Depends: perl:any
+Breaks: dkms (<< 3.0.3-3~)
+Replaces: dkms (<< 3.0.3-3~)
+Provides: dh-sequence-dkms
+Filename: ./dkms/dh-dkms_3.0.3-4_all.deb
+Size: 19924
+MD5sum: 5daf7966fa0f35749a47b80684ca5f56
+SHA1: 56c2cff15620dd5024401cd1a5c83b50c37658c3
+SHA256: 0d404f20a4bd034ad825e0cde54412ce71e68da66bc5eb901b8fb6c4e95f0153
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/dell/dkms
+Description: debhelper addon for the Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+ .
+ This package provides a debhelper add-on 'dkms' that simplifies packaging of
+ dkms kernel module source packages.
+
+Package: dkms
+Version: 3.0.3-4
+Architecture: all
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 182
+Pre-Depends: lsb-release
+Depends: kmod | kldutils, gcc | c-compiler, dpkg-dev, make | build-essential, patch, dctrl-tools, dh-dkms (= 3.0.3-4)
+Recommends: fakeroot, sudo, linux-headers-686-pae | linux-headers-amd64 | linux-headers-generic | linux-headers
+Suggests: menu, e2fsprogs
+Filename: ./dkms/dkms_3.0.3-4_all.deb
+Size: 52924
+MD5sum: 0747e9aa391f9f9f4408cd97000ad21c
+SHA1: 73bb1ad7889beb9b26b34dc7ceb061bf2c759954
+SHA256: 69135e2469276df7c948e33c9cd2b55e9fd01222dde53e55e4baed5e13de8caf
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/dell/dkms
+Description: Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+
 Package: dock-network-plugin
 Source: dde-network-core
 Version: 1.0.47-1+kt286+1
@@ -463,7 +513,7 @@ Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 574
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.1.1+git20141203.0020+15.04), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286+1)
-Filename: ./dock-network-plugin_1.0.47-1+kt286+1_amd64.deb
+Filename: ./dde-network-core/dock-network-plugin_1.0.47-1+kt286+1_amd64.deb
 Size: 101456
 MD5sum: a4de4b602be54e702a2518ad33aafd2b
 SHA1: 453a0c42bb8feba277967a7c6af04925e5b2547c
@@ -556,7 +606,7 @@ Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 862
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libdde-network-core (= 1.0.47-1+kt286+1)
-Filename: ./dss-network-plugin_1.0.47-1+kt286+1_amd64.deb
+Filename: ./dde-network-core/dss-network-plugin_1.0.47-1+kt286+1_amd64.deb
 Size: 172572
 MD5sum: ff47e164ff3e5ec8c158fe4432059f82
 SHA1: 4c8692a9838bdc2fc5ffb35f386a11a712df7e37
@@ -575,7 +625,7 @@ Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 123
 Depends: emacs | emacs23 | emacs24, emacs-mozc-bin (= 2.26.4220.100+dfsg-5.1)
 Conflicts: emacsen-common (<< 2.0.0)
-Filename: ./emacs-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/emacs-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 30104
 MD5sum: 3c3c6ac6a23c8360edf1c086a49ed3a9
 SHA1: 49954629d997bc4602a9bae10e465b50a7566b6d
@@ -598,7 +648,7 @@ Architecture: amd64
 Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 729
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libprotobuf17, libstdc++6 (>= 5.2), mozc-server (= 2.26.4220.100+dfsg-5.1)
-Filename: ./emacs-mozc-bin_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/emacs-mozc-bin_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 181312
 MD5sum: 93ad4419ea6b304efe456be0188814a4
 SHA1: dd8c3cab891aba41f6325e23c59f0f7e667c8961
@@ -622,7 +672,7 @@ Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 1221
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libprotobuf17, libstdc++6 (>= 5.2), fcitx-bin, fcitx-data, fcitx-modules, mozc-server (= 2.26.4220.100+dfsg-5.1), fcitx-mozc-data
 Recommends: fcitx, mozc-utils-gui (= 2.26.4220.100+dfsg-5.1)
-Filename: ./fcitx-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/fcitx-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 268296
 MD5sum: 75d1c655f0aa10486435dac1c2e7df3e
 SHA1: 101ed703b93aab2c7144f59d3908e5c600ab9735
@@ -652,7 +702,7 @@ Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 53
 Depends: mozc-data
 Conflicts: fcitx-mozc (<< 2.26.4220.100+dfsg)
-Filename: ./fcitx-mozc-data_2.26.4220.100+dfsg-5.1_all.deb
+Filename: ./mozc/fcitx-mozc-data_2.26.4220.100+dfsg-5.1_all.deb
 Size: 11400
 MD5sum: 6f47c4d612be82a114eb5c4f5ae29fb1
 SHA1: 90318668ac77e0cadcccf6dfd2f0c64e4a3665f6
@@ -678,7 +728,7 @@ Depends: fcitx5-data (= 5.0.18-1), fcitx5-modules (= 5.0.18-1), libfcitx5config6
 Recommends: fcitx5-config-qt, fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, im-config (>= 0.44)
 Suggests: fcitx5-chinese-addons, fcitx5-frontend-gtk2, kde-config-fcitx5
 Conflicts: fcitx (<< 1:5), fcitx-bin (<< 1:5), fcitx-data (<< 1:5)
-Filename: ./fcitx5_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5_5.0.18-1_amd64.deb
 Size: 162172
 MD5sum: ba7958bcd85cf6fb301d9f1a431a35ec
 SHA1: b8803996251b7ba17f8ddae7bb4f168e6bc52151
@@ -731,7 +781,7 @@ Installed-Size: 15
 Depends: fcitx5-chinese-addons-bin, fcitx5-pinyin, fcitx5-table
 Recommends: fcitx5
 Enhances: fcitx5
-Filename: ./fcitx5-chinese-addons_5.0.14-1_all.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons_5.0.14-1_all.deb
 Size: 5844
 MD5sum: dbbe372cc9a11a54b1a9bb5e3c41da2c
 SHA1: 6889ac307b68ece1e5f15f41ac4fb2ba87a0dd1a
@@ -755,7 +805,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 46
 Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5-chinese-addons-bin_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons-bin_5.0.14-1_amd64.deb
 Size: 15772
 MD5sum: 9818f75578023e892cfc8ec3618d8d5f
 SHA1: 350928c719fb47533171a931bf1447227eb9b30a
@@ -776,7 +826,7 @@ Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 163
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons-data_5.0.14-1_all.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons-data_5.0.14-1_all.deb
 Size: 32240
 MD5sum: 9e637e8370590816d798581a441c4f8c
 SHA1: 4afd7fc8efaddcc2ad811841c9d2a76bacc6c211
@@ -802,7 +852,7 @@ Depends: libqt5svg5, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.12+kt286), libfcitx5
 Recommends: libime-bin
 Breaks: kde-config-fcitx5 (<< 0.0~git20200822)
 Replaces: kde-config-fcitx5 (<< 0.0~git20200822)
-Filename: ./fcitx5-config-qt_5.0.13-1_amd64.deb
+Filename: ./fcitx5-config/fcitx5-config-qt_5.0.13-1_amd64.deb
 Size: 331412
 MD5sum: 2554bb3b0662c07eb8ac85c6829b7117
 SHA1: 2fad66c5af807beb279cfc57d46e888137928126
@@ -823,7 +873,7 @@ Version: 5.0.18-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 5545
-Filename: ./fcitx5-data_5.0.18-1_all.deb
+Filename: ./fcitx5/fcitx5-data_5.0.18-1_all.deb
 Size: 1413364
 MD5sum: f2db1473b8f892a7d74dcc5e7136d20c
 SHA1: 87d44ef5d5486accbd28e59ae34afdfeb77f2d15
@@ -887,7 +937,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 53
 Depends: libc6 (>= 2.4), libfcitx5gclient2 (>= 0.0~git20200402.3e6795d), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libx11-6, libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-frontend-gtk2_5.0.16-1_amd64.deb
+Filename: ./fcitx5-gtk/fcitx5-frontend-gtk2_5.0.16-1_amd64.deb
 Size: 14148
 MD5sum: 86028e0e45181841bfa9ac9307e4d317
 SHA1: 0e7e0f9f005630c68190bca1efa7c76107addc53
@@ -919,7 +969,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 109
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libfcitx5gclient2 (>= 5.0.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.23.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 5), libx11-6, libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-frontend-gtk3_5.0.16-1_amd64.deb
+Filename: ./fcitx5-gtk/fcitx5-frontend-gtk3_5.0.16-1_amd64.deb
 Size: 35556
 MD5sum: c4c52a8bbc2a623211ef65f57ebc1784
 SHA1: eaa9b2c5fb1bb2af5695145bb1d38e9fefd58b89
@@ -951,7 +1001,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 399
 Depends: libfcitx5-qt1 (= 5.0.14-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-3
-Filename: ./fcitx5-frontend-qt5_5.0.14-1_amd64.deb
+Filename: ./fcitx5-qt/fcitx5-frontend-qt5_5.0.14-1_amd64.deb
 Size: 110500
 MD5sum: 051fdc8dad05533050112f8475fb530b
 SHA1: 12ca3c95e1be0e93aa7995b729fe2987873f985f
@@ -980,7 +1030,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 269
 Depends: libfcitx5-qt6-1 (= 5.0.14-1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.2.4)
-Filename: ./fcitx5-frontend-qt6_5.0.14-1_amd64.deb
+Filename: ./fcitx5-qt/fcitx5-frontend-qt6_5.0.14-1_amd64.deb
 Size: 78292
 MD5sum: d72ffcf0e3c198178fa36e32c0500d83
 SHA1: 78f9b98e4e171f99ac2274e5fe9f8f6b3d5ea1e2
@@ -1029,7 +1079,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 212
 Depends: fcitx5-chinese-addons-data, libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libopencc2 (>= 1.0.5), libstdc++6 (>= 5.2)
 Conflicts: fcitx-data
-Filename: ./fcitx5-module-chttrans_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-chttrans_5.0.14-1_amd64.deb
 Size: 65124
 MD5sum: 9650c9b2c441f750a4dff846edd966e6
 SHA1: 526717ea7a88512bdfd4e8e42d971f2002353757
@@ -1059,7 +1109,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 107
 Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.3), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
-Filename: ./fcitx5-module-cloudpinyin_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-cloudpinyin_5.0.14-1_amd64.deb
 Size: 33464
 MD5sum: 457c77abfd078e033d306a9b93f433dc
 SHA1: 115b8cd959f6794bb73d5068a72e791cffac5046
@@ -1090,7 +1140,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 31
 Depends: fcitx5-module-cloudpinyin (= 5.0.14-1)
-Filename: ./fcitx5-module-cloudpinyin-dev_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-cloudpinyin-dev_5.0.14-1_amd64.deb
 Size: 8144
 MD5sum: 9ac4833d0076598e7767fb5a1892858b
 SHA1: 07aab75f8892dd746b6da68b35454ca71f172f4c
@@ -1123,7 +1173,7 @@ Installed-Size: 80
 Depends: unicode-cldr-core, libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
 Breaks: fcitx5-modules (<< 0.0~git20200312)
 Replaces: fcitx5-modules (<< 0.0~git20200312)
-Filename: ./fcitx5-module-emoji_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5-module-emoji_5.0.18-1_amd64.deb
 Size: 23316
 MD5sum: a374b96d1190349dd26351b8583205de
 SHA1: 7862b16b74a029e51c1fbe1b15e07d00ba92f91e
@@ -1154,7 +1204,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 125
 Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
 Conflicts: fcitx-data
-Filename: ./fcitx5-module-fullwidth_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-fullwidth_5.0.14-1_amd64.deb
 Size: 30872
 MD5sum: 22383f1de20164e3cb4a7d34da924c03
 SHA1: c39ab030b38adc612a0f3d8fa3138d55a25ff7ef
@@ -1185,7 +1235,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 133
 Depends: fcitx5-module-lua-common (= 5.0.9-1), libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5-module-lua_5.0.9-1_amd64.deb
+Filename: ./fcitx5-lua/fcitx5-module-lua_5.0.9-1_amd64.deb
 Size: 36208
 MD5sum: 82490221b045965badf63d89bd3262f6
 SHA1: a3ed62b74413761339753140b29995d374bb38d4
@@ -1214,7 +1264,7 @@ Version: 5.0.9-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 50
-Filename: ./fcitx5-module-lua-common_5.0.9-1_all.deb
+Filename: ./fcitx5-lua/fcitx5-module-lua-common_5.0.9-1_all.deb
 Size: 8204
 MD5sum: 914fe7b728203ebf83dea3a5bb5d6399
 SHA1: 4c2fa4f6ba0b0d8f3d9c3e5b200b6ca290341035
@@ -1245,7 +1295,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 24
 Depends: fcitx5-module-lua (= 5.0.9-1)
-Filename: ./fcitx5-module-lua-dev_5.0.9-1_amd64.deb
+Filename: ./fcitx5-lua/fcitx5-module-lua-dev_5.0.9-1_amd64.deb
 Size: 4900
 MD5sum: 90a38bccbb7384dcb387f4f0d86bb170
 SHA1: 58ad3c7da568672a534b153c4e902a41629464f7
@@ -1275,7 +1325,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 2017
 Depends: fcitx5-chinese-addons-data, fcitx5-pinyin (= 5.0.14-1), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.13), libstdc++6 (>= 5.2)
-Filename: ./fcitx5-module-pinyinhelper_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-pinyinhelper_5.0.14-1_amd64.deb
 Size: 555008
 MD5sum: be033d17ca204a2786d27c93acfb4ff3
 SHA1: b25ec839233c15b813bae0aa764bccd254e09d32
@@ -1306,7 +1356,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 27
 Depends: fcitx5-module-pinyinhelper (= 5.0.14-1)
-Filename: ./fcitx5-module-pinyinhelper-dev_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-pinyinhelper-dev_5.0.14-1_amd64.deb
 Size: 7192
 MD5sum: d1cb3b916eb173bcad9f283cfac1803f
 SHA1: e71b5543bb7aa13acdf5576dbc3723d8a288dfad
@@ -1338,7 +1388,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 223
 Depends: fcitx5-chinese-addons-data, libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Conflicts: fcitx-data
-Filename: ./fcitx5-module-punctuation_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-punctuation_5.0.14-1_amd64.deb
 Size: 55216
 MD5sum: 6a9e752fd20a4ebf9e22876a92c5881c
 SHA1: f1f1b385cee9d55da89a17095ebb3076909faf45
@@ -1369,7 +1419,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 28
 Depends: fcitx5-module-punctuation (= 5.0.14-1)
-Filename: ./fcitx5-module-punctuation-dev_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-module-punctuation-dev_5.0.14-1_amd64.deb
 Size: 7176
 MD5sum: f97babe5cc208ccb81f6f0ca488f9183
 SHA1: d6771a621a03afbec4f260ed514a835cb1d6ff01
@@ -1400,7 +1450,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 172
 Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5-module-quickphrase_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5-module-quickphrase_5.0.18-1_amd64.deb
 Size: 49708
 MD5sum: c93f4f33e0ad5ede126927d11f431773
 SHA1: 0779e8f424f3efe02f3567d308b192053f7faf2f
@@ -1430,7 +1480,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 772
 Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-module-wayland_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5-module-wayland_5.0.18-1_amd64.deb
 Size: 129672
 MD5sum: 0816d293954098febf08a003d44ebba2
 SHA1: f9dc5d3077bc43b10263c6a56d882735eef71fe8
@@ -1460,7 +1510,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 425
 Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 6), libxcb-ewmh2 (>= 0.4.1), libxcb-imdkit1 (>= 1.0.1), libxcb-keysyms1 (>= 0.4.0.1), libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1
-Filename: ./fcitx5-module-xorg_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5-module-xorg_5.0.18-1_amd64.deb
 Size: 112136
 MD5sum: 8d60941c9d19471731a408e5fc604bc1
 SHA1: 28e8fe0b27b778b5d2b07e270a11cdbf33460ac9
@@ -1494,7 +1544,7 @@ Recommends: fcitx5-module-emoji, fcitx5-module-quickphrase, fcitx5-module-waylan
 Breaks: fcitx5-module-dbus (<< 5.0.4-2), fcitx5-module-fcitx4 (<< 5.0.4-2), fcitx5-module-ibus (<< 5.0.4-2), fcitx5-module-kimpanel (<< 5.0.4-2)
 Replaces: fcitx5-module-dbus (<< 5.0.4-2), fcitx5-module-fcitx4 (<< 5.0.4-2), fcitx5-module-ibus (<< 5.0.4-2), fcitx5-module-kimpanel (<< 5.0.4-2)
 Provides: fcitx5-module-dbus, fcitx5-module-ibus, fcitx5-module-kimpanel
-Filename: ./fcitx5-modules_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5-modules_5.0.18-1_amd64.deb
 Size: 586892
 MD5sum: 9493058a6c6e35cca988418c0cb6e9f8
 SHA1: 6b6b8a2aecde7edbf9e7d5b252d61e93d4664426
@@ -1525,7 +1575,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 108
 Depends: fcitx5-module-emoji (= 5.0.18-1), fcitx5-module-quickphrase (= 5.0.18-1), fcitx5-module-wayland (= 5.0.18-1), fcitx5-module-xorg (= 5.0.18-1), fcitx5-modules (= 5.0.18-1), libfcitx5core-dev (= 5.0.18-1), libfcitx5utils-dev (= 5.0.18-1)
-Filename: ./fcitx5-modules-dev_5.0.18-1_amd64.deb
+Filename: ./fcitx5/fcitx5-modules-dev_5.0.18-1_amd64.deb
 Size: 12312
 MD5sum: e6aeba9e7594d14bc8b073f6b661b722
 SHA1: 48079709ec436f511a3cce692f192b4e4aac43b1
@@ -1556,7 +1606,7 @@ Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 1319
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libfcitx5config6 (>= 5.0.17), libfcitx5core7 (>= 5.0.17), libfcitx5utils2 (>= 5.0.17), libgcc1 (>= 1:3.0), libprotobuf17, libstdc++6 (>= 5.2), fcitx5, mozc-server (= 2.26.4220.100+dfsg-5.1), fcitx-mozc-data
 Recommends: mozc-utils-gui (= 2.26.4220.100+dfsg-5.1)
-Filename: ./fcitx5-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/fcitx5-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 288152
 MD5sum: 97e20f6f6bc8aa7180005a2545a675a8
 SHA1: 5b3841cb152d160bbd36a6a9592ed7e0780daa01
@@ -1588,7 +1638,7 @@ Installed-Size: 1023
 Depends: fcitx5-chinese-addons-data, fcitx5-module-punctuation (= 5.0.14-1), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.13), libimepinyin0 (>= 1.0.13), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Recommends: fcitx5-module-chttrans (= 5.0.14-1), fcitx5-module-cloudpinyin (= 5.0.14-1), fcitx5-module-fullwidth (= 5.0.14-1), fcitx5-module-pinyinhelper (= 5.0.14-1), fcitx5-module-quickphrase, fcitx5-modules
 Conflicts: fcitx-data
-Filename: ./fcitx5-pinyin_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-pinyin_5.0.14-1_amd64.deb
 Size: 313400
 MD5sum: c4590e9bccb6a188ee2eef93eb6c280a
 SHA1: 1be0d13e844f65b9c7724980c8eb881d26b49c32
@@ -1660,7 +1710,7 @@ Installed-Size: 544
 Depends: fcitx5-chinese-addons-data, fcitx5-module-pinyinhelper (= 5.0.14-1), fcitx5-module-punctuation (= 5.0.14-1), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.13), libimepinyin0 (>= 1.0.13), libimetable0 (>= 1.0.13), libstdc++6 (>= 5.2)
 Recommends: fcitx5-module-fullwidth (= 5.0.14-1), fcitx5-module-quickphrase
 Conflicts: fcitx-data
-Filename: ./fcitx5-table_5.0.14-1_amd64.deb
+Filename: ./fcitx5-chinese-addons/fcitx5-table_5.0.14-1_amd64.deb
 Size: 148460
 MD5sum: 189cd82ba5682075f4442233bfb5006f
 SHA1: a29b4081bf17fa22cfccbfc4785a5948a972d6d8
@@ -1693,7 +1743,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 51
 Depends: fcitx5-table
 Conflicts: fcitx-table-amharic
-Filename: ./fcitx5-table-amharic_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-amharic_5.0.8-1_all.deb
 Size: 11672
 MD5sum: 2b6db025a0f8cfb704328626e1cf086b
 SHA1: 54563ffa6741782bfa8deaef6d79459f36008162
@@ -1723,7 +1773,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 31
 Depends: fcitx5-table
 Conflicts: fcitx-table-arabic
-Filename: ./fcitx5-table-arabic_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-arabic_5.0.8-1_all.deb
 Size: 5324
 MD5sum: 24623bb043a481e3c38930cd6ba2852d
 SHA1: 07429ca01b73a60d384347e50b3f1bcf0067ca52
@@ -1753,7 +1803,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 4532
 Depends: fcitx5-table
 Conflicts: fcitx-table-cns11643
-Filename: ./fcitx5-table-cns11643_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-cns11643_5.0.8-1_all.deb
 Size: 707300
 MD5sum: 8a7b6095a72536d0f8bb700ad219b186
 SHA1: 80aae2c7034d2cee42671ff20b4e4c4b029e844f
@@ -1783,7 +1833,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 44
 Depends: fcitx5-table
 Conflicts: fcitx-table-compose
-Filename: ./fcitx5-table-compose_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-compose_5.0.8-1_all.deb
 Size: 10576
 MD5sum: 96e197086836f596f31654d4b6ad87a8
 SHA1: 5334ff59e4d69dd7b018fbf6670cbc54f540791f
@@ -1813,7 +1863,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 55
 Depends: fcitx5-table
 Conflicts: fcitx-table-emoji
-Filename: ./fcitx5-table-emoji_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-emoji_5.0.8-1_all.deb
 Size: 18132
 MD5sum: bdd1d1f4e092b1c87f97ec1680116464
 SHA1: 3b96519281b7b5948204d90119da5113cc290339
@@ -1843,7 +1893,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 33
 Depends: fcitx5-table
 Conflicts: fcitx-table-ipa-x-sampa
-Filename: ./fcitx5-table-ipa-x-sampa_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-ipa-x-sampa_5.0.8-1_all.deb
 Size: 7312
 MD5sum: 1c1b5c3663d2c37815a7d0c3b1e55fbe
 SHA1: 7eec9d5eba4ced953e10bbac20303a01d83638d6
@@ -1873,7 +1923,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 53
 Depends: fcitx5-table
 Conflicts: fcitx-table-latex
-Filename: ./fcitx5-table-latex_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-latex_5.0.8-1_all.deb
 Size: 13212
 MD5sum: b4bf6d343945aec8205c0c063e80b724
 SHA1: dd36224622b848c85743f9e5e503daeda69145da
@@ -1903,7 +1953,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 103
 Depends: fcitx5-table
 Conflicts: fcitx-table-malayalam-phonetic
-Filename: ./fcitx5-table-malayalam-phonetic_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-malayalam-phonetic_5.0.8-1_all.deb
 Size: 31436
 MD5sum: 77a21990071c0a6b1dd3f556d0ec65e4
 SHA1: 46830bcd0cf41981805dc2634ad311716056d693
@@ -1931,7 +1981,7 @@ Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 12
 Recommends: fcitx5-table-amharic, fcitx5-table-arabic, fcitx5-table-cns11643, fcitx5-table-compose, fcitx5-table-emoji, fcitx5-table-ipa-x-sampa, fcitx5-table-latex, fcitx5-table-malayalam-phonetic, fcitx5-table-rustrad, fcitx5-table-tamil-remington, fcitx5-table-thai, fcitx5-table-translit-ua, fcitx5-table-translit, fcitx5-table-viqr, fcitx5-table-yawerty
-Filename: ./fcitx5-table-other_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-other_5.0.8-1_all.deb
 Size: 3108
 MD5sum: bbaed9bef5d49cf1e0972b034fb2c18a
 SHA1: 954b8432e70ec62f2a2d7c8ebafd52628b256831
@@ -1961,7 +2011,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 30
 Depends: fcitx5-table
 Conflicts: fcitx-table-rustrad
-Filename: ./fcitx5-table-rustrad_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-rustrad_5.0.8-1_all.deb
 Size: 7448
 MD5sum: 60014f035f02517358977c87e963fb5d
 SHA1: 070b05a531375bb43a388fdee68ae9640a2f1a5f
@@ -1991,7 +2041,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 38
 Depends: fcitx5-table
 Conflicts: fcitx-table-tamil-remington
-Filename: ./fcitx5-table-tamil-remington_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-tamil-remington_5.0.8-1_all.deb
 Size: 8516
 MD5sum: 212e4212d8d5cb7f1bdb5d26415376cd
 SHA1: d241117aad02f799283485d9905c3e1119288623
@@ -2021,7 +2071,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 29
 Depends: fcitx5-table
 Conflicts: fcitx-table-thai
-Filename: ./fcitx5-table-thai_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-thai_5.0.8-1_all.deb
 Size: 5032
 MD5sum: 9815e2defb99332d2f9105fee822ef62
 SHA1: 15bd1967a45185aabcf4489a1d5be7bd42fb1c72
@@ -2051,7 +2101,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 33
 Depends: fcitx5-table
 Conflicts: fcitx-table-translit
-Filename: ./fcitx5-table-translit_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-translit_5.0.8-1_all.deb
 Size: 7352
 MD5sum: 3ca4669d955239f2c05f5203cce573f7
 SHA1: 6b1627f7c85cb93696fcb0b4014bb02a2861cd19
@@ -2081,7 +2131,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 33
 Depends: fcitx5-table
 Conflicts: fcitx-table-translit-ua
-Filename: ./fcitx5-table-translit-ua_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-translit-ua_5.0.8-1_all.deb
 Size: 7356
 MD5sum: 6ed4c6d843160194872338400b22145f
 SHA1: 5598a0213931a4559647986d3c90723a8457ea5f
@@ -2112,7 +2162,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 33
 Depends: fcitx5-table
 Conflicts: fcitx-table-viqr
-Filename: ./fcitx5-table-viqr_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-viqr_5.0.8-1_all.deb
 Size: 7148
 MD5sum: 4c64cf4e99adf16be2b86b94b839e487
 SHA1: c7f0bfc3aed605b7ee1f3f4636fd9b886624eb77
@@ -2142,7 +2192,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 28
 Depends: fcitx5-table
 Conflicts: fcitx-table-yawerty
-Filename: ./fcitx5-table-yawerty_5.0.8-1_all.deb
+Filename: ./fcitx5-table/fcitx5-table-yawerty_5.0.8-1_all.deb
 Size: 4664
 MD5sum: 1ad22317dbeabef55a0bcaabeb544376
 SHA1: 46ec453b1f363f7166ee92b5e97435e363c51d71
@@ -2171,7 +2221,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 896
 Depends: libfreerdp-client2-2 (= 2.7.0+dfsg1-1), libfreerdp-server2-2 (= 2.7.0+dfsg1-1), libfreerdp-shadow-subsystem2-2 (= 2.7.0+dfsg1-1), libfreerdp-shadow2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (= 2.7.0+dfsg1-1), libwinpr2-dev (= 2.7.0+dfsg1-1), winpr-utils (= 2.7.0+dfsg1-1)
-Filename: ./freerdp2-dev_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/freerdp2-dev_2.7.0+dfsg1-1_amd64.deb
 Size: 130736
 MD5sum: 75f7129cb4149f20e34caeba9bdd5f2f
 SHA1: ced68cecb4168601ae07d099e561cb7e84e7a91c
@@ -2193,7 +2243,7 @@ Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 153
 Depends: libc6 (>= 2.4), libfreerdp-shadow-subsystem2-2 (= 2.7.0+dfsg1-1), libfreerdp-shadow2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1), libwinpr2-2 (>= 2.1.0+dfsg1)
 Provides: freerdp
-Filename: ./freerdp2-shadow-x11_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/freerdp2-shadow-x11_2.7.0+dfsg1-1_amd64.deb
 Size: 36632
 MD5sum: 236a076c7b6e85fff796128f0d2e2065
 SHA1: c87b8ac9ed2f528fbebfde0a7b48b377e5e4a10c
@@ -2215,7 +2265,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 181
 Depends: libc6 (>= 2.14), libfreerdp-client2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.3.0+dfsg1), libuwac0-0 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.1.0+dfsg1)
-Filename: ./freerdp2-wayland_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/freerdp2-wayland_2.7.0+dfsg1-1_amd64.deb
 Size: 47380
 MD5sum: a9c141c96c3a76cce172d103c2536239
 SHA1: 9fdf3062885df802245cc57ad1fa6af0c267b900
@@ -2252,7 +2302,7 @@ Depends: libc6 (>= 2.14), libfreerdp-client2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 
 Conflicts: freerdp-x11
 Replaces: freerdp-x11
 Provides: freerdp
-Filename: ./freerdp2-x11_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/freerdp2-x11_2.7.0+dfsg1-1_amd64.deb
 Size: 106244
 MD5sum: e896b7937b94dcd2a4abd589a8879ba3
 SHA1: 0a2a351ca48115164a3f578405aee8e0891b6b61
@@ -2286,7 +2336,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 18
 Depends: gir1.2-glib-2.0, libfcitx5gclient2 (>= 5.0.4)
-Filename: ./gir1.2-fcitxg-1.0_5.0.16-1_amd64.deb
+Filename: ./fcitx5-gtk/gir1.2-fcitxg-1.0_5.0.16-1_amd64.deb
 Size: 5104
 MD5sum: b4644b8dd2688c7ffff979f80bc0f073
 SHA1: d31f64bceef1b4f16c15a030373bf179233df348
@@ -2321,7 +2371,7 @@ Recommends: ca-certificates, patch, less, ssh-client
 Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
 Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
 Provides: git-completion, git-core
-Filename: ./git_2.36.1-1_amd64.deb
+Filename: ./git/git_2.36.1-1_amd64.deb
 Size: 5773716
 MD5sum: 1bec0715d4e3e869ed19f49eba6c8f70
 SHA1: 886a71644129a64899b5ae4a10e89905e2e30ecf
@@ -2353,7 +2403,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 971
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
 Suggests: git-daemon-run | git-daemon-sysvinit
-Filename: ./git-all_2.36.1-1_all.deb
+Filename: ./git/git-all_2.36.1-1_all.deb
 Size: 976612
 MD5sum: 0e8719f43536c629c5e5c7e674b04b9b
 SHA1: c197c82f55c0b20d81816b61d2ad9362f2f07441
@@ -2382,7 +2432,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 1354
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), cvsps, libdbd-sqlite3-perl
 Suggests: git-doc, cvs
-Filename: ./git-cvs_2.36.1-1_all.deb
+Filename: ./git/git-cvs_2.36.1-1_all.deb
 Size: 1040000
 MD5sum: f0dc931b9465bddae77ec3840d3e51ef
 SHA1: 2120354ad6fbfb7a9b7788de36ea721a58c61c55
@@ -2419,7 +2469,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 983
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), runit, adduser
 Conflicts: git-daemon-sysvinit
-Filename: ./git-daemon-run_2.36.1-1_all.deb
+Filename: ./git/git-daemon-run_2.36.1-1_all.deb
 Size: 978196
 MD5sum: b293dc6a505c1f88337d57afcd868bf4
 SHA1: cbc1694d2f94f1ca252172dcf2851e1f164b3b81
@@ -2453,7 +2503,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 986
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), adduser, lsb-base (>= 3.0-6)
 Conflicts: git-daemon-run
-Filename: ./git-daemon-sysvinit_2.36.1-1_all.deb
+Filename: ./git/git-daemon-sysvinit_2.36.1-1_all.deb
 Size: 979328
 MD5sum: 083b175eebcfbdd222d2e298f0da53f6
 SHA1: 29c096f8a547ef89c7d159f4c58f7bcaa19e70f8
@@ -2486,7 +2536,7 @@ Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 12360
 Suggests: git, git-cvs, git-svn, git-email, gitk, gitweb
-Filename: ./git-doc_2.36.1-1_all.deb
+Filename: ./git/git-doc_2.36.1-1_all.deb
 Size: 2082796
 MD5sum: e268d5adf904b9e20372e9f5bc6d5ece
 SHA1: dacae76795e6f08e8afbbb7f661a014251e1c94d
@@ -2516,7 +2566,7 @@ Installed-Size: 1045
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.)
 Recommends: libemail-valid-perl, libmailtools-perl, perl (>> 5.21.5) | libnet-smtp-ssl-perl, libauthen-sasl-perl, libio-socket-ssl-perl (>= 1.951)
 Suggests: git-doc
-Filename: ./git-email_2.36.1-1_all.deb
+Filename: ./git/git-email_2.36.1-1_all.deb
 Size: 1002700
 MD5sum: 5347a4fd7e6c016b05cdc9bdbde84440
 SHA1: 1c3dff5d3532e5ca5a23cda5bb1eaa227f805af8
@@ -2547,7 +2597,7 @@ Installed-Size: 2495
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), tk
 Recommends: gitk
 Suggests: git-doc, aspell, meld
-Filename: ./git-gui_2.36.1-1_all.deb
+Filename: ./git/git-gui_2.36.1-1_all.deb
 Size: 1194960
 MD5sum: 210ec1beab330f6bda22e8b255051bec
 SHA1: ee4633be590258188db43ef158e50b273b14dc7e
@@ -2580,7 +2630,7 @@ Version: 1:2.36.1-1
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 1990
-Filename: ./git-man_2.36.1-1_all.deb
+Filename: ./git/git-man_2.36.1-1_all.deb
 Size: 1939952
 MD5sum: 8bf0360ac5e48edfe0bc201065295728
 SHA1: d0530e149c09105899329954f3a3e99300337845
@@ -2610,7 +2660,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 1031
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
 Suggests: mediawiki
-Filename: ./git-mediawiki_2.36.1-1_all.deb
+Filename: ./git/git-mediawiki_2.36.1-1_all.deb
 Size: 991976
 MD5sum: 4a37520555738d5b2278a5c20ff8f261
 SHA1: dc77b85b43efa91a2b0b2c06473d360c2d48d27b
@@ -2644,7 +2694,7 @@ Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), libsvn-perl, libyaml-perl, libt
 Suggests: git-doc, subversion
 Breaks: git (<< 1:1.8.3~rc1-1.)
 Replaces: git (<< 1:1.8.3~rc1-1.)
-Filename: ./git-svn_2.36.1-1_all.deb
+Filename: ./git/git-svn_2.36.1-1_all.deb
 Size: 1051448
 MD5sum: 462e90ba8493fdf592f8b3deeb2d3d63
 SHA1: bdf2d6aa6fb5ea6e65be078e287b8b85f089cb0a
@@ -2674,7 +2724,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 1798
 Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), tk
 Suggests: git-doc
-Filename: ./gitk_2.36.1-1_all.deb
+Filename: ./git/gitk_2.36.1-1_all.deb
 Size: 1111900
 MD5sum: 1a95d0289cfd7ffaf31ef6ad2503185c
 SHA1: 508a116f098c149f8e586c2108df37d05eb5a5c4
@@ -2705,7 +2755,7 @@ Depends: git (>> 1:2.36.1), git (<< 1:2.36.1-.), perl, libcgi-pm-perl
 Recommends: apache2 (>= 2.4.6-4~) | lynx | httpd, libhttp-date-perl | libtime-parsedate-perl
 Suggests: httpd-cgi | libcgi-fast-perl, git-doc
 Breaks: apache2.2-common (<< 2.3~)
-Filename: ./gitweb_2.36.1-1_all.deb
+Filename: ./git/gitweb_2.36.1-1_all.deb
 Size: 980200
 MD5sum: 7f642b64b4c1166d966e343f825edd96
 SHA1: f8c894d97e4a955b4274b4358b096c7664106170
@@ -2740,7 +2790,7 @@ Architecture: amd64
 Maintainer: Steve M. Robbins <smr@debian.org>
 Installed-Size: 16
 Depends: googletest (= 1.11.0-3)
-Filename: ./google-mock_1.11.0-3_amd64.deb
+Filename: ./googletest/google-mock_1.11.0-3_amd64.deb
 Size: 7424
 MD5sum: 01475d3469f66b82352b5810e3fc4ee1
 SHA1: 3cdbf0efb8f9bea76a46954ee478315df2e2f510
@@ -2761,7 +2811,7 @@ Maintainer: Steve M. Robbins <smr@debian.org>
 Installed-Size: 3628
 Conflicts: google-mock (<< 1.8.0), libgtest-dev (<< 1.8.0)
 Replaces: google-mock (<< 1.8.0), libgtest-dev (<< 1.8.0)
-Filename: ./googletest_1.11.0-3_all.deb
+Filename: ./googletest/googletest_1.11.0-3_all.deb
 Size: 535064
 MD5sum: ff1a5adfb65040a5f778a605bdbc12b4
 SHA1: 1a39bf20e2557284bb02fd10afacc3140e2d627e
@@ -2815,7 +2865,7 @@ Installed-Size: 115
 Depends: python3:any
 Conflicts: googletest (<= 1.8.0-8)
 Replaces: googletest (<= 1.8.0-8)
-Filename: ./googletest-tools_1.11.0-3_amd64.deb
+Filename: ./googletest/googletest-tools_1.11.0-3_amd64.deb
 Size: 27316
 MD5sum: 3b7581258edec840c5d7fb10c6cff1f8
 SHA1: 58430cd9f7eea9947fa7e8687b24dc205542f04f
@@ -2836,7 +2886,7 @@ Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 918
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libglib2.0-0 (>= 2.31.8), libibus-1.0-5 (>= 1.5.4), libprotobuf17, libstdc++6 (>= 5.2), libxcb-xfixes0, libxcb1, mozc-data, mozc-server (= 2.26.4220.100+dfsg-5.1), ibus (>= 1.2)
 Recommends: mozc-utils-gui (= 2.26.4220.100+dfsg-5.1)
-Filename: ./ibus-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/ibus-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 221980
 MD5sum: b680a1311c85e767b31e513e1ed500f8
 SHA1: 0b9457e0daf9d5306e5331777fe1b427ec903dcd
@@ -2863,7 +2913,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 595
 Depends: kde-cli-tools, libqt5svg5, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.12+kt286), libfcitx5utils2 (>= 5.0.16+kt286), libgcc1 (>= 1:3.0), libkf5coreaddons5 (>= 4.100.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.12) | libqt5gui5-gles (>= 5.12), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.3.0) | libqt5quick5-gles (>= 5.3.0), libstdc++6 (>= 5), libxkbcommon0 (>= 0.5.0)
-Filename: ./kde-config-fcitx5_5.0.13-1_amd64.deb
+Filename: ./fcitx5-config/kde-config-fcitx5_5.0.13-1_amd64.deb
 Size: 141344
 MD5sum: e9944b30275b28e88dd999d03bef385a
 SHA1: 94e5a5da76a0a57a7b5d18f7857691ad5ec1cf6d
@@ -2909,7 +2959,7 @@ Maintainer: Benjamin Barenblat <bbaren@debian.org>
 Installed-Size: 5426
 Depends: libabsl20210324 (= 0~20210324.2-2)
 Recommends: cmake (>= 2.6) | pkg-config, g++ (>= 5.1)
-Filename: ./libabsl-dev_0~20210324.2-2_amd64.deb
+Filename: ./libabsl/libabsl-dev_0~20210324.2-2_amd64.deb
 Size: 888800
 MD5sum: acaad9a317f2a9b6ab487f5f699dcc3d
 SHA1: 6e3b00a02d226c9610e794429be5e396974ba77e
@@ -2935,7 +2985,7 @@ Architecture: amd64
 Maintainer: Benjamin Barenblat <bbaren@debian.org>
 Installed-Size: 1875
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.23), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libabsl20210324_0~20210324.2-2_amd64.deb
+Filename: ./libabsl/libabsl20210324_0~20210324.2-2_amd64.deb
 Size: 379120
 MD5sum: 1fec3aeeb9c039cd877631f3b486483c
 SHA1: a61c637a2bb02c23050dfd3cbcf2cead7df5b7f2
@@ -2960,7 +3010,7 @@ Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 80
 Depends: libc6 (>= 2.4)
-Filename: ./libbcg729-0_1.1.1-2_amd64.deb
+Filename: ./libbcg/libbcg729-0_1.1.1-2_amd64.deb
 Size: 33440
 MD5sum: 3f63c3d5250eb5e6f4a16917e20b3ff9
 SHA1: ae2f478202be7c9e551567098f0be8a0d2ba38e4
@@ -2988,7 +3038,7 @@ Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 122
 Depends: libbcg729-0 (= 1.1.1-2)
-Filename: ./libbcg729-dev_1.1.1-2_amd64.deb
+Filename: ./libbcg/libbcg729-dev_1.1.1-2_amd64.deb
 Size: 36964
 MD5sum: 0d7bb4d3cd5072569d3554f32982ea76
 SHA1: 339ab20912dcd49b0581af1ed81a5c8436198ede
@@ -3013,7 +3063,7 @@ Installed-Size: 14199
 Depends: libboost-system1.67.0, libc6 (>= 2.14), libdfm-extension, libdframeworkdbus2 (>= 5.5.12), libdisomaster (>= 5.0.7), libdmr, libdocparser, libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libffmpegthumbnailer4v5, libgcc1 (>= 1:3.0), libgio-qt, libglib2.0-0 (>= 2.49.2), libjemalloc2 (>= 5.0.0), libkf5codecs5 (>= 4.96.0), liblucene++-contrib0v5, liblucene++0v5, libmediainfo0v5 (>= 0.7.56), libpolkit-qt5-1-1 (>= 0.112.0), libpoppler-cpp0v5 (>= 0.48.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.1.0), libsecret-1-0 (>= 0.7), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5 (>= 5.0.6), qtbase-abi-5-15-3, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gvfs-backends (>= 1.27.3), cryptsetup, deepin-anything-libs
 Recommends: libudfburn
 Breaks: dde-file-manager (<= 1.2.3-3)
-Filename: ./libdde-file-manager_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/libdde-file-manager_5.6.4-1+kt286+3_amd64.deb
 Size: 3532224
 MD5sum: 8d5ce9cb6adbfa8c20f8d32710813b26
 SHA1: ef55ffe4fc47f2eb65d79b8ba572bb1819eb27a7
@@ -3032,7 +3082,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 359
 Depends: libdde-file-manager (= 5.6.4-1+kt286+3)
-Filename: ./libdde-file-manager-dev_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/libdde-file-manager-dev_5.6.4-1+kt286+3_amd64.deb
 Size: 84752
 MD5sum: 466a361b9fa6fedde118b511dede8edc
 SHA1: ce6896df1658d0f0ca724d4f347330ea89d19f7d
@@ -3051,7 +3101,7 @@ Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 694
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
-Filename: ./libdde-network-core_1.0.47-1+kt286+1_amd64.deb
+Filename: ./dde-network-core/libdde-network-core_1.0.47-1+kt286+1_amd64.deb
 Size: 180068
 MD5sum: d588ade2f0fdfe8fd6f7534d0fa2abb5
 SHA1: 66fb91a9eacaa15123b09a41f8ad3a449ccc0d57
@@ -3069,7 +3119,7 @@ Architecture: amd64
 Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 62
 Depends: libdde-network-core (= 1.0.47-1+kt286+1)
-Filename: ./libdde-network-core-dev_1.0.47-1+kt286+1_amd64.deb
+Filename: ./dde-network-core/libdde-network-core-dev_1.0.47-1+kt286+1_amd64.deb
 Size: 9836
 MD5sum: b07cd6e9f3d1752473a19db8a723ba1e
 SHA1: bc0b0144066be07d064219dd76ffea672940f5dc
@@ -3087,7 +3137,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 99
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libjemalloc2 (>= 5.0.0), libstdc++6 (>= 5.2)
-Filename: ./libdfm-extension_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/libdfm-extension_5.6.4-1+kt286+3_amd64.deb
 Size: 53900
 MD5sum: 988bc7bc8d9ee9376cfd9ac343eaea01
 SHA1: cef578ba1c63e74426970d85c0e7d8696c640b6f
@@ -3105,7 +3155,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 78
 Depends: libdfm-extension
-Filename: ./libdfm-extension-dev_5.6.4-1+kt286+3_amd64.deb
+Filename: ./dde-file-manager/libdfm-extension-dev_5.6.4-1+kt286+3_amd64.deb
 Size: 46836
 MD5sum: 7e84959919b8f287406242e5ac22e55a
 SHA1: 73d393f422333a2f109996ad3c35512f15ee1f58
@@ -3124,7 +3174,7 @@ Architecture: amd64
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 258
 Depends: libdouble-conversion3 (= 3.1.7-4)
-Filename: ./libdouble-conversion-dev_3.1.7-4_amd64.deb
+Filename: ./libdouble-conversion/libdouble-conversion-dev_3.1.7-4_amd64.deb
 Size: 61044
 MD5sum: 8a7a1877d933c9a3ffa8eeb855e151d6
 SHA1: 88fa8d4110b53a5c4abe82ce00532e7597424fb5
@@ -3153,7 +3203,7 @@ Architecture: amd64
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 111
 Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)
-Filename: ./libdouble-conversion3_3.1.7-4_amd64.deb
+Filename: ./libdouble-conversion/libdouble-conversion3_3.1.7-4_amd64.deb
 Size: 41740
 MD5sum: b98197ba4c82ec000a7034b401d77e11
 SHA1: c7c48261164b449e0f5fc3430a87e2542263ea5a
@@ -3274,7 +3324,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1120
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.2.5), libnvidia-legacy-390xx-eglcore (= 390.151-2)
-Filename: ./libegl-nvidia-legacy-390xx0_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libegl-nvidia-legacy-390xx0_390.151-2_amd64.deb
 Size: 373488
 MD5sum: 9700bd02fdd0e2878f33a58f87f59d1b
 SHA1: d0b30e46b31810e762683a68fb44ddcef43e1ab8
@@ -3301,7 +3351,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 944
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.3.6-6~), libnvidia-legacy-390xx-eglcore (= 390.151-2)
-Filename: ./libegl-nvidia-legacy-390xx0_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libegl-nvidia-legacy-390xx0_390.151-2_i386.deb
 Size: 358732
 MD5sum: b727413f35a0ed23eb22cbdd1d798fa8
 SHA1: 4fabea9d415f51066f9870fedeba64d2b00035e6
@@ -3329,7 +3379,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 244
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libegl-nvidia-legacy-390xx0 (= 390.151-2), libc6 (>= 2.2.5), libglvnd0
 Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx, nvidia-legacy-390xx-driver-libs
-Filename: ./libegl1-nvidia-legacy-390xx_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libegl1-nvidia-legacy-390xx_390.151-2_amd64.deb
 Size: 206156
 MD5sum: 554795de6595d3019051094c00833a6d
 SHA1: b5d54352b0d0b5ca772c05805708d5db852f47de
@@ -3353,7 +3403,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 239
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libegl-nvidia-legacy-390xx0 (= 390.151-2), libc6 (>= 2.1), libglvnd0
 Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx, nvidia-legacy-390xx-driver-libs
-Filename: ./libegl1-nvidia-legacy-390xx_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libegl1-nvidia-legacy-390xx_390.151-2_i386.deb
 Size: 204952
 MD5sum: eef9236171d1fe8488c20c8f2cfa8934
 SHA1: bf8c16c4e0018ce66412b323df2dbf35cd668456
@@ -3375,7 +3425,7 @@ Version: 5.0.14-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 72
-Filename: ./libfcitx5-qt-data_5.0.14-1_all.deb
+Filename: ./fcitx5-qt/libfcitx5-qt-data_5.0.14-1_all.deb
 Size: 12708
 MD5sum: f4b5e42da5cb8111bea339d4f042fcab
 SHA1: b8a3ea2280d8cafb58ea4be0a33f4e4c5b456f77
@@ -3405,7 +3455,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 83
 Depends: libfcitx5-qt1 (= 5.0.14-1)
-Filename: ./libfcitx5-qt-dev_5.0.14-1_amd64.deb
+Filename: ./fcitx5-qt/libfcitx5-qt-dev_5.0.14-1_amd64.deb
 Size: 13484
 MD5sum: fc0e6765b12143176fb7f2c099a3d31a
 SHA1: 0d5f0a898122abb357c4793e2742013c02bd2bdf
@@ -3435,7 +3485,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 352
 Depends: libfcitx5-qt-data (= 5.0.14-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
-Filename: ./libfcitx5-qt1_5.0.14-1_amd64.deb
+Filename: ./fcitx5-qt/libfcitx5-qt1_5.0.14-1_amd64.deb
 Size: 88060
 MD5sum: bc2fbb38d9e4c0024d8d795be20d302b
 SHA1: 35e7f523c646133af138483766c227c6651fbc28
@@ -3465,7 +3515,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 440
 Depends: libfcitx5-qt-data (= 5.0.14-1), libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libstdc++6 (>= 5)
-Filename: ./libfcitx5-qt6-1_5.0.14-1_amd64.deb
+Filename: ./fcitx5-qt/libfcitx5-qt6-1_5.0.14-1_amd64.deb
 Size: 99588
 MD5sum: 2ad3db1004f4751e2d0e86a00acd09d3
 SHA1: cf6e363d15d01524c43eca21c042701479f82973
@@ -3495,7 +3545,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 56
 Depends: libfcitx5-qt6-1 (= 5.0.14-1)
-Filename: ./libfcitx5-qt6-dev_5.0.14-1_amd64.deb
+Filename: ./fcitx5-qt/libfcitx5-qt6-dev_5.0.14-1_amd64.deb
 Size: 10684
 MD5sum: f19390bdf136d3ef86e7a0d002bedb0c
 SHA1: 583bc73d62eb615a02e03d9c009e47ce84c6e8e0
@@ -3525,7 +3575,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 79
 Depends: libfcitx5config6 (= 5.0.18-1)
-Filename: ./libfcitx5config-dev_5.0.18-1_amd64.deb
+Filename: ./fcitx5/libfcitx5config-dev_5.0.18-1_amd64.deb
 Size: 16612
 MD5sum: 98938e1d42f6f0e8b9cfa57691f345da
 SHA1: 873a4af4135d15b38390b914224300d110144da4
@@ -3555,7 +3605,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 183
 Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libfcitx5config6_5.0.18-1_amd64.deb
+Filename: ./fcitx5/libfcitx5config6_5.0.18-1_amd64.deb
 Size: 54664
 MD5sum: 119a1a424175a77b8f1d2ba8d443c8c0
 SHA1: 9c80aa49cc3aa6ff3fcff903afe80c94a15efed9
@@ -3585,7 +3635,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 160
 Depends: libfcitx5config-dev (= 5.0.18-1), libfcitx5core7 (= 5.0.18-1), libfcitx5utils-dev (= 5.0.18-1)
-Filename: ./libfcitx5core-dev_5.0.18-1_amd64.deb
+Filename: ./fcitx5/libfcitx5core-dev_5.0.18-1_amd64.deb
 Size: 31260
 MD5sum: 81bc64cff34571b290e7aad0e13c374a
 SHA1: d7883ebb72f04556594f59cbc1179bbd8a5c2918
@@ -3615,7 +3665,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 1000
 Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), libxkbcommon0 (>= 0.5.0)
-Filename: ./libfcitx5core7_5.0.18-1_amd64.deb
+Filename: ./fcitx5/libfcitx5core7_5.0.18-1_amd64.deb
 Size: 280368
 MD5sum: f3e04e72eeedecdb8494a5ef4564f444
 SHA1: c7fa8fa7925541a32189abc5829e9df161ee67c2
@@ -3645,7 +3695,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 65
 Depends: gir1.2-fcitxg-1.0 (= 5.0.16-1)
-Filename: ./libfcitx5gclient-dev_5.0.16-1_amd64.deb
+Filename: ./fcitx5-gtk/libfcitx5gclient-dev_5.0.16-1_amd64.deb
 Size: 9944
 MD5sum: c7ecd09b0052c33bf96fe8819e9960fd
 SHA1: 388077569f0200da95bddc40b2b115ec9e66044a
@@ -3676,7 +3726,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 59
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3)
-Filename: ./libfcitx5gclient2_5.0.16-1_amd64.deb
+Filename: ./fcitx5-gtk/libfcitx5gclient2_5.0.16-1_amd64.deb
 Size: 15304
 MD5sum: 4483db354102fccf54926eb0a9d1b9cc
 SHA1: 45af8636e05e8498de6ccf5006f6b778bf714e9c
@@ -3706,7 +3756,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 404
 Depends: libfcitx5utils2 (= 5.0.18-1)
-Filename: ./libfcitx5utils-dev_5.0.18-1_amd64.deb
+Filename: ./fcitx5/libfcitx5utils-dev_5.0.18-1_amd64.deb
 Size: 68676
 MD5sum: ed0af25b0b40f08658cb54f32d2558f3
 SHA1: 91dc0488c4b8a6437a307c4c3d536ed45e8471c3
@@ -3736,7 +3786,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 800
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libsystemd0 (>= 243)
-Filename: ./libfcitx5utils2_5.0.18-1_amd64.deb
+Filename: ./fcitx5/libfcitx5utils2_5.0.18-1_amd64.deb
 Size: 201548
 MD5sum: af563679e7e8e99f66f22598875e423b
 SHA1: 93fcb7ca7d8c329530a5fdc316f840785c3ba33b
@@ -3768,7 +3818,7 @@ Installed-Size: 880
 Depends: libasound2 (>= 1.0.18), libc6 (>= 2.28), libcups2 (>= 1.7.0), libfreerdp2-2 (= 2.7.0+dfsg1-1), libpulse0 (>= 0.99.1), libusb-1.0-0 (>= 2:1.0.19), libwinpr2-2 (>= 2.4.1+dfsg1)
 Breaks: libfreerdp-client2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libfreerdp-client2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libfreerdp-client2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libfreerdp-client2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 280388
 MD5sum: 7cbb815b22e9a3b92aa7ff20ce07a9d3
 SHA1: d91848804cb9b81fdeac63ca03d803ad1ce2e7de
@@ -3792,7 +3842,7 @@ Installed-Size: 376
 Depends: libc6 (>= 2.14), libfreerdp2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.1.0+dfsg1)
 Breaks: libfreerdp-server2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libfreerdp-server2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libfreerdp-server2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libfreerdp-server2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 111492
 MD5sum: 409ac95e52b3e1ffb383c356cdfe5dd9
 SHA1: 73a6a5bf70b4e45a840dc7b190e9528d177059c1
@@ -3816,7 +3866,7 @@ Installed-Size: 170
 Depends: libc6 (>= 2.4), libfreerdp-shadow2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1), libpam0g (>= 0.99.7.1), libwinpr2-2 (>= 2.4.1+dfsg1), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1, libxtst6
 Breaks: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libfreerdp-shadow-subsystem2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libfreerdp-shadow-subsystem2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 42820
 MD5sum: d1e4e23b541de31150db32d42d52e9b6
 SHA1: b75a6950b97671f82ed8828db1ca9d4e99856e88
@@ -3840,7 +3890,7 @@ Installed-Size: 242
 Depends: libc6 (>= 2.14), libfreerdp-server2-2 (= 2.7.0+dfsg1-1), libfreerdp2-2 (>= 2.3.0+dfsg1), libwinpr-tools2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.4.1+dfsg1)
 Breaks: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libfreerdp-shadow2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libfreerdp-shadow2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 76048
 MD5sum: a4a8e5427e95cbc4b154b57fd696f9c9
 SHA1: aef263cae9b9685cf2465ebace9cf01945b1cc2b
@@ -3865,7 +3915,7 @@ Depends: libavcodec58 (>= 7:4.0), libavutil56 (>= 7:4.0), libc6 (>= 2.28), libgs
 Suggests: freerdp2-x11
 Breaks: libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libfreerdp2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libfreerdp2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 544392
 MD5sum: 8d29559b2f91cc39c1feb4cc7acf5f88
 SHA1: 30f5c2861aa452d7709c3da5f1ddf326addb6405
@@ -3888,7 +3938,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 365
 Depends: libgl1 (>= 0.2.999) | libgl1-glvnd-nvidia-glx, libglx-nvidia-legacy-390xx0 (= 390.151-2)
 Provides: libgl1-nvidia-glx-any
-Filename: ./libgl1-nvidia-legacy-390xx-glvnd-glx_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libgl1-nvidia-legacy-390xx-glvnd-glx_390.151-2_amd64.deb
 Size: 354544
 MD5sum: aeb5ad7744b90fa8aca708cef5f5d4da
 SHA1: 01af93eb0e1aa32dbcaabd44e8a2dbb338f76173
@@ -3917,7 +3967,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 365
 Depends: libgl1 (>= 0.2.999) | libgl1-glvnd-nvidia-glx, libglx-nvidia-legacy-390xx0 (= 390.151-2)
 Provides: libgl1-nvidia-glx-any
-Filename: ./libgl1-nvidia-legacy-390xx-glvnd-glx_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libgl1-nvidia-legacy-390xx-glvnd-glx_390.151-2_i386.deb
 Size: 354544
 MD5sum: d7f707fd651c93c7995dc0fdcabaab46
 SHA1: 3ea8d1b21602cf29e72af9092dc15194139c99e6
@@ -3950,7 +4000,7 @@ Recommends: nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-2), nvidia-legac
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx
 Provides: libgl1-nvidia-glx-any
-Filename: ./libgl1-nvidia-legacy-390xx-glx_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libgl1-nvidia-legacy-390xx-glx_390.151-2_amd64.deb
 Size: 609752
 MD5sum: f34eb0384e70badcfc6818e0132c325c
 SHA1: d4742652f61ad2db679624986251cf3c7d36d604
@@ -3983,7 +4033,7 @@ Recommends: nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-2), nvidia-legac
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx
 Provides: libgl1-nvidia-glx-any
-Filename: ./libgl1-nvidia-legacy-390xx-glx_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libgl1-nvidia-legacy-390xx-glx_390.151-2_i386.deb
 Size: 598068
 MD5sum: c237e4955fa8048aafb23a2b8a1bc68e
 SHA1: 8b5716d4fe7c04e48b32f07550e816fff42096e2
@@ -4011,7 +4061,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 284
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-2), libc6 (>= 2.2.5)
-Filename: ./libgles-nvidia-legacy-390xx1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx1_390.151-2_amd64.deb
 Size: 217460
 MD5sum: c4f95f9095f186378b6eadd0c5c4abdc
 SHA1: 57f0bac2f43228126ed6e8baf7ab7e760a2e3081
@@ -4042,7 +4092,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 272
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-2), libc6 (>= 2.3.6-6~)
-Filename: ./libgles-nvidia-legacy-390xx1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx1_390.151-2_i386.deb
 Size: 213804
 MD5sum: 9b938805791dc6e2a46fcc26eb2ed9b0
 SHA1: 2d2b74d3518cfe9c85890f482091752ea885e57b
@@ -4073,7 +4123,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 341
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-2), libc6 (>= 2.2.5)
-Filename: ./libgles-nvidia-legacy-390xx2_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx2_390.151-2_amd64.deb
 Size: 227028
 MD5sum: bd46cf8522bff0e7dd08d25969115267
 SHA1: bed8a8728aad1200d7e9df9681d2b06dfaa4ab5c
@@ -4105,7 +4155,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 315
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.151-2), libc6 (>= 2.3.6-6~)
-Filename: ./libgles-nvidia-legacy-390xx2_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx2_390.151-2_i386.deb
 Size: 220360
 MD5sum: c2036ce05c89c4101e00b2c67c68ec09
 SHA1: 29f7fb5a29651efb78f8d34f944ca29d85ccb3a9
@@ -4138,7 +4188,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1548
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.2.5), libnvidia-legacy-390xx-glcore (= 390.151-2), libx11-6, libxext6
 Provides: libglx-vendor
-Filename: ./libglx-nvidia-legacy-390xx0_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libglx-nvidia-legacy-390xx0_390.151-2_amd64.deb
 Size: 449540
 MD5sum: fb1bfab7a045954654f65612cab38317
 SHA1: 79fc2d1383cb712ed1975c76c44d7e1db1549494
@@ -4166,7 +4216,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1413
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-2), libx11-6, libxext6
 Provides: libglx-vendor
-Filename: ./libglx-nvidia-legacy-390xx0_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libglx-nvidia-legacy-390xx0_390.151-2_i386.deb
 Size: 441800
 MD5sum: 4a01e5168c7feff6af2e1bb6b262064d
 SHA1: f0ba7fa93cde1312e1e69a50f4d96e2ffe3e8175
@@ -4195,7 +4245,7 @@ Installed-Size: 710
 Depends: libgtest-dev (= 1.11.0-3)
 Conflicts: googletest (<= 1.8.0-8)
 Replaces: googletest (<= 1.8.0-8)
-Filename: ./libgmock-dev_1.11.0-3_amd64.deb
+Filename: ./googletest/libgmock-dev_1.11.0-3_amd64.deb
 Size: 124348
 MD5sum: 5c4803feb471414b436fda2ca9ea89ac
 SHA1: 10ffdf6c82c3e6110f8a63896b5511d8dd261069
@@ -4234,7 +4284,7 @@ Installed-Size: 17049
 Depends: googletest (= 1.11.0-3)
 Conflicts: googletest (<= 1.8.0-8)
 Replaces: googletest (<= 1.8.0-8)
-Filename: ./libgtest-dev_1.11.0-3_amd64.deb
+Filename: ./googletest/libgtest-dev_1.11.0-3_amd64.deb
 Size: 1620908
 MD5sum: d16f1750b79beb02c289424e9d2346f5
 SHA1: dbbf05229cf3a6389e0d80fd5503453ada23154c
@@ -4260,7 +4310,7 @@ Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidge
 Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
 Conflicts: libimage-viewer
 Replaces: libimage-viewer
-Filename: ./libimageeditor_1.0.14-1+kt286_amd64.deb
+Filename: ./libimageeditor/libimageeditor_1.0.14-1+kt286_amd64.deb
 Size: 744668
 MD5sum: 63438d92ca851ae8330371065edab451
 SHA1: f4d0a061ae8d06c47cbb01f2fed777b7d434be85
@@ -4281,7 +4331,7 @@ Depends: libimageeditor (= 1.0.14-1+kt286)
 Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
 Conflicts: libimage-viewer-dev
 Replaces: libimage-viewer-dev
-Filename: ./libimageeditor-dev_1.0.14-1+kt286_amd64.deb
+Filename: ./libimageeditor/libimageeditor-dev_1.0.14-1+kt286_amd64.deb
 Size: 6324
 MD5sum: f2f13087b33c347026a3497a87d5996b
 SHA1: 4186fa7701881f327dde7220a26fef1716361de0
@@ -4299,7 +4349,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 728
 Depends: libimecore0 (= 1.0.13-1), libimepinyin0 (= 1.0.13-1), libimetable0 (= 1.0.13-1), libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.17), libdouble-conversion3 (>= 3.1.5-5~), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libime-bin_1.0.13-1_amd64.deb
+Filename: ./libime/libime-bin_1.0.13-1_amd64.deb
 Size: 204524
 MD5sum: 0cd79a184434849e6badfd191a9525b1
 SHA1: 1283b220cc6ac5a49106a524e29e2cc2b0c6773c
@@ -4320,7 +4370,7 @@ Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 27693
 Depends: libime-data-language-model (<< 1.0.13-1.1~), libime-data-language-model (>= 1.0.13-1)
-Filename: ./libime-data_1.0.13-1_all.deb
+Filename: ./libime/libime-data_1.0.13-1_all.deb
 Size: 9662232
 MD5sum: fa9e2a8b6c8083b74f76c70d8a2ac506
 SHA1: 65585c2a70b06d341ff4622f7186bb83c76263fa
@@ -4343,7 +4393,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 23210
 Breaks: libimecore0 (<< 1.0.1-2)
 Replaces: libimecore0 (<< 1.0.1-2)
-Filename: ./libime-data-language-model_1.0.13-1_amd64.deb
+Filename: ./libime/libime-data-language-model_1.0.13-1_amd64.deb
 Size: 16644904
 MD5sum: a1e3c6601b10bba83c45346ca7d90535
 SHA1: 67ca87e7a2bf56c85656b732ec3a7319b08e58b7
@@ -4365,7 +4415,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 85
 Depends: libimecore0 (= 1.0.13-1)
-Filename: ./libimecore-dev_1.0.13-1_amd64.deb
+Filename: ./libime/libimecore-dev_1.0.13-1_amd64.deb
 Size: 17768
 MD5sum: 7d0636dc0cb11d2924412ee209afe25e
 SHA1: 051619de12fe721fce4316141006df24f1d605a7
@@ -4387,7 +4437,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 766
 Depends: libime-data (= 1.0.13-1), libc6 (>= 2.17), libdouble-conversion3 (>= 3.1.5-5~), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libimecore0_1.0.13-1_amd64.deb
+Filename: ./libime/libimecore0_1.0.13-1_amd64.deb
 Size: 227176
 MD5sum: 9539f5ab9db660c3f655b10303648358
 SHA1: e3a051f401758e55548b2b954ed87aba549a7b77
@@ -4409,7 +4459,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 69
 Depends: libimepinyin0 (= 1.0.13-1)
-Filename: ./libimepinyin-dev_1.0.13-1_amd64.deb
+Filename: ./libime/libimepinyin-dev_1.0.13-1_amd64.deb
 Size: 14456
 MD5sum: fb6c8ab4e32704379051335bdb9b2bec
 SHA1: 17d7166aec50d952fb62b01d8efc864d1ce3c1ee
@@ -4431,7 +4481,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 466
 Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.13), libstdc++6 (>= 5.2)
-Filename: ./libimepinyin0_1.0.13-1_amd64.deb
+Filename: ./libime/libimepinyin0_1.0.13-1_amd64.deb
 Size: 140480
 MD5sum: 17010e04900e244c250cfd88cceb7be4
 SHA1: 48c0105cfbd15c8051322574e91f3ab7afa29796
@@ -4453,7 +4503,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 57
 Depends: libimetable0 (= 1.0.13-1)
-Filename: ./libimetable-dev_1.0.13-1_amd64.deb
+Filename: ./libime/libimetable-dev_1.0.13-1_amd64.deb
 Size: 13096
 MD5sum: c2cc5783e98712b86ddc11eced901f39
 SHA1: a608b0d4579ec578c8e2fb878600355e09df4089
@@ -4475,7 +4525,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 334
 Depends: libboost-regex1.67.0 (>= 1.67.0-10), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.13), libstdc++6 (>= 5.2)
-Filename: ./libimetable0_1.0.13-1_amd64.deb
+Filename: ./libime/libimetable0_1.0.13-1_amd64.deb
 Size: 110084
 MD5sum: 5376c55dfa6862590373e1bcf1904e3d
 SHA1: 160a1551cc79e79f7a406ecbfd1a569daf833b4c
@@ -4582,7 +4632,7 @@ Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.2.5)
 Breaks: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Replaces: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Provides: libnvidia-cfg.so.1 (= 390.151), libnvidia-cfg1-any
-Filename: ./libnvidia-legacy-390xx-cfg1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cfg1_390.151-2_amd64.deb
 Size: 262228
 MD5sum: ac70ce86280d863460c8a5d3d9b98e7d
 SHA1: c50ac84a62f3fe83ab734197c583f690a456551a
@@ -4608,7 +4658,7 @@ Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.1)
 Breaks: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Replaces: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Provides: libnvidia-cfg.so.1 (= 390.151), libnvidia-cfg1-any
-Filename: ./libnvidia-legacy-390xx-cfg1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cfg1_390.151-2_i386.deb
 Size: 263384
 MD5sum: 4424159325a024d7a8af379c20114e33
 SHA1: 4ed47b6c19bda9c93f64a94bfa3b996c9f94d569
@@ -4633,7 +4683,7 @@ Installed-Size: 46827
 Depends: libc6 (>= 2.2.5)
 Conflicts: libnvidia-compiler-390.151
 Provides: libnvidia-compiler-390.151
-Filename: ./libnvidia-legacy-390xx-compiler_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-compiler_390.151-2_amd64.deb
 Size: 11600168
 MD5sum: 65a90ef07fd794a652b571fc617ce6aa
 SHA1: b8f1b7d6d5d5b09760fb7544f8c29e4f46327839
@@ -4658,7 +4708,7 @@ Installed-Size: 47845
 Depends: libc6 (>= 2.3.6-6~)
 Conflicts: libnvidia-compiler-390.151
 Provides: libnvidia-compiler-390.151
-Filename: ./libnvidia-legacy-390xx-compiler_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-compiler_390.151-2_i386.deb
 Size: 12097840
 MD5sum: b29df99c95f54b44cea25b8a1f701f3c
 SHA1: 9966b8bc0b4c0947d53106f3adfc821f66ca22c7
@@ -4684,7 +4734,7 @@ Depends: nvidia-support, nvidia-legacy-390xx-alternative (= 390.151-2), libnvidi
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-kernel-390.151, nvidia-legacy-390xx-smi, libnvidia-legacy-390xx-cfg1 (= 390.151-2), nvidia-persistenced, libnvidia-legacy-390xx-cuda1-i386 (= 390.151-2)
 Suggests: nvidia-cuda-mps, nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Provides: libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda.so.1 (= 390.151), libcuda1-any
-Filename: ./libnvidia-legacy-390xx-cuda1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cuda1_390.151-2_amd64.deb
 Size: 1872132
 MD5sum: d10a28e5b360c77ad316349044fb252d
 SHA1: 3e9891fb7f57630f2185ec8d4fbd79e370408476
@@ -4719,7 +4769,7 @@ Depends: nvidia-support, nvidia-legacy-390xx-alternative (= 390.151-2), libnvidi
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-kernel-390.151, nvidia-legacy-390xx-smi, libnvidia-legacy-390xx-cfg1 (= 390.151-2), nvidia-persistenced
 Suggests: nvidia-cuda-mps, nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Provides: libcuda-5.0-1, libcuda-5.0-1-i386, libcuda-5.5-1, libcuda-5.5-1-i386, libcuda-6.0-1, libcuda-6.0-1-i386, libcuda-6.5-1, libcuda-6.5-1-i386, libcuda-7.0-1, libcuda-7.0-1-i386, libcuda-7.5-1, libcuda-7.5-1-i386, libcuda-8.0-1, libcuda-8.0-1-i386, libcuda-9.0-1, libcuda-9.0-1-i386, libcuda-9.1-1, libcuda-9.1-1-i386, libcuda.so.1 (= 390.151), libcuda1-any
-Filename: ./libnvidia-legacy-390xx-cuda1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cuda1_390.151-2_i386.deb
 Size: 1796460
 MD5sum: c71db3e966381fb06a71b32f3cf00b8b
 SHA1: b86fedc7c666804e1d5c030c572ec45d7b460eb6
@@ -4751,7 +4801,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 211
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2)
-Filename: ./libnvidia-legacy-390xx-cuda1-i386_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cuda1-i386_390.151-2_i386.deb
 Size: 198776
 MD5sum: 19274e232c204f889fd242611f460849
 SHA1: 205ee099f41710d4db9008aa7d22234b1e75b6a4
@@ -4774,7 +4824,7 @@ Installed-Size: 27685
 Depends: libc6 (>= 2.2.5)
 Conflicts: libnvidia-eglcore-390.151
 Provides: libnvidia-eglcore-390.151
-Filename: ./libnvidia-legacy-390xx-eglcore_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-eglcore_390.151-2_amd64.deb
 Size: 6767504
 MD5sum: 25c58eba0a0bac7fa9c0c30919655286
 SHA1: 2f2e777d6ad6a1cf99e02b12b13922f22b2946aa
@@ -4804,7 +4854,7 @@ Installed-Size: 29412
 Depends: libc6 (>= 2.3.6-6~)
 Conflicts: libnvidia-eglcore-390.151
 Provides: libnvidia-eglcore-390.151
-Filename: ./libnvidia-legacy-390xx-eglcore_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-eglcore_390.151-2_i386.deb
 Size: 7212608
 MD5sum: a56b29daf297045a1afb6167a10a262c
 SHA1: 007b9e0e071053b4b9501620088e30e7fbcc1d58
@@ -4832,7 +4882,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 388
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.2.5), libnvidia-legacy-390xx-nvcuvid1 (>= 260)
-Filename: ./libnvidia-legacy-390xx-encode1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-encode1_390.151-2_amd64.deb
 Size: 244348
 MD5sum: f5c2ce81314e535926bc02297852033f
 SHA1: 25311906142b453fb0aa53b999d9f2fad495f844
@@ -4854,7 +4904,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 379
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.1.3), libnvidia-legacy-390xx-nvcuvid1 (>= 260)
-Filename: ./libnvidia-legacy-390xx-encode1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-encode1_390.151-2_i386.deb
 Size: 244664
 MD5sum: fa34b6eeb4cc8282f87e972ca213acd3
 SHA1: 8d0159f41a30e7cd6ff9fcd08a2c12cdb690d366
@@ -4872,17 +4922,17 @@ Description: NVENC Video Encoding runtime library (390xx legacy version)
 Package: libnvidia-legacy-390xx-fatbinaryloader
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 521
-Depends: libnvidia-legacy-390xx-ptxjitcompiler1 (= 390.151-2), libc6 (>= 2.3.6-6~)
+Installed-Size: 505
+Depends: libnvidia-legacy-390xx-ptxjitcompiler1 (= 390.151-2), libc6 (>= 2.2.5)
 Conflicts: libnvidia-fatbinaryloader-390.151
 Provides: libnvidia-fatbinaryloader-390.151
-Filename: ./libnvidia-legacy-390xx-fatbinaryloader_390.151-2_i386.deb
-Size: 324000
-MD5sum: 62a46ec1971b5e5685422da19139e61c
-SHA1: e9e8360986730f4e663ebe2f6f99bc7676ac2f2c
-SHA256: 3af941ae6fe95b97cfdb5f772599fda6ea5b69128a7def7567d860507ec23977
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-fatbinaryloader_390.151-2_amd64.deb
+Size: 317940
+MD5sum: 87765f93fc47f074d5d6605c365b7a79
+SHA1: e3000a4b57008e98d39f73d65b5424ec696adab4
+SHA256: 25da32da0d0e17d93eab05d1ff02678f4deb89d94c65465fa3ea1a9c539ffedf
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -4897,17 +4947,17 @@ Description: NVIDIA FAT binary loader (390xx legacy version)
 Package: libnvidia-legacy-390xx-fatbinaryloader
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 505
-Depends: libnvidia-legacy-390xx-ptxjitcompiler1 (= 390.151-2), libc6 (>= 2.2.5)
+Installed-Size: 521
+Depends: libnvidia-legacy-390xx-ptxjitcompiler1 (= 390.151-2), libc6 (>= 2.3.6-6~)
 Conflicts: libnvidia-fatbinaryloader-390.151
 Provides: libnvidia-fatbinaryloader-390.151
-Filename: ./libnvidia-legacy-390xx-fatbinaryloader_390.151-2_amd64.deb
-Size: 317940
-MD5sum: 87765f93fc47f074d5d6605c365b7a79
-SHA1: e3000a4b57008e98d39f73d65b5424ec696adab4
-SHA256: 25da32da0d0e17d93eab05d1ff02678f4deb89d94c65465fa3ea1a9c539ffedf
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-fatbinaryloader_390.151-2_i386.deb
+Size: 324000
+MD5sum: 62a46ec1971b5e5685422da19139e61c
+SHA1: e9e8360986730f4e663ebe2f6f99bc7676ac2f2c
+SHA256: 3af941ae6fe95b97cfdb5f772599fda6ea5b69128a7def7567d860507ec23977
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -4926,7 +4976,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 332
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.2.5), libgl1 (>= 0.2.999) | libgl1-mesa-glx, libx11-6, libxext6
-Filename: ./libnvidia-legacy-390xx-fbc1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-fbc1_390.151-2_amd64.deb
 Size: 233276
 MD5sum: 0bbe66718e202c46e5d439ffaebe1d11
 SHA1: 54d72221964b0c8012ab787b02b792b32a265c4d
@@ -4950,7 +5000,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 322
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.3.6-6~), libgl1 (>= 0.2.999) | libgl1-mesa-glx, libx11-6, libxext6
-Filename: ./libnvidia-legacy-390xx-fbc1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-fbc1_390.151-2_i386.deb
 Size: 230264
 MD5sum: 0f5fdac5066703eb23c9b4d25453bad8
 SHA1: 442335621f649d2e41a4aad0fc8d24edf7339787
@@ -4970,17 +5020,17 @@ Description: NVIDIA OpenGL-based Framebuffer Capture runtime library (390xx lega
 Package: libnvidia-legacy-390xx-glcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 31995
-Depends: libc6 (>= 2.1.3)
+Installed-Size: 28834
+Depends: libc6 (>= 2.2.5)
 Conflicts: libnvidia-glcore-390.151
 Provides: libnvidia-glcore-390.151
-Filename: ./libnvidia-legacy-390xx-glcore_390.151-2_i386.deb
-Size: 7243924
-MD5sum: 3bc074f8d387eafdf81317e1c705ea42
-SHA1: 90bf1ce6f268ea79657c025baff156023a4addd6
-SHA256: aa11b6b1c2e0cf6109718108b1cc33f8f8586ca5a938247576c3cc57a9f0de0e
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-glcore_390.151-2_amd64.deb
+Size: 6815284
+MD5sum: da1871c72d5dcd5a2968a354561f0fe8
+SHA1: 87c3698c51b9c6d9b1a2072e47f0a0d74b310356
+SHA256: ca00153cd890c682e7e5f5de0164e2d71b30649ad82c101d7554f6aea81dfd37
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -4996,17 +5046,17 @@ Description: NVIDIA binary OpenGL/GLX core libraries (390xx legacy version)
 Package: libnvidia-legacy-390xx-glcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 28834
-Depends: libc6 (>= 2.2.5)
+Installed-Size: 31995
+Depends: libc6 (>= 2.1.3)
 Conflicts: libnvidia-glcore-390.151
 Provides: libnvidia-glcore-390.151
-Filename: ./libnvidia-legacy-390xx-glcore_390.151-2_amd64.deb
-Size: 6815284
-MD5sum: da1871c72d5dcd5a2968a354561f0fe8
-SHA1: 87c3698c51b9c6d9b1a2072e47f0a0d74b310356
-SHA256: ca00153cd890c682e7e5f5de0164e2d71b30649ad82c101d7554f6aea81dfd37
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-glcore_390.151-2_i386.deb
+Size: 7243924
+MD5sum: 3bc074f8d387eafdf81317e1c705ea42
+SHA1: 90bf1ce6f268ea79657c025baff156023a4addd6
+SHA256: aa11b6b1c2e0cf6109718108b1cc33f8f8586ca5a938247576c3cc57a9f0de0e
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5026,7 +5076,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 426
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.2.5), libgl1 (>= 0.2.999) | libgl1-mesa-glx, libx11-6
-Filename: ./libnvidia-legacy-390xx-ifr1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ifr1_390.151-2_amd64.deb
 Size: 260852
 MD5sum: 6e649525cef7c057dec8b66843829a75
 SHA1: d8f4c559aca5a54c215ead52fdd34033da49be3a
@@ -5050,7 +5100,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 411
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.3.6-6~), libgl1 (>= 0.2.999) | libgl1-mesa-glx, libx11-6
-Filename: ./libnvidia-legacy-390xx-ifr1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ifr1_390.151-2_i386.deb
 Size: 253144
 MD5sum: 8e53f47429105f4039b7bd7562d48d83
 SHA1: 8c94bd3e9190f82e031cccaa20e16a1604ce4304
@@ -5075,7 +5125,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1514
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.2.5)
 Provides: libnvidia-ml.so.1 (= 390.151)
-Filename: ./libnvidia-legacy-390xx-ml1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ml1_390.151-2_amd64.deb
 Size: 611492
 MD5sum: 37875d972b4c079fdf2665a895c9e10a
 SHA1: 23b1715179f2fe422c692f0f30f8b137d1337057
@@ -5098,7 +5148,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 1549
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.3.6-6~)
 Provides: libnvidia-ml.so.1 (= 390.151)
-Filename: ./libnvidia-legacy-390xx-ml1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ml1_390.151-2_i386.deb
 Size: 574992
 MD5sum: 923a74691069f5d80abbf982011d5441
 SHA1: 517d54474130b131593c6b3a632c03ec2c8bd075
@@ -5120,7 +5170,7 @@ Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 2644
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.2.5)
-Filename: ./libnvidia-legacy-390xx-nvcuvid1_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-nvcuvid1_390.151-2_amd64.deb
 Size: 839060
 MD5sum: bfe001db62ce2e2299185b571f11c4e6
 SHA1: 5bb44505b1e76c37cecf953d2de9154339cc3a0e
@@ -5146,7 +5196,7 @@ Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 2819
 Depends: libnvidia-legacy-390xx-cuda1 (= 390.151-2), libc6 (>= 2.1.3)
-Filename: ./libnvidia-legacy-390xx-nvcuvid1_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-nvcuvid1_390.151-2_i386.deb
 Size: 899132
 MD5sum: 4194d84966508bd76b47621884777f72
 SHA1: a171565c8afc911fa6671a4a886516cb06ba8d50
@@ -5168,15 +5218,15 @@ Description: NVIDIA CUDA Video Decoder runtime library (390xx legacy version)
 Package: libnvidia-legacy-390xx-ptxjitcompiler1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 10822
-Depends: libc6 (>= 2.3.6-6~)
-Filename: ./libnvidia-legacy-390xx-ptxjitcompiler1_390.151-2_i386.deb
-Size: 3940324
-MD5sum: abc314e3a447ba530da1ad5305b5faf0
-SHA1: c2e908f16d944dd2a99b3f235090dd34dd0d7178
-SHA256: d4d3652382d8573baa8ebe12329b6a2f5aff145316f1dc346a6f5a161fedc9d5
+Installed-Size: 10466
+Depends: libc6 (>= 2.2.5)
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ptxjitcompiler1_390.151-2_amd64.deb
+Size: 3846420
+MD5sum: dd916749a75a47771d277c5d10d73b9d
+SHA1: 701750f89d99db8666fc9bb61b693452cb78f4ca
+SHA256: 1ba983445f5eb0fdeecbb651a61e1b11f670fbc37139f4dddb142a7c790a4968
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5191,15 +5241,15 @@ Description: NVIDIA PTX JIT Compiler library (390xx legacy version)
 Package: libnvidia-legacy-390xx-ptxjitcompiler1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 10466
-Depends: libc6 (>= 2.2.5)
-Filename: ./libnvidia-legacy-390xx-ptxjitcompiler1_390.151-2_amd64.deb
-Size: 3846420
-MD5sum: dd916749a75a47771d277c5d10d73b9d
-SHA1: 701750f89d99db8666fc9bb61b693452cb78f4ca
-SHA256: 1ba983445f5eb0fdeecbb651a61e1b11f670fbc37139f4dddb142a7c790a4968
+Installed-Size: 10822
+Depends: libc6 (>= 2.3.6-6~)
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ptxjitcompiler1_390.151-2_i386.deb
+Size: 3940324
+MD5sum: abc314e3a447ba530da1ad5305b5faf0
+SHA1: c2e908f16d944dd2a99b3f235090dd34dd0d7178
+SHA256: d4d3652382d8573baa8ebe12329b6a2f5aff145316f1dc346a6f5a161fedc9d5
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5246,7 +5296,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 133
 Depends: librime1 (= 1.7.3+dfsg4-1), libboost-filesystem1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.14), libcapnp-0.7.0, libgcc1 (>= 1:3.0), libgflags2.2, libgoogle-glog0v5, libleveldb1d, libmarisa0 (>= 0.2.5), libopencc2 (>= 1.0.5), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
 Recommends: librime-data (>= 0.38)
-Filename: ./librime-bin_1.7.3+dfsg4-1_amd64.deb
+Filename: ./librime/librime-bin_1.7.3+dfsg4-1_amd64.deb
 Size: 39644
 MD5sum: 1db0d363e37b187817305c2c8b761f9f
 SHA1: e707dca053d7c42cb8948be6dfc6dcbd5f918509
@@ -5276,7 +5326,7 @@ Depends: librime1 (<< 1.7.3+dfsg4.0~), librime1 (>= 1.7.3+dfsg4-1)
 Conflicts: librime1-dev
 Replaces: librime1-dev
 Provides: librime1-dev
-Filename: ./librime-dev_1.7.3+dfsg4-1_amd64.deb
+Filename: ./librime/librime-dev_1.7.3+dfsg4-1_amd64.deb
 Size: 61828
 MD5sum: 6db5d737183fb261d66f78012bfd625f
 SHA1: 758870e58843ec289238bd7ed06546543f047d15
@@ -5303,7 +5353,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 152
 Depends: libboost-filesystem1.67.0, libboost-locale1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.14), libcapnp-0.7.0, libgcc1 (>= 1:3.0), libgflags2.2, libgoogle-glog0v5, libleveldb1d, libmarisa0 (>= 0.2.5), libopencc2 (>= 1.0.5), librime1 (>= 1.7.3+dfsg1~), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
-Filename: ./librime-plugin-charcode_1.7.3+dfsg4~git20220204-1_amd64.deb
+Filename: ./librime/librime-plugin-charcode_1.7.3+dfsg4~git20220204-1_amd64.deb
 Size: 51072
 MD5sum: 72f6a36b96d47ccc5316f5b6aaed8f96
 SHA1: d35dd486a8d592b48df93f3dd4168493a765e0dc
@@ -5332,7 +5382,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 760
 Depends: libboost-filesystem1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.14), libcapnp-0.7.0, libgcc1 (>= 1:3.0), libgflags2.2, libgoogle-glog0v5, libleveldb1d, liblua5.3-0, libmarisa0 (>= 0.2.5), libopencc2 (>= 1.0.5), librime1 (>= 1.7.3+dfsg1~), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
-Filename: ./librime-plugin-lua_1.7.3+dfsg4~git20220206-1_amd64.deb
+Filename: ./librime/librime-plugin-lua_1.7.3+dfsg4~git20220206-1_amd64.deb
 Size: 149708
 MD5sum: ba91fb355ac778bc74f2a70651c43aed
 SHA1: e61d7d67d392a8cb281afcc4c142047b495a15e5
@@ -5365,7 +5415,7 @@ Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 112
 Depends: libboost-filesystem1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.14), libcapnp-0.7.0, libgcc1 (>= 1:3.0), libgflags2.2, libgoogle-glog0v5, libleveldb1d, libmarisa0 (>= 0.2.5), libopencc2 (>= 1.0.5), librime1 (>= 1.7.3+dfsg1~), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
-Filename: ./librime-plugin-octagram_1.7.3+dfsg4~git20210816-1_amd64.deb
+Filename: ./librime/librime-plugin-octagram_1.7.3+dfsg4~git20210816-1_amd64.deb
 Size: 45872
 MD5sum: 0f209e4adb2a07805cc05c792e222384
 SHA1: 79d12687143aec213ba96f05fcba8788ddc75005
@@ -5395,7 +5445,7 @@ Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 2771
 Depends: libboost-filesystem1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.25), libcapnp-0.7.0, libgcc1 (>= 1:3.0), libgflags2.2, libgoogle-glog0v5, libleveldb1d, libmarisa0 (>= 0.2.5), libopencc2 (>= 1.0.5), libstdc++6 (>= 7), libyaml-cpp0.6 (>= 0.6.2)
 Recommends: librime-bin, librime-data (>= 0.38), librime-plugin-charcode, librime-plugin-lua, librime-plugin-octagram
-Filename: ./librime1_1.7.3+dfsg4-1_amd64.deb
+Filename: ./librime/librime1_1.7.3+dfsg4-1_amd64.deb
 Size: 755604
 MD5sum: 21a60d3d183ed22feee153c117e25d22
 SHA1: ccd6a49193e01a86add8b08c3f180c77cc8e88cd
@@ -5610,7 +5660,7 @@ Installed-Size: 198
 Depends: libc6 (>= 2.28), libfreerdp2-2 (= 2.7.0+dfsg1-1), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 0.5.0)
 Breaks: libuwac0 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libuwac0 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libuwac0-0_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libuwac0-0_2.7.0+dfsg1-1_amd64.deb
 Size: 51212
 MD5sum: 013d9e5cafea0c162b4387e621765922
 SHA1: 13ef4986f431dbb2c49292a4e5ad8b06c77e4666
@@ -5632,7 +5682,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 174
 Depends: libuwac0-0 (= 2.7.0+dfsg1-1)
-Filename: ./libuwac0-dev_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libuwac0-dev_2.7.0+dfsg1-1_amd64.deb
 Size: 40008
 MD5sum: e2130ed90dd713abe3f301b98b2b845a
 SHA1: bd39258265a07392067211cb4e26032652baa08a
@@ -5709,7 +5759,7 @@ Installed-Size: 173
 Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.0), libwinpr2-2 (= 2.7.0+dfsg1-1)
 Breaks: libwinpr-tools2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libwinpr-tools2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libwinpr-tools2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libwinpr-tools2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 41316
 MD5sum: 3a2e883e30607625de7e4f37235e6dff
 SHA1: 0bebf0c3df45f500df2abaf7610e363508c5676b
@@ -5735,7 +5785,7 @@ Depends: libc6 (>= 2.28), libicu70 (>= 70.1-1~), libssl1.1 (>= 1.1.0), libsystem
 Suggests: freerdp2-x11
 Breaks: libwinpr2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
 Replaces: libwinpr2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)
-Filename: ./libwinpr2-2_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libwinpr2-2_2.7.0+dfsg1-1_amd64.deb
 Size: 348160
 MD5sum: 84f18213b89ae2dee0528344fcd505ce
 SHA1: b7c2dfcd1b279f0c2dbe7f18452ba0e47dfe84e6
@@ -5763,7 +5813,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 1120
 Depends: libssl-dev, libwinpr-tools2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (= 2.7.0+dfsg1-1)
-Filename: ./libwinpr2-dev_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/libwinpr2-dev_2.7.0+dfsg1-1_amd64.deb
 Size: 173496
 MD5sum: 08b6774b6cac9f9cd8bef11c093ea752
 SHA1: 531e2201303dba07d43ac38f69dc3100466d4fc6
@@ -5791,7 +5841,7 @@ Architecture: all
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 7268
 Suggests: geoipupdate, geoip-database, geoip-database-extra, libjs-leaflet, libjs-leaflet.markercluster, snmp-mibs-downloader
-Filename: ./libwireshark-data_3.6.6-1_all.deb
+Filename: ./wireshark/libwireshark-data_3.6.6-1_all.deb
 Size: 1591556
 MD5sum: c5c594ed197c678c77a8e57ac776486d
 SHA1: a4ee0c39eb7ececc55d5ef791cb5fab508c8d981
@@ -5813,7 +5863,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 4603
 Depends: libwsutil-dev, libwiretap-dev, libwireshark15 (= 3.6.6-1)
-Filename: ./libwireshark-dev_3.6.6-1_amd64.deb
+Filename: ./wireshark/libwireshark-dev_3.6.6-1_amd64.deb
 Size: 703496
 MD5sum: b09cde3a06cbceda3ccf55d0336b84e2
 SHA1: 6fa32106b4e955265f87c6ee4307b7cf6050c950
@@ -5836,7 +5886,7 @@ Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 104006
 Depends: libbcg729-0 (>= 1.0.0), libbrotli1 (>= 0.6.0), libc-ares2 (>= 1.7.1), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.31.18), libgnutls30 (>= 3.6.5), libk5crypto3 (>= 1.7+dfsg), libkrb5-3 (>= 1.7dfsg), liblua5.2-0, liblz4-1 (>= 1.8.0), libnghttp2-14 (>= 1.11.0), libsbc1, libsmi2ldbl (>= 0.4.5+dfsg0), libsnappy1v5, libspandsp2 (>= 0.0.6~pre18), libwiretap12 (>= 3.5.0), libwsutil13 (>= 3.6.6-1), libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4), libwireshark-data (>= 3.6.6-1)
 Suggests: wireshark-doc (>= 3.6.6-1)
-Filename: ./libwireshark15_3.6.6-1_amd64.deb
+Filename: ./wireshark/libwireshark15_3.6.6-1_amd64.deb
 Size: 16927856
 MD5sum: f7b8531e2ede41051946807103649d53
 SHA1: c7bed730f53236a7423fa03404235f13dda2782d
@@ -5856,7 +5906,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 225
 Depends: libwiretap12 (= 3.6.6-1)
-Filename: ./libwiretap-dev_3.6.6-1_amd64.deb
+Filename: ./wireshark/libwiretap-dev_3.6.6-1_amd64.deb
 Size: 81572
 MD5sum: 1c52dc2daf4e2422fd6d2a3dd747d700
 SHA1: 4b3f46ee376b97dbe4506bf68eae999b1a316dd4
@@ -5899,7 +5949,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 724
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.31.8), liblz4-1 (>= 1.8.0), libwsutil13 (>= 3.5.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.2.4)
-Filename: ./libwiretap12_3.6.6-1_amd64.deb
+Filename: ./wireshark/libwiretap12_3.6.6-1_amd64.deb
 Size: 279004
 MD5sum: b715607a747ff6959fe670f27b7e4ea3
 SHA1: e849069d6e247fb15f7913e0c6cd0a388fde4842
@@ -5941,7 +5991,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 337
 Depends: libwsutil13 (= 3.6.6-1)
-Filename: ./libwsutil-dev_3.6.6-1_amd64.deb
+Filename: ./wireshark/libwsutil-dev_3.6.6-1_amd64.deb
 Size: 100724
 MD5sum: 73ae9efea6507bd3bf346c8d5136ec02
 SHA1: e8d02f81d30ad8d907d0694b7335363a6bb33e2d
@@ -5962,7 +6012,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 282
 Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.49.3), libgnutls30 (>= 3.6.5)
-Filename: ./libwsutil13_3.6.6-1_amd64.deb
+Filename: ./wireshark/libwsutil13_3.6.6-1_amd64.deb
 Size: 131980
 MD5sum: d91a0d7e423cf20d9a95ffa7a8b62795
 SHA1: 4ea7ba406687d5b7f6cd617acb0a3a91efa7645a
@@ -5980,7 +6030,7 @@ Version: 2.26.4220.100+dfsg-5.1
 Architecture: all
 Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 42
-Filename: ./mozc-data_2.26.4220.100+dfsg-5.1_all.deb
+Filename: ./mozc/mozc-data_2.26.4220.100+dfsg-5.1_all.deb
 Size: 19920
 MD5sum: 1ede4ac9529d151d737cf391714c3abd
 SHA1: 5066e757be4b767c2fa4fe70a8299651cd25ff81
@@ -6004,7 +6054,7 @@ Architecture: amd64
 Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 18805
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libgcc1 (>= 1:3.4), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.20.0), libprotobuf17, libstdc++6 (>= 5.2)
-Filename: ./mozc-server_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/mozc-server_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 11668540
 MD5sum: f2044b5f40c7d89376bf93823592a704
 SHA1: 2050b2c683cbad72012d37af8a551e3868eaee19
@@ -6030,7 +6080,7 @@ Installed-Size: 2438
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), mozc-data
 Recommends: mozc-server (= 2.26.4220.100+dfsg-5.1)
 Suggests: ibus-qt5
-Filename: ./mozc-utils-gui_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/mozc-utils-gui_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 702704
 MD5sum: 4ebcfb53e02b9bba78d991dd4b695e52
 SHA1: 4ff71e482fa02519f50d6926fcfb32a7964cc228
@@ -6057,7 +6107,7 @@ Pre-Depends: dpkg (>= 1.17.21)
 Depends: glx-alternative-nvidia (>= 0.8.4~)
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Provides: nvidia-legacy-390xx-alternative--kmod-alias
-Filename: ./nvidia-legacy-390xx-alternative_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-alternative_390.151-2_amd64.deb
 Size: 200836
 MD5sum: 4ef5b5cb1a65b228d75a7563a5a77d5c
 SHA1: a89482047eb76849c2b13cadd6151a04a459b0ad
@@ -6087,7 +6137,7 @@ Pre-Depends: dpkg (>= 1.17.21)
 Depends: glx-alternative-nvidia (>= 0.8.4~)
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Provides: nvidia-legacy-390xx-alternative--kmod-alias
-Filename: ./nvidia-legacy-390xx-alternative_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-alternative_390.151-2_i386.deb
 Size: 200836
 MD5sum: 61512894ba571feb070150629bf70983
 SHA1: 5c43eb310ee9c7eb4999182e0324655cefd6c9d9
@@ -6118,7 +6168,7 @@ Depends: nvidia-legacy-390xx-driver-libs (= 390.151-2) | nvidia-legacy-390xx-dri
 Recommends: nvidia-settings-legacy-390xx, libnvidia-legacy-390xx-cfg1 (= 390.151-2), nvidia-persistenced
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Provides: nvidia-driver-any, nvidia-glx-any
-Filename: ./nvidia-legacy-390xx-driver_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver_390.151-2_amd64.deb
 Size: 499940
 MD5sum: 2215622df15fc52507f33b23042cb21b
 SHA1: efa9d7bb7b3c16636ea0afdfe346a4815507446e
@@ -6226,7 +6276,7 @@ Depends: nvidia-legacy-390xx-driver-libs (= 390.151-2) | nvidia-legacy-390xx-dri
 Recommends: nvidia-settings-legacy-390xx, libnvidia-legacy-390xx-cfg1 (= 390.151-2), nvidia-persistenced
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Provides: nvidia-driver-any, nvidia-glx-any
-Filename: ./nvidia-legacy-390xx-driver_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver_390.151-2_i386.deb
 Size: 499920
 MD5sum: 19e7cf8f704becd65fb0f37964098df0
 SHA1: ad50cef5b3efd30ef2576f10014f2ec6d0d99c40
@@ -6333,7 +6383,7 @@ Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.2.5), libnvi
 Recommends: nvidia-legacy-390xx-driver
 Conflicts: nvidia-driver-bin-390.151
 Provides: nvidia-driver-bin-390.151
-Filename: ./nvidia-legacy-390xx-driver-bin_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-bin_390.151-2_amd64.deb
 Size: 283132
 MD5sum: 339cd0fc321606fd60c254fd7a89d785
 SHA1: ee6359f0c3760435c9a5e3387ce50bdb37e092a3
@@ -6358,7 +6408,7 @@ Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libc6 (>= 2.1), libnvidi
 Recommends: nvidia-legacy-390xx-driver
 Conflicts: nvidia-driver-bin-390.151
 Provides: nvidia-driver-bin-390.151
-Filename: ./nvidia-legacy-390xx-driver-bin_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-bin_390.151-2_i386.deb
 Size: 281384
 MD5sum: 1cb9f6f6b213acc16311bc8ab2706b3f
 SHA1: 3ec36658177b50877ef4bad1969f2ce40699affb
@@ -6384,7 +6434,7 @@ Recommends: nvidia-legacy-390xx-driver-libs-i386 (= 390.151-2), libopengl0 | lib
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Breaks: libegl1-nvidia-legacy-390xx, libgl1-nvidia-legacy-390xx-glx, nvidia-legacy-390xx-driver-libs-nonglvnd, nvidia-legacy-390xx-nonglvnd-vulkan-icd
 Provides: nvidia-driver-libs-any
-Filename: ./nvidia-legacy-390xx-driver-libs_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-libs_390.151-2_amd64.deb
 Size: 199116
 MD5sum: 67e11c9abbb54edd3e6203a600df441b
 SHA1: 7c08a63600b3a6b53c0b63123d38e00b2a7f0054
@@ -6409,7 +6459,7 @@ Recommends: libopengl0 | libopengl0-glvnd-nvidia, libglx-nvidia-legacy-390xx0 (=
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Breaks: libegl1-nvidia-legacy-390xx, libgl1-nvidia-legacy-390xx-glx, nvidia-legacy-390xx-driver-libs-nonglvnd, nvidia-legacy-390xx-nonglvnd-vulkan-icd
 Provides: nvidia-driver-libs-any
-Filename: ./nvidia-legacy-390xx-driver-libs_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-libs_390.151-2_i386.deb
 Size: 199104
 MD5sum: 04408e08d055b8d9c31f25b7753cca32
 SHA1: 50b9f7171a6cff92dd3afa098c4f41ffb8603f8e
@@ -6431,7 +6481,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 211
 Depends: nvidia-legacy-390xx-driver-libs (= 390.151-2)
 Conflicts: libgl1-nvidia-legacy-390xx-glx-i386
-Filename: ./nvidia-legacy-390xx-driver-libs-i386_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-libs-i386_390.151-2_i386.deb
 Size: 198792
 MD5sum: 7c219c08c4d4bd5fab247f0fdf20bef7
 SHA1: ee602c7fab194d1605998d70b64e7a25be57107c
@@ -6456,7 +6506,7 @@ Recommends: nvidia-legacy-390xx-driver-libs-nonglvnd-i386 (= 390.151-2), libglx-
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Breaks: libgl1-nvidia-legacy-390xx-glvnd-glx, nvidia-legacy-390xx-driver-libs, nvidia-legacy-390xx-vulkan-icd
 Provides: nvidia-driver-libs-any
-Filename: ./nvidia-legacy-390xx-driver-libs-nonglvnd_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-libs-nonglvnd_390.151-2_amd64.deb
 Size: 199096
 MD5sum: b49ccbde3032565fb819c02ceb0e9120
 SHA1: 30cb56a3086263932ecbbcbe38942f9504b1bf9b
@@ -6481,7 +6531,7 @@ Recommends: libglx-nvidia-legacy-390xx0 (= 390.151-2), libgles-nvidia-legacy-390
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Breaks: libgl1-nvidia-legacy-390xx-glvnd-glx, nvidia-legacy-390xx-driver-libs, nvidia-legacy-390xx-vulkan-icd
 Provides: nvidia-driver-libs-any
-Filename: ./nvidia-legacy-390xx-driver-libs-nonglvnd_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-libs-nonglvnd_390.151-2_i386.deb
 Size: 199088
 MD5sum: a004e565e93ba01b830abf506f075277
 SHA1: 742cfa1874700a93d330563a1afcbfe6bf0a1e3f
@@ -6503,7 +6553,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 211
 Depends: nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.151-2)
 Conflicts: libgl1-nvidia-legacy-390xx-glx-i386
-Filename: ./nvidia-legacy-390xx-driver-libs-nonglvnd-i386_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-libs-nonglvnd-i386_390.151-2_i386.deb
 Size: 198812
 MD5sum: 4c11080d4f37881434f796876ede1578
 SHA1: 5a11cee0a71f84e23847afa14b15f83fb5f0b4a9
@@ -6527,7 +6577,7 @@ Installed-Size: 211
 Depends: nvidia-egl-common, libegl1 (>= 0.2.999) | libegl1-glvnd-nvidia, libegl-nvidia-legacy-390xx0 (= 390.151-2)
 Enhances: libegl1
 Provides: egl-icd, libegl-vendor
-Filename: ./nvidia-legacy-390xx-egl-icd_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-egl-icd_390.151-2_amd64.deb
 Size: 198892
 MD5sum: a9ae152e54a5169973bee27121793846
 SHA1: 2d94ae9d9867a803678f40f6f419d9592eb1734e
@@ -6552,7 +6602,7 @@ Installed-Size: 211
 Depends: nvidia-egl-common, libegl1 (>= 0.2.999) | libegl1-glvnd-nvidia, libegl-nvidia-legacy-390xx0 (= 390.151-2)
 Enhances: libegl1
 Provides: egl-icd, libegl-vendor
-Filename: ./nvidia-legacy-390xx-egl-icd_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-egl-icd_390.151-2_i386.deb
 Size: 198892
 MD5sum: 6c59a2cf89609a18bfdd8b22995b9958
 SHA1: 171e4bed690309a7d6591a6a0739dfade59c1941
@@ -6578,7 +6628,7 @@ Pre-Depends: nvidia-installer-cleanup
 Depends: dkms (>= 2.1.0.0), nvidia-legacy-390xx-kernel-support--v1
 Recommends: nvidia-legacy-390xx-driver (>= 390.151) | libnvidia-legacy-390xx-cuda1 (>= 390.151)
 Provides: nvidia-legacy-390xx-kernel-390.151
-Filename: ./nvidia-legacy-390xx-kernel-dkms_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-dkms_390.151-2_amd64.deb
 Size: 10012484
 MD5sum: 3089ec618de7b9f61f8ff68b778e16cb
 SHA1: ffe2dd52ca3f3b9cd7f868f3100d1bb209904f04
@@ -6689,7 +6739,7 @@ Pre-Depends: nvidia-installer-cleanup
 Depends: dkms (>= 2.1.0.0), nvidia-legacy-390xx-kernel-support--v1
 Recommends: nvidia-legacy-390xx-driver (>= 390.151) | libnvidia-legacy-390xx-cuda1 (>= 390.151)
 Provides: nvidia-legacy-390xx-kernel-390.151
-Filename: ./nvidia-legacy-390xx-kernel-dkms_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-dkms_390.151-2_i386.deb
 Size: 9511236
 MD5sum: a337b0dd73f50c895ea4e2cdaa54bc3b
 SHA1: 84512e0f338ae24bea7d25fc5c54d85064276407
@@ -6799,7 +6849,7 @@ Installed-Size: 9832
 Depends: debhelper-compat (= 12), make:any, quilt, xz-utils
 Recommends: module-assistant | kernel-package, nvidia-legacy-390xx-kernel-support
 Suggests: nvidia-legacy-390xx-driver (>= 390.151)
-Filename: ./nvidia-legacy-390xx-kernel-source_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-source_390.151-2_amd64.deb
 Size: 10051064
 MD5sum: 5af011befffb683cefd166378758a728
 SHA1: 48a4289879439718dee186d8bdca0b028b620a69
@@ -6910,7 +6960,7 @@ Installed-Size: 9396
 Depends: debhelper-compat (= 12), make:any, quilt, xz-utils
 Recommends: module-assistant | kernel-package, nvidia-legacy-390xx-kernel-support
 Suggests: nvidia-legacy-390xx-driver (>= 390.151)
-Filename: ./nvidia-legacy-390xx-kernel-source_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-source_390.151-2_i386.deb
 Size: 9603756
 MD5sum: 35d1fc74ae06c19e16885741ecab7b72
 SHA1: 67c6b932ae41718905071177fd859deb8cadb6e4
@@ -7022,7 +7072,7 @@ Depends: nvidia-legacy-390xx-alternative (= 390.151-2), nvidia-legacy-390xx-alte
 Breaks: glx-alternative-nvidia (<< 0.6.91)
 Replaces: glx-alternative-nvidia (<< 0.6.91)
 Provides: nvidia-kernel-support-any, nvidia-legacy-390xx-kernel-support--v1
-Filename: ./nvidia-legacy-390xx-kernel-support_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-support_390.151-2_amd64.deb
 Size: 199932
 MD5sum: c651c90eeb2a0c4d2652ebf7d522fa3f
 SHA1: f59ef3bc3cad4c0ed35e7bf62f7dc7f4c2842cbf
@@ -7048,7 +7098,7 @@ Depends: nvidia-legacy-390xx-alternative (= 390.151-2), nvidia-legacy-390xx-alte
 Breaks: glx-alternative-nvidia (<< 0.6.91)
 Replaces: glx-alternative-nvidia (<< 0.6.91)
 Provides: nvidia-kernel-support-any, nvidia-legacy-390xx-kernel-support--v1
-Filename: ./nvidia-legacy-390xx-kernel-support_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-support_390.151-2_i386.deb
 Size: 199908
 MD5sum: 99fe7c17bc4fdbee2c9cc893d515923f
 SHA1: d753e74671438cabe0422d8273fffb68405c36dd
@@ -7075,7 +7125,7 @@ Suggests: vulkan-utils
 Enhances: libvulkan1
 Conflicts: nvidia-legacy-390xx-vulkan-icd
 Provides: nvidia-vulkan-icd-any, vulkan-icd
-Filename: ./nvidia-legacy-390xx-nonglvnd-vulkan-icd_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-nonglvnd-vulkan-icd_390.151-2_i386.deb
 Size: 198900
 MD5sum: 4e4f1de0c9caff5324471fefcc6333c5
 SHA1: 47c888b3a04f76519dae5eb5d936f6451ba40a09
@@ -7101,7 +7151,7 @@ Suggests: vulkan-utils
 Enhances: libvulkan1
 Conflicts: nvidia-legacy-390xx-vulkan-icd
 Provides: nvidia-vulkan-icd-any, vulkan-icd
-Filename: ./nvidia-legacy-390xx-nonglvnd-vulkan-icd_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-nonglvnd-vulkan-icd_390.151-2_amd64.deb
 Size: 198904
 MD5sum: 739132553a7963687b20bb3f608e41d8
 SHA1: a6e0f80f9ae466212db655869b2bb58ed2ab64d7
@@ -7125,7 +7175,7 @@ Installed-Size: 15722
 Depends: nvidia-opencl-common, ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1, nvidia-legacy-390xx-alternative (= 390.151-2), libnvidia-legacy-390xx-cuda1 (= 390.151-2), libnvidia-legacy-390xx-compiler (= 390.151-2), libc6 (>= 2.2.5), libnvidia-legacy-390xx-fatbinaryloader (>= 367.44)
 Enhances: libopencl1
 Provides: opencl-icd
-Filename: ./nvidia-legacy-390xx-opencl-icd_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-opencl-icd_390.151-2_amd64.deb
 Size: 1933164
 MD5sum: 84cfd784f37383ffdfe930c5c280a436
 SHA1: 553b65395122ebee5c8320a3c855f9e335fb9b9a
@@ -7151,7 +7201,7 @@ Installed-Size: 13671
 Depends: nvidia-opencl-common, ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1, nvidia-legacy-390xx-alternative (= 390.151-2), libnvidia-legacy-390xx-cuda1 (= 390.151-2), libnvidia-legacy-390xx-compiler (= 390.151-2), libc6 (>= 2.3.6-6~), libnvidia-legacy-390xx-fatbinaryloader (>= 367.44)
 Enhances: libopencl1
 Provides: opencl-icd
-Filename: ./nvidia-legacy-390xx-opencl-icd_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-opencl-icd_390.151-2_i386.deb
 Size: 1811396
 MD5sum: 5f8497a3daaaf906c3243f1fad5bdc86
 SHA1: 1fcf723077220ff761cd23fe54034c2fdaacb919
@@ -7177,7 +7227,7 @@ Installed-Size: 739
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libnvidia-legacy-390xx-ml1 (= 390.151-2), libc6 (>= 2.2.5)
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-kernel-390.151
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
-Filename: ./nvidia-legacy-390xx-smi_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-smi_390.151-2_amd64.deb
 Size: 382960
 MD5sum: 3952016d5601cb5c029a976f5ebc8a3a
 SHA1: dedd052695013e45430d02ba35f880ae3da0ff8f
@@ -7202,7 +7252,7 @@ Installed-Size: 739
 Depends: nvidia-legacy-390xx-alternative (= 390.151-2), libnvidia-legacy-390xx-ml1 (= 390.151-2), libc6 (>= 2.3.6-6~)
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-kernel-390.151
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
-Filename: ./nvidia-legacy-390xx-smi_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-smi_390.151-2_i386.deb
 Size: 380556
 MD5sum: 63dbb98787a3d2bd49a52d15d7248285
 SHA1: eba54fddbfe26530eb97c2b85715168593de69fa
@@ -7230,7 +7280,7 @@ Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Enhances: libvdpau1
 Provides: vdpau-driver
-Filename: ./nvidia-legacy-390xx-vdpau-driver_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-vdpau-driver_390.151-2_amd64.deb
 Size: 846456
 MD5sum: f257f773550acef710e447a9bc5b2133
 SHA1: 0dad9dfaac7012fc3182eb8205e95716963b1994
@@ -7266,7 +7316,7 @@ Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Enhances: libvdpau1
 Provides: vdpau-driver
-Filename: ./nvidia-legacy-390xx-vdpau-driver_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-vdpau-driver_390.151-2_i386.deb
 Size: 853876
 MD5sum: 8bdb343d86c9af5c787800f063dd18db
 SHA1: 7a41ca33da95402b66f594cc9c9177e241cfe926
@@ -7301,7 +7351,7 @@ Suggests: vulkan-utils
 Enhances: libvulkan1
 Conflicts: nvidia-legacy-390xx-nonglvnd-vulkan-icd
 Provides: nvidia-vulkan-icd-any, vulkan-icd
-Filename: ./nvidia-legacy-390xx-vulkan-icd_390.151-2_amd64.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-vulkan-icd_390.151-2_amd64.deb
 Size: 198888
 MD5sum: a8a85b5996f05c78318a6e4fa0f7c274
 SHA1: e9793a9a956568f34050731ad197c051a19536ce
@@ -7327,7 +7377,7 @@ Suggests: vulkan-utils
 Enhances: libvulkan1
 Conflicts: nvidia-legacy-390xx-nonglvnd-vulkan-icd
 Provides: nvidia-vulkan-icd-any, vulkan-icd
-Filename: ./nvidia-legacy-390xx-vulkan-icd_390.151-2_i386.deb
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-vulkan-icd_390.151-2_i386.deb
 Size: 198888
 MD5sum: aaf1491f77543e2ef30f54eba9d2c946
 SHA1: 3725db17814de1db5f6acbae43cd45c96988a476
@@ -7549,7 +7599,7 @@ Installed-Size: 899
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgcrypt20 (>= 1.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.2.0), libpango-1.0-0 (>= 1.14.0), libsm6, libsodium23 (>= 1.0.10), libsoup2.4-1 (>= 2.30.0), libssh-4 (>= 0.8.1), libssl1.1 (>= 1.1.0), libvte-2.91-0 (>= 0.51.90), libwayland-client0 (>= 1.0.2), libx11-6, libxext6, remmina-common (= 1.4.26+dfsg-1), default-dbus-session-bus | dbus-session-bus
 Recommends: remmina-plugin-rdp, remmina-plugin-vnc, remmina-plugin-secret
 Suggests: remmina-plugin-exec, remmina-plugin-kwallet, remmina-plugin-python, remmina-plugin-spice, remmina-plugin-www, remmina-plugin-x2go
-Filename: ./remmina_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina_1.4.26+dfsg-1_amd64.deb
 Size: 221824
 MD5sum: 45ec7644613d3e644572518786f4718d
 SHA1: b2e056cc52dd4e00f2ded69bceca19ee1aa24bb2
@@ -7576,7 +7626,7 @@ Architecture: all
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 3559
 Recommends: remmina
-Filename: ./remmina-common_1.4.26+dfsg-1_all.deb
+Filename: ./remmina/remmina-common_1.4.26+dfsg-1_all.deb
 Size: 631360
 MD5sum: e945f65fb86212bc81655213b56812e8
 SHA1: 69c9407455f9d12ebaf170b73dc0b2f215e3bbeb
@@ -7605,7 +7655,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 57
 Depends: remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-dev_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-dev_1.4.26+dfsg-1_amd64.deb
 Size: 21016
 MD5sum: 70d68c7fc5fb64f2bf08abcb62bd1638
 SHA1: a19b735c3502b2a8d373d0b79d1f7f5b786ae04c
@@ -7635,7 +7685,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 48
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-exec_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-exec_1.4.26+dfsg-1_amd64.deb
 Size: 21068
 MD5sum: 37f3f747c50a47b99d7f694ef68e1fa4
 SHA1: dcd90a45d86ccc48330b500d3da19a8b21b7c918
@@ -7664,7 +7714,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 32
 Depends: remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-kiosk_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-kiosk_1.4.26+dfsg-1_amd64.deb
 Size: 17660
 MD5sum: 15e0ee59e2bef6ad023c71dc58291943
 SHA1: 6249274c01c31c785c38fd031a166674a329f029
@@ -7693,7 +7743,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 44
 Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.31.8), libkf5wallet-bin, libkf5wallet5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-kwallet_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-kwallet_1.4.26+dfsg-1_amd64.deb
 Size: 21224
 MD5sum: a28b7b5e473588d56e4d454f5e11409c
 SHA1: 670fe6aae0d38edf212fdb373916c7932fa46c28
@@ -7723,7 +7773,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 102
 Depends: remmina (= 1.4.26+dfsg-1), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpython3.7 (>= 3.7.0), libwayland-client0 (>= 1.0.2)
-Filename: ./remmina-plugin-python_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-python_1.4.26+dfsg-1_amd64.deb
 Size: 36596
 MD5sum: ee18a423d00e242aac9816d837ba9f38
 SHA1: 76d2b0a099b0732dfd3f075ad1ff91d4846f79f7
@@ -7753,7 +7803,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 179
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libfreerdp-client2-2 (>= 2.2.0~), libfreerdp2-2 (>= 2.3.0+dfsg1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.4), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6, libwayland-client0 (>= 1.0.2), libwinpr2-2 (>= 2.1.0+dfsg1), libx11-6, libxext6, remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-rdp_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-rdp_1.4.26+dfsg-1_amd64.deb
 Size: 62996
 MD5sum: f5f31e6e97e9e947863bbb0eca6bb43c
 SHA1: cc78e401efa81c833b870a23767ec39eb071ad29
@@ -7784,7 +7834,7 @@ Installed-Size: 44
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
 Breaks: remmina-plugin-gnome
 Replaces: remmina-plugin-gnome
-Filename: ./remmina-plugin-secret_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-secret_1.4.26+dfsg-1_amd64.deb
 Size: 20280
 MD5sum: 3fadfe29149c8007f2ca22bba85a1fa8
 SHA1: a7550eacf4ac7d6a5ce20c4cdd3c7d664d382fee
@@ -7815,7 +7865,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 64
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libspice-client-glib-2.0-8 (>= 0.35), libspice-client-gtk-3.0-5 (>= 0.32), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-spice_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-spice_1.4.26+dfsg-1_amd64.deb
 Size: 26140
 MD5sum: ef1cbee659a75b5ad01c587b39172b79
 SHA1: 32815ec051531673dc8e3cee027c05aaaca015e4
@@ -7844,7 +7894,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 81
 Depends: libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libvncclient1 (>= 0.9.10), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-vnc_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-vnc_1.4.26+dfsg-1_amd64.deb
 Size: 33428
 MD5sum: 9dd7b45dbadac1cf963140bcdaed0550
 SHA1: 04b73d7e67d0108b3df8a7d5120abacfa37f89a4
@@ -7873,7 +7923,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 68
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.2), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.4.0), libwayland-client0 (>= 1.0.2), libwebkit2gtk-4.0-37 (>= 2.31.1), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina-plugin-www_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-www_1.4.26+dfsg-1_amd64.deb
 Size: 26948
 MD5sum: 89d9bf5daf565f7596169c7fefed5054
 SHA1: e0587cd124f9129b201bfc4ec1f1b86291514823
@@ -7903,7 +7953,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 96
 Depends: pyhoca-cli, remmina (= 1.4.26+dfsg-1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libssh-4 (>= 0.8.1), libwayland-client0 (>= 1.0.2), libx11-6
-Filename: ./remmina-plugin-x2go_1.4.26+dfsg-1_amd64.deb
+Filename: ./remmina/remmina-plugin-x2go_1.4.26+dfsg-1_amd64.deb
 Size: 38620
 MD5sum: df9a213ad7a88e9924fa4f5c11c5ce73
 SHA1: 2718eb16ce5a36a9c6bff422b320030c0dab5263
@@ -8207,7 +8257,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 414
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.35.8), libpcap0.8 (>= 1.5.1), libwireshark15 (>= 3.5.0), libwiretap12 (>= 3.5.0), libwsutil13 (>= 3.5.1), zlib1g (>= 1:1.1.4), wireshark-common (= 3.6.6-1)
-Filename: ./tshark_3.6.6-1_amd64.deb
+Filename: ./wireshark/tshark_3.6.6-1_amd64.deb
 Size: 189092
 MD5sum: 521f5b9dd04673d7171a78c5dc6689a0
 SHA1: 5b4c345bb35f240fbfd7b27ef676a2c0a6e8d618
@@ -8231,7 +8281,7 @@ Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Installed-Size: 1006
 Depends: libabsl20210324 (>= 0~20210324.2-1), libc6 (>= 2.15), libprotobuf17, libstdc++6 (>= 5.2), libuim-scm0 (>= 1:1.5.7), libuim8 (>= 1:1.5.7), mozc-data, mozc-server (= 2.26.4220.100+dfsg-5.1)
 Recommends: mozc-utils-gui (= 2.26.4220.100+dfsg-5.1)
-Filename: ./uim-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
+Filename: ./mozc/uim-mozc_2.26.4220.100+dfsg-5.1_amd64.deb
 Size: 226312
 MD5sum: 9195f894d637a22fd554f4c29cf79fb2
 SHA1: eaca4c3fec7042d5f7512ebc1da8deba1afece87
@@ -8293,7 +8343,7 @@ Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 170
 Depends: libc6 (>= 2.4), libwinpr-tools2-2 (= 2.7.0+dfsg1-1), libwinpr2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1)
-Filename: ./winpr-utils_2.7.0+dfsg1-1_amd64.deb
+Filename: ./freerdp/winpr-utils_2.7.0+dfsg1-1_amd64.deb
 Size: 39272
 MD5sum: fa7c97088da72ec12bd8ddd2f34b95ea
 SHA1: 6e176fc70f2fa899a64337fb277e69909c6b1a33
@@ -8320,7 +8370,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 67
 Depends: wireshark-qt (= 3.6.6-1)
-Filename: ./wireshark_3.6.6-1_amd64.deb
+Filename: ./wireshark/wireshark_3.6.6-1_amd64.deb
 Size: 51812
 MD5sum: 2557cdac02cb12c88823b8d0ee787e9d
 SHA1: da8d1c5494a4626b06f9bc12922fef5216455fa7
@@ -8345,7 +8395,7 @@ Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.8.0), libglib2.
 Recommends: wireshark (>= 3.6.6-1) | tshark (>= 3.6.6-1)
 Breaks: wireshark (<< 2.0.0~), wireshark-gtk (<< 3.0.0), wireshark-qt (<< 2.0.0~rc3+g841d5e1)
 Replaces: wireshark (<< 2.0.0~), wireshark-qt (<< 2.0.0~rc3+g841d5e1)
-Filename: ./wireshark-common_3.6.6-1_amd64.deb
+Filename: ./wireshark/wireshark-common_3.6.6-1_amd64.deb
 Size: 487504
 MD5sum: a06c3d000657cdd11acfb2b4a5663f8f
 SHA1: c410b92830539aa306e4aba4e5f5dc6a39717ee8
@@ -8368,7 +8418,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 577
 Depends: omniidl, libpcap0.8-dev, libglib2.0-dev, python3:any, python3-ply, snacc, libwireshark-dev, libwiretap-dev
-Filename: ./wireshark-dev_3.6.6-1_amd64.deb
+Filename: ./wireshark/wireshark-dev_3.6.6-1_amd64.deb
 Size: 153532
 MD5sum: 4aa3a338329ad1640af238fa2230ea75
 SHA1: 7d1a858a63859028226a3537f00ea88a414ca396
@@ -8390,7 +8440,7 @@ Version: 3.6.6-1
 Architecture: all
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 13261
-Filename: ./wireshark-doc_3.6.6-1_all.deb
+Filename: ./wireshark/wireshark-doc_3.6.6-1_all.deb
 Size: 10102812
 MD5sum: f863f8c919fb072db3d29515e6b0d928
 SHA1: 6c23b7911a41f0f7c39a324b89f0b7fd2f637e9d
@@ -8414,7 +8464,7 @@ Architecture: amd64
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Installed-Size: 65
 Depends: wireshark-qt (>= 3.0.0~)
-Filename: ./wireshark-gtk_3.6.6-1_amd64.deb
+Filename: ./wireshark/wireshark-gtk_3.6.6-1_amd64.deb
 Size: 49972
 MD5sum: 2a9ffa79a3160a4bced6a36611207a2c
 SHA1: df4e41d7c4a3681286a524be9a26f8662168b35b
@@ -8435,7 +8485,7 @@ Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgcrypt20 (>= 1.8.0), libglib2.0
 Recommends: libqt5multimedia5-plugins
 Breaks: wireshark (<< 2.0.0~), wireshark-gtk (<< 3.0.0~)
 Replaces: wireshark (<< 2.0.0~), wireshark-gtk (<< 3.0.0~)
-Filename: ./wireshark-qt_3.6.6-1_amd64.deb
+Filename: ./wireshark/wireshark-qt_3.6.6-1_amd64.deb
 Size: 4069812
 MD5sum: 96e926933d353b1a3c36359159c8c530
 SHA1: 0090d861bbd9787632911765dc3b1bca2bf1a97e
@@ -8453,21 +8503,21 @@ Description: network traffic analyzer - Qt version
 Package: xserver-xorg-video-nvidia-legacy-390xx
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 18188
+Installed-Size: 22920
 Pre-Depends: nvidia-installer-cleanup
-Depends: nvidia-legacy-390xx-alternative (= 390.151-2), nvidia-support, xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:21.99), libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-2)
+Depends: nvidia-legacy-390xx-alternative (= 390.151-2), nvidia-support, xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:21.99), libc6 (>= 2.2.5), libnvidia-legacy-390xx-glcore (= 390.151-2)
 Recommends: nvidia-legacy-390xx-driver (>= 390.151), nvidia-legacy-390xx-vdpau-driver (>= 390.151), nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-kernel-390.151, nvidia-settings-legacy-390xx
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Breaks: glx-alternative-nvidia (<< 0.6.91)
 Replaces: glx-alternative-nvidia (<< 0.6.91)
 Provides: xorg-driver-video, xserver-xorg-video-nvidia-any
-Filename: ./xserver-xorg-video-nvidia-legacy-390xx_390.151-2_i386.deb
-Size: 2487108
-MD5sum: 2b384685a1d35167e58579dfb88c81f0
-SHA1: 31402a1e9c99ba1f603bfb2f06d51769bb6d13e4
-SHA256: 0a33e3840cba3d1f3fdbc4078c7eff68ecc622819b424a58980ddc59f19665f7
+Filename: ./nvidia-legacy-390xx-driver/xserver-xorg-video-nvidia-legacy-390xx_390.151-2_amd64.deb
+Size: 2538116
+MD5sum: 539da109fc4ffd372059f05a7718ed89
+SHA1: 8fe0d831980b0dd8259e3463c4bda3b52b0f8f88
+SHA256: 50b851b2b36e21b6cd8048ade8c346791e6fd3b265cca3a8b1179e9a65a8b2df
 Section: non-free/x11
 Priority: optional
 Homepage: https://www.nvidia.com
@@ -8561,21 +8611,21 @@ Description: NVIDIA binary Xorg driver (390xx legacy version)
 Package: xserver-xorg-video-nvidia-legacy-390xx
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 22920
+Installed-Size: 18188
 Pre-Depends: nvidia-installer-cleanup
-Depends: nvidia-legacy-390xx-alternative (= 390.151-2), nvidia-support, xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:21.99), libc6 (>= 2.2.5), libnvidia-legacy-390xx-glcore (= 390.151-2)
+Depends: nvidia-legacy-390xx-alternative (= 390.151-2), nvidia-support, xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:21.99), libc6 (>= 2.1.3), libnvidia-legacy-390xx-glcore (= 390.151-2)
 Recommends: nvidia-legacy-390xx-driver (>= 390.151), nvidia-legacy-390xx-vdpau-driver (>= 390.151), nvidia-legacy-390xx-kernel-dkms (= 390.151-2) | nvidia-legacy-390xx-kernel-390.151, nvidia-settings-legacy-390xx
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.151) | nvidia-legacy-390xx-kernel-source (>= 390.151)
 Breaks: glx-alternative-nvidia (<< 0.6.91)
 Replaces: glx-alternative-nvidia (<< 0.6.91)
 Provides: xorg-driver-video, xserver-xorg-video-nvidia-any
-Filename: ./xserver-xorg-video-nvidia-legacy-390xx_390.151-2_amd64.deb
-Size: 2538116
-MD5sum: 539da109fc4ffd372059f05a7718ed89
-SHA1: 8fe0d831980b0dd8259e3463c4bda3b52b0f8f88
-SHA256: 50b851b2b36e21b6cd8048ade8c346791e6fd3b265cca3a8b1179e9a65a8b2df
+Filename: ./nvidia-legacy-390xx-driver/xserver-xorg-video-nvidia-legacy-390xx_390.151-2_i386.deb
+Size: 2487108
+MD5sum: 2b384685a1d35167e58579dfb88c81f0
+SHA1: 31402a1e9c99ba1f603bfb2f06d51769bb6d13e4
+SHA256: 0a33e3840cba3d1f3fdbc4078c7eff68ecc622819b424a58980ddc59f19665f7
 Section: non-free/x11
 Priority: optional
 Homepage: https://www.nvidia.com
