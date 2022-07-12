@@ -1,3 +1,49 @@
+Package: ctdb
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 3556
+Depends: iproute2, lsb-base (>= 3.0-6), psmisc, samba-libs (= 2:4.16.2+dfsg-1), sudo, tdb-tools, time, libbsd0 (>= 0.0), libc6 (>= 2.14), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~)
+Recommends: ethtool, python3:any, python3-etcd, librados2 (>= 12.2.8)
+Suggests: logrotate, lsof
+Filename: ./samba/ctdb_4.16.2+dfsg-1_amd64.deb
+Size: 742492
+MD5sum: 495187c643ff16dda687f25079af46df
+SHA1: 7b37ae05523dc297481358619887c29d7f649b08
+SHA256: 098ef43817c911775ac8148f8d7071f59a7421af554a74cc1162f01d9d3014ed
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.samba.org
+Description: clustered database to store temporary data
+ CTDB is a cluster implementation of the TDB database used by Samba and other
+ projects to store temporary data. If an application is already using TDB for
+ temporary data it is very easy to convert that application to be cluster aware
+ and use CTDB instead.
+ .
+ CTDB provides the same types of functions as TDB but in a clustered fashion,
+ providing a TDB-style database that spans multiple physical hosts in a cluster.
+ .
+ Features include:
+  * CTDB provides a TDB that has consistent data and consistent locking across
+    all nodes in a cluster.
+  * CTDB is very fast.
+  * In case of node failures, CTDB will automatically recover and repair all TDB
+    databases that it manages.
+  * CTDB is the core component that provides pCIFS ("parallel CIFS") with
+    Samba3/4.
+  * CTDB provides HA features such as node monitoring, node failover, and IP
+    takeover.
+  * CTDB provides a reliable messaging transport to allow applications linked
+    with CTDB to communicate to other instances of the application running on
+    different nodes in the cluster.
+  * CTDB has pluggable transport backends. Currently implemented backends are
+    TCP and Infiniband.
+  * CTDB supports a system of application specific management scripts, allowing
+    applications that depend on network or filesystem resources to be managed in
+    a highly available manner on a cluster.
+
 Package: dcc-dock-plugin
 Source: dde-dock
 Version: 5.5.53-1+kt286
@@ -427,6 +473,81 @@ Priority: optional
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde-dock
  dock-plugin module
+
+Package: dpkg
+Version: 1.21.9
+Architecture: amd64
+Essential: yes
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 6077
+Pre-Depends: libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)
+Depends: tar (>= 1.28-1)
+Suggests: apt, debsig-verify
+Breaks: libapt-pkg5.0 (<< 1.7~b), lsb-base (<< 10.2019031300)
+Filename: ./dpkg/dpkg_1.21.9_amd64.deb
+Size: 1653240
+MD5sum: cba67f417bab52dacce6ff6c8246bc09
+SHA1: af9caad756ee84128184a748e3ec7c5aade2012e
+SHA256: cbbb7b6fe456cc83a18f67692d5b72b186880f1da83b2ffe17cc25d816780fbe
+Section: admin
+Priority: required
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Debian package management system
+ This package provides the low-level infrastructure for handling the
+ installation and removal of Debian software packages.
+ .
+ For Debian package development tools, install dpkg-dev.
+
+Package: dpkg-dev
+Source: dpkg
+Version: 1.21.9
+Architecture: all
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1799
+Depends: perl:any, libdpkg-perl (= 1.21.9), tar (>= 1.28-1), bzip2, xz-utils, patch (>= 2.7), make, binutils
+Recommends: build-essential, gcc | c-compiler, fakeroot, gnupg, gpgv, libalgorithm-merge-perl
+Suggests: debian-keyring
+Breaks: debhelper (<< 10.10.1~)
+Filename: ./dpkg/dpkg-dev_1.21.9_all.deb
+Size: 1471816
+MD5sum: facc3810e4cf39a893938d1e9fc4dd29
+SHA1: d67645bb60450c8a676818802543335330314d41
+SHA256: d61acf07b0f6eecbbc83a15fe34cdce56291f10077014d6698fd024929a58efa
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+ .
+ Most Debian source packages will require additional tools to build;
+ for example, most packages need make and the C compiler gcc.
+
+Package: dselect
+Source: dpkg
+Version: 1.21.9
+Architecture: amd64
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1771
+Depends: libc6 (>= 2.14), libncursesw6 (>= 6.1+20180210), libtinfo6 (>= 6.1+20180210)
+Suggests: perl
+Filename: ./dpkg/dselect_1.21.9_amd64.deb
+Size: 708240
+MD5sum: 06615663e6783d1658c0e21c5fbefa3a
+SHA1: f015b7fb250ae95bc94031e202526796a343eaa6
+SHA256: 4b91df01f4faedada812f14aa78d0121599c8e76a6293935eb59a2c70479fc05
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Debian package management front-end
+ dselect is a high-level interface for managing the installation and
+ removal of Debian software packages.
+ .
+ Many users find dselect intimidating and new users may prefer to use
+ apt-based user interfaces.
 
 Package: dss-network-plugin
 Source: dde-network-core
@@ -2755,6 +2876,31 @@ Description: KDE configuration module for Fcitx5
  This is a configuration module for System Settings for configuring
  Fcitx Input Method Framework v5.
 
+Package: ldb-tools
+Source: samba (2:4.16.2+dfsg-1)
+Version: 2:2.5.1+samba4.16.2-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 281
+Depends: libc6 (>= 2.4), libldb2 (>= 1.1.5), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.3-3~)
+Filename: ./samba/ldb-tools_2.5.1+samba4.16.2-1_amd64.deb
+Size: 143592
+MD5sum: 45790588b0043bcf70f1404470cf8044
+SHA1: 03206191a38c57f579345e884cc6919e95b4224d
+SHA256: 556c80475c79037fad53e7ab07d7cfcbd49bd64254856fe0a91ca0e651775969
+Section: utils
+Priority: optional
+Homepage: https://www.samba.org
+Description: LDAP-like embedded database - tools
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ What ldb does is provide a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains bundled test and utility binaries
+
 Package: libabsl-dev
 Source: abseil
 Version: 0~20210324.2-2
@@ -3028,6 +3174,98 @@ Description: routines to convert IEEE floats to and from strings
  and improved so that it can be used more easily in other projects.
  .
  This package contains a shared version of the library.
+
+Package: libdpkg-dev
+Source: dpkg
+Version: 1.21.9
+Architecture: amd64
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1026
+Depends: zlib1g-dev, liblzma-dev, libbz2-dev
+Filename: ./dpkg/libdpkg-dev_1.21.9_amd64.deb
+Size: 516224
+MD5sum: daeb63fb623afc61b035867d4e01d3f9
+SHA1: f6ed931dfcfb8357a756f79f82d4dc6b99234c5f
+SHA256: f251168b3611ab3dceffbd0277b2e31f2c6da255087fd372fe3c9801f8e4f208
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Debian package management static library
+ This package provides the header files and static library necessary to
+ develop software using libdpkg, the same library used internally by dpkg.
+ .
+ Note though, that the API is to be considered volatile, and might change
+ at any time, use at your own risk.
+
+Package: libdpkg-perl
+Source: dpkg
+Version: 1.21.9
+Architecture: all
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1800
+Depends: perl:any, dpkg (>= 1.18.11)
+Recommends: libfile-fcntllock-perl, liblocale-gettext-perl, bzip2, xz-utils
+Suggests: debian-keyring, gnupg, gpgv, gcc | c-compiler, binutils, patch, sensible-utils, git, bzr
+Breaks: dgit (<< 3.13~), pkg-kde-tools (<< 0.15.28~)
+Filename: ./dpkg/libdpkg-perl_1.21.9_all.deb
+Size: 732116
+MD5sum: 72b8fcef661d262b375566acdba40c8d
+SHA1: 7c60bdc6edda5a789119a0403dbcbc777e2c768d
+SHA256: d0ff693ff28168f15fb0df00baf356ae46b0e7f0e9966776f9816681b1e53493
+Section: perl
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::Build::Info: build information functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
 
 Package: libegl-nvidia-legacy-390xx0
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -4252,6 +4490,88 @@ Description: Generic Input Method Implementation (table library)
  .
  This package provides its table library.
 
+Package: libldb-dev
+Source: samba (2:4.16.2+dfsg-1)
+Version: 2:2.5.1+samba4.16.2-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 258
+Depends: libc6-dev, libldb2 (= 2:2.5.1+samba4.16.2-1), libtalloc-dev, libtevent-dev, libtdb-dev, pkg-config
+Filename: ./samba/libldb-dev_2.5.1+samba4.16.2-1_amd64.deb
+Size: 141896
+MD5sum: b0268bcfe32d22e7d6dead5b1b9f83cd
+SHA1: 9fa9b7b5b9d7504e0f9538971f01024fb36728f9
+SHA256: 76cb3725f723ff2612cf35744e3c2b9fa3d034f1ef1eb2da1a17ac67eb55152a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: LDAP-like embedded database - development files
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ What ldb does is provide a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains the development files.
+
+Package: libldb2
+Source: samba (2:4.16.2+dfsg-1)
+Version: 2:2.5.1+samba4.16.2-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 691
+Depends: libc6 (>= 2.14), libldap-2.4-2 (>= 2.4.7), liblmdb0 (>= 0.9.9), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~)
+Breaks: ldb-tools (<< 1.1.30~), samba (<< 2:4.7.0~), samba-dsdb-modules (<< 2:4.7.0~), samba-libs (<< 2:4.7.0~), samba-testsuite (<< 2:4.7.0~)
+Filename: ./samba/libldb2_2.5.1+samba4.16.2-1_amd64.deb
+Size: 247560
+MD5sum: 3ee28bcea2123b5138b16ba8ad000301
+SHA1: ded038814e97e24692f0f2d98d275df261ce9d38
+SHA256: 283c5fb1c79fe3a034b705965e8ce0ea9ef469d3dc42d5b02e7f90cea8d6c807
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: LDAP-like embedded database - shared library
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ It provides a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains the shared library file.
+
+Package: libnss-winbind
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 261
+Depends: winbind:any (= 2:4.16.2+dfsg-1), libbsd0 (>= 0.0), libc6 (>= 2.14)
+Suggests: libpam-winbind
+Filename: ./samba/libnss-winbind_4.16.2+dfsg-1_amd64.deb
+Size: 144644
+MD5sum: 6c5729d112d71cf5c3946dfed23ae8cf
+SHA1: f90ac152ea119fda69030b53022400ac407dce6a
+SHA256: 12c0778cd4b223398e4fd7d8d5ef84284ec803d02aa1220461902876d36a630c
+Section: admin
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Samba nameservice integration plugins
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.  Samba can also function
+ as an NT4-style domain controller, and can integrate with both NT4 domains
+ and Active Directory realms as a member server.
+ .
+ This package provides nss_winbind, a plugin that integrates
+ with a local winbindd server to provide user/group name lookups to the
+ system; and nss_wins, which provides hostname lookups via both the NBNS and
+ NetBIOS broadcast protocols.
+
 Package: libnvidia-legacy-390xx-cfg1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
@@ -4891,6 +5211,33 @@ Description: NVIDIA PTX JIT Compiler library (390xx legacy version)
  .
  This package contains the runtime PTX JIT Compiler library.
 
+Package: libpam-winbind
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 249
+Depends: libpam-runtime (>= 1.0.1-6), libpam0g (>= 1.1.3-2~), winbind:any (= 2:4.16.2+dfsg-1), libbsd0 (>= 0.0), libc6 (>= 2.14), libtalloc2 (>= 2.3.3-3~)
+Suggests: libnss-winbind
+Filename: ./samba/libpam-winbind_4.16.2+dfsg-1_amd64.deb
+Size: 159764
+MD5sum: e52f519ae5433a4b20c04a8320050ab4
+SHA1: bc6c635b30b2fecf5a8c98dd8cc77cb3ee3bac52
+SHA256: ae93ce7cf2e98b763c2bc7b437866cc635fe4157251910e89163102faae93f54
+Section: admin
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Windows domain authentication integration plugin
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.  Samba can also function
+ as an NT4-style domain controller, and can integrate with both NT4 domains
+ and Active Directory realms as a member server.
+ .
+ This package provides pam_winbind, a plugin that integrates with a local
+ winbindd server to provide Windows domain authentication to the system.
+
 Package: librime-bin
 Source: librime
 Version: 1.7.3+dfsg4-1
@@ -5069,6 +5416,191 @@ Description: Rime Input Method Engine - core library
  .
  This package provides the core library of RIME.
 
+Package: libsmbclient
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 325
+Depends: samba-libs (= 2:4.16.2+dfsg-1), libbsd0 (>= 0.0), libc6 (>= 2.14), libtalloc2 (>= 2.3.3-3~), libtevent0 (>= 0.11.0~)
+Filename: ./samba/libsmbclient_4.16.2+dfsg-1_amd64.deb
+Size: 170480
+MD5sum: b98ae52be72eeb9a3fe034685217be71
+SHA1: 3e468f3b31d34f6f16117bcf09e91114c5ee90ce
+SHA256: 5e7cfa7bec47cb177136d392566657251e959b1f463b5944921ce1dec2d4c4b7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: shared library for communication with SMB/CIFS servers
+ This package provides a shared library that enables client applications
+ to talk to Microsoft Windows and Samba servers using the SMB/CIFS
+ protocol.
+
+Package: libsmbclient-dev
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 357
+Depends: libsmbclient (= 2:4.16.2+dfsg-1)
+Filename: ./samba/libsmbclient-dev_4.16.2+dfsg-1_amd64.deb
+Size: 150368
+MD5sum: e9350e9c5a29cf78bee30355737e8d43
+SHA1: 9b6c7bb2dffed760d1593e14c9e640ddaf16c041
+SHA256: fc31e6c1c8248be52e5a0130001a89d5dc4e125a948369794ea262c3968c7d47
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: development files for libsmbclient
+ This package provides the development files (static library and headers)
+ required for building applications against libsmbclient, a library that
+ enables client applications to talk to Microsoft Windows and Samba servers
+ using the SMB/CIFS protocol.
+
+Package: libtalloc-dev
+Source: talloc
+Version: 2.3.3-4
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 224
+Depends: libtalloc2 (= 2.3.3-4), pkg-config
+Filename: ./talloc/libtalloc-dev_2.3.3-4_amd64.deb
+Size: 65176
+MD5sum: 5af234b396f36c114f3be857ac2f54ff
+SHA1: b6c28c10370fb9600b373bb143824fda88a314f6
+SHA256: aef557843f4c71d952fe68311aa06fde17333bc3bbc3831adce3fea7d52bcc22
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://talloc.samba.org/
+Description: hierarchical pool based memory allocator - development files
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+ .
+ This package contains the development files.
+
+Package: libtalloc2
+Source: talloc
+Version: 2.3.3-4
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 125
+Depends: libc6 (>= 2.16)
+Breaks: python3-talloc (<< 2.1.13-2~)
+Filename: ./talloc/libtalloc2_2.3.3-4_amd64.deb
+Size: 39744
+MD5sum: 8f89c22caaf6f62a3cb34e5b398c4e00
+SHA1: e2f9b42824f1f62e256469678100a095215093f0
+SHA256: 23762423de03981a7f09e203e74ef74e21f405286afebf0c2da7a193c2f59576
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://talloc.samba.org/
+Description: hierarchical pool based memory allocator
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+
+Package: libtdb-dev
+Source: tdb
+Version: 1.4.6-3
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 230
+Depends: libc6-dev, libtdb1 (= 1.4.6-3)
+Provides: tdb-dev
+Filename: ./tdb/libtdb-dev_1.4.6-3_amd64.deb
+Size: 69964
+MD5sum: 833ae8e8a293054d9307adc7e725280e
+SHA1: b2694905bb524cc656d11be4d1e92f705075cbed
+SHA256: 8079d686cc2937bf4e67a625704cd0579afe1e063686ed3b13e3aa8d9b1e4ad7
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://tdb.samba.org/
+Description: Trivial Database - development files
+ This is a simple database API. It is modelled after the structure
+ of GDBM. TDB features, unlike GDBM, multiple writers support with
+ appropriate locking and transactions.
+ .
+ This package contains the development files.
+
+Package: libtdb1
+Source: tdb
+Version: 1.4.6-3
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 136
+Depends: libc6 (>= 2.14)
+Filename: ./tdb/libtdb1_1.4.6-3_amd64.deb
+Size: 50192
+MD5sum: 64370c047b95245a6ed4abb84fa2ab36
+SHA1: 73a4465d84cd45691954df79c923add80f8813a5
+SHA256: e374f6f576bb4eb738032532bee2b80ce91076c2ea05bd2120863ecebd956e8e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://tdb.samba.org/
+Description: Trivial Database - shared library
+ This is a simple database API. It is modelled after the structure
+ of GDBM. TDB features, unlike GDBM, multiple writers support with
+ appropriate locking and transactions.
+ .
+ This package contains the shared library file.
+
+Package: libtevent-dev
+Source: tevent
+Version: 0.12.0-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 252
+Depends: libc6-dev, libtalloc-dev, libtevent0 (= 0.12.0-1)
+Filename: ./tevent/libtevent-dev_0.12.0-1_amd64.deb
+Size: 54092
+MD5sum: 1781afb62e154dc8d1fdcd2bb3e53e34
+SHA1: 8aa18cc70aa3ef09d39baf203124120c77eb6357
+SHA256: a7e710f53969a0c2684bada73942a6bc4338ea36c3b5af4a31dd37b88c2bbaee
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://tevent.samba.org/
+Description: talloc-based event loop library - development files
+ tevent is a simple library that can handle the main event loop for an
+ application. It supports three kinds of events: timed events, file
+ descriptors becoming readable or writable and signals.
+ .
+ Talloc is used for memory management, both internally and for private
+ data provided by users of the library.
+ .
+ This package provides the development files.
+
+Package: libtevent0
+Source: tevent
+Version: 0.12.0-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 123
+Depends: libc6 (>= 2.28), libtalloc2 (>= 2.3.2~)
+Filename: ./tevent/libtevent0_0.12.0-1_amd64.deb
+Size: 38736
+MD5sum: 689a784068a2cc056219657b5fcb2a4e
+SHA1: 116b85b20c3f5ea71b9096a03f434b9b48d1ed25
+SHA256: 3a689e7a0c7ab7e850edd975747b0604412fda4345a94f11ce1b3096023ad0fb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://tevent.samba.org/
+Description: talloc-based event loop library - shared library
+ tevent is a simple library that can handle the main event loop for an
+ application. It supports three kinds of events: timed events, file
+ descriptors becoming readable or writable and signals.
+ .
+ Talloc is used for memory management, both internally and for private
+ data provided by users of the library.
+ .
+ This package provides the shared library file.
+
 Package: libuwac0-0
 Source: freerdp2
 Version: 2.7.0+dfsg1-1
@@ -5114,6 +5646,59 @@ Description: Using wayland as a client (development files)
  functionality for wayland clients.
  .
  This package contains the libuwac development files
+
+Package: libwbclient-dev
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 199
+Depends: libwbclient0 (= 2:4.16.2+dfsg-1)
+Breaks: samba-dev (<< 2:4.11), samba-libs (<< 2:4.11.0+dfsg-1~)
+Replaces: samba-dev (<< 2:4.11)
+Filename: ./samba/libwbclient-dev_4.16.2+dfsg-1_amd64.deb
+Size: 126600
+MD5sum: f4d946b9e036a991b30f7ef012051c83
+SHA1: 47065a8facebca00d75f4495a47069591bd1c049
+SHA256: 94016c6180270a0e34908cdc03908daea4f949d4d9bccdef93ae0051cbc09c6d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Samba winbind client library - development files
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package provides the development files (static library and headers)
+ required for building applications against libwbclient, a library for client
+ applications that interact via the winbind pipe protocol with a Samba
+ winbind server.
+
+Package: libwbclient0
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 216
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.14)
+Breaks: samba-libs (<< 2:4.11.0+dfsg-1~)
+Filename: ./samba/libwbclient0_4.16.2+dfsg-1_amd64.deb
+Size: 140568
+MD5sum: 0463e4e02024cf2cf616b74b30797b24
+SHA1: a1d00f33505e820596ef3362fa89a5496122d5ae
+SHA256: aa5992c31015464276bdaa6d6077dc1fe244500ce3216840f307006d897eccaa
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Samba winbind client library
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package provides a library for client applications that interact
+ via the winbind pipe protocol with a Samba winbind server.
 
 Package: libwinpr-tools2-2
 Source: freerdp2
@@ -6757,6 +7342,205 @@ Description: NVIDIA Vulkan installable client driver (ICD) (390xx legacy version
  This metapackage provides the NVIDIA installable client driver (ICD) for
  Vulkan (GLVND variant) which supports NVIDIA GPUs.
 
+Package: po4a
+Version: 0.66-1
+Architecture: all
+Maintainer: Martin Quinson <mquinson@debian.org>
+Installed-Size: 3712
+Depends: gettext, libpod-parser-perl (>= 1.63), libsgmls-perl, libyaml-tiny-perl, opensp, perl:any
+Recommends: liblocale-gettext-perl, libterm-readkey-perl, libtext-wrapi18n-perl, libunicode-linebreak-perl
+Filename: ./po4a/po4a_0.66-1_all.deb
+Size: 2025288
+MD5sum: 5a8f6dbaf83023b0e3cda4448dbc4d68
+SHA1: d66311948fa831e7a8767ab79a4b5abe5ad8e1af
+SHA256: 03b6b431151cbb09f5f026e92a7148078f4e1098b13df0d1e64b62b625918cef
+Section: text
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://po4a.org/
+Description: tools to ease the translation of documentation
+ po4a eases the translation of documentation and other textual document.
+ Even more interestingly, it makes it easy to maintain these
+ translations when the original document changes. This is done by
+ using the gettext tools in this new domain.
+ .
+ This package contains the main libraries of po4a, and the necessary
+ sub-modules to handle the following formats:
+ .
+   - Dia: uncompressed Dia diagrams.
+   - INI: the INI format
+   - KernelHelp: Help messages of each kernel compilation option.
+   - LaTeX: generic TeX or LaTeX format.
+   - Man: either roff or mdoc format.
+   - POD: Perl documentation format.
+   - SGML: either DebianDoc or DocBook DTD.
+   - RubyDoc: Ruby documentation format.
+   - Texinfo: the info page format.
+   - XML: very configurable (preconfigured for DocBook, XHTML, Guide, WML).
+   - Yaml: Yaml documents.
+
+Package: python3-ldb
+Source: samba (2:4.16.2+dfsg-1)
+Version: 2:2.5.1+samba4.16.2-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 272
+Depends: libldb2 (= 2:2.5.1+samba4.16.2-1), python3 (<< 3.8), python3 (>= 3.7~), python3:any, libc6 (>= 2.4), libpython3.7 (>= 3.7.0), libtalloc2 (>= 2.3.3-3~)
+Filename: ./samba/python3-ldb_2.5.1+samba4.16.2-1_amd64.deb
+Size: 147264
+MD5sum: fc60e8b8caef17b89657241df2ec51f2
+SHA1: 38744fe1cdf2e58db46c46ca91f7d98b94b5ce97
+SHA256: f675e4a73777da3832039ca82430a661c2f1878c6a8caceff411e97c8be506a6
+Section: python
+Priority: optional
+Homepage: https://www.samba.org
+Description: Python 3 bindings for LDB
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ This package contains the Python 3 bindings.
+
+Package: python3-ldb-dev
+Source: samba (2:4.16.2+dfsg-1)
+Version: 2:2.5.1+samba4.16.2-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 149
+Depends: libc6-dev, libldb-dev, pkg-config, python3-ldb (= 2:2.5.1+samba4.16.2-1)
+Filename: ./samba/python3-ldb-dev_2.5.1+samba4.16.2-1_amd64.deb
+Size: 119212
+MD5sum: b4a6d031a307874dbc2391c8bc26ba21
+SHA1: d6b0ca91e16b38e8d475c4dc1388f52f89079738
+SHA256: be36ea8be5818193ed96179a68f6d68a8e2ced2afb43cd728e08a2249c6fc415
+Section: libdevel
+Priority: optional
+Homepage: https://www.samba.org
+Description: LDB Python 3 bindings - development files
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ It is a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains the development files for the Python 3 bindings.
+
+Package: python3-samba
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 21625
+Depends: python3-ldb (>= 2:2.1.0), python3-tdb, samba-libs (= 2:4.16.2+dfsg-1), python3 (<< 3.8), python3 (>= 3.7~), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.14), libgnutls30 (>= 3.6.5), libldb2 (>= 0.9.21), libpython3.7 (>= 3.7.0), libtalloc2 (>= 2.3.3-3~), libtevent0 (>= 0.11.0~), python3-talloc (>= 2.3.3~)
+Recommends: python3-gpg
+Replaces: samba (<< 2:4.16.0+dfsg-1~), samba-libs (<< 2:4.16.0+dfsg-1~)
+Filename: ./samba/python3-samba_4.16.2+dfsg-1_amd64.deb
+Size: 2862864
+MD5sum: 5440355b5c44872c0ebb0a213fb93dc1
+SHA1: 3a3cbf0cebef97c5b6a54be83554ae6ad4574004
+SHA256: 59fbe4feb7a83318ece7916b033e12ab69bb4f6ccac6257e13644bf42aa648a4
+Section: python
+Priority: optional
+Homepage: https://www.samba.org
+Description: Python 3 bindings for Samba
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains Python 3 bindings for most Samba libraries.
+
+Package: python3-talloc
+Source: talloc
+Version: 2.3.3-4
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 77
+Depends: libtalloc2 (= 2.3.3-4), python3 (<< 3.8), python3 (>= 3.7~), libc6 (>= 2.4), libpython3.7 (>= 3.7.0)
+Provides: python3.7-talloc
+Filename: ./talloc/python3-talloc_2.3.3-4_amd64.deb
+Size: 17764
+MD5sum: 8866280fec8b0f071c3cec440f739a5b
+SHA1: 90713171677eb39850ecaf606d8313f575e147d1
+SHA256: c87817bc4a600562fd4df31231de105437b7c9e5341d2b99dcb18057792d8d17
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: https://talloc.samba.org/
+Description: hierarchical pool based memory allocator - Python3 bindings
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+ .
+ This package contains the Python 3 bindings.
+
+Package: python3-talloc-dev
+Source: talloc
+Version: 2.3.3-4
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: pkg-config, python3-talloc (= 2.3.3-4)
+Filename: ./talloc/python3-talloc-dev_2.3.3-4_amd64.deb
+Size: 12376
+MD5sum: 6755e7fe8d558e9d8734d05cf3a110b6
+SHA1: eb6bbc5b9d07eb9c31bf72de119fd9760a22ba7b
+SHA256: c41868e006d1771b5da1abb36a3a30a166c17b17f2fa6f4a0093cba369cfe53d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://talloc.samba.org/
+Description: talloc Python 3 bindings - development files
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+ .
+ This package contains the development files for the Python 3 bindings.
+
+Package: python3-tdb
+Source: tdb
+Version: 1.4.6-3
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 75
+Depends: libtdb1 (= 1.4.6-3), python3 (<< 3.8), python3 (>= 3.7~), python3:any, libc6 (>= 2.4), libpython3.7 (>= 3.7.0)
+Provides: python3.7-tdb
+Filename: ./tdb/python3-tdb_1.4.6-3_amd64.deb
+Size: 21264
+MD5sum: 9400f2cffe9a80bed8ad8ca3765f7258
+SHA1: 0d536144cf6fc02cbb584cf67deb0220bf4bf4ec
+SHA256: f02c2bd552c39cea69a9a0e298250d6e57f15669df54e8a34de0cc5330b75ad4
+Section: python
+Priority: optional
+Homepage: https://tdb.samba.org/
+Description: Python3 bindings for TDB
+ This is a simple database API. It is modelled after the structure
+ of GDBM. TDB features, unlike GDBM, multiple writers support with
+ appropriate locking and transactions.
+ .
+ This package contains the Python3 bindings.
+
+Package: registry-tools
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 242
+Depends: samba-libs (= 2:4.16.2+dfsg-1), libc6 (>= 2.8), libpopt0 (>= 1.14), libreadline7 (>= 6.0), libtalloc2 (>= 2.3.3-3~)
+Filename: ./samba/registry-tools_4.16.2+dfsg-1_amd64.deb
+Size: 139060
+MD5sum: 2e8a8646ac53878abb12b6a31585a7c3
+SHA1: ec6c94a421d83680fcc075bc45ec41281f30d28b
+SHA256: f49a44a72129e446a1162711e329d8ea49fc392552ae91b31b048ea1146d8210
+Section: net
+Priority: optional
+Homepage: https://www.samba.org
+Description: tools for viewing and manipulating the Windows registry
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains tools for viewing and manipulating the binary
+ "registry" found on Windows machines, both locally and remote.
+
 Package: remmina
 Version: 1.4.26+dfsg-1
 Architecture: amd64
@@ -7141,6 +7925,281 @@ Description: X2Go plugin for Remmina
  .
  This package contains the X2Go plugin for Remmina.
 
+Package: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 17649
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: adduser, libpam-modules, libpam-runtime (>= 1.0.1-11), lsb-base (>= 4.1+Debian), procps, python3, python3-dnspython, python3-samba, samba-common (= 2:4.16.2+dfsg-1), samba-common-bin (= 2:4.16.2+dfsg-1), tdb-tools, python3:any, libbsd0 (>= 0.6.0), libc6 (>= 2.15), libcups2 (>= 1.7.0), libgnutls30 (>= 3.6.5), libldap-2.4-2 (>= 2.4.7), libldb2 (>= 0.9.21), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.3-3~), libtasn1-6 (>= 4.12), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~), samba-libs (= 2:4.16.2+dfsg-1)
+Recommends: attr, logrotate, python3-markdown, samba-dsdb-modules, samba-vfs-modules
+Suggests: bind9 (>= 1:9.5.1), bind9utils, ctdb, ldb-tools, ntp | chrony (>= 3.0-1), smbldap-tools, ufw, winbind
+Enhances: bind9, ntp
+Filename: ./samba/samba_4.16.2+dfsg-1_amd64.deb
+Size: 1403268
+MD5sum: ebb45f5e8e42e818aad1ca53e9728afb
+SHA1: d33ccfe3f12bc37c817f39b2cd5ba551961c8606
+SHA256: 2b3bfa0aab80de3e4a0a6133aa993ff22212348d6666fda44f15358fd0867434
+Section: net
+Priority: optional
+Homepage: https://www.samba.org
+Description: SMB/CIFS file, print, and login server for Unix
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.  Samba can also function
+ as an NT4-style domain controller, and can integrate with both NT4 domains
+ and Active Directory realms as a member server.
+ .
+ This package provides the components necessary to use Samba as a stand-alone
+ file and print server or as an NT4 or Active Directory domain controller.
+ For use in an NT4 domain or Active Directory realm, you will also need the
+ winbind package.
+ .
+ This package is not required for connecting to existing SMB/CIFS servers
+ (see smbclient) or for mounting remote filesystems (see cifs-utils).
+
+Package: samba-common
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: all
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 296
+Depends: ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: samba-common-bin
+Filename: ./samba/samba-common_4.16.2+dfsg-1_all.deb
+Size: 169816
+MD5sum: 0a5fa3973ad2692a70302fde7b679eec
+SHA1: 9296746b1d96adcfa2cc132322b3b9e989e9dc39
+SHA256: ed696ff8e036804f834423e59444b0e515a9524c12eaa64b9780abab3fa4734e
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.samba.org
+Description: common files used by both the Samba server and client
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package contains common files used by all parts of Samba.
+
+Package: samba-common-bin
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 4483
+Depends: python3, python3-samba, samba-common (= 2:4.16.2+dfsg-1), samba-libs (= 2:4.16.2+dfsg-1), python3:any, libbsd0 (>= 0.3.0), libc6 (>= 2.15), libcups2 (>= 1.7.0), libgnutls30 (>= 3.6.5), libjansson4 (>= 2.1), libldap-2.4-2 (>= 2.4.7), libncurses6 (>= 6), libpopt0 (>= 1.14), libreadline7 (>= 6.0), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~), libtinfo6 (>= 6), libwbclient0 (>= 2:4.0.3+dfsg1)
+Recommends: samba-dsdb-modules
+Suggests: heimdal-clients, python3-markdown, python3-dnspython
+Breaks: samba (<< 2:4.16.2+dfsg-1~)
+Replaces: samba (<< 2:4.16.2+dfsg-1~)
+Filename: ./samba/samba-common-bin_4.16.2+dfsg-1_amd64.deb
+Size: 1251160
+MD5sum: 80df29ea05a55dcd713a66ff4c5b1f7d
+SHA1: 2f536f13a7cbd61c267ad4b3a84b0ef73e2ec90d
+SHA256: a5360f1fb1f98790b527ab6b0b7dfed9513d9555a34597ccd57b63dae86a818a
+Section: net
+Priority: optional
+Homepage: https://www.samba.org
+Description: Samba common files used by both the server and the client
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains the common files that are used by both the server
+ (provided in the samba package) and the client (provided in the samba-clients
+ package).
+
+Package: samba-dev
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 1875
+Depends: libc6-dev, libldb-dev (>= 2:2), libpopt-dev, libtalloc-dev, libtdb-dev, libtevent-dev, libwbclient-dev, samba-libs (= 2:4.16.2+dfsg-1)
+Breaks: libwbclient-dev (<< 2:4.16.1+dfsg-7~)
+Replaces: libwbclient-dev (<< 2:4.16.1+dfsg-7~)
+Filename: ./samba/samba-dev_4.16.2+dfsg-1_amd64.deb
+Size: 332764
+MD5sum: e25d3d50b59a0233fa59e10017adc18e
+SHA1: 37f231844c5dd87f0df661b657ef72a1a4a7c833
+SHA256: 2a90df44a25918b487a0c9871fe0eab6cf9aa7bf8c0b67c3bed43572aba72220
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: tools for extending Samba
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains include files shared by the various Samba-based
+ libraries.
+
+Package: samba-dsdb-modules
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 1616
+Depends: libgpgme11 (>= 1.2.0), samba-libs (= 2:4.16.2+dfsg-1), libldb2 (= 2:2.5.1+samba4.16.2-1), libbsd0 (>= 0.0), libc6 (>= 2.14), libgnutls30 (>= 3.6.5), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~)
+Enhances: libldb2
+Filename: ./samba/samba-dsdb-modules_4.16.2+dfsg-1_amd64.deb
+Size: 395300
+MD5sum: 9f3dd177762f083d58915a8bc8c4f3a7
+SHA1: ca707520e0cc2ca017b74c8bca565d66ee2112db
+SHA256: 92501b46aa9cba72faf4ba0efdafc58e00036af06eb6183fe335b95e30ee2b69
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Samba Directory Services Database
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains LDB plugins which add support for various Active
+ Directory features to the LDB library.
+
+Package: samba-libs
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 24317
+Depends: libacl1 (>= 2.2.23), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbsd0 (>= 0.5.0), libc6 (>= 2.27), libcap2 (>= 1:2.10), libgnutls30 (>= 3.6.6), libicu70 (>= 70.1-1~), libjansson4 (>= 2.0.1), libldap-2.4-2 (>= 2.4.7), libldb2 (>= 2:1.5.4), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libsystemd0, libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~), libwbclient0 (>= 2:4.5.0+dfsg), zlib1g (>= 1:1.1.4)
+Breaks: libwbclient0 (<< 2:4.16.1+dfsg-7~), samba (<< 2:4.16.2+dfsg-1~), sssd-ad-common (<< 2.3.0)
+Replaces: libwbclient0 (<< 2:4.16.1+dfsg-7~), samba (<< 2:4.16.2+dfsg-1~)
+Filename: ./samba/samba-libs_4.16.2+dfsg-1_amd64.deb
+Size: 5625452
+MD5sum: aea79708ae19f25896403f58a30df5f9
+SHA1: 241f7cca19762b943c9503ea9506b98203d67b7f
+SHA256: c5dd8d5a206714883a72046d111f6e83471e7cf00ca80aa33b9f768950b90486
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Samba core libraries
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains the shared libraries.
+
+Package: samba-testsuite
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 9091
+Depends: samba-common-bin, samba-libs (= 2:4.16.2+dfsg-1), libbsd0 (>= 0.4.0), libc6 (>= 2.17), libgnutls30 (>= 3.6.5), libldb2 (>= 2:2.0.1), libpopt0 (>= 1.14), libreadline7 (>= 6.0), libsmbclient (>= 2:4.12.0+dfsg), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~), libwbclient0 (>= 2:4.0.3+dfsg1), python3-samba (= 2:4.16.2+dfsg-1)
+Suggests: subunit
+Filename: ./samba/samba-testsuite_4.16.2+dfsg-1_amd64.deb
+Size: 2038840
+MD5sum: 5242f4714bd0409cfab0ac3572115712
+SHA1: ab48b3b0be5c40634e57b8d982afdaddad099f20
+SHA256: 37beaef8c110dae441ec474cf349702018264e68b1886b6f6740baad714c9a42
+Section: net
+Priority: optional
+Homepage: https://www.samba.org
+Description: test suite from Samba
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains programs for testing the reliability and speed
+ of SMB servers, Samba in particular.
+
+Package: samba-vfs-modules
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 1858
+Depends: samba-libs (= 2:4.16.2+dfsg-1), libbsd0 (>= 0.0), libc6 (>= 2.14), libgnutls30 (>= 3.6.5), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~), liburing1 (>= 0.7)
+Recommends: libcephfs2 (>= 12.2.8), libdbus-1-3 (>= 1.9.14), libgfapi0
+Enhances: samba
+Filename: ./samba/samba-vfs-modules_4.16.2+dfsg-1_amd64.deb
+Size: 508988
+MD5sum: 473bc42cc325309a0ef1753d22215c8a
+SHA1: 9d8eb428319984b401b0f1ddeb33d117e5088c9c
+SHA256: 31b352a43ea1b0d99722f046e83be34c0053ba048d2bab9d1f4507ee30e06824
+Section: net
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.samba.org
+Description: Samba Virtual FileSystem plugins
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ Virtual FileSystem modules are stacked shared libraries extending the
+ functionality of Samba. Some examples are:
+  * vfs_acl_xattr: Save NTFS-ACLs in Extended Attributes
+  * vfs_audit: record selected Samba VFS operations in the system log
+  * vfs_readonly: Make a Samba share read only for a specified time period
+  * vfs_recycle: Give the same effect as the Recycle Bin on Windows computers
+  * vfs_shadow_copy2: Expose snapshots to Windows clients as shadow copies
+  * vfs_worm: Disallow writes for older file
+ .
+ Note: The runtime dependencies of vfs_ceph, vfs_glusterfs and vfs_snapper are
+ moved to Recommends.
+
+Package: smbclient
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 2056
+Depends: samba-common (= 2:4.16.2+dfsg-1), samba-libs (= 2:4.16.2+dfsg-1), libarchive13 (>= 3.0.4), libbsd0 (>= 0.0), libc6 (>= 2.14), libgnutls30 (>= 3.6.5), libpopt0 (>= 1.14), libreadline7 (>= 6.0), libsmbclient (>= 2:4.10.0+dfsg), libtalloc2 (>= 2.3.3-3~), libtevent0 (>= 0.11.0~)
+Suggests: cifs-utils, heimdal-clients
+Provides: samba-client
+Filename: ./samba/smbclient_4.16.2+dfsg-1_amd64.deb
+Size: 524892
+MD5sum: 71afe8311c5cba23dfca38720d26de3a
+SHA1: e45a6b935f2206276b37d397cca0b1fba48ea69f
+SHA256: c2975c84eaef7094b25288b11c28d992b09df4672746607194923d62898f00bc
+Section: net
+Priority: optional
+Homepage: https://www.samba.org
+Description: command-line SMB/CIFS clients for Unix
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package contains command-line utilities for accessing Microsoft
+ Windows and Samba servers, including smbclient, smbtar, and smbspool.
+ Utilities for mounting shares locally are found in the package
+ cifs-utils.
+
+Package: tdb-tools
+Source: tdb
+Version: 1.4.6-3
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 111
+Depends: libc6 (>= 2.4), libtdb1 (>= 1.2.11)
+Filename: ./tdb/tdb-tools_1.4.6-3_amd64.deb
+Size: 31472
+MD5sum: b1867842ae3d1b108b9b060fd44531f7
+SHA1: 4e7b66718b37779ceb3bb452b113a78ca51b89b8
+SHA256: 0ef0a181954fed3f48bcbc361f33223b5a5e38310800cc456ec23e72669d20fd
+Section: utils
+Priority: optional
+Homepage: https://tdb.samba.org/
+Description: Trivial Database - bundled binaries
+ This is a simple database API. It is modelled after the structure
+ of GDBM. TDB features, unlike GDBM, multiple writers support with
+ appropriate locking and transactions.
+ .
+ This package contains bundled test and utility binaries
+
 Package: tshark
 Source: wireshark
 Version: 3.6.6-1
@@ -7193,6 +8252,39 @@ Description: Mozc engine for uim - Client of the Mozc input method
  such as Chromium OS, Windows, Mac and Linux.
  .
  uim-mozc provides client part of the Mozc input method.
+
+Package: winbind
+Source: samba
+Version: 2:4.16.2+dfsg-1
+Architecture: amd64
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 1614
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: lsb-base (>= 3.0-6), samba-common (= 2:4.16.2+dfsg-1), samba-common-bin (= 2:4.16.2+dfsg-1), libbsd0 (>= 0.6.0), libc6 (>= 2.14), libgnutls30 (>= 3.6.5), libldap-2.4-2 (>= 2.4.7), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.3-3~), libtdb1 (>= 1.4.6-2~), libtevent0 (>= 0.11.0~), libwbclient0 (>= 2:4.5.0+dfsg), samba-libs (= 2:4.16.2+dfsg-1)
+Suggests: libnss-winbind, libpam-winbind
+Enhances: libkrb5-26-heimdal
+Filename: ./samba/winbind_4.16.2+dfsg-1_amd64.deb
+Size: 481840
+MD5sum: d85d2b63109c02b59607ea0bb2b02061
+SHA1: 4242ae992e296b9ff8ce178a335a95cd9f973f94
+SHA256: e12821319f9d10651e9b1a254f97d8648a8bd63da668debb3a0261e9b360f13d
+Section: net
+Priority: optional
+Multi-Arch: allowed
+Homepage: https://www.samba.org
+Description: service to resolve user and group information from Windows NT servers
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package provides winbindd, a daemon which integrates authentication
+ and directory service (user/group lookup) mechanisms from a Windows
+ domain on a Linux system.
+ .
+ Winbind based user/group lookups via /etc/nsswitch.conf can be enabled via
+ the libnss-winbind package. Winbind based Windows domain authentication can
+ be enabled via the libpam-winbind package.
 
 Package: winpr-utils
 Source: freerdp2
