@@ -2882,6 +2882,52 @@ Description: Google's C++ test framework sources
  This package provides tools to be used with Google Test and/or Google
  Mock.
 
+Package: gparted
+Version: 1.3.1-1
+Architecture: amd64
+Maintainer: Phillip Susi <phill@thesusis.net>
+Installed-Size: 1732
+Depends: libatkmm-1.6-1v5 (>= 2.24.0), libc6 (>= 2.14), libcairomm-1.0-1v5 (>= 1.12.0), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1v5 (>= 2.54.0), libgtk-3-0 (>= 3.21.4), libgtkmm-3.0-1v5 (>= 3.24.0), libpangomm-1.4-1v5 (>= 2.42.0), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libsigc++-2.0-0v5 (>= 2.8.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), gparted-common (= 1.3.1-1), policykit-1
+Suggests: dmraid, dmsetup, dosfstools, e2fsprogs, gpart, jfsutils, kpartx, mtools, ntfs-3g, reiser4progs, reiserfsprogs, udftools, xfsprogs, exfatprogs, yelp
+Breaks: gparted-common (= 1.0.0-0.1), udisks2 (<< 2.1.5)
+Replaces: gparted-common (= 1.0.0-0.1)
+Filename: ./gparted/gparted_1.3.1-1_amd64.deb
+Size: 789172
+MD5sum: 77e5d635a05ed76fcd56f01fe54819f7
+SHA1: e369a0cc2f2b9f3b932280e20da6e69990320b15
+SHA256: d4acd4e7b779430a6807cb92ff4bba35986a2d5605e015a169c618c65fe4d1cd
+Section: gnome
+Priority: optional
+Homepage: https://gparted.org
+Description: GNOME partition editor
+ GParted uses libparted to detect and manipulate devices and partition
+ tables while several (optional) filesystem tools provide support for
+ filesystems not included in libparted.
+
+Package: gparted-common
+Source: gparted
+Version: 1.3.1-1
+Architecture: all
+Maintainer: Phillip Susi <phill@thesusis.net>
+Installed-Size: 6411
+Breaks: gparted (<< 1.0.0)
+Replaces: gparted (<< 1.0.0)
+Filename: ./gparted/gparted-common_1.3.1-1_all.deb
+Size: 1710952
+MD5sum: 1f2c72d03a225643b5b741d10f29a395
+SHA1: fb271171956de6a5b195f5ce4f685fd5aa21df1f
+SHA256: f06868b78e3808fd1f68106df92b5808a54bb42e9f9acabeb82a417345a850c8
+Section: gnome
+Priority: optional
+Homepage: https://gparted.org
+Description: GNOME partition editor -- common data
+ GParted uses libparted to detect and manipulate devices and partition
+ tables while several (optional) filesystem tools provide support for
+ filesystems not included in libparted.
+ .
+ This package contains architecture-independent data, such as documentation and
+ help, icons, and application metadata.
+
 Package: ibus-mozc
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
