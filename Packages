@@ -5949,6 +5949,177 @@ Description: Using wayland as a client (development files)
  .
  This package contains the libuwac development files
 
+Package: libva-dev
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 706
+Depends: libva-drm2 (= 2.15.0-1), libva-glx2 (= 2.15.0-1), libva-wayland2 (= 2.15.0-1), libva-x11-2 (= 2.15.0-1), libva2 (= 2.15.0-1), libwayland-dev, libset-scalar-perl
+Provides: dh-sequence-libva
+Filename: ./libva/libva-dev_2.15.0-1_amd64.deb
+Size: 125824
+MD5sum: 48ea96a06b9642cd991223ae2dc7b69c
+SHA1: a501c47feda0b27e15910aaeba352828a086b5dc
+SHA256: 437b4033cb546cbf5382fc6de6f74b0ce22cd7580f072c924897319ceb2b46b3
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- development files
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the development environment for libva.
+
+Package: libva-drm2
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 47
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.16), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1)
+Filename: ./libva/libva-drm2_2.15.0-1_amd64.deb
+Size: 20352
+MD5sum: 97d7af3e04897f9373cdbdd9673c064a
+SHA1: fc6d00cbefe0c3742d64cf1223d47f132234ccbf
+SHA256: d050e79248fa3210bddd09ddfe652f002f46649b5109d6bd4309fed509968744
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- DRM runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the libva-drm library.
+
+Package: libva-glx2
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 55
+Depends: libc6 (>= 2.4), libgl1, libva-x11-2 (>= 1.0.3), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1), libx11-6
+Filename: ./libva/libva-glx2_2.15.0-1_amd64.deb
+Size: 23964
+MD5sum: e9a7fa83986f6c3e8ff585850b4c0de4
+SHA1: a24eab853a390efdacab6c380860dcbc1b0df108
+SHA256: 91d52fd3d6fef0a3a5cb0e2749bf75dcdfd5036a4323d65850a06166e991e9d1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- GLX runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the libva-glx library.
+
+Package: libva-wayland2
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 55
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.60), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1), libwayland-client0 (>= 1.11.0)
+Filename: ./libva/libva-wayland2_2.15.0-1_amd64.deb
+Size: 22304
+MD5sum: 3edfe9922bc0045bb940dd487f8394cf
+SHA1: 7cd869b797764aadb5f7a3da57e61b16768856e4
+SHA256: 19cc540fee2ebd18dfe5a3ba8b76430d8d0dc60a8e5e48c11ad8c61cb5beee6c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- Wayland runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the libva-wayland library.
+
+Package: libva-x11-2
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 59
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.16), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
+Filename: ./libva/libva-x11-2_2.15.0-1_amd64.deb
+Size: 25536
+MD5sum: 1cb58ab32b9b9bdd420943aebde07a10
+SHA1: 7a2f28ce1698b7c84fd7eb3a1cc253a049d13505
+SHA256: d90007ea34319c0426e6dd53c6f826259825b59b26f31e7a92597dae3efa252b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- X11 runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the libva-x11 library.
+
+Package: libva2
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 209
+Depends: libc6 (>= 2.4)
+Recommends: va-driver-all | va-driver
+Provides: libva-driver-abi-1.0, libva-driver-abi-1.1, libva-driver-abi-1.10, libva-driver-abi-1.11, libva-driver-abi-1.12, libva-driver-abi-1.13, libva-driver-abi-1.14, libva-driver-abi-1.15, libva-driver-abi-1.2, libva-driver-abi-1.3, libva-driver-abi-1.4, libva-driver-abi-1.5, libva-driver-abi-1.6, libva-driver-abi-1.7, libva-driver-abi-1.8, libva-driver-abi-1.9
+Filename: ./libva/libva2_2.15.0-1_amd64.deb
+Size: 68436
+MD5sum: cb39f699bdc4747ced2bb69a8537a3e9
+SHA1: 2be5bc28136231efbcd1b4863bc04597274cd89c
+SHA256: 1681a6c987dd0f02606752c163359b046cc2787cad7b9b41085c200ad7896809
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the main libva library.
+
 Package: libwbclient-dev
 Source: samba
 Version: 2:4.16.2+dfsg-1
@@ -8632,6 +8803,27 @@ Description: Mozc engine for uim - Client of the Mozc input method
  such as Chromium OS, Windows, Mac and Linux.
  .
  uim-mozc provides client part of the Mozc input method.
+
+Package: va-driver-all
+Source: libva
+Version: 2.15.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 26
+Depends: i965-va-driver | i965-va-driver-shaders, intel-media-va-driver | intel-media-va-driver-non-free, mesa-va-drivers
+Filename: ./libva/va-driver-all_2.15.0-1_amd64.deb
+Size: 16548
+MD5sum: f828627e8847eb15516ad9115b4f3051
+SHA1: 7a974fa60c4550ca5e35147e0acd757e03b2bcf7
+SHA256: 68484d0acd9183f0dac9fb397d572bdbd9d721330e48b62b7f09fe7f558ef457
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API -- driver metapackage
+ This package depends on the full suite of drivers for the Video Acceleration
+ API (VA API). It does not provide any drivers itself, and may be removed if
+ you wish to only have certain drivers installed.
 
 Package: vim
 Version: 2:8.2.4793-1
