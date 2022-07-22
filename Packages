@@ -1,3 +1,97 @@
+Package: apt
+Version: 2.5.1
+Architecture: amd64
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 4228
+Depends: adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.5.1), debian-archive-keyring, libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.6.6), libseccomp2 (>= 2.4.2), libstdc++6 (>= 5.2), libsystemd0
+Recommends: ca-certificates
+Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
+Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
+Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
+Provides: apt-transport-https (= 2.5.1)
+Filename: ./apt/apt_2.5.1_amd64.deb
+Size: 1475528
+MD5sum: 1ba037ab9c9d82654c5148eab7cbb2a8
+SHA1: 69a883a5e114fd193982b14f6a9b553914115ef3
+SHA256: 0ada7e3b76a102588973829488053b322cbd1038b1147e74c27bd54373d85951
+Section: admin
+Priority: important
+Description: commandline package manager
+ This package provides commandline tools for searching and
+ managing as well as querying information about packages
+ as a low-level access to all features of the libapt-pkg library.
+ .
+ These include:
+  * apt-get for retrieval of packages and information about them
+    from authenticated sources and for installation, upgrade and
+    removal of packages together with their dependencies
+  * apt-cache for querying available information about installed
+    as well as installable packages
+  * apt-cdrom to use removable media as a source for packages
+  * apt-config as an interface to the configuration settings
+  * apt-key as an interface to manage authentication keys
+
+Package: apt-doc
+Source: apt
+Version: 2.5.1
+Architecture: all
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 932
+Filename: ./apt/apt-doc_2.5.1_all.deb
+Size: 393444
+MD5sum: 76543f662b345c25e4879c435492e965
+SHA1: a52a194cf0771d16be0b0c1cb571050240636c05
+SHA256: 940dc2783a323b7b235f4a411056377e72fc739bc0cb77882113d178ca7889d1
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Description: documentation for APT
+ This package contains the user guide and offline guide for various
+ APT tools which are provided in a html and a text-only version.
+
+Package: apt-transport-https
+Source: apt
+Version: 2.5.1
+Architecture: all
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 166
+Depends: apt (>= 1.5~alpha4)
+Filename: ./apt/apt-transport-https_2.5.1_all.deb
+Size: 163908
+MD5sum: 76514e541561acae436cafe8684cec95
+SHA1: 07de8e8001b1c3d1c826d8a3feb562f988da6e35
+SHA256: 7969c835e5389e13d34e3acf94cad51cd982d5c4e8e1ddf56702730932a67ce1
+Section: oldlibs
+Priority: optional
+Multi-Arch: foreign
+Description: transitional package for https support
+ This is a dummy transitional package - https support has been moved into
+ the apt package in 1.5. It can be safely removed.
+
+Package: apt-utils
+Source: apt
+Version: 2.5.1
+Architecture: amd64
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 1140
+Depends: apt (= 2.5.1), libapt-pkg6.0 (>= 2.5.1), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./apt/apt-utils_2.5.1_amd64.deb
+Size: 435476
+MD5sum: c77a79cfa3c8c99f17f8b8d28f8d7178
+SHA1: 3fbaa96e31ce55b1709e021ac30b55c64591768d
+SHA256: ef74ddb6a1ebc9dce4ecad61146e11d5c4be0ad490920239738a486e12c63e1e
+Section: admin
+Priority: important
+Description: package management related utility programs
+ This package contains some less used commandline utilities related
+ to package management with APT.
+ .
+  * apt-extracttemplates is used by debconf to prompt for configuration
+    questions before installation.
+  * apt-ftparchive is used to create Packages and other index files
+    needed to publish an archive of Debian packages
+  * apt-sortpkgs is a Packages/Sources file normalizer.
+
 Package: ctdb
 Source: samba
 Version: 2:4.16.2+dfsg-1
@@ -2996,6 +3090,81 @@ Description: extensions to the C++ standard library
  provides alternatives to the standard for special needs.
  .
  This package contains Abseil's shared libraries.
+
+Package: libapt-pkg-dev
+Source: apt
+Version: 2.5.1
+Architecture: amd64
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 644
+Depends: libapt-pkg (= 2.5.1)
+Filename: ./apt/libapt-pkg-dev_2.5.1_amd64.deb
+Size: 253928
+MD5sum: 9a30fe13cc6c28fa0f59e66f9da1c758
+SHA1: cdd62e678616be32ad3c75bfaefa75a61a7d5b2d
+SHA256: 8959de041056e549ac5ad6b1b28146769f8800a44c76d5f907f270e785c07514
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: development files for APT's libapt-pkg and libapt-inst
+ This package contains the header files and libraries for
+ developing with APT's libapt-pkg Debian package manipulation
+ library and the libapt-inst deb/tar/ar library.
+
+Package: libapt-pkg-doc
+Source: apt
+Version: 2.5.1
+Architecture: all
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 15603
+Filename: ./apt/libapt-pkg-doc_2.5.1_all.deb
+Size: 1024672
+MD5sum: 8f53ad7cdeede5157aeecaabdd27093f
+SHA1: 58e1f5335eb057f5e9789b2796578bb5dc9eb8f6
+SHA256: de408e2cf679aba1470aa2ab16daaec84aa66644c63733ec67e096b21438d887
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Description: documentation for APT development
+ This package contains documentation for development of the APT
+ Debian package manipulation program and its libraries.
+ .
+ This includes the source code documentation generated by doxygen
+ in html format.
+
+Package: libapt-pkg6.0
+Source: apt
+Version: 2.5.1
+Architecture: amd64
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 3389
+Depends: libbz2-1.0, libc6 (>= 2.27), libgcc1 (>= 1:3.0), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.2.3)
+Recommends: apt (>= 2.5.1)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~)
+Provides: libapt-pkg (= 2.5.1)
+Filename: ./apt/libapt-pkg6.0_2.5.1_amd64.deb
+Size: 1022636
+MD5sum: a349b0ea5765d8f160ce7cb6b943ca48
+SHA1: 99651bd1ffa57f0467dcc9a3c0627e2306709630
+SHA256: b9ec36f1802e7bbdc6fb2db7b11d71466632e1e923199211c5b44e63a650a8d0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: package management runtime library
+ This library provides the common functionality for searching and
+ managing packages as well as information about packages.
+ Higher-level package managers can depend upon this library.
+ .
+ This includes:
+  * retrieval of information about packages from multiple sources
+  * retrieval of packages and all dependent packages
+    needed to satisfy a request either through an internal
+    solver or by interfacing with an external one
+  * authenticating the sources and validating the retrieved data
+  * installation and removal of packages in the system
+  * providing different transports to retrieve data over cdrom, ftp,
+    http(s), rsh as well as an interface to add more transports like
+    tor+http(s) (apt-transport-tor).
 
 Package: libbcg729-0
 Source: bcg729
@@ -6018,6 +6187,54 @@ Homepage: https://www.wireshark.org/
 Description: network packet dissection utilities library -- shared library
  The libwsutil library provides utility functions for libwireshark15.
 
+Package: libxxhash-dev
+Source: xxhash
+Version: 0.8.1-1
+Architecture: amd64
+Maintainer: Josue Ortega <josue@debian.org>
+Installed-Size: 278
+Depends: libxxhash0 (= 0.8.1-1)
+Filename: ./xxhash/libxxhash-dev_0.8.1-1_amd64.deb
+Size: 66164
+MD5sum: f073c619ea6386c64d388ba6348e0279
+SHA1: 9ae5bf0fd277c40bdae4a547dba738f73cc04bca
+SHA256: 48c2c43faf93886d95c0544593872220ae2cffe7208dfcb20bb8194c2c02520d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://cyan4973.github.io/xxHash
+Description: header files and a static library for libxxhash
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
+ .
+ This package contains xxHash static library and header files.
+
+Package: libxxhash0
+Source: xxhash
+Version: 0.8.1-1
+Architecture: amd64
+Maintainer: Josue Ortega <josue@debian.org>
+Installed-Size: 103
+Depends: libc6 (>= 2.14)
+Filename: ./xxhash/libxxhash0_0.8.1-1_amd64.deb
+Size: 28824
+MD5sum: 429c2db9f379c50da9f664b7f8035b0a
+SHA1: f46c84a0a912649e0f4d0c76333bacf76658330b
+SHA256: 5a35e0695de6709cecf2a67a64528027766e82d09a5bd49032c83ecbd1eda335
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://cyan4973.github.io/xxHash
+Description: shared library for xxhash
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
+ .
+ This package contains the shared library.
+
 Package: mozc-data
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
@@ -8244,6 +8461,36 @@ Description: Trivial Database - bundled binaries
  .
  This package contains bundled test and utility binaries
 
+Package: triehash
+Version: 0.3-3
+Architecture: all
+Maintainer: Julian Andres Klode <jak@debian.org>
+Installed-Size: 41
+Depends: perl:any
+Filename: ./triehash/triehash_0.3-3_all.deb
+Size: 12308
+MD5sum: f14375ddca1d5d431a33247a140c0920
+SHA1: 8bd23fe20b43828988264737e8c5443614000c1a
+SHA256: 75cd68b950ee233c2a62bf79137457b687d39a64ebfd8b56bf1e0a8de98cc5e3
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/julian-klode/triehash
+Description: Generates perfect hash functions as native machine code
+ TrieHash generates perfect hash functions as C code which then gets
+ compiled into optimal machine code as part of the usual program compilation.
+ .
+ TrieHash works by translating a list of strings to a trie, and then converting
+ the trie to a set of recursive switch statements; first switching by length,
+ and then switching by bytes.
+ .
+ TrieHash has various optimizations such as processing multiple bytes at once
+ (on GNU C), and shortcuts for reducing the complexity of case-insensitive
+ matching (ASCII only). Generated code performs substantially faster than
+ gperf, but is larger.
+ .
+ TrieHash was written for use in APT.
+
 Package: tshark
 Source: wireshark
 Version: 3.6.6-1
@@ -8981,4 +9228,24 @@ Homepage: https://www.vim.org/
 Description: tool to make (or reverse) a hex dump
  xxd creates a hex dump of a given file or standard input.  It can also convert
  a hex dump back to its original binary form.
+
+Package: xxhash
+Version: 0.8.1-1
+Architecture: amd64
+Maintainer: Josue Ortega <josue@debian.org>
+Installed-Size: 127
+Depends: libxxhash0 (>= 0.8.1-1), libc6 (>= 2.14)
+Filename: ./xxhash/xxhash_0.8.1-1_amd64.deb
+Size: 40468
+MD5sum: a22512d6f0bf9b2374c597fcaced4a80
+SHA1: 808b62e7885149661603e999ed16189c97872ed0
+SHA256: 26dadc2d4c9aab7351cc8f3fcf96cffe27213d0fdf761a9989f14e2294ac33bf
+Section: utils
+Priority: optional
+Homepage: https://cyan4973.github.io/xxHash
+Description: Extremely fast hash algorithm
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
 
