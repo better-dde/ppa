@@ -8825,6 +8825,33 @@ Description: Video Acceleration (VA) API -- driver metapackage
  API (VA API). It does not provide any drivers itself, and may be removed if
  you wish to only have certain drivers installed.
 
+Package: vainfo
+Source: libva-utils
+Version: 2.12.0+ds1-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 53
+Depends: libc6 (>= 2.3.4), libva-drm2 (>= 2.6), libva-wayland2 (>= 2.6), libva-x11-2 (>= 2.6), libva2 (>= 2.6), libwayland-client0 (>= 1.9.91), libx11-6
+Filename: ./libva-utils/vainfo_2.12.0+ds1-1_amd64.deb
+Size: 18740
+MD5sum: ffe22d68e94e1a114fbabaf76a2d5e25
+SHA1: a800ed6953b1ac0a98596ec16a1e3dc2a34fbf37
+SHA256: 6ca950f4d2c16d81f25b398a423a7577886979982509d60ad3e53829f669783d
+Section: utils
+Priority: optional
+Homepage: https://github.com/intel/libva-utils
+Description: Video Acceleration (VA) API for Linux -- info program
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the vainfo program.
+
 Package: vim
 Version: 2:8.2.4793-1
 Architecture: amd64
