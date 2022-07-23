@@ -3055,6 +3055,46 @@ Description: GNOME partition editor -- common data
  This package contains architecture-independent data, such as documentation and
  help, icons, and application metadata.
 
+Package: i965-va-driver
+Source: intel-vaapi-driver
+Version: 2.4.1+dfsg1-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1780
+Depends: libva-driver-abi-1.15, libc6 (>= 2.27), libdrm-intel1 (>= 2.4.46), libdrm2 (>= 2.3.1)
+Suggests: i965-va-driver-shaders
+Enhances: libva2
+Provides: va-driver
+Filename: ./intel-vaapi-driver/i965-va-driver_2.4.1+dfsg1-1_amd64.deb
+Size: 312008
+MD5sum: 93dcc2e80de886daea54da415ff78401
+SHA1: 0324a79f19ddc6cf5a523bf2c2ad5955d7c685c8
+SHA256: 6e8115cf0ba76d8f87d5f6cf2a1a2951491bc51ae912e43f8439f20427a0ba6a
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: VAAPI driver for Intel G45 & HD Graphics family
+ The VA-API (Video Acceleration API) enables hardware accelerated video
+ decode/encode at various entry-points (VLD, IDCT, Motion Compensation
+ etc.) for the prevailing coding standards today (MPEG-2, MPEG-4
+ ASP/H.263, MPEG-4 AVC/H.264, and VC-1/WMV3). It provides an interface
+ to fully expose the video decode capabilities in today's GPUs.
+ .
+ This package contains the video decode and encode driver backend for the
+ Intel G45 chipsets and Intel HD Graphics for the Intel Core processor family.
+ The supported platforms include:
+  * Cantiga, Intel GMA 4500MHD (GM45)
+  * Ironlake, Intel HD Graphics for 2010 Intel Core processor family
+  * Sandy Bridge, Intel HD Graphics for 2011 Intel Core processor family
+  * Ivy Bridge
+  * Haswell
+  * Broadwell
+  * Skylake
+  * Kaby Lake
+  * Coffee Lake
+  * Cannon Lake
+
 Package: ibus-mozc
 Source: mozc
 Version: 2.26.4220.100+dfsg-5.1
