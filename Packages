@@ -6608,6 +6608,27 @@ Description: GUI utilities of the Mozc input method
  .
  This open-source project originates from Google Japanese Input.
 
+Package: neofetch
+Version: 7.1.0-4
+Architecture: all
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 352
+Recommends: chafa, caca-utils, imagemagick, jp2a, libsixel-bin, w3m-img, pciutils
+Filename: ./neofetch/neofetch_7.1.0-4_all.deb
+Size: 81824
+MD5sum: 4f159a63e88047321510273790ac5349
+SHA1: 750e3f852d41f1ddb5f27575c147337eb4013a38
+SHA256: 977499a6860467a709c68ec278bdce2c837a23ddc6fc5bd6039f5777757244aa
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows Linux System Information with Distribution Logo
+ Neofetch is a cross-platform and easy-to-use system information
+ command line script that collects your Linux system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+
 Package: nvidia-legacy-390xx-alternative
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.151-2
