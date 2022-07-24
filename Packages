@@ -340,7 +340,7 @@ Installed-Size: 187
 Depends: libc6 (>= 2.4), libdframeworkdbus2, libdtkcore5, libdtkgui5, libdtkwidget5, libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), dde-control-center, dde-dock, mesa-utils, zenity, libnotify4
 Conflicts: switch-graphics-card (<= 1.5)
 Replaces: switch-graphics-card (<= 1.5)
-Filename: ./dde-dock-graphics-plugin_1.8.4-1_amd64.deb
+Filename: ./dde-dock-graphics-plugin/dde-dock-graphics-plugin_1.8.4-1_amd64.deb
 Size: 42008
 MD5sum: 86bd9948cba97d8cec9a1d67112f46ff
 SHA1: 68999490e713754f16a74f8d3b33507ac76e39c4
@@ -414,7 +414,7 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2554
 Depends: libavformat58 (>= 7:4.1), libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libffmpegthumbnailer4v5, libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu63 (>= 63.1-1~), libpoppler-qt5-1 (>= 0.24.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), libavutil56 (>= 7:4.0), libavcodec58 (>= 7:4.0)
 Recommends: deepin-anything-server
-Filename: ./dde-grand-search_5.3.2-1+kt286_amd64.deb
+Filename: ./dde-grand-search/dde-grand-search_5.3.2-1+kt286_amd64.deb
 Size: 588524
 MD5sum: 18d51eab55dd599eb46a8ff82138060a
 SHA1: d48c739cb4c1e8d881957c422ac7b43ff2663a46
@@ -432,7 +432,7 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2280
 Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), libdtkwidget5 (>= 5.5), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdframeworkdbus2 (>= 5.5.12), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util0, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb-ewmh2 (>= 0.4.1), libxcb1
 Conflicts: dde-workspace (<< 2.90.5)
-Filename: ./dde-launcher_5.5.23-1+kt286_amd64.deb
+Filename: ./dde-launcher/dde-launcher_5.5.23-1+kt286_amd64.deb
 Size: 498104
 MD5sum: 2267fe30312cc02ad90d0d1c0bec3570
 SHA1: bb925502925ac56105375e850ff18506a423e6ed
@@ -511,7 +511,7 @@ Architecture: amd64
 Maintainer: packages <packages@deepin.com>
 Installed-Size: 4719
 Depends: libarchive13 (>= 3.2.1), libc6 (>= 2.15), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.28.0), libkf5archive5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libminizip1 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libzip4 (>= 1.5.1.8-1+eagle), p7zip-full, deepin-shortcut-viewer, unar, rar, unrar, pigz
-Filename: ./deepin-compressor_5.12.5-1+kt286_amd64.deb
+Filename: ./deepin-compressor/deepin-compressor_5.12.5-1+kt286_amd64.deb
 Size: 1787932
 MD5sum: 09db114af06efc08a2159b5318f11024
 SHA1: e4e7aae2a143606d652cc830492966c09575eb8f
@@ -527,7 +527,7 @@ Architecture: amd64
 Maintainer: Packages <packages@deepin.com>
 Installed-Size: 7923
 Depends: libc6 (>= 2.15), libcups2 (>= 1.7.0), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-3, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw
-Filename: ./deepin-devicemanager_5.8.12-1_amd64.deb
+Filename: ./deepin-devicemanager/deepin-devicemanager_5.8.12-1_amd64.deb
 Size: 3735980
 MD5sum: 39261ffcb5751083a27e3f745454f16d
 SHA1: a9198070c720e24dd5c78cafce262f0a98c09fc6
@@ -562,7 +562,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 10233
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libicu63 (>= 63.1-1~), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 0.1.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
-Filename: ./deepin-music_6.2.15-1+kt286_amd64.deb
+Filename: ./deepin-music/deepin-music_6.2.15-1+kt286_amd64.deb
 Size: 4324208
 MD5sum: b6b8439a1388ebd21151081036acc0fe
 SHA1: 4fe92df013980e0bf6d96937dd37f74936de397a
@@ -579,7 +579,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 6589
 Depends: libc6 (>= 2.15), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-3, expect, zssh
-Filename: ./deepin-terminal_5.4.28-1+rb1+kt286_amd64.deb
+Filename: ./deepin-terminal/deepin-terminal_5.4.28-1+rb1+kt286_amd64.deb
 Size: 3330720
 MD5sum: 1bcdb6c33bc3430edb160196020ff9e6
 SHA1: ed83b29c1413fe5a2ba4746f2a29dfcea55a2e56
@@ -981,32 +981,81 @@ Description: Chinese-related addon for fcitx5 (shared data files)
  fcitx5-chinese-addons.
 
 Package: fcitx5-config-qt
-Source: kcm-fcitx5
-Version: 5.0.14-1
+Source: fcitx5-configtool
+Version: 5.0.14-3
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 1550
-Depends: libqt5svg5, kpackagetool5, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5itemviews5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 5.53~), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5widgetsaddons5 (>= 4.96.0), libqt5concurrent5 (>= 5.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.12), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxkbfile1
+Installed-Size: 1360
+Depends: libqt5svg5, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5itemviews5 (>= 4.96.0), libkf5widgetsaddons5 (>= 4.96.0), libqt5concurrent5 (>= 5.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.12), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxkbfile1, fcitx5-configtool-data (= 5.0.14-3)
 Recommends: libime-bin
-Suggests: kde-config-fcitx5
+Suggests: kde-config-fcitx5, fcitx5-configtool-kde
 Breaks: kde-config-fcitx5 (<< 0.0~git20200822)
 Replaces: kde-config-fcitx5 (<< 0.0~git20200822)
 Provides: fcitx5-configtool
-Filename: ./fcitx5-config/fcitx5-config-qt_5.0.14-1_amd64.deb
-Size: 349256
-MD5sum: dd28d746d8383503f00309edf389768d
-SHA1: 0eb0d49f514427677e2a2fff95f5eefe2fd75020
-SHA256: a3b800b4fa33c75afd3a1642b97df799dbc1081edf90ba84f2dd689da9a40a04
+Filename: ./fcitx5-configtool/fcitx5-config-qt_5.0.14-3_amd64.deb
+Size: 314924
+MD5sum: 18f38f10a7f8d418018dee5fdaa90772
+SHA1: ad9481732755c97f5ca4bc2735760de547b25570
+SHA256: 9d81ac9d2141b637947d58a5a84d893c11246c313c3c4dc2771a744276f0f2f8
 Section: kde
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5-configtool
 Description: configuration tool for Fcitx5 (Qt version)
  This is a configuration tool for Fcitx Input Method Framework v5.
  .
- It also provides several tools:
+ It provides several tools:
+  - fcitx5-config-qt.
+  - kbd-layout-viewer5.
   - fcitx5-migrator, which helps to migrate data from Fcitx4.
     To migrate Fcitx4 pinyin and table data, it needs tools from
     libime-bin package.
+
+Package: fcitx5-configtool-data
+Source: fcitx5-configtool
+Version: 5.0.14-3
+Architecture: all
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 137
+Breaks: fcitx5-config-qt (<< 5.0.14-2~)
+Replaces: fcitx5-config-qt (<< 5.0.14-2~)
+Filename: ./fcitx5-configtool/fcitx5-configtool-data_5.0.14-3_all.deb
+Size: 25824
+MD5sum: 5719d72dd040ed02a2b137af8b478715
+SHA1: f4adb059f9a728ac14d0d4ae1ae652a8dfa93d13
+SHA256: da9be3afb036c2e188f56d2465e13e1a78e1bca40b147447c64b84748a3f30dd
+Section: kde
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/fcitx/fcitx5-configtool
+Description: configuration tool for Fcitx5 (data)
+ This is a configuration tool for Fcitx Input Method Framework v5.
+ .
+ This package provides the architecture-independent data files
+ for Fcitx5 configuration tools.
+
+Package: fcitx5-configtool-kde
+Source: fcitx5-configtool
+Version: 5.0.14-3
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 80
+Depends: kpackagetool5, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 5.53~), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.12) | libqt5gui5-gles (>= 5.12), libqt5widgets5 (>= 5.12), libstdc++6 (>= 5), fcitx5-configtool-data (= 5.0.14-3)
+Suggests: fcitx5-config-qt
+Breaks: fcitx5-config-qt (<< 5.0.14-2~)
+Replaces: fcitx5-config-qt (<< 5.0.14-2~)
+Provides: fcitx5-plasma-theme-generator
+Filename: ./fcitx5-configtool/fcitx5-configtool-kde_5.0.14-3_amd64.deb
+Size: 24800
+MD5sum: 56621e300b24c99ef5893e259bd6f678
+SHA1: b25403d965d228724bc8dacbe4896e33f93132f8
+SHA256: f5182b42b875abfe40969cdb96c893fed36f60ab82831b942dec92356051c02b
+Section: kde
+Priority: optional
+Homepage: https://github.com/fcitx/fcitx5-configtool
+Description: configuration tool for Fcitx5 (KDE tools)
+ This is a configuration tool for Fcitx Input Method Framework v5.
+ .
+ It also provides the following tools around KDE:
   - fcitx5-plasma-theme-generator.
 
 Package: fcitx5-data
@@ -3275,17 +3324,19 @@ Description: Mozc engine for IBus - Client of the Mozc input method
  This open-source project originates from Google Japanese Input.
 
 Package: kde-config-fcitx5
-Source: kcm-fcitx5
-Version: 5.0.14-1
+Source: fcitx5-configtool
+Version: 5.0.14-3
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 605
+Installed-Size: 607
 Depends: kde-cli-tools, libqt5svg5, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5coreaddons5 (>= 4.100.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.12) | libqt5gui5-gles (>= 5.12), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.3.0) | libqt5quick5-gles (>= 5.3.0), libstdc++6 (>= 5), libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5-config/kde-config-fcitx5_5.0.14-1_amd64.deb
-Size: 142876
-MD5sum: 1059919dda21991eb362a8ec5b675b59
-SHA1: a9943a97e8396c8e2731882ea4567572994cd3ea
-SHA256: 36a3ad3a94bce26f764b61e86db39a7bafef5754f1537d523abbcfc24ef846d5
+Recommends: fcitx5-configtool-kde
+Suggests: fcitx5-config-qt
+Filename: ./fcitx5-configtool/kde-config-fcitx5_5.0.14-3_amd64.deb
+Size: 144020
+MD5sum: b3868a7d0e3773f5a4665076b2fcb8dc
+SHA1: 31db5e274da2ebc1a03dde7567a452d92337e962
+SHA256: 95f7529ae8d3c85cf58d7d8da224982d686cd2d5c776fa0757ee97b3d07fbe69
 Section: kde
 Priority: optional
 Multi-Arch: same
