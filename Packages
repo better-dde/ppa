@@ -2367,6 +2367,25 @@ Description: Flexible Input Method Framework v5 - Yawerty table
  .
  This package provides Yawerty table used by the Fcitx5 table engine.
 
+Package: fcitx5-zhuyin
+Version: 5.0.10-1
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 41055
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.3.1), libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5.2), libzhuyin13 (>= 2.1.0)
+Recommends: fcitx5
+Filename: ./fcitx5-zhuyin/fcitx5-zhuyin_5.0.10-1_amd64.deb
+Size: 8907984
+MD5sum: fa5144118c51aaa1fbdb03ae7fb29880
+SHA1: bf71866b92073d0283a8fe9adcfd15d85e713d71
+SHA256: b4fdadfedb491973c138b322dc1103a19ac68846c88cc9c16aece301a651ffb0
+Section: utils
+Priority: optional
+Homepage: https://github.com/fcitx/fcitx5-zhuyin
+Description: Libzhuyin Wrapper for Fcitx5
+ This package provides the libzhuyin wrapper for Fcitx5 Input Method
+ Framework.
+
 Package: freerdp2-dev
 Source: freerdp2
 Version: 2.7.0+dfsg1-1
@@ -6006,6 +6025,128 @@ Description: Windows domain authentication integration plugin
  This package provides pam_winbind, a plugin that integrates with a local
  winbindd server to provide Windows domain authentication to the system.
 
+Package: libpinyin-common-dev
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: all
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 115
+Breaks: libpinyin13-dev (<< 2.1.0-1~exp2~)
+Replaces: libpinyin13-dev (<< 2.1.0-1~exp2~)
+Filename: ./libpinyin/libpinyin-common-dev_2.6.2-2_all.deb
+Size: 102828
+MD5sum: 692d1ca870a8eb62cd184137d2984900
+SHA1: 94c2153086471de1c5cf086d4fac1e868d981a94
+SHA256: 53345c118334a0337a8f7bd761fdbb354dcb8fc55ca94d5bf3a67f40a940bdb2
+Section: libdevel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/libpinyin/libpinyin
+Description: library to deal with PinYin / zhuyin - common development files
+ libpinyin is a set of core algorithms designed for intelligent
+ sentence-based Chinese PinYin / zhuyin input methods.
+ .
+ This package provides the common header files for both libpinyin and libzhuyin.
+
+Package: libpinyin-data
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 50357
+Breaks: libpinyin0, libpinyin2, libpinyin4, libpinyin5, libpinyin6, libpinyin7
+Replaces: libpinyin0, libpinyin2, libpinyin4, libpinyin5, libpinyin6, libpinyin7
+Filename: ./libpinyin/libpinyin-data_2.6.2-2_amd64.deb
+Size: 11928312
+MD5sum: d10c6924907681a6b30718bc55c71b16
+SHA1: 3825d033300bca3fe29a533d9c60fb5d4a789997
+SHA256: 41be4b03ca7397376ce3fdda58f21845545bddfe9a7464d3ee33a3c53d2aa3fb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libpinyin/libpinyin
+Description: Data for PinYin / zhuyin input method library
+ The libpinyin project aims to provide the algorithms core for intelligent
+ sentence-based Chinese zhuyin input methods. libpinyin can be integrated with
+ input method framework likes ibus, fcitx, etc. to provide a PinYin and zhuyin
+ based input method for Chinese user.
+ .
+ This package contains the data likes zhuyin to word mapping, n-gram
+ information, etc. used by libpinyin algorithm.
+
+Package: libpinyin-utils
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 1121
+Depends: libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5)
+Filename: ./libpinyin/libpinyin-utils_2.6.2-2_amd64.deb
+Size: 260840
+MD5sum: 431df74b0215b8e813fcd857f2519a1f
+SHA1: dca777fd64fb3ecea1b9a29e7274dd423a33f8f4
+SHA256: 5632d01cb92e02f141ad38c461211707871647cf2ee5f3cefd48a515385639a0
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/libpinyin/libpinyin
+Description: library to deal with PinYin - utilities
+ libpinyin is a set of core algorithms designed for intelligent
+ sentence-based Chinese PinYin input methods.
+ .
+ This package provides the utilities for manipulating dict files.
+
+Package: libpinyin13
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 856
+Depends: libpinyin-data (= 2.6.2-2), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.30.0), libstdc++6 (>= 5)
+Suggests: libpinyin-utils
+Breaks: fcitx-libpinyin (<< 0.2.0), libpinyin0, libpinyin12, libpinyin2, libpinyin4, libpinyin5, libpinyin6, libpinyin7
+Replaces: libpinyin0, libpinyin12, libpinyin2, libpinyin4, libpinyin5, libpinyin6, libpinyin7
+Provides: libpinyin
+Filename: ./libpinyin/libpinyin13_2.6.2-2_amd64.deb
+Size: 287436
+MD5sum: 6bd63a57fd5c390f0d21fae1e647ac82
+SHA1: 8f8d3da4a235987def48d2dcc38b13bca612ca9b
+SHA256: 1c98c2c8aec5cac9b2ed61bd1ba017f4742018a8668ebd567ee8ef7101375806
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libpinyin/libpinyin
+Description: library to deal with PinYin
+ libpinyin is a set of core algorithms designed for intelligent
+ sentence-based Chinese PinYin input methods.
+ .
+ This package provides the library files.
+
+Package: libpinyin13-dev
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 1830
+Depends: libglib2.0-dev, libpinyin-common-dev (= 2.6.2-2), libpinyin13 (= 2.6.2-2)
+Recommends: libpinyin-utils
+Conflicts: libpinyin-dev
+Provides: libpinyin-dev
+Filename: ./libpinyin/libpinyin13-dev_2.6.2-2_amd64.deb
+Size: 305048
+MD5sum: c400311b44604c6bbec14c6c897bacc0
+SHA1: b1772a2199f70cb0b1b81de69ec96e979fe72044
+SHA256: 22f15d43153d5d34678d642cbdbc63d69bb90395fdbd29b895c60ac53c4b460d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libpinyin/libpinyin
+Description: library to deal with PinYin - development files
+ libpinyin is a set of core algorithms designed for intelligent
+ sentence-based Chinese PinYin input methods.
+ .
+ This package provides the library development files.
+
 Package: libplacebo-dev
 Source: libplacebo
 Version: 4.192.1-1
@@ -7239,6 +7380,54 @@ Description: shared library for xxhash
  and hashes are identical on all platforms (little / big endian).
  .
  This package contains the shared library.
+
+Package: libzhuyin-dev
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 1789
+Depends: libglib2.0-dev, libpinyin-common-dev (= 2.6.2-2), libzhuyin13 (= 2.6.2-2)
+Filename: ./libpinyin/libzhuyin-dev_2.6.2-2_amd64.deb
+Size: 297836
+MD5sum: 7db2ade9fd66052474d041630ae1b25d
+SHA1: c0c045c0ae3079e8a39fae52d576860c26317190
+SHA256: 8c6cea1bd83c27760827c81b6c0e38aefb0febea2beef27613219bd6d1afd4a9
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libpinyin/libpinyin
+Description: Development files for zhuyin input method library
+ The libzhuyin project aims to provide the algorithms core for
+ intelligent sentence-based Chinese zhuyin input methods. libzhuyin can
+ be integrated with input method framework likes ibus, fcitx, etc. to
+ provide a zhuyin based input method for Traditional Chinese user.
+ .
+ This package contains development files for libzhuyin.
+
+Package: libzhuyin13
+Source: libpinyin
+Version: 2.6.2-2
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 843
+Depends: libpinyin-data (= 2.6.2-2), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5)
+Conflicts: libzhuyin6, libzhuyin7
+Provides: libzhuyin
+Filename: ./libpinyin/libzhuyin13_2.6.2-2_amd64.deb
+Size: 280388
+MD5sum: 52be1a295de9ce6880de70f410269940
+SHA1: 6b249a615c8bd50e993bfc155caa467ea297a4d0
+SHA256: 523ee61c06e0fdeeb83d64fa0166cc9a3f094d7635f0ac770c207b225ce9b3bb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libpinyin/libpinyin
+Description: Zhuyin input method library
+ The libzhuyin project aims to provide the algorithms core for
+ intelligent sentence-based Chinese zhuyin input methods. libzhuyin can
+ be integrated with input method framework likes ibus, fcitx, etc. to
+ provide a zhuyin based input method for Traditional Chinese user.
 
 Package: libzimg-dev
 Source: zimg
