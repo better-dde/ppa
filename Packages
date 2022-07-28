@@ -3234,6 +3234,28 @@ Description: Mozc engine for IBus - Client of the Mozc input method
  .
  This open-source project originates from Google Japanese Input.
 
+Package: inxi
+Version: 3.3.19-1-1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 1351
+Depends: pciutils, procps, perl:any
+Recommends: dmidecode, dnsutils, file, iproute2 | net-tools, kmod, lm-sensors, mesa-utils, sudo | doas, tree, usbutils, x11-utils, x11-xserver-utils
+Suggests: libxml-dumper-perl, wget | curl | libhttp-tiny-perl
+Filename: ./inxi/inxi_3.3.19-1-1_all.deb
+Size: 489020
+MD5sum: 53372e462f04e4b07b28417b64dc1d2c
+SHA1: c9e5500745b1b35860d5367ff1c853a3f96ae577
+SHA256: ea97d4c4546ecd7105913f7b77c18bc213be28f501fd37ecc01098fba9a74e06
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://smxi.org/docs/inxi.htm
+Description: full featured system information script
+ Inxi is a system information script that can display various things about
+ your hardware and software to users in an IRC chatroom or support forum.
+ It runs with the /exec command in most IRC clients.
+
 Package: kde-config-fcitx5
 Source: fcitx5-configtool
 Version: 5.0.14-3
