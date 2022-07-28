@@ -4846,6 +4846,53 @@ Description: Google's framework for writing C++ tests
   - does not use exceptions, and
   - is easy to learn and use.
 
+Package: libgooglepinyin0
+Source: libgooglepinyin
+Version: 0.1.2-8
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 1242
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5)
+Provides: libgooglepinyin
+Filename: ./libgooglepinyin/libgooglepinyin0_0.1.2-8_amd64.deb
+Size: 533188
+MD5sum: dfce0b405f4e31dbba205700bd468ab5
+SHA1: f432be0f9b24195ded1c1053e4eebb95ef4b7b4f
+SHA256: 200ea9f9a43a75bd59f093d97d8532071bc00bee369f96e87a41fec5b4e53349
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://code.google.com/archive/p/libgooglepinyin/
+Description: Pinyin engine fork from Google Pinyin on Android
+ libgooglepinyin is a fork of Google Pinyin on Android, it features
+ to have excellent input experience and uses little resource.
+ .
+ This package provides the library file.
+
+Package: libgooglepinyin0-dev
+Source: libgooglepinyin
+Version: 0.1.2-8
+Architecture: amd64
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 372
+Depends: libgooglepinyin0 (= 0.1.2-8)
+Conflicts: libgooglepinyin-dev
+Provides: libgooglepinyin-dev
+Filename: ./libgooglepinyin/libgooglepinyin0-dev_0.1.2-8_amd64.deb
+Size: 86532
+MD5sum: 730c234914b7267ecad1f277b7a512f6
+SHA1: b10d641282f477f989fc8b8f8fd01309a7bdf4d1
+SHA256: 1fbe56f013d81fcf16cd18ac95010ac5f55b80ee410f3ee928aa50712689d5ef
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://code.google.com/archive/p/libgooglepinyin/
+Description: Pinyin engine fork from Google Pinyin on Android - development files
+ libgooglepinyin is a fork of Google Pinyin on Android, it features
+ to have excellent input experience and uses little resource.
+ .
+ This package provides the library development files.
+
 Package: libgtest-dev
 Source: googletest
 Version: 1.11.0-3
