@@ -519,6 +519,23 @@ Homepage: http://www.deepin.org/
 Description: Music software for UOS
  Music is a local music player with beautiful design and simple functions.
 
+Package: deepin-ocr
+Version: 1.0.7-1
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 31719
+Depends: libc6 (>= 2.27), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgomp1 (>= 4.9), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 7)
+Filename: ./deepin-ocr/deepin-ocr_1.0.7-1_amd64.deb
+Size: 19486504
+MD5sum: a769b12405def7c69335af7c845a502f
+SHA1: a95b04469103f52d477b2f24de78872b6cad12e6
+SHA256: 76926ed7b25ba074eb93d5d0ff8e567efa88505ed35d4c5fdd659f9816d1a553
+Section: utils
+Priority: optional
+Homepage: http://www.deepin.org/
+Description: Ocr for UOS
+ Ocr is a text recognition software.
+
 Package: deepin-terminal
 Version: 5.4.32-1
 Architecture: amd64
