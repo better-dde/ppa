@@ -466,16 +466,16 @@ Description: Device Manager is a handy tool for viewing hardware information and
  through which users can view parameters and export data of all hardware devices running in the system.
 
 Package: deepin-editor
-Version: 5.10.33-1
+Version: 5.10.34-1
 Architecture: amd64
 Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
-Installed-Size: 20254
+Installed-Size: 20277
 Depends: dde-qt5integration, libc6 (>= 2.14), libchardet1, libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libicu70 (>= 70.1-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-3
-Filename: ./deepin-editor/deepin-editor_5.10.33-1_amd64.deb
-Size: 14954772
-MD5sum: 3b045c652892674e13233db440ff9755
-SHA1: b02a1f9b30818a7bca3c780f6b15fe8ddae8d520
-SHA256: 168f1b12662d8e09768edc39328969c47bfddae779d446de4c8f8c337ba3c01c
+Filename: ./deepin-editor/deepin-editor_5.10.34-1_amd64.deb
+Size: 14962856
+MD5sum: eb995e7b6a5edb2f702a086ce730b27a
+SHA1: 8d6466dae10c31cef90d02d2b2449a719a8bc1c0
+SHA256: 8a9ab24eda2792b7700601bb01ddc5c41fabbeebc61e2ebb967d610cef9aad2d
 Section: editors
 Priority: optional
 Homepage: https://github.com/linuxdeepin/deepin-editor
