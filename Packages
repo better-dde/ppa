@@ -3251,6 +3251,40 @@ Description: Mozc engine for IBus - Client of the Mozc input method
  .
  This open-source project originates from Google Japanese Input.
 
+Package: im-config
+Version: 0.52-1
+Architecture: all
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 407
+Depends: gettext-base
+Recommends: x11-common, zenity | kdialog | kde-baseapps-bin (<< 4:16.08.3-2~) | whiptail
+Conflicts: im-switch
+Provides: im-switch
+Filename: ./im-config/im-config_0.52-1_all.deb
+Size: 61604
+MD5sum: 47e6fb20a24ec1ea97dce61c2c5c511c
+SHA1: 28ec25170f4dd8a1749ab7423046637ade34ba5b
+SHA256: 928bab8031c4577190edf4e264393049ddc0bd525e6bd71fa38bb08f28ac55c3
+Section: utils
+Priority: optional
+Homepage: https://salsa.debian.org/input-method-team/im-config
+Description: Input method configuration framework
+ im-config package provides the framework to configure and to switch
+ the input method. This input method is the essential mechanism for
+ Japanese, Chinese and Korean (CJK) languages to enter their non-ASCII
+ native characters.
+ .
+ Many modern input methods such as IBus support not only one of these CJK
+ languages but support almost all languages simultaneously by
+ dynamically switching keyboard modes with GUI helper program.
+ .
+ By installing this package, the most desirable input method and its
+ backend conversion engine are automatically configured with both the X
+ Window System Input Method (XIM), GTK input method module, Qt input
+ method module, and clutter input method module.
+ .
+ You can further customize your input method with 'im-config' command.
+
 Package: inxi
 Version: 3.3.19-1-1
 Architecture: all
