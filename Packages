@@ -590,16 +590,16 @@ Description: a tool for reading document files.
  Document Viewer is a tool for reading document files,supporting PDF, DJVU, DOCX etc
 
 Package: deepin-terminal
-Version: 5.4.32-1
+Version: 5.4.33-1
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 6737
+Installed-Size: 6741
 Depends: libc6 (>= 2.15), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-3, expect, zssh
-Filename: ./deepin-terminal/deepin-terminal_5.4.32-1_amd64.deb
-Size: 3372656
-MD5sum: d37fc14b809ead0055b7b45ad1b29219
-SHA1: 7240420938f0a02807651732156a76b16cd2c0bf
-SHA256: d6f1433c16e3a43a7344aaa5d5a7615d943491a43868cb8bb9aa84963e8c876a
+Filename: ./deepin-terminal/deepin-terminal_5.4.33-1_amd64.deb
+Size: 3374588
+MD5sum: 30f390d7702d87017bb9b28a15bb7031
+SHA1: d0d1d48eedfdc5ce7af2c050fe3e219703bd90f8
+SHA256: 2fd17e1aa7f6eba6c438ee2d2bc8b1aec95238b92952fa1b2cbf7a107846bb01
 Section: utils
 Priority: optional
 Homepage: https://www.deepin.com/
