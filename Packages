@@ -172,7 +172,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 263
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), onboard
-Filename: ./dde-dock/dcc-dock-plugin_5.5.53-1+kt286_amd64.deb
+Filename: ./.git/dcc-dock-plugin_5.5.53-1+kt286_amd64.deb
 Size: 97268
 MD5sum: 363bd18b01433b8e744c223c0889592c
 SHA1: bfcfb59e7b20d9e921d0c331bf5e5ee82d0f7a47
@@ -185,16 +185,16 @@ Description: deepin desktop-environment - dcc plugin for dock settings
 
 Package: dcc-dock-plugin
 Source: dde-dock
-Version: 5.5.53-1+kt286
+Version: 5.5.63-1+kt286+1
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 263
 Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), onboard
-Filename: ./.git/dcc-dock-plugin_5.5.53-1+kt286_amd64.deb
-Size: 97268
-MD5sum: 363bd18b01433b8e744c223c0889592c
-SHA1: bfcfb59e7b20d9e921d0c331bf5e5ee82d0f7a47
-SHA256: 73999d89ef33304e17394fa93f8e89131483700c1a4d838aad6897680ffae933
+Filename: ./dde-dock/dcc-dock-plugin_5.5.63-1+kt286+1_amd64.deb
+Size: 98984
+MD5sum: 33372ad69ad3c342da622b8a995ec4c2
+SHA1: 6ea0ca0f32c4077b9907448444649a49551dcdc4
+SHA256: c3b99a88cd0f50ec1665d8e7817ebbe27131bb816abbfa449a171749980407d8
 Section: x11
 Priority: optional
 Homepage: http://www.deepin.org/
@@ -267,26 +267,6 @@ Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdframe
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dcc-dock-plugin, dde-network-dialog
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
 Replaces: dde-dock-applets, dde-trash-plugin
-Filename: ./dde-dock/dde-dock_5.5.53-1+kt286_amd64.deb
-Size: 971920
-MD5sum: 18b05bd77eeb79b3f3571bb980cfeec4
-SHA1: 975fe38ec4ca3fa3d6bf4923a997349ae0b2d3ff
-SHA256: 5a118e2f1898f4846a798e2a212722e5b2ff70de98bc84ff0c819fc7f80624aa
-Section: x11
-Priority: optional
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock module
- Dock module of deepin desktop-environment
-
-Package: dde-dock
-Version: 5.5.53-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 5187
-Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb-shm0, libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-qt5xcb-plugin (>= 5.0.25), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), qtxdg-dev-tools
-Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dcc-dock-plugin, dde-network-dialog
-Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
-Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./.git/dde-dock_5.5.53-1+kt286_amd64.deb
 Size: 971920
 MD5sum: 18b05bd77eeb79b3f3571bb980cfeec4
@@ -298,22 +278,25 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
 
-Package: dde-dock-dev
-Source: dde-dock
-Version: 5.5.53-1+kt286
+Package: dde-dock
+Version: 5.5.63-1+kt286+1
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 47
-Filename: ./dde-dock/dde-dock-dev_5.5.53-1+kt286_amd64.deb
-Size: 20656
-MD5sum: 7d250c052ead6372a6dc0e1143a29b83
-SHA1: e470a6e5769d292f0ba617d40eaf7ff21c955563
-SHA256: 254cd6ed33c72bb516c446079c2ba38cd05fea41b05a49bbec2b501f0ed47594
+Installed-Size: 5308
+Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb-shm0, libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-qt5xcb-plugin (>= 5.0.25), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), qtxdg-dev-tools
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dcc-dock-plugin, dde-network-dialog
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./dde-dock/dde-dock_5.5.63-1+kt286+1_amd64.deb
+Size: 1002216
+MD5sum: 89ca080bfbb1dfa3e292c92ada065110
+SHA1: 34e55bcf14da53aebb639960c388fa540f34a875
+SHA256: ef6e4813b90ad9a0aaf813d25065683175ed626b97cda49d3b3b606e6b23c979
 Section: x11
 Priority: optional
 Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock module development files
- Dock module development files of deepin desktop-environment
+Description: deepin desktop-environment - dock module
+ Dock module of deepin desktop-environment
 
 Package: dde-dock-dev
 Source: dde-dock
@@ -326,6 +309,23 @@ Size: 20656
 MD5sum: 7d250c052ead6372a6dc0e1143a29b83
 SHA1: e470a6e5769d292f0ba617d40eaf7ff21c955563
 SHA256: 254cd6ed33c72bb516c446079c2ba38cd05fea41b05a49bbec2b501f0ed47594
+Section: x11
+Priority: optional
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Dock module development files of deepin desktop-environment
+
+Package: dde-dock-dev
+Source: dde-dock
+Version: 5.5.63-1+kt286+1
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 47
+Filename: ./dde-dock/dde-dock-dev_5.5.63-1+kt286+1_amd64.deb
+Size: 20656
+MD5sum: 3ab701f633bdbde3d8c64944f22115b6
+SHA1: ef74035e31834c7cd94526f959183c2dd8f6a9b4
+SHA256: 5746c16ab60b1f390b08ef04b3c1eca0f33318a975bec89614ec1d66ce65af0a
 Section: x11
 Priority: optional
 Homepage: http://www.deepin.org/
@@ -358,7 +358,7 @@ Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 130
 Depends: libc6 (>= 2.4), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
-Filename: ./dde-dock/dde-dock-onboard-plugin_5.5.53-1+kt286_amd64.deb
+Filename: ./.git/dde-dock-onboard-plugin_5.5.53-1+kt286_amd64.deb
 Size: 44364
 MD5sum: 0d031ae447feb310ae395d9d4a53f55e
 SHA1: 7e85387f98a3174d69e344910caf022bfff4f7d2
@@ -371,16 +371,16 @@ Description: deepin desktop-environment - dock plugin for onboard
 
 Package: dde-dock-onboard-plugin
 Source: dde-dock
-Version: 5.5.53-1+kt286
+Version: 5.5.63-1+kt286+1
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 130
 Depends: libc6 (>= 2.4), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
-Filename: ./.git/dde-dock-onboard-plugin_5.5.53-1+kt286_amd64.deb
-Size: 44364
-MD5sum: 0d031ae447feb310ae395d9d4a53f55e
-SHA1: 7e85387f98a3174d69e344910caf022bfff4f7d2
-SHA256: 7e4ed79e43424e501cf9f309d99775947decb1c37462c41ed98417a39c352dd6
+Filename: ./dde-dock/dde-dock-onboard-plugin_5.5.63-1+kt286+1_amd64.deb
+Size: 44148
+MD5sum: 0b18705d69e92835a69f3d1f44bb049a
+SHA1: 26be9e943aeef606c5619392b006ec6b0314f006
+SHA256: e7aefd90e7008e189934b50a4bb303f6220d72be6a2921a280b044a429aab683
 Section: x11
 Priority: optional
 Homepage: http://www.deepin.org/
