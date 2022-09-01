@@ -500,21 +500,21 @@ Description: Qt platform theme integration plugins for DDE
  Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
 Package: dde-session-shell
-Version: 5.5.50-1+kt286
+Version: 5.5.69-1+kt286
 Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 5097
-Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5waylandclient5, liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, pbis-open, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, dbus-x11, deepin-authenticate (>= 1.2.27), xsettingsd, libssl-dev, libxcb-util0
+Installed-Size: 4885
+Depends: libc6 (>= 2.15), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5waylandclient5, liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libssl1.1 (>= 1.1.1d), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, dbus-x11, deepin-authenticate (>= 1.2.27), xsettingsd, libssl-dev, libxcb-util0 | libxcb-util1
 Recommends: onboard, dss-network-plugin, dde-network-dialog
 Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notifications
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Provides: lightdm-greeter
-Filename: ./dde-session-shell/dde-session-shell_5.5.50-1+kt286_amd64.deb
-Size: 815232
-MD5sum: e41ed719026a27bfe7b903ae6b78f80b
-SHA1: 47e7855f2bd62cbdd4d3f94474b76bf832d3f815
-SHA256: 48d68dffc2eb1225c5094d705a6a2aedb20a876d81a56f953a6eca6d625ccf99
+Filename: ./dde-session-shell/dde-session-shell_5.5.69-1+kt286_amd64.deb
+Size: 809792
+MD5sum: 5a379a004a98015a5e37c1eda5697553
+SHA1: 82f2c5fcd530b51a652ad03f49954c5d4b7e4e13
+SHA256: 18f49e4953da58fd040561d04a133649b5252ad8d7751ce22542302bafe490d8
 Section: devel
 Priority: optional
 Homepage: http://www.deepin.org/
@@ -526,16 +526,16 @@ Description: deepin desktop-environment - dde-session-shell module
 
 Package: dde-session-shell-dev
 Source: dde-session-shell
-Version: 5.5.50-1+kt286
+Version: 5.5.69-1+kt286
 Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 23
-Depends: dde-session-shell (= 5.5.50-1+kt286)
-Filename: ./dde-session-shell/dde-session-shell-dev_5.5.50-1+kt286_amd64.deb
-Size: 3664
-MD5sum: 8d99336887d5ea3dc2467c5889430e1d
-SHA1: d079b2a31374e6cc5eb8ce315d6cfc39c8e83d0c
-SHA256: 54f3646d9cbb2d8d7ecb7a64cf6e8b2473ac5720f2cc274ee84a9f0a0f9c80f8
+Installed-Size: 26
+Depends: dde-session-shell (= 5.5.69-1+kt286)
+Filename: ./dde-session-shell/dde-session-shell-dev_5.5.69-1+kt286_amd64.deb
+Size: 4476
+MD5sum: bd1ea474682a60fc65285f88011b5b24
+SHA1: 1ead30117e5994bab61ed996b33d86e166cf08dd
+SHA256: 846e78b88c101064cc618a694cd4d3dd240003d7750a2f861392aebec68d3042
 Section: devel
 Priority: optional
 Homepage: http://www.deepin.org/
@@ -563,16 +563,16 @@ Description: Text editor for DDE (Deepin Desktop Environment)
 
 Package: deepin-greeter-wayland
 Source: dde-session-shell
-Version: 5.5.50-1+kt286
+Version: 5.5.69-1+kt286
 Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 22
-Depends: dde-session-shell (= 5.5.50-1+kt286), dde-wayland-config
-Filename: ./dde-session-shell/deepin-greeter-wayland_5.5.50-1+kt286_amd64.deb
-Size: 4068
-MD5sum: 233b019b899c88b351ecfacdf01a5d05
-SHA1: ee1bb8d1ad9c4edfd5f7b50efa0caa90b5717fef
-SHA256: 1075ae9e38c87dbb6cd0ccc3732d18717812710d647c85b45e38f04fdecab0fc
+Installed-Size: 23
+Depends: dde-session-shell (= 5.5.69-1+kt286), dde-wayland-config
+Filename: ./dde-session-shell/deepin-greeter-wayland_5.5.69-1+kt286_amd64.deb
+Size: 4140
+MD5sum: 3db67a68caced3f0dc2c3a5538117b27
+SHA1: 1f0bf77a54737b2d706f6d4aa2d7f7f5fd582852
+SHA256: 4cde98f42dea880dd40b0851439c46ce83a0576f72d4c0ed8666701d5a84249d
 Section: devel
 Priority: optional
 Homepage: http://www.deepin.org/
