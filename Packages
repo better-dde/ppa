@@ -167,24 +167,6 @@ Description: fast and small AV1 video stream decoder
 
 Package: dcc-dock-plugin
 Source: dde-dock
-Version: 5.5.53-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 263
-Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), onboard
-Filename: ./.git/dcc-dock-plugin_5.5.53-1+kt286_amd64.deb
-Size: 97268
-MD5sum: 363bd18b01433b8e744c223c0889592c
-SHA1: bfcfb59e7b20d9e921d0c331bf5e5ee82d0f7a47
-SHA256: 73999d89ef33304e17394fa93f8e89131483700c1a4d838aad6897680ffae933
-Section: x11
-Priority: optional
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dcc plugin for dock settings
- Dcc plugin for dock settings of deepin desktop-environment
-
-Package: dcc-dock-plugin
-Source: dde-dock
 Version: 5.5.66-1+kt286
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
@@ -259,26 +241,6 @@ Description: plugin of dde-dock
  Disk mount plugin of dde-dock which is created by libdde-file-manager
 
 Package: dde-dock
-Version: 5.5.53-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 5187
-Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb-shm0, libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-qt5xcb-plugin (>= 5.0.25), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), qtxdg-dev-tools
-Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dcc-dock-plugin, dde-network-dialog
-Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
-Replaces: dde-dock-applets, dde-trash-plugin
-Filename: ./.git/dde-dock_5.5.53-1+kt286_amd64.deb
-Size: 971920
-MD5sum: 18b05bd77eeb79b3f3571bb980cfeec4
-SHA1: 975fe38ec4ca3fa3d6bf4923a997349ae0b2d3ff
-SHA256: 5a118e2f1898f4846a798e2a212722e5b2ff70de98bc84ff0c819fc7f80624aa
-Section: x11
-Priority: optional
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock module
- Dock module of deepin desktop-environment
-
-Package: dde-dock
 Version: 5.5.66-1+kt286
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
@@ -297,23 +259,6 @@ Priority: optional
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
-
-Package: dde-dock-dev
-Source: dde-dock
-Version: 5.5.53-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 47
-Filename: ./.git/dde-dock-dev_5.5.53-1+kt286_amd64.deb
-Size: 20656
-MD5sum: 7d250c052ead6372a6dc0e1143a29b83
-SHA1: e470a6e5769d292f0ba617d40eaf7ff21c955563
-SHA256: 254cd6ed33c72bb516c446079c2ba38cd05fea41b05a49bbec2b501f0ed47594
-Section: x11
-Priority: optional
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock module development files
- Dock module development files of deepin desktop-environment
 
 Package: dde-dock-dev
 Source: dde-dock
@@ -350,24 +295,6 @@ Priority: optional
 Homepage: https://github.com/zty199/dde-dock-switch_graphics_card
 Description: DDE Dock Graphics Plugin
  A simple dde-dock plugin for graphics card switch.
-
-Package: dde-dock-onboard-plugin
-Source: dde-dock
-Version: 5.5.53-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 130
-Depends: libc6 (>= 2.4), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
-Filename: ./.git/dde-dock-onboard-plugin_5.5.53-1+kt286_amd64.deb
-Size: 44364
-MD5sum: 0d031ae447feb310ae395d9d4a53f55e
-SHA1: 7e85387f98a3174d69e344910caf022bfff4f7d2
-SHA256: 7e4ed79e43424e501cf9f309d99775947decb1c37462c41ed98417a39c352dd6
-Section: x11
-Priority: optional
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock plugin for onboard
- Dock plugin for onboard of deepin desktop-environment
 
 Package: dde-dock-onboard-plugin
 Source: dde-dock
@@ -860,19 +787,19 @@ Description: Mozc input method - data files for fcitx
  This open-source project originates from Google Japanese Input.
 
 Package: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 601
-Depends: fcitx5-data (= 5.0.18-1), fcitx5-modules (= 5.0.18-1), libfcitx5config6 (= 5.0.18-1), libfcitx5core7 (= 5.0.18-1), libfcitx5utils2 (= 5.0.18-1), libc6 (>= 2.14), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libstdc++6 (>= 5)
+Installed-Size: 597
+Depends: fcitx5-data (= 5.0.19-1), fcitx5-modules (= 5.0.19-1), libfcitx5config6 (= 5.0.19-1), libfcitx5core7 (= 5.0.19-1), libfcitx5utils2 (= 5.0.19-1), libc6 (>= 2.14), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libstdc++6 (>= 5)
 Recommends: fcitx5-config-qt, fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, im-config (>= 0.44)
 Suggests: fcitx5-chinese-addons, fcitx5-frontend-gtk2, kde-config-fcitx5
 Conflicts: fcitx (<< 1:5), fcitx-bin (<< 1:5), fcitx-data (<< 1:5)
-Filename: ./fcitx5/fcitx5_5.0.18-1_amd64.deb
-Size: 162172
-MD5sum: ba7958bcd85cf6fb301d9f1a431a35ec
-SHA1: b8803996251b7ba17f8ddae7bb4f168e6bc52151
-SHA256: 61057cb2e01ddc01a9fb94bc309c7e8107f4d0ca1a14c12d753dbbc37e97551e
+Filename: ./fcitx5/fcitx5_5.0.19-1_amd64.deb
+Size: 161356
+MD5sum: d23bc46b3412ee4652e5eac45ddf7f5a
+SHA1: 5c829f1e7b691b96c068d2b5171edb3978ce102b
+SHA256: 698e35df4d4d729baddb1f027a0d4ebb46a96ecc0a2a3f304d7d77f44fd923bf
 Section: utils
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5
@@ -1062,15 +989,15 @@ Description: configuration tool for Fcitx5 (KDE tools)
 
 Package: fcitx5-data
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 5545
-Filename: ./fcitx5/fcitx5-data_5.0.18-1_all.deb
-Size: 1413364
-MD5sum: f2db1473b8f892a7d74dcc5e7136d20c
-SHA1: 87d44ef5d5486accbd28e59ae34afdfeb77f2d15
-SHA256: 557468b1c927077dd83d9c55bdd873d27098a35e8a65f43ccf67bb101ff1e517
+Installed-Size: 5546
+Filename: ./fcitx5/fcitx5-data_5.0.19-1_all.deb
+Size: 1412896
+MD5sum: 2b50889b3e1900962eacf0ce761cdcbe
+SHA1: d6588e14cda19c01b1272d51a4650a56e1a181e7
+SHA256: a5297951153e2fd6e5b27eed8ec23648c2654eae520bf8245f005c98beb98f6a
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -1376,18 +1303,18 @@ Description: Development files for fcitx5 cloudpinyin module
 
 Package: fcitx5-module-emoji
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 80
-Depends: unicode-cldr-core, libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Depends: unicode-cldr-core, libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
 Breaks: fcitx5-modules (<< 0.0~git20200312)
 Replaces: fcitx5-modules (<< 0.0~git20200312)
-Filename: ./fcitx5/fcitx5-module-emoji_5.0.18-1_amd64.deb
-Size: 23316
-MD5sum: a374b96d1190349dd26351b8583205de
-SHA1: 7862b16b74a029e51c1fbe1b15e07d00ba92f91e
-SHA256: f649d28789de1a02007dd63a6bec468f05e2b9dcdf99f7b9def0539c2c70b9e3
+Filename: ./fcitx5/fcitx5-module-emoji_5.0.19-1_amd64.deb
+Size: 23500
+MD5sum: eb89e881cae81c2b663c1affdbdc68c3
+SHA1: 469a0002af8eee782d54867f9117c4155d230311
+SHA256: d4eeef4e1d7a3ddd8bfa63528e275784de24d04c9f31bccd4f6df45725dfa254
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1655,16 +1582,16 @@ Description: Development files for fcitx5 punctuation module
 
 Package: fcitx5-module-quickphrase
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 172
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5/fcitx5-module-quickphrase_5.0.18-1_amd64.deb
-Size: 49708
-MD5sum: c93f4f33e0ad5ede126927d11f431773
-SHA1: 0779e8f424f3efe02f3567d308b192053f7faf2f
-SHA256: 06587bc72722331e4281be8fd0b1674d8a902b7749f08ad4ad9fb743ce1e4dfb
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Filename: ./fcitx5/fcitx5-module-quickphrase_5.0.19-1_amd64.deb
+Size: 49964
+MD5sum: abb850de354b765a8f173a221dfe3613
+SHA1: 0498f33af70b5fd1b3e9a9943db98864f129e026
+SHA256: 21fe785d333079821d9c6890e17e2bf7ab16b48f044cf4004a40bf9552e2833e
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1685,16 +1612,16 @@ Description: Fcitx Input Method Framework v5 (quickphrase module)
 
 Package: fcitx5-module-wayland
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 772
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5/fcitx5-module-wayland_5.0.18-1_amd64.deb
-Size: 129672
-MD5sum: 0816d293954098febf08a003d44ebba2
-SHA1: f9dc5d3077bc43b10263c6a56d882735eef71fe8
-SHA256: 47769b783f82faba72ec67bc965ac5ddf193298f8285133b1dacd05531addf2a
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0)
+Filename: ./fcitx5/fcitx5-module-wayland_5.0.19-1_amd64.deb
+Size: 130136
+MD5sum: fa699669545cd2b549a16e5f16474a2c
+SHA1: 08e2e7fd3b9a446c8d3c976b681b8ca42721af50
+SHA256: 0428fbe52857dd3d0e36f178b5ad4c261140216906c28f637973849b6602cf1a
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1715,16 +1642,16 @@ Description: Fcitx Input Method Framework v5 (wayland modules)
 
 Package: fcitx5-module-xorg
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 425
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 6), libxcb-ewmh2 (>= 0.4.1), libxcb-imdkit1 (>= 1.0.1), libxcb-keysyms1 (>= 0.4.0.1), libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1
-Filename: ./fcitx5/fcitx5-module-xorg_5.0.18-1_amd64.deb
-Size: 112136
-MD5sum: 8d60941c9d19471731a408e5fc604bc1
-SHA1: 28e8fe0b27b778b5d2b07e270a11cdbf33460ac9
-SHA256: 8d3a1c1be868ac00a4e2ccbf7cac3e3d5005b008ab6bfa767bf9cf40eb8a5a58
+Installed-Size: 429
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 6), libxcb-ewmh2 (>= 0.4.1), libxcb-imdkit1 (>= 1.0.1), libxcb-keysyms1 (>= 0.4.0.1), libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1
+Filename: ./fcitx5/fcitx5-module-xorg_5.0.19-1_amd64.deb
+Size: 113204
+MD5sum: 0127b1294a05509b8bda6de1ba29ac1b
+SHA1: 3d9fc7be9a3c1be6d5184fcb2fdef57316e4510b
+SHA256: b7602a10fb44e823129556e0d42771d0eebfe74684bcd868b8dfb15a73ce69fe
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1745,20 +1672,20 @@ Description: Fcitx Input Method Framework v5 (xorg modules)
 
 Package: fcitx5-modules
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 3204
-Depends: fcitx5-data (= 5.0.18-1), libc6 (>= 2.14), libcairo2 (>= 1.6.4-5~), libenchant-2-2 (>= 2.2.3), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 6), libuuid1 (>= 2.16), libwayland-client0 (>= 1.9.91), libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb1 (>= 1.12)
+Installed-Size: 3228
+Depends: fcitx5-data (= 5.0.19-1), libc6 (>= 2.14), libcairo2 (>= 1.10.0), libenchant-2-2 (>= 2.2.3), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 6), libuuid1 (>= 2.16), libwayland-client0 (>= 1.9.91), libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb1 (>= 1.12)
 Recommends: fcitx5-module-emoji, fcitx5-module-quickphrase, fcitx5-module-wayland, fcitx5-module-xorg
 Breaks: fcitx5-module-dbus (<< 5.0.4-2), fcitx5-module-fcitx4 (<< 5.0.4-2), fcitx5-module-ibus (<< 5.0.4-2), fcitx5-module-kimpanel (<< 5.0.4-2)
 Replaces: fcitx5-module-dbus (<< 5.0.4-2), fcitx5-module-fcitx4 (<< 5.0.4-2), fcitx5-module-ibus (<< 5.0.4-2), fcitx5-module-kimpanel (<< 5.0.4-2)
 Provides: fcitx5-module-dbus, fcitx5-module-ibus, fcitx5-module-kimpanel
-Filename: ./fcitx5/fcitx5-modules_5.0.18-1_amd64.deb
-Size: 586892
-MD5sum: 9493058a6c6e35cca988418c0cb6e9f8
-SHA1: 6b6b8a2aecde7edbf9e7d5b252d61e93d4664426
-SHA256: e88c13542ae1321044306e89d2e6ffbd43c1f2cee07be262a25fbef3b88698ea
+Filename: ./fcitx5/fcitx5-modules_5.0.19-1_amd64.deb
+Size: 592184
+MD5sum: e37d401f4215574892020b3563684246
+SHA1: b6d6fbf741820e9732b9680419e0edac821a0d2b
+SHA256: 2db62d95faf4387c67c6a7d01f395fbde94c4eba22f6b60e2a237a0bb94b33cb
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1780,16 +1707,16 @@ Description: Fcitx Input Method Framework v5 (core modules)
 
 Package: fcitx5-modules-dev
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 108
-Depends: fcitx5-module-emoji (= 5.0.18-1), fcitx5-module-quickphrase (= 5.0.18-1), fcitx5-module-wayland (= 5.0.18-1), fcitx5-module-xorg (= 5.0.18-1), fcitx5-modules (= 5.0.18-1), libfcitx5core-dev (= 5.0.18-1), libfcitx5utils-dev (= 5.0.18-1)
-Filename: ./fcitx5/fcitx5-modules-dev_5.0.18-1_amd64.deb
-Size: 12312
-MD5sum: e6aeba9e7594d14bc8b073f6b661b722
-SHA1: 48079709ec436f511a3cce692f192b4e4aac43b1
-SHA256: a421b2e4eb3041c26983797f8f4e52226acb1881d1312c8bd0e37634d8961543
+Depends: fcitx5-module-emoji (= 5.0.19-1), fcitx5-module-quickphrase (= 5.0.19-1), fcitx5-module-wayland (= 5.0.19-1), fcitx5-module-xorg (= 5.0.19-1), fcitx5-modules (= 5.0.19-1), libfcitx5core-dev (= 5.0.19-1), libfcitx5utils-dev (= 5.0.19-1)
+Filename: ./fcitx5/fcitx5-modules-dev_5.0.19-1_amd64.deb
+Size: 12532
+MD5sum: a74479778a0ced83a1c6a4b9951094b9
+SHA1: d9bfa4100f5e485c702e8e6639b8ab0ab0713b30
+SHA256: 8125c1566bb8f03052d02472a2b58d7c3196b934a0b5a1fea3af1303a77c0f3d
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4020,33 +3947,6 @@ Description: Dpkg perl modules
 Package: libegl-nvidia-legacy-390xx0
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1120
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5), libnvidia-legacy-390xx-eglcore (= 390.154-1)
-Filename: ./nvidia-legacy-390xx-driver/libegl-nvidia-legacy-390xx0_390.154-1_amd64.deb
-Size: 373692
-MD5sum: e1ace97075186bf555fb7c5af83d3cbd
-SHA1: 93033aff58fdaa4a694c4e05a59b97526ed5e801
-SHA256: ff24c43aea4cad8ecc5b925d345eb4900732125f31c04ff8f268824210561cd8
-Section: non-free/libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.nvidia.com
-Description: NVIDIA binary EGL library (390xx legacy version)
- EGL provides a platform-agnostic mechanism for creating rendering surfaces
- for use with other graphics libraries, such as OpenGL|ES.
- .
- See the description of the nvidia-legacy-390xx-driver package
- or /usr/share/doc/libgl1-nvidia-legacy-390xx-glx/README.txt.gz
- for a complete list of supported GPUs and PCI IDs.
- .
- This package contains the driver specific binary EGL implementation provided
- by NVIDIA that is accessed via GLVND.
-
-Package: libegl-nvidia-legacy-390xx0
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.154-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 944
@@ -4071,29 +3971,32 @@ Description: NVIDIA binary EGL library (390xx legacy version)
  This package contains the driver specific binary EGL implementation provided
  by NVIDIA that is accessed via GLVND.
 
-Package: libegl1-nvidia-legacy-390xx
+Package: libegl-nvidia-legacy-390xx0
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 244
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libegl-nvidia-legacy-390xx0 (= 390.154-1), libc6 (>= 2.2.5), libglvnd0
-Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx, nvidia-legacy-390xx-driver-libs
-Filename: ./nvidia-legacy-390xx-driver/libegl1-nvidia-legacy-390xx_390.154-1_amd64.deb
-Size: 206192
-MD5sum: 1a13207e4061c2082be34c4b51a37fe9
-SHA1: 2c75f5812c03d2ab6f8564834924d7ce3718ea3c
-SHA256: 0258cab08bdf00d20d5963bc6034808ac95752cb4c71a4e3e8c8189732052fe3
+Installed-Size: 1120
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5), libnvidia-legacy-390xx-eglcore (= 390.154-1)
+Filename: ./nvidia-legacy-390xx-driver/libegl-nvidia-legacy-390xx0_390.154-1_amd64.deb
+Size: 373692
+MD5sum: e1ace97075186bf555fb7c5af83d3cbd
+SHA1: 93033aff58fdaa4a694c4e05a59b97526ed5e801
+SHA256: ff24c43aea4cad8ecc5b925d345eb4900732125f31c04ff8f268824210561cd8
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://www.nvidia.com
-Description: NVIDIA binary EGL library (non-GLVND variant) (390xx legacy version)
+Description: NVIDIA binary EGL library (390xx legacy version)
  EGL provides a platform-agnostic mechanism for creating rendering surfaces
  for use with other graphics libraries, such as OpenGL|ES.
  .
- This package contains the driver specific binary EGL implementation by NVIDIA
- as a non-GLVND alternative.
+ See the description of the nvidia-legacy-390xx-driver package
+ or /usr/share/doc/libgl1-nvidia-legacy-390xx-glx/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+ .
+ This package contains the driver specific binary EGL implementation provided
+ by NVIDIA that is accessed via GLVND.
 
 Package: libegl1-nvidia-legacy-390xx
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -4108,6 +4011,30 @@ Size: 205016
 MD5sum: 51ce52bf6150e883abe58136f3790290
 SHA1: 82681735e22c210a87ba13811c3f57fa2c06bc67
 SHA256: d17d6bddb0a38ca76c947a56f5639a807d11413e897c69f58a6efbcaa6e3ceb5
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description: NVIDIA binary EGL library (non-GLVND variant) (390xx legacy version)
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package contains the driver specific binary EGL implementation by NVIDIA
+ as a non-GLVND alternative.
+
+Package: libegl1-nvidia-legacy-390xx
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.154-1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 244
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libegl-nvidia-legacy-390xx0 (= 390.154-1), libc6 (>= 2.2.5), libglvnd0
+Conflicts: libgl1-nvidia-legacy-390xx-glvnd-glx, nvidia-legacy-390xx-driver-libs
+Filename: ./nvidia-legacy-390xx-driver/libegl1-nvidia-legacy-390xx_390.154-1_amd64.deb
+Size: 206192
+MD5sum: 1a13207e4061c2082be34c4b51a37fe9
+SHA1: 2c75f5812c03d2ab6f8564834924d7ce3718ea3c
+SHA256: 0258cab08bdf00d20d5963bc6034808ac95752cb4c71a4e3e8c8189732052fe3
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -4270,16 +4197,16 @@ Description: Qt6 library and IM module for fcitx5 (development files)
 
 Package: libfcitx5config-dev
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 79
-Depends: libfcitx5config6 (= 5.0.18-1)
-Filename: ./fcitx5/libfcitx5config-dev_5.0.18-1_amd64.deb
-Size: 16612
-MD5sum: 98938e1d42f6f0e8b9cfa57691f345da
-SHA1: 873a4af4135d15b38390b914224300d110144da4
-SHA256: 2b9478c1945956de0814805ae3eeabdbf96afd72e0335b7e74732b6aa7fe6934
+Depends: libfcitx5config6 (= 5.0.19-1)
+Filename: ./fcitx5/libfcitx5config-dev_5.0.19-1_amd64.deb
+Size: 16808
+MD5sum: 39b0bc0f58098cb98edb9bce4ee7dfed
+SHA1: 38433c43221f56eaf21e75018e5548f0c53e9808
+SHA256: 9f172e8e75ced01d0e272f6c8639b0e8bd57dec8ab05f3160e953836206c5304
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4300,16 +4227,16 @@ Description: Fcitx Input Method Framework v5 (config library dev files)
 
 Package: libfcitx5config6
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 183
-Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./fcitx5/libfcitx5config6_5.0.18-1_amd64.deb
-Size: 54664
-MD5sum: 119a1a424175a77b8f1d2ba8d443c8c0
-SHA1: 9c80aa49cc3aa6ff3fcff903afe80c94a15efed9
-SHA256: cf92aecd353c5c16ce021b4b9ede2dd9eb44c968637fcee2f33997913052a9b8
+Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./fcitx5/libfcitx5config6_5.0.19-1_amd64.deb
+Size: 54800
+MD5sum: 351c64ce7e221a1d38fab3701fb413dc
+SHA1: b50de124fadc06e71133bd0844526eab91a761f6
+SHA256: cac3b7d3794d8ac7d8c66d56c001fb98c306eda5aa52c3e0686ddd3ee43a1e13
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4330,16 +4257,16 @@ Description: Fcitx Input Method Framework v5 (config library)
 
 Package: libfcitx5core-dev
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 160
-Depends: libfcitx5config-dev (= 5.0.18-1), libfcitx5core7 (= 5.0.18-1), libfcitx5utils-dev (= 5.0.18-1)
-Filename: ./fcitx5/libfcitx5core-dev_5.0.18-1_amd64.deb
-Size: 31260
-MD5sum: 81bc64cff34571b290e7aad0e13c374a
-SHA1: d7883ebb72f04556594f59cbc1179bbd8a5c2918
-SHA256: 12cc1b64943d0906339b7bddef434cb8f3e8b0f57cd16a4c67b766398c33c98e
+Depends: libfcitx5config-dev (= 5.0.19-1), libfcitx5core7 (= 5.0.19-1), libfcitx5utils-dev (= 5.0.19-1)
+Filename: ./fcitx5/libfcitx5core-dev_5.0.19-1_amd64.deb
+Size: 31448
+MD5sum: 74dfb7aa48b087877f6935258a5dd692
+SHA1: f2012dca0cd0e42d192a7774b8dba17e929c3465
+SHA256: 7a8d2a974aad6707c46d30f71a9a4ddddcfa0fdee912483b1fc7e78000f2d1af
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4360,16 +4287,16 @@ Description: Fcitx Input Method Framework v5 (core library dev files)
 
 Package: libfcitx5core7
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 1000
-Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), libxkbcommon0 (>= 0.5.0)
-Filename: ./fcitx5/libfcitx5core7_5.0.18-1_amd64.deb
-Size: 280368
-MD5sum: f3e04e72eeedecdb8494a5ef4564f444
-SHA1: c7fa8fa7925541a32189abc5829e9df161ee67c2
-SHA256: 6eb18ec3aa0c551ea6e310b562a70e5efd8f431a0e1c70a64a04d4b0b1e5ab7c
+Depends: libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), libxkbcommon0 (>= 0.5.0)
+Filename: ./fcitx5/libfcitx5core7_5.0.19-1_amd64.deb
+Size: 280836
+MD5sum: b4dd91f9df9afbd0a4a9ffa0e9ff0ec0
+SHA1: b4180695ae21d5699c64059b3054e5371099fff7
+SHA256: 58acca3c9891630f5cdaf3fb1eb1dfaef03b9a8cbf2c43670d30e475c1d7190d
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4451,16 +4378,16 @@ Description: GLib-based D-Bus client library for fcitx5 (library)
 
 Package: libfcitx5utils-dev
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 404
-Depends: libfcitx5utils2 (= 5.0.18-1)
-Filename: ./fcitx5/libfcitx5utils-dev_5.0.18-1_amd64.deb
-Size: 68676
-MD5sum: ed0af25b0b40f08658cb54f32d2558f3
-SHA1: 91dc0488c4b8a6437a307c4c3d536ed45e8471c3
-SHA256: e659e9a6bb630fcab0fb6cd154384c35a32e08754d44f73afaf9f8c94bc08497
+Depends: libfcitx5utils2 (= 5.0.19-1)
+Filename: ./fcitx5/libfcitx5utils-dev_5.0.19-1_amd64.deb
+Size: 68832
+MD5sum: 202c661674eed2985c529e72f5a0cba9
+SHA1: eab7e3dd2e3ee53cf7fe0b2b0481484acd08733b
+SHA256: 9592c80602beeafbe94d75c1369bc4db4d0020d064b61ffd6ab841f9f3cb2f32
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4481,16 +4408,16 @@ Description: Fcitx Input Method Framework v5 (utils library dev files)
 
 Package: libfcitx5utils2
 Source: fcitx5
-Version: 5.0.18-1
+Version: 5.0.19-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 800
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libsystemd0 (>= 243)
-Filename: ./fcitx5/libfcitx5utils2_5.0.18-1_amd64.deb
-Size: 201548
-MD5sum: af563679e7e8e99f66f22598875e423b
-SHA1: 93fcb7ca7d8c329530a5fdc316f840785c3ba33b
-SHA256: 99e05f97f223c1c2c56631579bf6bf212b07bd15063165cbd97f09ba4917b73d
+Filename: ./fcitx5/libfcitx5utils2_5.0.19-1_amd64.deb
+Size: 202312
+MD5sum: 8ac0c241065f7dcadcf0d5463ab224c1
+SHA1: b949b6dc72965a8ad7ccefb8a4f3f97fa17671c3
+SHA256: 1fd26f4ac9cada49645004d35c9f6bc9fbd850e269a91559b17c1b5466cb371a
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4819,15 +4746,15 @@ Description: NVIDIA binary OpenGL|ES 1.x library (390xx legacy version)
 Package: libgles-nvidia-legacy-390xx2
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 341
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.154-1), libc6 (>= 2.2.5)
-Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx2_390.154-1_amd64.deb
-Size: 227060
-MD5sum: 5a26981cd0e14e8571eff270fdcff766
-SHA1: 10d3f9e7d3a1aadcb394d28632985f004884bfe0
-SHA256: 1411c95f0426f2b16ef6f5180529c593690c61d00522200d623b00d51fea771b
+Installed-Size: 315
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.154-1), libc6 (>= 2.3.6-6~)
+Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx2_390.154-1_i386.deb
+Size: 220348
+MD5sum: 573af1900591fd55a59efbcd647f39e1
+SHA1: ed907e6fec3fe31f85d49fbbe286915cbf55ca1c
+SHA256: 5d189b000643f3424c432851000717fd973d8adfe8579186996113240caaa2b4
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -4851,15 +4778,15 @@ Description: NVIDIA binary OpenGL|ES 2.x library (390xx legacy version)
 Package: libgles-nvidia-legacy-390xx2
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 315
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.154-1), libc6 (>= 2.3.6-6~)
-Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx2_390.154-1_i386.deb
-Size: 220348
-MD5sum: 573af1900591fd55a59efbcd647f39e1
-SHA1: ed907e6fec3fe31f85d49fbbe286915cbf55ca1c
-SHA256: 5d189b000643f3424c432851000717fd973d8adfe8579186996113240caaa2b4
+Installed-Size: 341
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-legacy-390xx-eglcore (= 390.154-1), libc6 (>= 2.2.5)
+Filename: ./nvidia-legacy-390xx-driver/libgles-nvidia-legacy-390xx2_390.154-1_amd64.deb
+Size: 227060
+MD5sum: 5a26981cd0e14e8571eff270fdcff766
+SHA1: 10d3f9e7d3a1aadcb394d28632985f004884bfe0
+SHA256: 1411c95f0426f2b16ef6f5180529c593690c61d00522200d623b00d51fea771b
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5538,18 +5465,18 @@ Description: Samba nameservice integration plugins
 Package: libnvidia-legacy-390xx-cfg1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 409
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5)
+Installed-Size: 417
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.1)
 Breaks: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Replaces: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Provides: libnvidia-cfg.so.1 (= 390.154), libnvidia-cfg1-any
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cfg1_390.154-1_amd64.deb
-Size: 262304
-MD5sum: 2d72d1702e8528ff7564369b13e65fb7
-SHA1: 8a9343cfa5e591d17d0aa3a07d3adcbc0072f19b
-SHA256: d7095b69563d410ccbd6c11afb67eacf2fe0866706ac6362bc6cb7d187667b6d
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cfg1_390.154-1_i386.deb
+Size: 263236
+MD5sum: e9879be5b12b5e2c230c222e9ee8de31
+SHA1: c6294c32af17e96dc68208ebfa9c15f03d54e83d
+SHA256: b119370ed7c1ab2157d851a7c379382bbbfbf2110755a38e15e84052a093b91c
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5564,18 +5491,18 @@ Description: NVIDIA binary OpenGL/GLX configuration library (390xx legacy versio
 Package: libnvidia-legacy-390xx-cfg1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 417
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.1)
+Installed-Size: 409
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5)
 Breaks: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Replaces: libgl1-nvidia-legacy-390xx-glx (<< 355.11-5)
 Provides: libnvidia-cfg.so.1 (= 390.154), libnvidia-cfg1-any
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cfg1_390.154-1_i386.deb
-Size: 263236
-MD5sum: e9879be5b12b5e2c230c222e9ee8de31
-SHA1: c6294c32af17e96dc68208ebfa9c15f03d54e83d
-SHA256: b119370ed7c1ab2157d851a7c379382bbbfbf2110755a38e15e84052a093b91c
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-cfg1_390.154-1_amd64.deb
+Size: 262304
+MD5sum: 2d72d1702e8528ff7564369b13e65fb7
+SHA1: 8a9343cfa5e591d17d0aa3a07d3adcbc0072f19b
+SHA256: d7095b69563d410ccbd6c11afb67eacf2fe0866706ac6362bc6cb7d187667b6d
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5731,36 +5658,6 @@ Description: NVIDIA CUDA 32-bit runtime library (390xx legacy version)
 Package: libnvidia-legacy-390xx-eglcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 27685
-Depends: libc6 (>= 2.2.5)
-Conflicts: libnvidia-eglcore-390.154
-Provides: libnvidia-eglcore-390.154
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-eglcore_390.154-1_amd64.deb
-Size: 6769044
-MD5sum: d835f9b9a5a64bbd144f25aabe577612
-SHA1: e5eae17bffcb3a8585ab1a3821d8fa65be40a53b
-SHA256: f5601f700704b81a9d665c78643881a49ca414c94fe5df1d2c685f8ec9b53331
-Section: non-free/libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.nvidia.com
-Description: NVIDIA binary EGL core libraries (390xx legacy version)
- EGL provides a platform-agnostic mechanism for creating rendering surfaces
- for use with other graphics libraries, such as OpenGL|ES.
- .
- OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
- embedded systems - including consoles, phones, appliances and vehicles.
- It contains a subset of OpenGL plus a number of extensions for the
- special needs of embedded systems.
- .
- This package contains the private core libraries used by the NVIDIA
- implementation of EGL and OpenGL|ES.
-
-Package: libnvidia-legacy-390xx-eglcore
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.154-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 29412
@@ -5788,27 +5685,35 @@ Description: NVIDIA binary EGL core libraries (390xx legacy version)
  This package contains the private core libraries used by the NVIDIA
  implementation of EGL and OpenGL|ES.
 
-Package: libnvidia-legacy-390xx-encode1
+Package: libnvidia-legacy-390xx-eglcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 388
-Depends: libnvidia-legacy-390xx-cuda1 (= 390.154-1), libc6 (>= 2.2.5), libnvidia-legacy-390xx-nvcuvid1 (>= 260)
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-encode1_390.154-1_amd64.deb
-Size: 244380
-MD5sum: 61fc57443145f2bf66acf37f0fde55fa
-SHA1: d3eef75a448ed837697d08e0c8481f4623311dbd
-SHA256: e18c493a3e820a2c26105e716d300c916b606246fbaab96d1ae9fa556333320b
+Installed-Size: 27685
+Depends: libc6 (>= 2.2.5)
+Conflicts: libnvidia-eglcore-390.154
+Provides: libnvidia-eglcore-390.154
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-eglcore_390.154-1_amd64.deb
+Size: 6769044
+MD5sum: d835f9b9a5a64bbd144f25aabe577612
+SHA1: e5eae17bffcb3a8585ab1a3821d8fa65be40a53b
+SHA256: f5601f700704b81a9d665c78643881a49ca414c94fe5df1d2c685f8ec9b53331
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://www.nvidia.com
-Description: NVENC Video Encoding runtime library (390xx legacy version)
- The NVENC Video Encoding library provides an interface to video encoder
- hardware on supported NVIDIA GPUs.
+Description: NVIDIA binary EGL core libraries (390xx legacy version)
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
  .
- This package contains the nvidia-encode runtime library.
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ This package contains the private core libraries used by the NVIDIA
+ implementation of EGL and OpenGL|ES.
 
 Package: libnvidia-legacy-390xx-encode1
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -5822,6 +5727,28 @@ Size: 244732
 MD5sum: 078bac6760eb24b1aee8c33cf1df85a3
 SHA1: cf54642d66bd9b1f843c17b90eda33a05a2335bc
 SHA256: 6f5e86659b4b75c21db07fef3ba9eac85030b34ad7cb76e2a811212ec6f7488d
+Section: non-free/libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description: NVENC Video Encoding runtime library (390xx legacy version)
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ This package contains the nvidia-encode runtime library.
+
+Package: libnvidia-legacy-390xx-encode1
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.154-1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 388
+Depends: libnvidia-legacy-390xx-cuda1 (= 390.154-1), libc6 (>= 2.2.5), libnvidia-legacy-390xx-nvcuvid1 (>= 260)
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-encode1_390.154-1_amd64.deb
+Size: 244380
+MD5sum: 61fc57443145f2bf66acf37f0fde55fa
+SHA1: d3eef75a448ed837697d08e0c8481f4623311dbd
+SHA256: e18c493a3e820a2c26105e716d300c916b606246fbaab96d1ae9fa556333320b
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5933,17 +5860,17 @@ Description: NVIDIA OpenGL-based Framebuffer Capture runtime library (390xx lega
 Package: libnvidia-legacy-390xx-glcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 28834
-Depends: libc6 (>= 2.2.5)
+Installed-Size: 31995
+Depends: libc6 (>= 2.1.3)
 Conflicts: libnvidia-glcore-390.154
 Provides: libnvidia-glcore-390.154
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-glcore_390.154-1_amd64.deb
-Size: 6818364
-MD5sum: b8b6a8636591fbb0152956b2152bf19d
-SHA1: 276f4f8163b73eb2b34abf041516d4cf71b3dfa4
-SHA256: bcf1fbb874056a21126b52d276615d4cb6435486546d10230239899980bec717
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-glcore_390.154-1_i386.deb
+Size: 7240592
+MD5sum: f55b06560b5df2e27bd544bca2d55834
+SHA1: 893d0bc2a4b529ced862a81f9d8c7885a0c2c5b6
+SHA256: 56546fef07c43abac7512796c131dcc2056eea0ecb8d1ac70d12ecfab7b862ea
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -5959,17 +5886,17 @@ Description: NVIDIA binary OpenGL/GLX core libraries (390xx legacy version)
 Package: libnvidia-legacy-390xx-glcore
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 31995
-Depends: libc6 (>= 2.1.3)
+Installed-Size: 28834
+Depends: libc6 (>= 2.2.5)
 Conflicts: libnvidia-glcore-390.154
 Provides: libnvidia-glcore-390.154
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-glcore_390.154-1_i386.deb
-Size: 7240592
-MD5sum: f55b06560b5df2e27bd544bca2d55834
-SHA1: 893d0bc2a4b529ced862a81f9d8c7885a0c2c5b6
-SHA256: 56546fef07c43abac7512796c131dcc2056eea0ecb8d1ac70d12ecfab7b862ea
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-glcore_390.154-1_amd64.deb
+Size: 6818364
+MD5sum: b8b6a8636591fbb0152956b2152bf19d
+SHA1: 276f4f8163b73eb2b34abf041516d4cf71b3dfa4
+SHA256: bcf1fbb874056a21126b52d276615d4cb6435486546d10230239899980bec717
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -6033,16 +5960,16 @@ Description: NVIDIA OpenGL-based Inband Frame Readback runtime library (390xx le
 Package: libnvidia-legacy-390xx-ml1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1514
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5)
+Installed-Size: 1549
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.3.6-6~)
 Provides: libnvidia-ml.so.1 (= 390.154)
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ml1_390.154-1_amd64.deb
-Size: 611480
-MD5sum: d677c6392b38d8a1e28dd88aac84a3dd
-SHA1: 4ce5c806b33f67487d567f8f6ad09ac8ca995e1c
-SHA256: c282c80b723567260c79b888c4a31fa88cceb27c7ab87f9671b9d9156046f804
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ml1_390.154-1_i386.deb
+Size: 575128
+MD5sum: 4b41e3aac3a7ea4121819df913f16726
+SHA1: 085380f00656f4be2dae6aff7eaa62c3b0cfd467
+SHA256: 4dbd2c499a853c9b841adfb34b3e994b9e1711030429a538e65fe771258412cf
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -6056,16 +5983,16 @@ Description: NVIDIA Management Library (NVML) runtime library (390xx legacy vers
 Package: libnvidia-legacy-390xx-ml1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 1549
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.3.6-6~)
+Installed-Size: 1514
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5)
 Provides: libnvidia-ml.so.1 (= 390.154)
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ml1_390.154-1_i386.deb
-Size: 575128
-MD5sum: 4b41e3aac3a7ea4121819df913f16726
-SHA1: 085380f00656f4be2dae6aff7eaa62c3b0cfd467
-SHA256: 4dbd2c499a853c9b841adfb34b3e994b9e1711030429a538e65fe771258412cf
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ml1_390.154-1_amd64.deb
+Size: 611480
+MD5sum: d677c6392b38d8a1e28dd88aac84a3dd
+SHA1: 4ce5c806b33f67487d567f8f6ad09ac8ca995e1c
+SHA256: c282c80b723567260c79b888c4a31fa88cceb27c7ab87f9671b9d9156046f804
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -6131,15 +6058,15 @@ Description: NVIDIA CUDA Video Decoder runtime library (390xx legacy version)
 Package: libnvidia-legacy-390xx-ptxjitcompiler1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 10466
-Depends: libc6 (>= 2.2.5)
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ptxjitcompiler1_390.154-1_amd64.deb
-Size: 3847724
-MD5sum: f9583513f952a372ac2ad3e6bbd38502
-SHA1: 3ff15945738ad92cf94e047b56e9f87ee122b734
-SHA256: fe5a221733d14aa8b069382f5f1b7e2da18bee3f4dd990bc77d4f69b84acffd8
+Installed-Size: 10822
+Depends: libc6 (>= 2.3.6-6~)
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ptxjitcompiler1_390.154-1_i386.deb
+Size: 3939480
+MD5sum: d3732ece2628224f2f03c7af79a1c8a0
+SHA1: cf653fb9a3ca7caeb6a432fbb29198c67a8df1a6
+SHA256: 3bc46bbe566227fc92668f23099f6a28063b166f548b5e227d2b0cce8fe9c83f
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -6154,15 +6081,15 @@ Description: NVIDIA PTX JIT Compiler library (390xx legacy version)
 Package: libnvidia-legacy-390xx-ptxjitcompiler1
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 10822
-Depends: libc6 (>= 2.3.6-6~)
-Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ptxjitcompiler1_390.154-1_i386.deb
-Size: 3939480
-MD5sum: d3732ece2628224f2f03c7af79a1c8a0
-SHA1: cf653fb9a3ca7caeb6a432fbb29198c67a8df1a6
-SHA256: 3bc46bbe566227fc92668f23099f6a28063b166f548b5e227d2b0cce8fe9c83f
+Installed-Size: 10466
+Depends: libc6 (>= 2.2.5)
+Filename: ./nvidia-legacy-390xx-driver/libnvidia-legacy-390xx-ptxjitcompiler1_390.154-1_amd64.deb
+Size: 3847724
+MD5sum: f9583513f952a372ac2ad3e6bbd38502
+SHA1: 3ff15945738ad92cf94e047b56e9f87ee122b734
+SHA256: fe5a221733d14aa8b069382f5f1b7e2da18bee3f4dd990bc77d4f69b84acffd8
 Section: non-free/libs
 Priority: optional
 Multi-Arch: same
@@ -7014,35 +6941,6 @@ Description: Using wayland as a client (development files)
 Package: libva-dev
 Source: libva
 Version: 2.15.0-1
-Architecture: amd64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 706
-Depends: libva-drm2 (= 2.15.0-1), libva-glx2 (= 2.15.0-1), libva-wayland2 (= 2.15.0-1), libva-x11-2 (= 2.15.0-1), libva2 (= 2.15.0-1), libwayland-dev, libset-scalar-perl
-Provides: dh-sequence-libva
-Filename: ./libva/libva-dev_2.15.0-1_amd64.deb
-Size: 125824
-MD5sum: 48ea96a06b9642cd991223ae2dc7b69c
-SHA1: a501c47feda0b27e15910aaeba352828a086b5dc
-SHA256: 437b4033cb546cbf5382fc6de6f74b0ce22cd7580f072c924897319ceb2b46b3
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://01.org/linuxmedia/vaapi
-Description: Video Acceleration (VA) API for Linux -- development files
- Video Acceleration API (VA API) is a library ("libVA") and API specification
- which enables and provides access to graphics hardware (GPU) acceleration for
- video processing on Linux and UNIX based operating systems. Accelerated
- processing includes video decoding, video encoding, subpicture blending and
- rendering. The specification was originally designed by Intel for its GMA
- (Graphics Media Accelerator) series of GPU hardware, the API is however not
- limited to GPUs or Intel specific hardware, as other hardware and manufacturers
- can also freely use this API for hardware accelerated video decoding.
- .
- This package provides the development environment for libva.
-
-Package: libva-dev
-Source: libva
-Version: 2.15.0-1
 Architecture: i386
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 706
@@ -7069,23 +6967,24 @@ Description: Video Acceleration (VA) API for Linux -- development files
  .
  This package provides the development environment for libva.
 
-Package: libva-drm2
+Package: libva-dev
 Source: libva
 Version: 2.15.0-1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 47
-Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.16), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1)
-Filename: ./libva/libva-drm2_2.15.0-1_amd64.deb
-Size: 20352
-MD5sum: 97d7af3e04897f9373cdbdd9673c064a
-SHA1: fc6d00cbefe0c3742d64cf1223d47f132234ccbf
-SHA256: d050e79248fa3210bddd09ddfe652f002f46649b5109d6bd4309fed509968744
-Section: libs
+Installed-Size: 706
+Depends: libva-drm2 (= 2.15.0-1), libva-glx2 (= 2.15.0-1), libva-wayland2 (= 2.15.0-1), libva-x11-2 (= 2.15.0-1), libva2 (= 2.15.0-1), libwayland-dev, libset-scalar-perl
+Provides: dh-sequence-libva
+Filename: ./libva/libva-dev_2.15.0-1_amd64.deb
+Size: 125824
+MD5sum: 48ea96a06b9642cd991223ae2dc7b69c
+SHA1: a501c47feda0b27e15910aaeba352828a086b5dc
+SHA256: 437b4033cb546cbf5382fc6de6f74b0ce22cd7580f072c924897319ceb2b46b3
+Section: libdevel
 Priority: optional
 Multi-Arch: same
 Homepage: https://01.org/linuxmedia/vaapi
-Description: Video Acceleration (VA) API for Linux -- DRM runtime
+Description: Video Acceleration (VA) API for Linux -- development files
  Video Acceleration API (VA API) is a library ("libVA") and API specification
  which enables and provides access to graphics hardware (GPU) acceleration for
  video processing on Linux and UNIX based operating systems. Accelerated
@@ -7095,7 +6994,7 @@ Description: Video Acceleration (VA) API for Linux -- DRM runtime
  limited to GPUs or Intel specific hardware, as other hardware and manufacturers
  can also freely use this API for hardware accelerated video decoding.
  .
- This package provides the libva-drm library.
+ This package provides the development environment for libva.
 
 Package: libva-drm2
 Source: libva
@@ -7125,18 +7024,46 @@ Description: Video Acceleration (VA) API for Linux -- DRM runtime
  .
  This package provides the libva-drm library.
 
-Package: libva-glx2
+Package: libva-drm2
 Source: libva
 Version: 2.15.0-1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 55
+Installed-Size: 47
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.16), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1)
+Filename: ./libva/libva-drm2_2.15.0-1_amd64.deb
+Size: 20352
+MD5sum: 97d7af3e04897f9373cdbdd9673c064a
+SHA1: fc6d00cbefe0c3742d64cf1223d47f132234ccbf
+SHA256: d050e79248fa3210bddd09ddfe652f002f46649b5109d6bd4309fed509968744
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: Video Acceleration (VA) API for Linux -- DRM runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the libva-drm library.
+
+Package: libva-glx2
+Source: libva
+Version: 2.15.0-1
+Architecture: i386
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 54
 Depends: libc6 (>= 2.4), libgl1, libva-x11-2 (>= 1.0.3), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1), libx11-6
-Filename: ./libva/libva-glx2_2.15.0-1_amd64.deb
-Size: 23964
-MD5sum: e9a7fa83986f6c3e8ff585850b4c0de4
-SHA1: a24eab853a390efdacab6c380860dcbc1b0df108
-SHA256: 91d52fd3d6fef0a3a5cb0e2749bf75dcdfd5036a4323d65850a06166e991e9d1
+Filename: ./libva/libva-glx2_2.15.0-1_i386.deb
+Size: 24372
+MD5sum: 987309785f9fd7e03b28612bb6b3b4e1
+SHA1: e8620126dd59b95ec0391b2928687dfb57c7b81b
+SHA256: 629eb974b86f46a376ccff15c9a1e945f468d4c7976d7122b1cf086eea0b8c51
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -7156,15 +7083,15 @@ Description: Video Acceleration (VA) API for Linux -- GLX runtime
 Package: libva-glx2
 Source: libva
 Version: 2.15.0-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 54
+Installed-Size: 55
 Depends: libc6 (>= 2.4), libgl1, libva-x11-2 (>= 1.0.3), libva2 (>= 2.15.0), libva2 (<< 2.15.0.1), libx11-6
-Filename: ./libva/libva-glx2_2.15.0-1_i386.deb
-Size: 24372
-MD5sum: 987309785f9fd7e03b28612bb6b3b4e1
-SHA1: e8620126dd59b95ec0391b2928687dfb57c7b81b
-SHA256: 629eb974b86f46a376ccff15c9a1e945f468d4c7976d7122b1cf086eea0b8c51
+Filename: ./libva/libva-glx2_2.15.0-1_amd64.deb
+Size: 23964
+MD5sum: e9a7fa83986f6c3e8ff585850b4c0de4
+SHA1: a24eab853a390efdacab6c380860dcbc1b0df108
+SHA256: 91d52fd3d6fef0a3a5cb0e2749bf75dcdfd5036a4323d65850a06166e991e9d1
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -7296,17 +7223,17 @@ Description: Video Acceleration (VA) API for Linux -- X11 runtime
 Package: libva2
 Source: libva
 Version: 2.15.0-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 209
+Installed-Size: 232
 Depends: libc6 (>= 2.4)
 Recommends: va-driver-all | va-driver
 Provides: libva-driver-abi-1.0, libva-driver-abi-1.1, libva-driver-abi-1.10, libva-driver-abi-1.11, libva-driver-abi-1.12, libva-driver-abi-1.13, libva-driver-abi-1.14, libva-driver-abi-1.15, libva-driver-abi-1.2, libva-driver-abi-1.3, libva-driver-abi-1.4, libva-driver-abi-1.5, libva-driver-abi-1.6, libva-driver-abi-1.7, libva-driver-abi-1.8, libva-driver-abi-1.9
-Filename: ./libva/libva2_2.15.0-1_amd64.deb
-Size: 68436
-MD5sum: cb39f699bdc4747ced2bb69a8537a3e9
-SHA1: 2be5bc28136231efbcd1b4863bc04597274cd89c
-SHA256: 1681a6c987dd0f02606752c163359b046cc2787cad7b9b41085c200ad7896809
+Filename: ./libva/libva2_2.15.0-1_i386.deb
+Size: 72080
+MD5sum: 69cd7374dcddab907ffcd7bdd6049678
+SHA1: ec61d9dff8167cabe72fb0553e88beb60b3e7981
+SHA256: 1ed7d6298b24cbe5bb6af10c5ed6134bf00bb39fbe69ed7b4f2140e858197340
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -7326,17 +7253,17 @@ Description: Video Acceleration (VA) API for Linux -- runtime
 Package: libva2
 Source: libva
 Version: 2.15.0-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 232
+Installed-Size: 209
 Depends: libc6 (>= 2.4)
 Recommends: va-driver-all | va-driver
 Provides: libva-driver-abi-1.0, libva-driver-abi-1.1, libva-driver-abi-1.10, libva-driver-abi-1.11, libva-driver-abi-1.12, libva-driver-abi-1.13, libva-driver-abi-1.14, libva-driver-abi-1.15, libva-driver-abi-1.2, libva-driver-abi-1.3, libva-driver-abi-1.4, libva-driver-abi-1.5, libva-driver-abi-1.6, libva-driver-abi-1.7, libva-driver-abi-1.8, libva-driver-abi-1.9
-Filename: ./libva/libva2_2.15.0-1_i386.deb
-Size: 72080
-MD5sum: 69cd7374dcddab907ffcd7bdd6049678
-SHA1: ec61d9dff8167cabe72fb0553e88beb60b3e7981
-SHA256: 1ed7d6298b24cbe5bb6af10c5ed6134bf00bb39fbe69ed7b4f2140e858197340
+Filename: ./libva/libva2_2.15.0-1_amd64.deb
+Size: 68436
+MD5sum: cb39f699bdc4747ced2bb69a8537a3e9
+SHA1: 2be5bc28136231efbcd1b4863bc04597274cd89c
+SHA256: 1681a6c987dd0f02606752c163359b046cc2787cad7b9b41085c200ad7896809
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -7921,18 +7848,18 @@ Description: Shows Linux System Information with Distribution Logo
 Package: nvidia-legacy-390xx-alternative
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 237
 Pre-Depends: dpkg (>= 1.17.21)
 Depends: glx-alternative-nvidia (>= 0.8.4~)
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Provides: nvidia-alternative-any, nvidia-legacy-390xx-alternative--kmod-alias
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-alternative_390.154-1_amd64.deb
-Size: 200876
-MD5sum: 51bb9510753bc09bb3885318b0576ce2
-SHA1: 6df0b3775e8f60c052fadd040e12e39151a0ebf9
-SHA256: 2490bcb5654fe8ee8d83c1d2fdfe5854f01118d6bd87a0f26c0d3cff0e15c15b
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-alternative_390.154-1_i386.deb
+Size: 200868
+MD5sum: a080d384c4e148c42606f9f844ec2c4d
+SHA1: 12ee7c53b6feb5e45d064334c1e2735ba70b01da
+SHA256: a6025b549390b61e5b7d79ec4a13568df5765e462061ddf200a9e08292c1d4dd
 Section: non-free/libs
 Priority: optional
 Multi-Arch: foreign
@@ -7951,18 +7878,18 @@ Description: allows the selection of NVIDIA as GLX provider (390xx legacy versio
 Package: nvidia-legacy-390xx-alternative
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 237
 Pre-Depends: dpkg (>= 1.17.21)
 Depends: glx-alternative-nvidia (>= 0.8.4~)
 Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
 Provides: nvidia-alternative-any, nvidia-legacy-390xx-alternative--kmod-alias
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-alternative_390.154-1_i386.deb
-Size: 200868
-MD5sum: a080d384c4e148c42606f9f844ec2c4d
-SHA1: 12ee7c53b6feb5e45d064334c1e2735ba70b01da
-SHA256: a6025b549390b61e5b7d79ec4a13568df5765e462061ddf200a9e08292c1d4dd
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-alternative_390.154-1_amd64.deb
+Size: 200876
+MD5sum: 51bb9510753bc09bb3885318b0576ce2
+SHA1: 6df0b3775e8f60c052fadd040e12e39151a0ebf9
+SHA256: 2490bcb5654fe8ee8d83c1d2fdfe5854f01118d6bd87a0f26c0d3cff0e15c15b
 Section: non-free/libs
 Priority: optional
 Multi-Arch: foreign
@@ -8197,18 +8124,18 @@ Description: NVIDIA metapackage (390xx legacy version)
 Package: nvidia-legacy-390xx-driver-bin
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 482
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5), libnvidia-legacy-390xx-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
+Installed-Size: 447
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.1), libnvidia-legacy-390xx-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
 Recommends: nvidia-legacy-390xx-driver
 Conflicts: nvidia-driver-bin-390.154
 Provides: nvidia-driver-bin-390.154
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-bin_390.154-1_amd64.deb
-Size: 284832
-MD5sum: e2750e1107ba37827336e673c6dabd26
-SHA1: e273c6a3942e72960e2f10c0c52352abd1779aeb
-SHA256: ad6087ec68ac9e9e93de2c0b53880af3338f332557fafb0a314e15c1e20ef18f
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-bin_390.154-1_i386.deb
+Size: 281492
+MD5sum: 9b45a489d261dd28f8c79d41fa3ac111
+SHA1: 0171ab1e6e0beedb76fa47c2c917909e12f7c2ea
+SHA256: 66504f18e984fded66886538fe9734afb97843bc2510b106c42adb98d42be4f6
 Section: non-free/x11
 Priority: optional
 Homepage: https://www.nvidia.com
@@ -8222,18 +8149,18 @@ Description: NVIDIA driver support binaries (390xx legacy version)
 Package: nvidia-legacy-390xx-driver-bin
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 447
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.1), libnvidia-legacy-390xx-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
+Installed-Size: 482
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libc6 (>= 2.2.5), libnvidia-legacy-390xx-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
 Recommends: nvidia-legacy-390xx-driver
 Conflicts: nvidia-driver-bin-390.154
 Provides: nvidia-driver-bin-390.154
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-bin_390.154-1_i386.deb
-Size: 281492
-MD5sum: 9b45a489d261dd28f8c79d41fa3ac111
-SHA1: 0171ab1e6e0beedb76fa47c2c917909e12f7c2ea
-SHA256: 66504f18e984fded66886538fe9734afb97843bc2510b106c42adb98d42be4f6
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-driver-bin_390.154-1_amd64.deb
+Size: 284832
+MD5sum: e2750e1107ba37827336e673c6dabd26
+SHA1: e273c6a3942e72960e2f10c0c52352abd1779aeb
+SHA256: ad6087ec68ac9e9e93de2c0b53880af3338f332557fafb0a314e15c1e20ef18f
 Section: non-free/x11
 Priority: optional
 Homepage: https://www.nvidia.com
@@ -8664,117 +8591,6 @@ Description: NVIDIA binary kernel module DKMS source (390xx legacy version)
 Package: nvidia-legacy-390xx-kernel-source
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 9814
-Depends: debhelper-compat (= 12), quilt
-Recommends: module-assistant, nvidia-legacy-390xx-kernel-support--v1
-Suggests: nvidia-legacy-390xx-driver (>= 390.154)
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-source_390.154-1_amd64.deb
-Size: 10031084
-MD5sum: 59ead72692f36a7ced618d19786e106f
-SHA1: 5e98bce2a24fa9eb900eef596a57f2d13088d71d
-SHA256: d59caa38dc905e8e71f8eb9dbb7645d909d91c82ed8df2056fd28c21ccbce946
-Section: non-free/kernel
-Priority: optional
-Homepage: https://www.nvidia.com
-Description: NVIDIA binary kernel module source (390xx legacy version)
- This package provides the source for the NVIDIA binary kernel modules
- needed by nvidia-legacy-390xx-driver in a form suitable
- for use by module-assistant.
- .
- The NVIDIA binary driver provides optimized hardware acceleration of
- OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
- for graphics cards using NVIDIA chip sets.
- .
- PLEASE read /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.Debian.gz
- for building information. If you want the kernel module to be automatically
- installed via DKMS, install nvidia-legacy-390xx-kernel-dkms instead.
- .
- This legacy version is the last release that supports the following GPUs:
- GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
- GeForce 610M [GF108M], GeForce 610M [GF119M], GeForce 610M [GF117M],
- GeForce 705M [GF119M], GeForce 710A [GK107M], GeForce 710M [GF117M],
- GeForce 810M [GF117M], GeForce 810M [GK107M], GeForce 820M [GF117M],
- GeForce 820M [GK107M], GeForce 825M [GK208M], GeForce 910M [GK208BM],
- GeForce GT 415M [GF108M], GeForce GT 420 [GF108], GeForce GT 420M [GF108M],
- GeForce GT 425M [GF108M], GeForce GT 430 [GF108], GeForce GT 435M [GF106M],
- GeForce GT 435M [GF108M], GeForce GT 440 [GF106], GeForce GT 440 [GF108],
- GeForce GT 445M [GF106M], GeForce GT 520 [GF108], GeForce GT 520 [GF119],
- GeForce GT 520M [GF108M], GeForce GT 520M [GF119M],
- GeForce GT 520MX [GF119M], GeForce GT 525M [GF108M], GeForce GT 530 [GF108],
- GeForce GT 540M [GF108M], GeForce GT 545 OEM [GF116], GeForce GT 545 [GF116],
- GeForce GT 550M [GF106M], GeForce GT 550M [GF108M], GeForce GT 550M [GF116M],
- GeForce GT 555M [GF106M], GeForce GT 555M [GF108M], GeForce GT 555M [GF116M],
- GeForce GT 560M [GF116M], GeForce GT 610 [GF108], GeForce GT 610 [GF119],
- GeForce GT 620 OEM [GF119], GeForce GT 620 [GF108], GeForce GT 620M [GF108M],
- GeForce GT 620M [GF117M], GeForce GT 620M LE [GF108M],
- GeForce GT 625 OEM [GF119], GeForce GT 625M [GF117M], GeForce GT 630 [GF108],
- GeForce GT 630M [GF117M], GeForce GT 630M LE [GF108M],
- GeForce GT 635M [GF108M], GeForce GT 635M [GF116M],
- GeForce GT 635M LE [GF108M], GeForce GT 640 OEM [GF116],
- GeForce GT 640M LE [GF108M], GeForce GT 640M LE [GK107M],
- GeForce GT 640M Mac Edition [GK107M], GeForce GT 645 OEM [GF114],
- GeForce GT 645M [GK107M], GeForce GT 650M [GK107M],
- GeForce GT 650M Mac Edition [GK107M], GeForce GT 705 [GF119],
- GeForce GT 720M [GF117M], GeForce GT 720M [GK208M], GeForce GT 730 [GF108],
- GeForce GT 730M [GK107M], GeForce GT 730M [GK208M], GeForce GT 735M [GK208M],
- GeForce GT 740M [GK107M], GeForce GT 745M [GK107M], GeForce GT 750M [GK107M],
- GeForce GT 750M Mac Edition [GK107M], GeForce GT 755M [GK107M],
- GeForce GT 755M Mac Edition [GK107M], GeForce GTS 450 OEM [GF106],
- GeForce GTS 450 [GF106], GeForce GTS 450 Rev. 2 [GF116],
- GeForce GTS 450 Rev. 3 [GF116], GeForce GTX 460 OEM [GF104],
- GeForce GTX 460 [GF104], GeForce GTX 460 v2 [GF114],
- GeForce GTX 460 SE [GF104], GeForce GTX 460 SE v2 [GF114],
- GeForce GTX 460M [GF106M], GeForce GTX 465 [GF100], GeForce GTX 470 [GF100],
- GeForce GTX 470M [GF104M], GeForce GTX 480 [GF100],
- GeForce GTX 480M [GF100M], GeForce GTX 485M [GF104M],
- GeForce GTX 550 Ti [GF116], GeForce GTX 555 [GF114],
- GeForce GTX 560 OEM [GF110], GeForce GTX 560 [GF114],
- GeForce GTX 560 SE [GF114], GeForce GTX 560 Ti [GF114],
- GeForce GTX 560 Ti OEM [GF110], GeForce GTX 560 Ti 448 Cores [GF110],
- GeForce GTX 570 [GF110], GeForce GTX 570 Rev. 2 [GF110],
- GeForce GTX 570M [GF114M], GeForce GTX 580 [GF110],
- GeForce GTX 580 Rev. 2 [GF110], GeForce GTX 580M [GF114M],
- GeForce GTX 590 [GF110], GeForce GTX 660M [GK107M],
- GeForce GTX 660M Mac Edition [GK107M], GeForce GTX 670M [GF114M],
- GeForce GTX 670MX [GK104M], GeForce GTX 675M [GF114M],
- GeForce GTX 675MX [GK104M], GeForce GTX 675MX Mac Edition [GK104M],
- GeForce GTX 680M [GK104M], GeForce GTX 680MX [GK104M],
- GeForce GTX 765M [GK106M], GeForce GTX 770M [GK106M],
- GeForce GTX 775M Mac Edition [GK104M], GeForce GTX 780M [GK104M],
- GeForce GTX 780M Mac Edition [GK104M], GeForce GTX 860M [GK104M],
- GeForce GTX 880M [GK104M], NVS 310 [GF119], NVS 315 [GF119],
- NVS 4200M [GF119M], NVS 5200M [GF108GLM], NVS 5400M [GF108M],
- Quadro 500M [GF108GLM], Quadro 600 [GF108GL], Quadro 1000M [GF108GLM],
- Quadro 2000 [GF106GL], Quadro 2000M [GF106GLM], Quadro 3000M [GF104GLM],
- Quadro 4000 [GF100GL], Quadro 4000M [GF104GLM], Quadro 5000 [GF100GL],
- Quadro 5000M [GF100GLM], Quadro 5010M [GF100GLM], Quadro 6000 [GF100GL],
- Quadro 7000 [GF100GL], Quadro K500M [GK107GLM], Quadro K510M [GK208GLM],
- Quadro K610M [GK208GLM], Quadro K1000M [GK107GLM], Quadro K1100M [GK107GLM],
- Quadro K2000M [GK107GLM], Quadro K2100M [GK106GLM], Quadro K3000M [GK104GLM],
- Quadro K3100M [GK104GLM], Quadro K4000M [GK104GLM], Quadro K4100M [GK104GLM],
- Quadro K5000M [GK104GLM], Quadro K5100M [GK104GLM],
- Quadro NVS 4200M [GF119M], Tesla C2050 [GF100GL], Tesla C2050 [GF110GL],
- Tesla C2070 [GF100GL], Tesla C2075 [GF110GL], Tesla M2070 [GF100GL],
- Tesla M2070-Q [GF100GL], Tesla M2075 [GF110GL], Tesla M2090 [GF110GL],
- Tesla T20 Processor [GF100GL].
- .
- There are several "more modern" GPUs supported by this package, too, but the
- updated drivers in the newer legacy packages or the current nvidia-driver
- package usually provide more features and better support.
- Look at the other legacy packages for older cards.
- .
- See /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.txt.gz
- for a complete list of supported GPUs and PCI IDs.
- .
- This package contains the blobs for building kernel modules for the
- amd64 architecture.
- Building the kernel modules has been tested up to Linux 5.19.
-
-Package: nvidia-legacy-390xx-kernel-source
-Source: nvidia-graphics-drivers-legacy-390xx
-Version: 390.154-1
 Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 9369
@@ -8883,31 +8699,116 @@ Description: NVIDIA binary kernel module source (390xx legacy version)
  i386 architecture.
  Building the kernel modules has been tested up to Linux 5.19.
 
-Package: nvidia-legacy-390xx-kernel-support
+Package: nvidia-legacy-390xx-kernel-source
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
 Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Installed-Size: 223
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), nvidia-legacy-390xx-alternative--kmod-alias, nvidia-kernel-common (>= 20151021), nvidia-modprobe (>= 390)
-Breaks: glx-alternative-nvidia (<< 0.6.91)
-Replaces: glx-alternative-nvidia (<< 0.6.91)
-Provides: nvidia-kernel-support-any, nvidia-legacy-390xx-kernel-support--v1
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-support_390.154-1_amd64.deb
-Size: 199948
-MD5sum: 5aee8db6c38933b06dd4d9adb76aaf90
-SHA1: 525caeb9a1ec0fe7f44df34632daa3987d0e448c
-SHA256: cff114e3718dd2fa68f3c953df9e7e8512f6473ab99876d1bf456b4f1ab5da99
+Installed-Size: 9814
+Depends: debhelper-compat (= 12), quilt
+Recommends: module-assistant, nvidia-legacy-390xx-kernel-support--v1
+Suggests: nvidia-legacy-390xx-driver (>= 390.154)
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-source_390.154-1_amd64.deb
+Size: 10031084
+MD5sum: 59ead72692f36a7ced618d19786e106f
+SHA1: 5e98bce2a24fa9eb900eef596a57f2d13088d71d
+SHA256: d59caa38dc905e8e71f8eb9dbb7645d909d91c82ed8df2056fd28c21ccbce946
 Section: non-free/kernel
 Priority: optional
-Multi-Arch: foreign
 Homepage: https://www.nvidia.com
-Description: NVIDIA binary kernel module support files (390xx legacy version)
+Description: NVIDIA binary kernel module source (390xx legacy version)
+ This package provides the source for the NVIDIA binary kernel modules
+ needed by nvidia-legacy-390xx-driver in a form suitable
+ for use by module-assistant.
+ .
  The NVIDIA binary driver provides optimized hardware acceleration of
  OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
  for graphics cards using NVIDIA chip sets.
  .
- This package provides supporting configuration for the kernel module.
+ PLEASE read /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.Debian.gz
+ for building information. If you want the kernel module to be automatically
+ installed via DKMS, install nvidia-legacy-390xx-kernel-dkms instead.
+ .
+ This legacy version is the last release that supports the following GPUs:
+ GeForce 410M [GF119M], GeForce 510 [GF119], GeForce 605 [GF119],
+ GeForce 610M [GF108M], GeForce 610M [GF119M], GeForce 610M [GF117M],
+ GeForce 705M [GF119M], GeForce 710A [GK107M], GeForce 710M [GF117M],
+ GeForce 810M [GF117M], GeForce 810M [GK107M], GeForce 820M [GF117M],
+ GeForce 820M [GK107M], GeForce 825M [GK208M], GeForce 910M [GK208BM],
+ GeForce GT 415M [GF108M], GeForce GT 420 [GF108], GeForce GT 420M [GF108M],
+ GeForce GT 425M [GF108M], GeForce GT 430 [GF108], GeForce GT 435M [GF106M],
+ GeForce GT 435M [GF108M], GeForce GT 440 [GF106], GeForce GT 440 [GF108],
+ GeForce GT 445M [GF106M], GeForce GT 520 [GF108], GeForce GT 520 [GF119],
+ GeForce GT 520M [GF108M], GeForce GT 520M [GF119M],
+ GeForce GT 520MX [GF119M], GeForce GT 525M [GF108M], GeForce GT 530 [GF108],
+ GeForce GT 540M [GF108M], GeForce GT 545 OEM [GF116], GeForce GT 545 [GF116],
+ GeForce GT 550M [GF106M], GeForce GT 550M [GF108M], GeForce GT 550M [GF116M],
+ GeForce GT 555M [GF106M], GeForce GT 555M [GF108M], GeForce GT 555M [GF116M],
+ GeForce GT 560M [GF116M], GeForce GT 610 [GF108], GeForce GT 610 [GF119],
+ GeForce GT 620 OEM [GF119], GeForce GT 620 [GF108], GeForce GT 620M [GF108M],
+ GeForce GT 620M [GF117M], GeForce GT 620M LE [GF108M],
+ GeForce GT 625 OEM [GF119], GeForce GT 625M [GF117M], GeForce GT 630 [GF108],
+ GeForce GT 630M [GF117M], GeForce GT 630M LE [GF108M],
+ GeForce GT 635M [GF108M], GeForce GT 635M [GF116M],
+ GeForce GT 635M LE [GF108M], GeForce GT 640 OEM [GF116],
+ GeForce GT 640M LE [GF108M], GeForce GT 640M LE [GK107M],
+ GeForce GT 640M Mac Edition [GK107M], GeForce GT 645 OEM [GF114],
+ GeForce GT 645M [GK107M], GeForce GT 650M [GK107M],
+ GeForce GT 650M Mac Edition [GK107M], GeForce GT 705 [GF119],
+ GeForce GT 720M [GF117M], GeForce GT 720M [GK208M], GeForce GT 730 [GF108],
+ GeForce GT 730M [GK107M], GeForce GT 730M [GK208M], GeForce GT 735M [GK208M],
+ GeForce GT 740M [GK107M], GeForce GT 745M [GK107M], GeForce GT 750M [GK107M],
+ GeForce GT 750M Mac Edition [GK107M], GeForce GT 755M [GK107M],
+ GeForce GT 755M Mac Edition [GK107M], GeForce GTS 450 OEM [GF106],
+ GeForce GTS 450 [GF106], GeForce GTS 450 Rev. 2 [GF116],
+ GeForce GTS 450 Rev. 3 [GF116], GeForce GTX 460 OEM [GF104],
+ GeForce GTX 460 [GF104], GeForce GTX 460 v2 [GF114],
+ GeForce GTX 460 SE [GF104], GeForce GTX 460 SE v2 [GF114],
+ GeForce GTX 460M [GF106M], GeForce GTX 465 [GF100], GeForce GTX 470 [GF100],
+ GeForce GTX 470M [GF104M], GeForce GTX 480 [GF100],
+ GeForce GTX 480M [GF100M], GeForce GTX 485M [GF104M],
+ GeForce GTX 550 Ti [GF116], GeForce GTX 555 [GF114],
+ GeForce GTX 560 OEM [GF110], GeForce GTX 560 [GF114],
+ GeForce GTX 560 SE [GF114], GeForce GTX 560 Ti [GF114],
+ GeForce GTX 560 Ti OEM [GF110], GeForce GTX 560 Ti 448 Cores [GF110],
+ GeForce GTX 570 [GF110], GeForce GTX 570 Rev. 2 [GF110],
+ GeForce GTX 570M [GF114M], GeForce GTX 580 [GF110],
+ GeForce GTX 580 Rev. 2 [GF110], GeForce GTX 580M [GF114M],
+ GeForce GTX 590 [GF110], GeForce GTX 660M [GK107M],
+ GeForce GTX 660M Mac Edition [GK107M], GeForce GTX 670M [GF114M],
+ GeForce GTX 670MX [GK104M], GeForce GTX 675M [GF114M],
+ GeForce GTX 675MX [GK104M], GeForce GTX 675MX Mac Edition [GK104M],
+ GeForce GTX 680M [GK104M], GeForce GTX 680MX [GK104M],
+ GeForce GTX 765M [GK106M], GeForce GTX 770M [GK106M],
+ GeForce GTX 775M Mac Edition [GK104M], GeForce GTX 780M [GK104M],
+ GeForce GTX 780M Mac Edition [GK104M], GeForce GTX 860M [GK104M],
+ GeForce GTX 880M [GK104M], NVS 310 [GF119], NVS 315 [GF119],
+ NVS 4200M [GF119M], NVS 5200M [GF108GLM], NVS 5400M [GF108M],
+ Quadro 500M [GF108GLM], Quadro 600 [GF108GL], Quadro 1000M [GF108GLM],
+ Quadro 2000 [GF106GL], Quadro 2000M [GF106GLM], Quadro 3000M [GF104GLM],
+ Quadro 4000 [GF100GL], Quadro 4000M [GF104GLM], Quadro 5000 [GF100GL],
+ Quadro 5000M [GF100GLM], Quadro 5010M [GF100GLM], Quadro 6000 [GF100GL],
+ Quadro 7000 [GF100GL], Quadro K500M [GK107GLM], Quadro K510M [GK208GLM],
+ Quadro K610M [GK208GLM], Quadro K1000M [GK107GLM], Quadro K1100M [GK107GLM],
+ Quadro K2000M [GK107GLM], Quadro K2100M [GK106GLM], Quadro K3000M [GK104GLM],
+ Quadro K3100M [GK104GLM], Quadro K4000M [GK104GLM], Quadro K4100M [GK104GLM],
+ Quadro K5000M [GK104GLM], Quadro K5100M [GK104GLM],
+ Quadro NVS 4200M [GF119M], Tesla C2050 [GF100GL], Tesla C2050 [GF110GL],
+ Tesla C2070 [GF100GL], Tesla C2075 [GF110GL], Tesla M2070 [GF100GL],
+ Tesla M2070-Q [GF100GL], Tesla M2075 [GF110GL], Tesla M2090 [GF110GL],
+ Tesla T20 Processor [GF100GL].
+ .
+ There are several "more modern" GPUs supported by this package, too, but the
+ updated drivers in the newer legacy packages or the current nvidia-driver
+ package usually provide more features and better support.
+ Look at the other legacy packages for older cards.
+ .
+ See /usr/share/doc/nvidia-legacy-390xx-kernel-source/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+ .
+ This package contains the blobs for building kernel modules for the
+ amd64 architecture.
+ Building the kernel modules has been tested up to Linux 5.19.
 
 Package: nvidia-legacy-390xx-kernel-support
 Source: nvidia-graphics-drivers-legacy-390xx
@@ -8924,6 +8825,32 @@ Size: 199948
 MD5sum: 34928f3ac4c327f1261e3e6796e7bbee
 SHA1: 8aca61340bdb9cc4532215acaab96fd7e61da637
 SHA256: c1b5c75e1e01cbed402e72e483ba6208af1e3d77a2e805f3d7a6d0ad8252a206
+Section: non-free/kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description: NVIDIA binary kernel module support files (390xx legacy version)
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ This package provides supporting configuration for the kernel module.
+
+Package: nvidia-legacy-390xx-kernel-support
+Source: nvidia-graphics-drivers-legacy-390xx
+Version: 390.154-1
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 223
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), nvidia-legacy-390xx-alternative--kmod-alias, nvidia-kernel-common (>= 20151021), nvidia-modprobe (>= 390)
+Breaks: glx-alternative-nvidia (<< 0.6.91)
+Replaces: glx-alternative-nvidia (<< 0.6.91)
+Provides: nvidia-kernel-support-any, nvidia-legacy-390xx-kernel-support--v1
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-kernel-support_390.154-1_amd64.deb
+Size: 199948
+MD5sum: 5aee8db6c38933b06dd4d9adb76aaf90
+SHA1: 525caeb9a1ec0fe7f44df34632daa3987d0e448c
+SHA256: cff114e3718dd2fa68f3c953df9e7e8512f6473ab99876d1bf456b4f1ab5da99
 Section: non-free/kernel
 Priority: optional
 Multi-Arch: foreign
@@ -9042,17 +8969,17 @@ Description: NVIDIA OpenCL installable client driver (ICD) (390xx legacy version
 Package: nvidia-legacy-390xx-smi
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 739
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libnvidia-legacy-390xx-ml1 (= 390.154-1), libc6 (>= 2.2.5)
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libnvidia-legacy-390xx-ml1 (= 390.154-1), libc6 (>= 2.3.6-6~)
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.154-1) | nvidia-legacy-390xx-kernel-390.154
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.154) | nvidia-legacy-390xx-kernel-source (>= 390.154)
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-smi_390.154-1_amd64.deb
-Size: 383056
-MD5sum: de6b9ff400b5c0f16b07c14e3d8a9067
-SHA1: 5cd20262770718b9c93f47b70ebcbccbb9519b99
-SHA256: e4d48666788a604a88b2d1d5f1f2e907f788a48b7e01cc56849bf450f9297418
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-smi_390.154-1_i386.deb
+Size: 380928
+MD5sum: 171f43ffad55949431bd06381d59eb77
+SHA1: d85763fe2afbcd06d1819d5ee09ccb1ec1719df7
+SHA256: ba48dad27b0e90b7d680eefadf2d28a051b5509ec3ae05103bdc455ff19d886b
 Section: non-free/utils
 Priority: optional
 Homepage: https://www.nvidia.com
@@ -9067,17 +8994,17 @@ Description: NVIDIA System Management Interface (390xx legacy version)
 Package: nvidia-legacy-390xx-smi
 Source: nvidia-graphics-drivers-legacy-390xx
 Version: 390.154-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Installed-Size: 739
-Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libnvidia-legacy-390xx-ml1 (= 390.154-1), libc6 (>= 2.3.6-6~)
+Depends: nvidia-legacy-390xx-alternative (= 390.154-1), libnvidia-legacy-390xx-ml1 (= 390.154-1), libc6 (>= 2.2.5)
 Recommends: nvidia-legacy-390xx-kernel-dkms (= 390.154-1) | nvidia-legacy-390xx-kernel-390.154
 Suggests: nvidia-legacy-390xx-kernel-dkms (>= 390.154) | nvidia-legacy-390xx-kernel-source (>= 390.154)
-Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-smi_390.154-1_i386.deb
-Size: 380928
-MD5sum: 171f43ffad55949431bd06381d59eb77
-SHA1: d85763fe2afbcd06d1819d5ee09ccb1ec1719df7
-SHA256: ba48dad27b0e90b7d680eefadf2d28a051b5509ec3ae05103bdc455ff19d886b
+Filename: ./nvidia-legacy-390xx-driver/nvidia-legacy-390xx-smi_390.154-1_amd64.deb
+Size: 383056
+MD5sum: de6b9ff400b5c0f16b07c14e3d8a9067
+SHA1: 5cd20262770718b9c93f47b70ebcbccbb9519b99
+SHA256: e4d48666788a604a88b2d1d5f1f2e907f788a48b7e01cc56849bf450f9297418
 Section: non-free/utils
 Priority: optional
 Homepage: https://www.nvidia.com
