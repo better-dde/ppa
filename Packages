@@ -911,21 +911,21 @@ Description: Chinese-related addon for fcitx5 (shared data files)
 
 Package: fcitx5-config-qt
 Source: fcitx5-configtool
-Version: 5.0.14-3
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 1360
-Depends: libqt5svg5, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5itemviews5 (>= 4.96.0), libkf5widgetsaddons5 (>= 4.96.0), libqt5concurrent5 (>= 5.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.12), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxkbfile1, fcitx5-configtool-data (= 5.0.14-3)
+Installed-Size: 1482
+Depends: libqt5svg5, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libkf5itemviews5 (>= 4.96.0), libkf5widgetsaddons5 (>= 4.96.0), libqt5concurrent5 (>= 5.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.12), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxkbfile1
 Recommends: libime-bin
-Suggests: kde-config-fcitx5, fcitx5-configtool-kde
-Breaks: kde-config-fcitx5 (<< 0.0~git20200822)
-Replaces: kde-config-fcitx5 (<< 0.0~git20200822)
+Suggests: kde-config-fcitx5
+Breaks: fcitx5-configtool-data (<< 5.0.15), kde-config-fcitx5 (<< 0.0~git20200822)
+Replaces: fcitx5-configtool-data (<< 5.0.15), kde-config-fcitx5 (<< 0.0~git20200822)
 Provides: fcitx5-configtool
-Filename: ./fcitx5-configtool/fcitx5-config-qt_5.0.14-3_amd64.deb
-Size: 314924
-MD5sum: 18f38f10a7f8d418018dee5fdaa90772
-SHA1: ad9481732755c97f5ca4bc2735760de547b25570
-SHA256: 9d81ac9d2141b637947d58a5a84d893c11246c313c3c4dc2771a744276f0f2f8
+Filename: ./fcitx5-configtool/fcitx5-config-qt_5.0.15-1_amd64.deb
+Size: 334592
+MD5sum: d3f5e36d5c9453bbfd77b2054fd3aa79
+SHA1: d705c69b713e409a4ebb7300a27a7dff2dfff898
+SHA256: a9bdb5e2c9e776efabbf31734dcb1dcc518c7c976ce15559bde15eba37cde1f6
 Section: kde
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5-configtool
@@ -938,54 +938,6 @@ Description: configuration tool for Fcitx5 (Qt version)
   - fcitx5-migrator, which helps to migrate data from Fcitx4.
     To migrate Fcitx4 pinyin and table data, it needs tools from
     libime-bin package.
-
-Package: fcitx5-configtool-data
-Source: fcitx5-configtool
-Version: 5.0.14-3
-Architecture: all
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 137
-Breaks: fcitx5-config-qt (<< 5.0.14-2~)
-Replaces: fcitx5-config-qt (<< 5.0.14-2~)
-Filename: ./fcitx5-configtool/fcitx5-configtool-data_5.0.14-3_all.deb
-Size: 25824
-MD5sum: 5719d72dd040ed02a2b137af8b478715
-SHA1: f4adb059f9a728ac14d0d4ae1ae652a8dfa93d13
-SHA256: da9be3afb036c2e188f56d2465e13e1a78e1bca40b147447c64b84748a3f30dd
-Section: kde
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/fcitx/fcitx5-configtool
-Description: configuration tool for Fcitx5 (data)
- This is a configuration tool for Fcitx Input Method Framework v5.
- .
- This package provides the architecture-independent data files
- for Fcitx5 configuration tools.
-
-Package: fcitx5-configtool-kde
-Source: fcitx5-configtool
-Version: 5.0.14-3
-Architecture: amd64
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 80
-Depends: kpackagetool5, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 5.53~), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.12) | libqt5gui5-gles (>= 5.12), libqt5widgets5 (>= 5.12), libstdc++6 (>= 5), fcitx5-configtool-data (= 5.0.14-3)
-Suggests: fcitx5-config-qt
-Breaks: fcitx5-config-qt (<< 5.0.14-2~)
-Replaces: fcitx5-config-qt (<< 5.0.14-2~)
-Provides: fcitx5-plasma-theme-generator
-Filename: ./fcitx5-configtool/fcitx5-configtool-kde_5.0.14-3_amd64.deb
-Size: 24800
-MD5sum: 56621e300b24c99ef5893e259bd6f678
-SHA1: b25403d965d228724bc8dacbe4896e33f93132f8
-SHA256: f5182b42b875abfe40969cdb96c893fed36f60ab82831b942dec92356051c02b
-Section: kde
-Priority: optional
-Homepage: https://github.com/fcitx/fcitx5-configtool
-Description: configuration tool for Fcitx5 (KDE tools)
- This is a configuration tool for Fcitx Input Method Framework v5.
- .
- It also provides the following tools around KDE:
-  - fcitx5-plasma-theme-generator.
 
 Package: fcitx5-data
 Source: fcitx5
@@ -3292,25 +3244,26 @@ Description: full featured system information script
 
 Package: kde-config-fcitx5
 Source: fcitx5-configtool
-Version: 5.0.14-3
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 607
-Depends: kde-cli-tools, libqt5svg5, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libkf5coreaddons5 (>= 4.100.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.54.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.12) | libqt5gui5-gles (>= 5.12), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.3.0) | libqt5quick5-gles (>= 5.3.0), libstdc++6 (>= 5), libxkbcommon0 (>= 0.5.0)
-Recommends: fcitx5-configtool-kde
+Installed-Size: 677
+Depends: kde-cli-tools, libqt5svg5, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, kpackagetool5, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.100.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 5.53~), libkf5quickaddons5 (>= 5.54.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.12), libqt5gui5 (>= 5.12) | libqt5gui5-gles (>= 5.12), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.3.0) | libqt5quick5-gles (>= 5.3.0), libqt5widgets5 (>= 5.12), libstdc++6 (>= 5), libxkbcommon0 (>= 0.5.0)
 Suggests: fcitx5-config-qt
-Filename: ./fcitx5-configtool/kde-config-fcitx5_5.0.14-3_amd64.deb
-Size: 144020
-MD5sum: b3868a7d0e3773f5a4665076b2fcb8dc
-SHA1: 31db5e274da2ebc1a03dde7567a452d92337e962
-SHA256: 95f7529ae8d3c85cf58d7d8da224982d686cd2d5c776fa0757ee97b3d07fbe69
+Breaks: fcitx5-configtool-kde (<< 5.0.15)
+Replaces: fcitx5-configtool-kde (<< 5.0.15)
+Filename: ./fcitx5-configtool/kde-config-fcitx5_5.0.15-1_amd64.deb
+Size: 163080
+MD5sum: f2581e03ed21d687fd637826a365ffd1
+SHA1: 0aa6c24802d32480a5c12f2145b38fee27cb7502
+SHA256: 6df7215eba7150f9939c771765d30678c14b0cb4a560e9d7982018286fdf8763
 Section: kde
 Priority: optional
-Multi-Arch: same
 Homepage: https://github.com/fcitx/fcitx5-configtool
 Description: KDE configuration module for Fcitx5
  This is a configuration module for System Settings for configuring
- Fcitx Input Method Framework v5.
+ Fcitx Input Method Framework v5. It also provides the
+ fcitx5-plasma-theme-generator tool.
 
 Package: ldb-tools
 Source: samba (2:4.16.2+dfsg-1)
