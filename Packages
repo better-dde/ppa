@@ -1319,16 +1319,16 @@ Description: Fcitx Input Method Framework v5 (fullwidth module)
 
 Package: fcitx5-module-lua
 Source: fcitx5-lua
-Version: 5.0.9-2
+Version: 5.0.10-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 133
-Depends: fcitx5-module-lua-common (= 5.0.9-2), liblua5.3-0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5-lua/fcitx5-module-lua_5.0.9-2_amd64.deb
-Size: 36240
-MD5sum: 108decbb865ccf3579afbe5669fd7d65
-SHA1: a1dfac344f79769c1e18c91f890b9ed2f3a81c49
-SHA256: e0ea1916eff4ecc11e39457f9f89086b3322226a13cf999a9afcd87723bdb0b8
+Depends: fcitx5-module-lua-common (= 5.0.10-1), liblua5.3-0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Filename: ./fcitx5-lua/fcitx5-module-lua_5.0.10-1_amd64.deb
+Size: 36248
+MD5sum: 78a806b2f2225e6f7e94fdb5c171cbde
+SHA1: 14cfee8ffae5b61d6f57d4e0261a5470351ea8b8
+SHA256: 84184b111c7f7184ea3dd09e69fc70ab7bc374d0028909059623df5fb74735eb
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1349,15 +1349,15 @@ Description: Lua support for fcitx5
 
 Package: fcitx5-module-lua-common
 Source: fcitx5-lua
-Version: 5.0.9-2
+Version: 5.0.10-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 50
-Filename: ./fcitx5-lua/fcitx5-module-lua-common_5.0.9-2_all.deb
-Size: 8332
-MD5sum: ac1550fc9f44425b83559d43ade023e3
-SHA1: 421e1b2f4bccc950d7b9f021047b37dd9621b67f
-SHA256: d06d79c11e8a4fff2521392b240c6540c6866dc4a037e35f7ed29a37b8dd41df
+Filename: ./fcitx5-lua/fcitx5-module-lua-common_5.0.10-1_all.deb
+Size: 8372
+MD5sum: 837f84c81f2c20ac8b85ab9fb224d329
+SHA1: 7a957f6c9fc343051ab3204fb6eb2c5fb538876d
+SHA256: 88bdd71a41eb98c02a6e60ed76cd282f3f1942386a0d26b4f423262c0260288e
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -1379,16 +1379,16 @@ Description: Lua support for fcitx5 (common files)
 
 Package: fcitx5-module-lua-dev
 Source: fcitx5-lua
-Version: 5.0.9-2
+Version: 5.0.10-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 24
-Depends: fcitx5-module-lua (= 5.0.9-2)
-Filename: ./fcitx5-lua/fcitx5-module-lua-dev_5.0.9-2_amd64.deb
-Size: 5028
-MD5sum: fa8dd9ded01938999907e9978b407475
-SHA1: 9a87e0c724d0c81f097020251f5be5b32fafa1f3
-SHA256: c9c5f8e13e331bc2ee97fd2893024e4ef732d7b3fd4e3b9a6fc969fbead0b2b0
+Depends: fcitx5-module-lua (= 5.0.10-1)
+Filename: ./fcitx5-lua/fcitx5-module-lua-dev_5.0.10-1_amd64.deb
+Size: 5060
+MD5sum: 6e40135078a6c49b19526d4f56f13444
+SHA1: 5112b98333d292b9ce8e6622b4ac6810aeec677d
+SHA256: 61f4ef5852c3107fb60c972c7e0370c44f72fddfaeb22ed7b37c739561622d9a
 Section: libdevel
 Priority: optional
 Multi-Arch: same
