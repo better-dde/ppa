@@ -1085,16 +1085,16 @@ Description: GTK3 IM Module for fcitx5
 
 Package: fcitx5-frontend-qt5
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 399
-Depends: libfcitx5-qt1 (= 5.0.14-2), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-3
-Filename: ./fcitx5-qt/fcitx5-frontend-qt5_5.0.14-2_amd64.deb
-Size: 110332
-MD5sum: b212edee313ba7fd8aa69b3c6c77ba03
-SHA1: 5de2dd9bb1aba980f78a366b2efcf046bf714bb7
-SHA256: 952e023bd8231bcc1a7d755dc9215d1797ba40926398220e5b6122a563213697
+Depends: libfcitx5-qt1 (= 5.0.15-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-3
+Filename: ./fcitx5-qt/fcitx5-frontend-qt5_5.0.15-1_amd64.deb
+Size: 110572
+MD5sum: f03921c5e53c76bc9b0adce2d3b74b75
+SHA1: 5902fa4e5baeec20122812d1813772fe12f55110
+SHA256: af60c734949825077fb0fb7e05fe9d17fdeefff93390e4df34d85fe722131cc8
 Section: libs
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5-qt
@@ -1114,16 +1114,16 @@ Description: Qt5 IM module for fcitx5
 
 Package: fcitx5-frontend-qt6
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 269
-Depends: libfcitx5-qt6-1 (= 5.0.14-2), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.2.4)
-Filename: ./fcitx5-qt/fcitx5-frontend-qt6_5.0.14-2_amd64.deb
-Size: 78732
-MD5sum: 55166bc935870b9b5e7d40665befcd64
-SHA1: 84fad223f2949f1a4d9cc268ec41dcae6ccf15af
-SHA256: f85eb473e10bc3c007144660f9a592d8b90ef09ff1e8800fdb2fbb320dc576df
+Depends: libfcitx5-qt6-1 (= 5.0.15-1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5), libxcb1, libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.2.4)
+Filename: ./fcitx5-qt/fcitx5-frontend-qt6_5.0.15-1_amd64.deb
+Size: 78900
+MD5sum: 27677b4b86d2aa1ec676f2cf8f31e639
+SHA1: a0763c99ead944cd16202bc447ff46a7286492b2
+SHA256: fda592dcda4be88f23e5806a0c58480a789e20980045cfce64b08354d73d0008
 Section: libs
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5-qt
@@ -4001,15 +4001,15 @@ Description: NVIDIA binary EGL library (non-GLVND variant) (390xx legacy version
 
 Package: libfcitx5-qt-data
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 72
-Filename: ./fcitx5-qt/libfcitx5-qt-data_5.0.14-2_all.deb
-Size: 12796
-MD5sum: 9e84fbc032a02506ea4135427a9587e1
-SHA1: 789ed7ff371885c79d8373c38a496d9fb8282bde
-SHA256: 19872064a68514002054fc7232cba62525de7f497999a449b3a8bc83e701c04b
+Filename: ./fcitx5-qt/libfcitx5-qt-data_5.0.15-1_all.deb
+Size: 12836
+MD5sum: 75c04e993070d80ac2de17bafb8998c1
+SHA1: fafb3061b88a7b4a8751a275a8ff1c36102f3e7c
+SHA256: 67a0b7b1d78c327c05a22e3f7fb81f93153c152353eb8b61be217b0ed8372cbf
 Section: libs
 Priority: optional
 Multi-Arch: foreign
@@ -4030,16 +4030,16 @@ Description: Qt library and IM module for fcitx5 (data files)
 
 Package: libfcitx5-qt-dev
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 83
-Depends: libfcitx5-qt1 (= 5.0.14-2)
-Filename: ./fcitx5-qt/libfcitx5-qt-dev_5.0.14-2_amd64.deb
-Size: 13576
-MD5sum: 1499a1c447b0f76144ee198831d20f8e
-SHA1: 699d639460988b46c5f82ff2a7764ce7fda292c3
-SHA256: 1ce902edf28c9a30be34f386c6825f450e3f93e4a4a848e0c2557320bec356b4
+Depends: libfcitx5-qt1 (= 5.0.15-1)
+Filename: ./fcitx5-qt/libfcitx5-qt-dev_5.0.15-1_amd64.deb
+Size: 13608
+MD5sum: 33a5f37589e14da4e13655d3a2742e22
+SHA1: 1d9720f1948cd654d8512dcd55ae10bc8017c98b
+SHA256: 7b3d0815de1bb19b4652290164dc6f31fa2067b4b71926eca1f21b12156bc86b
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4060,16 +4060,16 @@ Description: Qt library and IM module for fcitx5 (development files)
 
 Package: libfcitx5-qt1
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 352
-Depends: libfcitx5-qt-data (= 5.0.14-2), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
-Filename: ./fcitx5-qt/libfcitx5-qt1_5.0.14-2_amd64.deb
-Size: 88180
-MD5sum: b8b502b5d42a655845e3b878e67f1d19
-SHA1: 9ba77c4657dac1597ea77805e20339f9356c32a6
-SHA256: bf71f33c6651d1f817a359f39d8f27dbedb094eb02f4e98b6d983d23526cc4e9
+Depends: libfcitx5-qt-data (= 5.0.15-1), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
+Filename: ./fcitx5-qt/libfcitx5-qt1_5.0.15-1_amd64.deb
+Size: 87984
+MD5sum: a32cbcaf0cde91db77c50ec088440bf0
+SHA1: 679e86c84add3a0b5a5b10d06ea258ca9a86be04
+SHA256: c904dc363498c6c6dc4a4961db92a044bacebd807b8c26927befcda2c6f7442e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4090,16 +4090,16 @@ Description: Qt library and IM module for fcitx5
 
 Package: libfcitx5-qt6-1
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 440
-Depends: libfcitx5-qt-data (= 5.0.14-2), libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libstdc++6 (>= 5)
-Filename: ./fcitx5-qt/libfcitx5-qt6-1_5.0.14-2_amd64.deb
-Size: 99716
-MD5sum: d4d6aaa376f71698326a20859f822b1d
-SHA1: 88a57ae24b4488c4a837abf7c6b34c9bb515954d
-SHA256: c8cdf1af8ef9862f54109e0d7241ab9c3accb31bc6c2a24441e78bd63d8d7c7c
+Depends: libfcitx5-qt-data (= 5.0.15-1), libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt6core6 (>= 6.2.0), libqt6dbus6 (>= 6.1.2), libstdc++6 (>= 5)
+Filename: ./fcitx5-qt/libfcitx5-qt6-1_5.0.15-1_amd64.deb
+Size: 99912
+MD5sum: e6aba63bf6d26ac0b2c7a31a9cb67097
+SHA1: 338612a0d424ff6c95ea17c49b2b0214244b8fa5
+SHA256: 55893bdb609237096f324758bf12173938abc11117a339b5f1b7e09587ab9b0d
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4120,16 +4120,16 @@ Description: Qt6 library and IM module for fcitx5
 
 Package: libfcitx5-qt6-dev
 Source: fcitx5-qt
-Version: 5.0.14-2
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 56
-Depends: libfcitx5-qt6-1 (= 5.0.14-2)
-Filename: ./fcitx5-qt/libfcitx5-qt6-dev_5.0.14-2_amd64.deb
-Size: 10768
-MD5sum: 6f29b50688be4290afc7fd612703b5a3
-SHA1: 5730ca3bef8bd61f157ab38a3f9ca2dba03e012c
-SHA256: bc8dd2910f33866fcc700323c74a8e0c1aa2a60475d1bdd926ab8bcad001a5ea
+Depends: libfcitx5-qt6-1 (= 5.0.15-1)
+Filename: ./fcitx5-qt/libfcitx5-qt6-dev_5.0.15-1_amd64.deb
+Size: 10800
+MD5sum: 5025741ba37f8a357263af0b3afdb411
+SHA1: 9b8fe1757ca87521441c4ba1bf0b9f80fd14564b
+SHA256: 8937dbaecdf7803d58f33d62877c905367a55e4a127961bee8913f00624b7033
 Section: libdevel
 Priority: optional
 Multi-Arch: same
