@@ -507,6 +507,22 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module config files
  DDE Session Shell module configuration package adapted to the wayland environment for lightdm-deepin-greeter
 
+Package: deepin-gtk-theme
+Version: 2020.06.10+r022+g18
+Architecture: all
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4435
+Breaks: libgtk-3-0 (<= 3.5.0)
+Filename: ./deepin-gtk-theme/deepin-gtk-theme_2020.06.10+r022+g18_all.deb
+Size: 263816
+MD5sum: 368c572428ed058d147bb95fc96113f7
+SHA1: 9cdb8f558a3fb5e90b38f8bd7280287eaf9dab16
+SHA256: 84b0f19d6d1cc55e0c4538c1aa6f7cb3ab2692d64a92450a0f2b3fcad9c721ec
+Section: gnome
+Priority: optional
+Description: Deepin Gtk Themes
+ This package contains GTK+ themes for Deepin Desktop Environment.
+
 Package: deepin-music
 Version: 6.2.15-1+kt286
 Architecture: amd64
