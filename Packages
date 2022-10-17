@@ -1036,6 +1036,23 @@ Multi-Arch: foreign
 Homepage: https://github.com/kt286/fcitx5-flypy
 Description: fcitx5-flypy provides flypy table for fcitx5.
 
+Package: fcitx5-flypy
+Version: 5.0.3
+Architecture: all
+Maintainer: Cloud <kt286@qq.com>
+Installed-Size: 2773
+Depends: fcitx5, fcitx5-module-lua, fcitx5-table
+Filename: ./fcitx5-flypy/fcitx5-flypy_5.0.3_all.deb
+Size: 927548
+MD5sum: 102e44ae4aee14415929384eadd31901
+SHA1: e08df652a0647f71e310eeeaaff8ba6c5823beda
+SHA256: 498f560526def9fbbe56131f6f003f4bbfd6a08a1a316894dbe4ad598231897b
+Section: metapackages
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/kt286/fcitx5-flypy
+Description: fcitx5-flypy provides flypy table for fcitx5.
+
 Package: fcitx5-frontend-gtk2
 Source: fcitx5-gtk
 Version: 5.0.19-1
@@ -4943,48 +4960,6 @@ Description: Google's framework for writing C++ tests
  assertions, user-defined assertions, death tests, fatal and non-fatal failures,
  value- and type-parameterized tests, various options for running the tests, and
  XML test report generation.
-
-Package: libimageeditor
-Source: image-editor
-Version: 1.0.14-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 11803
-Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libfreeimage3, libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2)
-Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
-Conflicts: libimage-viewer
-Replaces: libimage-viewer
-Filename: ./libimageeditor/libimageeditor_1.0.14-1+kt286_amd64.deb
-Size: 744668
-MD5sum: 63438d92ca851ae8330371065edab451
-SHA1: f4d0a061ae8d06c47cbb01f2fed777b7d434be85
-SHA256: f38df84a47e18f89bd5c387525f67cc36b2bf98e430234b9d460c97dba38e551
-Section: utils
-Priority: optional
-Homepage: http://www.deepin.org
-Description: Image Viewer library.
- Deepin Image Viewer library.
-
-Package: libimageeditor-dev
-Source: image-editor
-Version: 1.0.14-1+kt286
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 31
-Depends: libimageeditor (= 1.0.14-1+kt286)
-Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
-Conflicts: libimage-viewer-dev
-Replaces: libimage-viewer-dev
-Filename: ./libimageeditor/libimageeditor-dev_1.0.14-1+kt286_amd64.deb
-Size: 6324
-MD5sum: f2f13087b33c347026a3497a87d5996b
-SHA1: 4186fa7701881f327dde7220a26fef1716361de0
-SHA256: 80ba51a8a2295d6c6e1bae441ab8ea95d02f20de9b87e9b9a000fdcb274f4bb4
-Section: utils
-Priority: optional
-Homepage: http://www.deepin.org
-Description: Image Viewer library development headers.
- Deepin Image Viewer library development headers.
 
 Package: libime-bin
 Source: libime
