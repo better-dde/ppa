@@ -524,16 +524,17 @@ Description: Deepin Gtk Themes
  This package contains GTK+ themes for Deepin Desktop Environment.
 
 Package: deepin-music
-Version: 6.2.15-1+kt286
+Version: 6.2.20-1+kt286
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 10233
-Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libicu63 (>= 63.1-1~), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 0.1.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
-Filename: ./deepin-music/deepin-music_6.2.15-1+kt286_amd64.deb
-Size: 4324208
-MD5sum: b6b8439a1388ebd21151081036acc0fe
-SHA1: 4fe92df013980e0bf6d96937dd37f74936de397a
-SHA256: 70ee1a93b2e0face6fb0dfe0ae01325f9725b1b64809ea6fcf91a93a7df59a2f
+Installed-Size: 10236
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libicu70 (>= 70.1-1~), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 0.1.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
+Recommends: gstreamer1.0-pulseaudio, uos-reporter, deepin-event-log
+Filename: ./deepin-music/deepin-music_6.2.20-1+kt286_amd64.deb
+Size: 4325616
+MD5sum: 6e824cb5cb5f71b01695df782bfb15d1
+SHA1: 9dae6fb29c8fdc599c7dd291adb683fd062fdef0
+SHA256: 0667af0a7e37128497b79edc31760092de2a29092bb8c306648f490d29fc64ff
 Section: sound
 Priority: extra
 Homepage: http://www.deepin.org/
