@@ -427,21 +427,21 @@ Description: Qt platform theme integration plugins for DDE
  Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
 Package: dde-session-shell
-Version: 5.5.69-1+kt286
+Version: 5.5.81-1+kt286
 Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 4885
+Installed-Size: 4902
 Depends: libc6 (>= 2.15), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5waylandclient5, liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libssl1.1 (>= 1.1.1d), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, dbus-x11, deepin-authenticate (>= 1.2.27), xsettingsd, libssl-dev, libxcb-util0 | libxcb-util1
 Recommends: onboard, dss-network-plugin, dde-network-dialog
 Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notifications
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Provides: lightdm-greeter
-Filename: ./dde-session-shell/dde-session-shell_5.5.69-1+kt286_amd64.deb
-Size: 809792
-MD5sum: 5a379a004a98015a5e37c1eda5697553
-SHA1: 82f2c5fcd530b51a652ad03f49954c5d4b7e4e13
-SHA256: 18f49e4953da58fd040561d04a133649b5252ad8d7751ce22542302bafe490d8
+Filename: ./dde-session-shell/dde-session-shell_5.5.81-1+kt286_amd64.deb
+Size: 820096
+MD5sum: 46f756a6f1c093ad404cf60e85c7175c
+SHA1: 37458da65912aa95de6ea55d51eba2d454fe423d
+SHA256: 2557d8d7bf6e54c9f3fab199101b1f7e1cb010d95bb34ee8f6bcc697404132e7
 Section: devel
 Priority: optional
 Homepage: http://www.deepin.org/
@@ -453,16 +453,16 @@ Description: deepin desktop-environment - dde-session-shell module
 
 Package: dde-session-shell-dev
 Source: dde-session-shell
-Version: 5.5.69-1+kt286
+Version: 5.5.81-1+kt286
 Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 26
-Depends: dde-session-shell (= 5.5.69-1+kt286)
-Filename: ./dde-session-shell/dde-session-shell-dev_5.5.69-1+kt286_amd64.deb
-Size: 4476
-MD5sum: bd1ea474682a60fc65285f88011b5b24
-SHA1: 1ead30117e5994bab61ed996b33d86e166cf08dd
-SHA256: 846e78b88c101064cc618a694cd4d3dd240003d7750a2f861392aebec68d3042
+Installed-Size: 24
+Depends: dde-session-shell (= 5.5.81-1+kt286)
+Filename: ./dde-session-shell/dde-session-shell-dev_5.5.81-1+kt286_amd64.deb
+Size: 4796
+MD5sum: 8057b2e8d091cbf3e5c5bf38d216f49a
+SHA1: 2134f7a8b8c77cfb83ffd3d9898d80d765fa2a98
+SHA256: 523c8f8807f96585ac3752b219e6610e333d25c8636752294f059aa6b2b1ea3a
 Section: devel
 Priority: optional
 Homepage: http://www.deepin.org/
@@ -491,16 +491,16 @@ Description: Text editor for DDE (Deepin Desktop Environment)
 
 Package: deepin-greeter-wayland
 Source: dde-session-shell
-Version: 5.5.69-1+kt286
+Version: 5.5.81-1+kt286
 Architecture: amd64
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 23
-Depends: dde-session-shell (= 5.5.69-1+kt286), dde-wayland-config
-Filename: ./dde-session-shell/deepin-greeter-wayland_5.5.69-1+kt286_amd64.deb
-Size: 4140
-MD5sum: 3db67a68caced3f0dc2c3a5538117b27
-SHA1: 1f0bf77a54737b2d706f6d4aa2d7f7f5fd582852
-SHA256: 4cde98f42dea880dd40b0851439c46ce83a0576f72d4c0ed8666701d5a84249d
+Installed-Size: 24
+Depends: dde-session-shell (= 5.5.81-1+kt286), dde-wayland-config
+Filename: ./dde-session-shell/deepin-greeter-wayland_5.5.81-1+kt286_amd64.deb
+Size: 4320
+MD5sum: 8e380e6310958bc32a27f45f6c665f87
+SHA1: a7e0d98325618ad3bcb18d9a31e9fbe200bafbb1
+SHA256: f7d382fe7909b02ed46ffc1e557c5e186a6c33d3a8187d478f3fa167de8dc0ac
 Section: devel
 Priority: optional
 Homepage: http://www.deepin.org/
