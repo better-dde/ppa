@@ -9350,18 +9350,18 @@ Description: tools for viewing and manipulating the Windows registry
  "registry" found on Windows machines, both locally and remote.
 
 Package: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 899
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgcrypt20 (>= 1.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.2.0), libpango-1.0-0 (>= 1.14.0), libsm6, libsodium23 (>= 1.0.10), libsoup2.4-1 (>= 2.30.0), libssh-4 (>= 0.8.1), libssl1.1 (>= 1.1.0), libvte-2.91-0 (>= 0.51.90), libwayland-client0 (>= 1.0.2), libx11-6, libxext6, remmina-common (= 1.4.26+dfsg-1), default-dbus-session-bus | dbus-session-bus
+Installed-Size: 904
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgcrypt20 (>= 1.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.2.0), libpango-1.0-0 (>= 1.14.0), libsm6, libsodium23 (>= 1.0.10), libsoup2.4-1 (>= 2.30.0), libssh-4 (>= 0.8.1), libssl1.1 (>= 1.1.0), libvte-2.91-0 (>= 0.51.90), libwayland-client0 (>= 1.0.2), libx11-6, libxext6, remmina-common (= 1.4.27+dfsg-2~bpo11+1), default-dbus-session-bus | dbus-session-bus
 Recommends: remmina-plugin-rdp, remmina-plugin-vnc, remmina-plugin-secret
 Suggests: remmina-plugin-exec, remmina-plugin-kwallet, remmina-plugin-python, remmina-plugin-spice, remmina-plugin-www, remmina-plugin-x2go
-Filename: ./remmina/remmina_1.4.26+dfsg-1_amd64.deb
-Size: 221824
-MD5sum: 45ec7644613d3e644572518786f4718d
-SHA1: b2e056cc52dd4e00f2ded69bceca19ee1aa24bb2
-SHA256: 9a2f0fa24738f803d31f445471b19bd364845d7e86ed611a81ab96b3e94386ae
+Filename: ./remmina/remmina_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 222676
+MD5sum: 6470fe7c761cbea272cf56c66ac23dbe
+SHA1: 5f7bed763ccc64336955ac57f7b3914b70efcf8e
+SHA256: 165f9a319786e2f480a5637ea8d07e8a5a64f0c2e9a419476c1fd24e060e550a
 Section: x11
 Priority: optional
 Multi-Arch: foreign
@@ -9379,16 +9379,16 @@ Description: GTK+ Remote Desktop Client
 
 Package: remmina-common
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: all
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 3559
+Installed-Size: 3637
 Recommends: remmina
-Filename: ./remmina/remmina-common_1.4.26+dfsg-1_all.deb
-Size: 631360
-MD5sum: e945f65fb86212bc81655213b56812e8
-SHA1: 69c9407455f9d12ebaf170b73dc0b2f215e3bbeb
-SHA256: d136106de4afbe49ef186efeecb18d243c233509bdc5bdf31d9ffe6c9890ecf1
+Filename: ./remmina/remmina-common_1.4.27+dfsg-2~bpo11+1_all.deb
+Size: 639888
+MD5sum: 36723c6dc4ab9d637f0272675de7f80d
+SHA1: 4541d49073b32e265935b3ff7d790be7430341cd
+SHA256: ddd949b74ac0bb41b8586ee1a9eed855bfd51c8451a3db8dc90674ff51ec131b
 Section: x11
 Priority: optional
 Multi-Arch: foreign
@@ -9408,16 +9408,16 @@ Description: Common files for Remmina
 
 Package: remmina-dev
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 57
-Depends: remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-dev_1.4.26+dfsg-1_amd64.deb
-Size: 21016
-MD5sum: 70d68c7fc5fb64f2bf08abcb62bd1638
-SHA1: a19b735c3502b2a8d373d0b79d1f7f5b786ae04c
-SHA256: 810a7e7bbc28c27987393612b9ac3a3d71d360e80e484641d8513f7f05544898
+Installed-Size: 58
+Depends: remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-dev_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 21204
+MD5sum: 8b7d63f2f04ecc0f350f82db8296690f
+SHA1: 12484db19d9e22b3ff7d058b13988fd1317664ff
+SHA256: 6860354cd1054a4e86487c7bde70a883ddf5a6faaf9bf56c02c8f2c15a4095c6
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9438,16 +9438,16 @@ Description: Headers for Remmina
 
 Package: remmina-plugin-exec
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 48
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-exec_1.4.26+dfsg-1_amd64.deb
-Size: 21068
-MD5sum: 37f3f747c50a47b99d7f694ef68e1fa4
-SHA1: dcd90a45d86ccc48330b500d3da19a8b21b7c918
-SHA256: 98f9e19933acac68eeb92ab31f536ee3ef63cc5f2092a2c415d2b19e1d38cc2a
+Installed-Size: 49
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.0.2), remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-exec_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 21272
+MD5sum: 6ecbd42f2f44e8f8e269fae308eeb8ce
+SHA1: fa18828d9865688113dda6ac377ff597a8b63525
+SHA256: 617eea4ff4cbbfe29428bd749aa1efa797af5258fe79fbb381d002308d75acd7
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9467,16 +9467,16 @@ Description: EXEC plugin for Remmina
 
 Package: remmina-plugin-kiosk
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 32
-Depends: remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-kiosk_1.4.26+dfsg-1_amd64.deb
-Size: 17660
-MD5sum: 15e0ee59e2bef6ad023c71dc58291943
-SHA1: 6249274c01c31c785c38fd031a166674a329f029
-SHA256: 68cfe486e7023d464190b8874c384d080038ac8e7448e5c60a4fba1dd960d6a4
+Installed-Size: 33
+Depends: remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-kiosk_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 17856
+MD5sum: 6c0db12622a0bf571ddc7212f00075e4
+SHA1: bfa8c672c0761aaf36966fcbb4daa7885977b4dd
+SHA256: 5de63cda8761f7e254af421e99ab05948e5811003d7fdc5be4f83b5f02c91e95
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9496,16 +9496,16 @@ Description: Kiosk plugin for Remmina
 
 Package: remmina-plugin-kwallet
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 44
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.31.8), libkf5wallet-bin, libkf5wallet5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-kwallet_1.4.26+dfsg-1_amd64.deb
-Size: 21224
-MD5sum: a28b7b5e473588d56e4d454f5e11409c
-SHA1: 670fe6aae0d38edf212fdb373916c7932fa46c28
-SHA256: a11a1dd9923ced8b5aa543f2b5ef26dc65f45d139ffa84ed0b39e40a286de204
+Installed-Size: 45
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.31.8), libkf5wallet-bin, libkf5wallet5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1), remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-kwallet_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 21424
+MD5sum: fd50c9f68eb25e4ee92ef066df8235b2
+SHA1: b8f4bd8e884f081840f4a351f50e9df19251250c
+SHA256: fbf0e8bf78ebbef3609a5464f1baeae884da21ff45a93446a91e1a92945b874f
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9526,16 +9526,16 @@ Description: KWallet plugin for Remmina
 
 Package: remmina-plugin-python
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 102
-Depends: remmina (= 1.4.26+dfsg-1), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpython3.7 (>= 3.7.0), libwayland-client0 (>= 1.0.2)
-Filename: ./remmina/remmina-plugin-python_1.4.26+dfsg-1_amd64.deb
-Size: 36596
-MD5sum: ee18a423d00e242aac9816d837ba9f38
-SHA1: 76d2b0a099b0732dfd3f075ad1ff91d4846f79f7
-SHA256: dc198697cb8509eb7b848919eee5213206127f19225b13036600e0e710c0f44e
+Installed-Size: 103
+Depends: remmina (= 1.4.27+dfsg-2~bpo11+1), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpython3.7 (>= 3.7.0), libwayland-client0 (>= 1.0.2)
+Filename: ./remmina/remmina-plugin-python_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 36784
+MD5sum: 5dfb1ada3a7533ebcc99777b77e7f1fa
+SHA1: 66a43c54c30bd18fd78a7fc87e5de6c73060e71a
+SHA256: e65656acff3a986b183364075f303d9c9f4649b69649c014fb0e8fa7c87fec35
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9556,16 +9556,16 @@ Description: Python support for Remmina
 
 Package: remmina-plugin-rdp
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 179
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libfreerdp-client2-2 (>= 2.2.0~), libfreerdp2-2 (>= 2.3.0+dfsg1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.4), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6, libwayland-client0 (>= 1.0.2), libwinpr2-2 (>= 2.1.0+dfsg1), libx11-6, libxext6, remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-rdp_1.4.26+dfsg-1_amd64.deb
-Size: 62996
-MD5sum: f5f31e6e97e9e947863bbb0eca6bb43c
-SHA1: cc78e401efa81c833b870a23767ec39eb071ad29
-SHA256: 9a282f391afb90a945548fc98192c7795dc99692ed0d283809240c40b64c2ab9
+Installed-Size: 180
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libfreerdp-client2-2 (>= 2.2.0~), libfreerdp2-2 (>= 2.3.0+dfsg1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.4), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6, libwayland-client0 (>= 1.0.2), libwinpr2-2 (>= 2.1.0+dfsg1), libx11-6, libxext6, remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-rdp_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 63344
+MD5sum: c1c30937753a520905353dd010c5986e
+SHA1: 2373671e67fef72ed5766b37a1c2cdbef363d69b
+SHA256: 4828bfe409cdea5f0b406ebc97793f4f57b0148a7d995d8bcff46ed0fb54a796
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9585,18 +9585,18 @@ Description: RDP plugin for Remmina
 
 Package: remmina-plugin-secret
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 44
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
+Installed-Size: 45
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libwayland-client0 (>= 1.0.2), remmina (= 1.4.27+dfsg-2~bpo11+1)
 Breaks: remmina-plugin-gnome
 Replaces: remmina-plugin-gnome
-Filename: ./remmina/remmina-plugin-secret_1.4.26+dfsg-1_amd64.deb
-Size: 20280
-MD5sum: 3fadfe29149c8007f2ca22bba85a1fa8
-SHA1: a7550eacf4ac7d6a5ce20c4cdd3c7d664d382fee
-SHA256: ee52fd47f7b8959959d9351ffe55d5999500642562fe71d50704d924d6a1fc09
+Filename: ./remmina/remmina-plugin-secret_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 20472
+MD5sum: 6617252f64d0ee9587ccf25ffe415c42
+SHA1: 6e21cf6576276abe4af4c08657f672259c4eec37
+SHA256: 3f8f9f5969ebcbf3eb7bd1d44c049255fcdf8bc8477d6aa6858cdb9f32d604f1
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9618,16 +9618,16 @@ Description: Secret plugin for Remmina
 
 Package: remmina-plugin-spice
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 64
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libspice-client-glib-2.0-8 (>= 0.35), libspice-client-gtk-3.0-5 (>= 0.32), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-spice_1.4.26+dfsg-1_amd64.deb
-Size: 26140
-MD5sum: ef1cbee659a75b5ad01c587b39172b79
-SHA1: 32815ec051531673dc8e3cee027c05aaaca015e4
-SHA256: c3f1e9f7b689743f2995013331119352a74bee161fdf15d538cdffac4164783b
+Installed-Size: 65
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libspice-client-glib-2.0-8 (>= 0.35), libspice-client-gtk-3.0-5 (>= 0.32), libwayland-client0 (>= 1.0.2), remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-spice_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 26344
+MD5sum: f23f75867cb07abfd4411b30a0f5ecad
+SHA1: 5e1decdc7ef7453d6b8f8fc9691a2a23fc3ff271
+SHA256: 1cb5028e95c5a1be3a1da6e4256fe61549796c61c2727b5713c27178941de507
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9647,16 +9647,16 @@ Description: Spice plugin for Remmina
 
 Package: remmina-plugin-vnc
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 81
-Depends: libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libvncclient1 (>= 0.9.10), libwayland-client0 (>= 1.0.2), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-vnc_1.4.26+dfsg-1_amd64.deb
-Size: 33428
-MD5sum: 9dd7b45dbadac1cf963140bcdaed0550
-SHA1: 04b73d7e67d0108b3df8a7d5120abacfa37f89a4
-SHA256: f6a1726929d3dc7eabab526c77e9ef4dd9ab61ade0c831eb67fce7ddec444d6f
+Installed-Size: 82
+Depends: libc6 (>= 2.15), libcairo2 (>= 1.6.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.9.12), libpango-1.0-0 (>= 1.14.0), libvncclient1 (>= 0.9.10), libwayland-client0 (>= 1.0.2), remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-vnc_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 33640
+MD5sum: a4cecf4664c0c1e215a6df46e2e51206
+SHA1: fc46b2eb8f5de823389b6383b31bd75c3d08d8dc
+SHA256: 6ac20eb582770d19da5062626d08b9434c846a00980429f52788cb555b61229d
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9676,16 +9676,16 @@ Description: VNC plugin for Remmina
 
 Package: remmina-plugin-www
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 68
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.2), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.4.0), libwayland-client0 (>= 1.0.2), libwebkit2gtk-4.0-37 (>= 2.31.1), remmina (= 1.4.26+dfsg-1)
-Filename: ./remmina/remmina-plugin-www_1.4.26+dfsg-1_amd64.deb
-Size: 26948
-MD5sum: 89d9bf5daf565f7596169c7fefed5054
-SHA1: e0587cd124f9129b201bfc4ec1f1b86291514823
-SHA256: 6ee21c02503c0d6431c45a39df59f30ef6038253c5b5a29bb2cd58bbe3d4f0be
+Installed-Size: 69
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.2), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.4.0), libwayland-client0 (>= 1.0.2), libwebkit2gtk-4.0-37 (>= 2.31.1), remmina (= 1.4.27+dfsg-2~bpo11+1)
+Filename: ./remmina/remmina-plugin-www_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 27144
+MD5sum: 72b79e91384477807c9dd18dcf7493fe
+SHA1: 28f408df3ad368362f481ede64f887b33991046b
+SHA256: 253c5682b9a440f312d5fdfc028b2067c617c7b7179a53015b8f8f1c93dbc8dc
 Section: x11
 Priority: optional
 Multi-Arch: same
@@ -9706,16 +9706,16 @@ Description: WWW plugin for Remmina
 
 Package: remmina-plugin-x2go
 Source: remmina
-Version: 1.4.26+dfsg-1
+Version: 1.4.27+dfsg-2~bpo11+1
 Architecture: amd64
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 96
-Depends: pyhoca-cli, remmina (= 1.4.26+dfsg-1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libssh-4 (>= 0.8.1), libwayland-client0 (>= 1.0.2), libx11-6
-Filename: ./remmina/remmina-plugin-x2go_1.4.26+dfsg-1_amd64.deb
-Size: 38620
-MD5sum: df9a213ad7a88e9924fa4f5c11c5ce73
-SHA1: 2718eb16ce5a36a9c6bff422b320030c0dab5263
-SHA256: 4e55870ff960fef9b3a2547baeda66484aaf22de6f93e16d77ce1c73d72daa0c
+Installed-Size: 97
+Depends: pyhoca-cli, remmina (= 1.4.27+dfsg-2~bpo11+1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libssh-4 (>= 0.8.1), libwayland-client0 (>= 1.0.2), libx11-6
+Filename: ./remmina/remmina-plugin-x2go_1.4.27+dfsg-2~bpo11+1_amd64.deb
+Size: 38880
+MD5sum: e93e0eeddcad64cd83254e67eaea2d66
+SHA1: e1ed9caedfd1d95c0b054a71ac875d62e62b8104
+SHA256: e5d78d6aa740de8e0d69982b96ad66dd512a6f1210b4465e0bc23b573ba1b9fe
 Section: x11
 Priority: optional
 Multi-Arch: same
