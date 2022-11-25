@@ -1696,17 +1696,17 @@ Homepage: https://github.com/felixonmars/fcitx5-pinyin-zhwiki
 Description: zhwiki dictionary for fcitx5-pinyin and rime.
 
 Package: fcitx5-rime
-Version: 5.0.14-1
+Version: 5.0.15-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 257
-Depends: librime-data, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.18), libfcitx5core7 (>= 5.0.18), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), librime1 (>= 1.7.3+dfsg1~), libstdc++6 (>= 5)
+Installed-Size: 258
+Depends: librime-data, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), librime1 (>= 1.7.3+dfsg1~), libstdc++6 (>= 5)
 Conflicts: fcitx-rime
-Filename: ./fcitx5-rime/fcitx5-rime_5.0.14-1_amd64.deb
-Size: 65088
-MD5sum: b7941f2f5212d2c50a98dea4ebbf42a7
-SHA1: 2eea3c6fbb3477b31bbc79919401e63107923e28
-SHA256: 3f6204889fe53fc73ecff885fb4e93403394e95062093c535366cea367b9d291
+Filename: ./fcitx5-rime/fcitx5-rime_5.0.15-1_amd64.deb
+Size: 65720
+MD5sum: 36d30610fa260fe09df9d657783374fd
+SHA1: c8545f0262f6c925de141c19b7ad0f1d6a224b7d
+SHA256: 68cd5d158ca428d0b79e0ccb54fd133c32189b60b672d9a9b8127dc0fcc3bfc8
 Section: utils
 Priority: optional
 Multi-Arch: same
