@@ -3099,21 +3099,22 @@ Description: Mozc engine for IBus - Client of the Mozc input method
  This open-source project originates from Google Japanese Input.
 
 Package: im-config
-Version: 0.52-2
+Version: 0.55-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 407
+Installed-Size: 403
 Depends: gettext-base
 Recommends: x11-common, zenity | kdialog | kde-baseapps-bin (<< 4:16.08.3-2~) | whiptail
 Conflicts: im-switch
 Provides: im-switch
-Filename: ./im-config/im-config_0.52-2_all.deb
-Size: 61632
-MD5sum: 690cc9ff6669bd22f1a4bb8fa89f2321
-SHA1: a87b140b6021e2f4f65deb8ae2e4fa6d3f98dfcf
-SHA256: 657d03834fae5ec920110bdc32b3d10bb44b7db115b9419ffb9657f0242da3de
+Filename: ./im-config/im-config_0.55-1_all.deb
+Size: 61780
+MD5sum: d52f0400ff6dbc97908b5459eb52e925
+SHA1: 3faae2b42345f66bef726d84fa42025df93f8ba6
+SHA256: c0dead567cf22812e5faf02afcb50b4c66958ce6f18cc48cd9664c2708529987
 Section: utils
 Priority: optional
+Multi-Arch: foreign
 Homepage: https://salsa.debian.org/input-method-team/im-config
 Description: Input method configuration framework
  im-config package provides the framework to configure and to switch
