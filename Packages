@@ -859,18 +859,18 @@ Description: Fcitx5 wrapper for Anthy IM engine
  to mixed kana and kanji.
 
 Package: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 16
 Depends: fcitx5-chinese-addons-bin, fcitx5-pinyin, fcitx5-table
 Recommends: fcitx5, fcitx5-module-lua
 Enhances: fcitx5
-Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons_5.0.15-2_all.deb
-Size: 6032
-MD5sum: fe3c8c257cfe0f004d9ef2d44ca71f42
-SHA1: 22949c64b591d35294f8189ce2e3e54384f46c37
-SHA256: 82b4d697830a63cbb57a923f081de7b9d1da532201eba7bf1d03b664d227e62c
+Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons_5.0.16-1_all.deb
+Size: 6040
+MD5sum: 4b915309b12bbc62825944f5d49a23b6
+SHA1: 021d64ff153baafb361a0230662b4dd2e543f8d5
+SHA256: c2cbd863c363b0ec9e72751241828761771fef522ffe70b99f9fe902b97f0340
 Section: metapackages
 Priority: optional
 Multi-Arch: foreign
@@ -885,16 +885,16 @@ Description: Chinese-related addon for fcitx5 (metapackage)
 
 Package: fcitx5-chinese-addons-bin
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 47
-Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons-bin_5.0.15-2_amd64.deb
-Size: 15960
-MD5sum: 05fe7640257340956a8272b1e1b546d8
-SHA1: ad156fefc4039370a9173d41cf331a17e8abb2d7
-SHA256: 414b9d065250fa3df87d645546b3e6f72dcc0cc7093460ac6d4abd1f762a4a0b
+Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons-bin_5.0.16-1_amd64.deb
+Size: 15976
+MD5sum: 2b1323e3b496455cbe7c77765cb3f8c4
+SHA1: 28e9a79f10676d17971956b3fbb389438824643d
+SHA256: fdbdea3063da18d957261c1ad9cc0bbf94393c451ba8b3d7c9e9eaff53d572ea
 Section: utils
 Priority: optional
 Homepage: https://github.com/fcitx/fcitx5-chinese-addons
@@ -906,16 +906,16 @@ Description: Chinese-related addon for fcitx5 (binary tools)
 
 Package: fcitx5-chinese-addons-data
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 177
+Installed-Size: 179
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons-data_5.0.15-2_all.deb
-Size: 34708
-MD5sum: ebe215259a8e69439dca35d640cdbca9
-SHA1: b62551ebf62e8fd852919c1bc69ab793ec5d2c61
-SHA256: 99db951e5cd1978ff15b6c0d1975865888a4d5b45b32d3f680d3d71284e33847
+Filename: ./fcitx5-chinese-addons/fcitx5-chinese-addons-data_5.0.16-1_all.deb
+Size: 34884
+MD5sum: c57ac2d54e78907cbdd77d3ca0fc16e4
+SHA1: 6d08d8ede67c97f72ffac7609a94ce453b83f586
+SHA256: 0789e59f32ffcf59887e0e61fa373ea371fd34e4e2d01c48f55e24ad492935d0
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -1197,17 +1197,17 @@ Description: UI theme for fcitx5 following Material Design
 
 Package: fcitx5-module-chttrans
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 213
-Depends: fcitx5-chinese-addons-data, libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libopencc2 (>= 1.0.5), libstdc++6 (>= 5.2)
+Depends: fcitx5-chinese-addons-data, libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libopencc2 (>= 1.0.5), libstdc++6 (>= 5.2)
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons/fcitx5-module-chttrans_5.0.15-2_amd64.deb
-Size: 65276
-MD5sum: b8664c6cb4c4973458fde01b026abfc1
-SHA1: b439e72201edba8722c7255ea869664aa9ac752d
-SHA256: a7616be110a4658af65c07bed5c3f6e9dc844a7fa9bb283eacd8c13fc11f9577
+Filename: ./fcitx5-chinese-addons/fcitx5-module-chttrans_5.0.16-1_amd64.deb
+Size: 65356
+MD5sum: f17bcd456c8cbebb084ccceedb2bb5a6
+SHA1: 42446248290cae22109867aface0d69e6a794c50
+SHA256: fbec6dba032e34abd651a49682121a68ab0b52eb7cdf2f05b89a482bba3a9e83
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1228,16 +1228,16 @@ Description: Fcitx Input Method Framework v5 (chttrans module)
 
 Package: fcitx5-module-cloudpinyin
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 108
-Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.3), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
-Filename: ./fcitx5-chinese-addons/fcitx5-module-cloudpinyin_5.0.15-2_amd64.deb
-Size: 33668
-MD5sum: d24b3b6f71ca000cfb4779ff8eacac7a
-SHA1: d99ea5e2069552be317a1270f8af687176935834
-SHA256: 8fcac99a4c0cd76b29128c849725e91e9eff6f9fb6edb6537c3b57d192540f5b
+Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libcurl4 (>= 7.16.3), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
+Filename: ./fcitx5-chinese-addons/fcitx5-module-cloudpinyin_5.0.16-1_amd64.deb
+Size: 33600
+MD5sum: f54d89d4fa4fe5223c38db197e79f2c2
+SHA1: 2d5e9b2eaa2b679645fb9ee3da5cca0f3f801ca2
+SHA256: 74289a42294de6ccb9c35f3103f7ce31d924b5f93645ad8079cc134826af184d
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1259,16 +1259,16 @@ Description: Fcitx Input Method Framework v5 (cloudpinyin module)
 
 Package: fcitx5-module-cloudpinyin-dev
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 32
-Depends: fcitx5-module-cloudpinyin (= 5.0.15-2)
-Filename: ./fcitx5-chinese-addons/fcitx5-module-cloudpinyin-dev_5.0.15-2_amd64.deb
-Size: 8336
-MD5sum: acd26893297bd631dfbcf8aa5851b856
-SHA1: 1dec95d25493ef28fbafe3887bf435aa9e5fd386
-SHA256: fe267ab81dc1b32566346265321c53bb9185c31587de725a5a0b4655b2d9edba
+Depends: fcitx5-module-cloudpinyin (= 5.0.16-1)
+Filename: ./fcitx5-chinese-addons/fcitx5-module-cloudpinyin-dev_5.0.16-1_amd64.deb
+Size: 8340
+MD5sum: dbd8fef7cba2b38ff5931805f1e88217
+SHA1: 7f73d92c00c560c7bb7c0b894830543a5a18b8e9
+SHA256: 9116435b6282fa08c7d61830ee45d628492bca944fd86122ab25cac46aff470d
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1290,17 +1290,17 @@ Description: Development files for fcitx5 cloudpinyin module
 
 Package: fcitx5-module-fullwidth
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 126
-Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Depends: fcitx5-chinese-addons-data, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons/fcitx5-module-fullwidth_5.0.15-2_amd64.deb
-Size: 31040
-MD5sum: 19857df0a26ea8a939914884a1d800a7
-SHA1: f8e4a9616a421debbae4b0d5cf3ee763a0064336
-SHA256: de19fbededdd789a9b84ef8d58db45cce2644d4abd133241e5896bebd213beb3
+Filename: ./fcitx5-chinese-addons/fcitx5-module-fullwidth_5.0.16-1_amd64.deb
+Size: 31064
+MD5sum: 08a97dfd4788f658f13752455a12bdfc
+SHA1: d63f1116ffbd06ebb46707c9669760bf4f57df20
+SHA256: d8d6a9b7d69ff2e1926848810ad0b187ff86157347cff7428257a2a14180ea7b
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1412,16 +1412,16 @@ Description: Lua support for fcitx5 (development files)
 
 Package: fcitx5-module-pinyinhelper
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 2018
-Depends: fcitx5-chinese-addons-data, fcitx5-pinyin (= 5.0.15-2), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.14), libstdc++6 (>= 5.2)
-Filename: ./fcitx5-chinese-addons/fcitx5-module-pinyinhelper_5.0.15-2_amd64.deb
-Size: 555124
-MD5sum: d448a5291289f6c0be032b39ae3f3c71
-SHA1: a899f7fc66f8bbd28673ce12b3edadcdbb89f6a4
-SHA256: f2414a19e8be1506c8800977afa70d19d67a77cd78dbc3856ac3e976740e5562
+Depends: fcitx5-chinese-addons-data, fcitx5-pinyin (= 5.0.16-1), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.16), libstdc++6 (>= 5.2)
+Filename: ./fcitx5-chinese-addons/fcitx5-module-pinyinhelper_5.0.16-1_amd64.deb
+Size: 555116
+MD5sum: f00d6369590aced7f944b2e663d55280
+SHA1: a75df5247e047463ff74539bbe2f3f2ee069e614
+SHA256: 541d77438f4a9bafc8e48647a83f9070c5545d9d69b9d435b023a251d03d23af
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1443,16 +1443,16 @@ Description: Fcitx Input Method Framework v5 (pinyinhelper module)
 
 Package: fcitx5-module-pinyinhelper-dev
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 28
-Depends: fcitx5-module-pinyinhelper (= 5.0.15-2)
-Filename: ./fcitx5-chinese-addons/fcitx5-module-pinyinhelper-dev_5.0.15-2_amd64.deb
-Size: 7372
-MD5sum: e7720fc2806673f2d31514b8cbf5b8fb
-SHA1: 1e42655e682a38292e88fa211ca9fe8cacf20d64
-SHA256: bab364c2c8769a457ce066aba0d90a50c730ab8e974f82b8fa35add9e13159aa
+Depends: fcitx5-module-pinyinhelper (= 5.0.16-1)
+Filename: ./fcitx5-chinese-addons/fcitx5-module-pinyinhelper-dev_5.0.16-1_amd64.deb
+Size: 7380
+MD5sum: 3d6a95dcec029e8740129172978fa164
+SHA1: 2b396e3f85d777e6d7051698fe56b3f262b98e53
+SHA256: 9f8e88c6eb6461c0dfe7e855538cefb7ccb024fd0445792b303e923b9884cdac
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1474,17 +1474,17 @@ Description: Development files for fcitx5 pinyinhelper module
 
 Package: fcitx5-module-punctuation
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 224
-Depends: fcitx5-chinese-addons-data, libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Depends: fcitx5-chinese-addons-data, libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons/fcitx5-module-punctuation_5.0.15-2_amd64.deb
-Size: 55372
-MD5sum: 959e58ed735f9e7f518b986c73481a33
-SHA1: c22bf0caceefaef6a69c25d0c4991b3843b6a457
-SHA256: 24b2b2f66aedbd2a3d09d1949ee9c22cce5c86cbe5cbd1cb9c4d68da34414796
+Filename: ./fcitx5-chinese-addons/fcitx5-module-punctuation_5.0.16-1_amd64.deb
+Size: 55444
+MD5sum: 5f56dc7fb1a0c03f6255db602ad55291
+SHA1: 022e5d39de89e4089d79ab07d88af1fca1ed48f9
+SHA256: 42b954af60a465a914465bcf98c3070eea498bc8236f93e017eb1be51a9fb018
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1506,16 +1506,16 @@ Description: Fcitx Input Method Framework v5 (punctuation module)
 
 Package: fcitx5-module-punctuation-dev
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 29
-Depends: fcitx5-module-punctuation (= 5.0.15-2)
-Filename: ./fcitx5-chinese-addons/fcitx5-module-punctuation-dev_5.0.15-2_amd64.deb
+Depends: fcitx5-module-punctuation (= 5.0.16-1)
+Filename: ./fcitx5-chinese-addons/fcitx5-module-punctuation-dev_5.0.16-1_amd64.deb
 Size: 7364
-MD5sum: 8a327ef52f2f29410445b3a81e6e1db5
-SHA1: e7fe52a6ca5c2f4b4da86e20f39c2edae25b9526
-SHA256: 1d87ea46c9cd940eb386b0d5c9d92939e646e82148a5b5d3b6dd1525b6a4f0c5
+MD5sum: b8d1ec43d444de194f43c38b9ef3276b
+SHA1: 44ce1913c69289e28527306ada25c74497204466
+SHA256: 1574c1f2d63be1e10a4722546d1ee138ced12e07eb36ac61362d285e38aab031
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -1632,18 +1632,18 @@ Description: Mozc engine for fcitx5 - Client of the Mozc input method
 
 Package: fcitx5-pinyin
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 1028
-Depends: fcitx5-chinese-addons-data, fcitx5-module-punctuation (= 5.0.15-2), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.14), libimepinyin0 (>= 1.0.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
-Recommends: fcitx5-module-chttrans (= 5.0.15-2), fcitx5-module-cloudpinyin (= 5.0.15-2), fcitx5-module-fullwidth (= 5.0.15-2), fcitx5-module-pinyinhelper (= 5.0.15-2), fcitx5-module-quickphrase, fcitx5-modules
+Installed-Size: 1032
+Depends: fcitx5-chinese-addons-data, fcitx5-module-punctuation (= 5.0.16-1), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5-qt1 (>= 5.0.16), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.16), libimepinyin0 (>= 1.0.16), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Recommends: fcitx5-module-chttrans (= 5.0.16-1), fcitx5-module-cloudpinyin (= 5.0.16-1), fcitx5-module-fullwidth (= 5.0.16-1), fcitx5-module-pinyinhelper (= 5.0.16-1), fcitx5-module-quickphrase, fcitx5-modules
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons/fcitx5-pinyin_5.0.15-2_amd64.deb
-Size: 313892
-MD5sum: ff51501d184777a0cfe6953f70575c83
-SHA1: 8cc66466fe2a33cd85638313e64ec5e21d7aba91
-SHA256: 468e0f7a0ced2570726e79caedee23dcefca190f7b0f26f13fcdd10d2a40190d
+Filename: ./fcitx5-chinese-addons/fcitx5-pinyin_5.0.16-1_amd64.deb
+Size: 316640
+MD5sum: fdeb9d38f1253f9cfdf9ba8ecdf719fb
+SHA1: a0be2ccfece8cd540c96e8512222598cea586a06
+SHA256: de49b73183fdc7a37c512eabfe60ed47008489505dd931e6536678e8329f744e
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -1720,18 +1720,18 @@ Description: Rime input method support for fcitx5
 
 Package: fcitx5-table
 Source: fcitx5-chinese-addons
-Version: 5.0.15-2
+Version: 5.0.16-1
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 561
-Depends: fcitx5-chinese-addons-data, fcitx5-module-pinyinhelper (= 5.0.15-2), fcitx5-module-punctuation (= 5.0.15-2), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.19), libfcitx5core7 (>= 5.0.19), libfcitx5utils2 (>= 5.0.19), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.14), libimepinyin0 (>= 1.0.14), libimetable0 (>= 1.0.14), libstdc++6 (>= 5.2)
-Recommends: fcitx5-module-fullwidth (= 5.0.15-2), fcitx5-module-quickphrase
+Depends: fcitx5-chinese-addons-data, fcitx5-module-pinyinhelper (= 5.0.16-1), fcitx5-module-punctuation (= 5.0.16-1), libboost-iostreams1.67.0, libc6 (>= 2.14), libfcitx5config6 (>= 5.0.20), libfcitx5core7 (>= 5.0.20), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.16), libimepinyin0 (>= 1.0.16), libimetable0 (>= 1.0.16), libstdc++6 (>= 5.2)
+Recommends: fcitx5-module-fullwidth (= 5.0.16-1), fcitx5-module-quickphrase
 Conflicts: fcitx-data
-Filename: ./fcitx5-chinese-addons/fcitx5-table_5.0.15-2_amd64.deb
-Size: 153816
-MD5sum: 122ae47e10ca58fedc6c6a05451f17e3
-SHA1: 2607fd1a4bbeec34a3e59c6519c112ebccbad954
-SHA256: 388dcd853c35f598e75ab8f89b2a2f62f4e66f201bb1430319f76f054f39039b
+Filename: ./fcitx5-chinese-addons/fcitx5-table_5.0.16-1_amd64.deb
+Size: 153956
+MD5sum: b0a46bb9f31c44dc6db00a9af7edb49f
+SHA1: d306b9f450b7e9b90b1dba7f941d37e64580d75f
+SHA256: fd757f8cf75d26e18d676e0314edf1be97efe2f540678f7af129d1586d7b9221
 Section: utils
 Priority: optional
 Multi-Arch: same
