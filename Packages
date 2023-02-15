@@ -4842,16 +4842,16 @@ Description: Google's framework for writing C++ tests
 
 Package: libime-bin
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 768
-Depends: libimecore0 (= 1.0.14-1), libimepinyin0 (= 1.0.14-1), libimetable0 (= 1.0.14-1), libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.17), libdouble-conversion3 (>= 3.1.5-5~), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libime/libime-bin_1.0.14-1_amd64.deb
-Size: 225336
-MD5sum: d74819c8096b62ac5d6e3826a6280e4b
-SHA1: 9d52b2ec15ebd4a71db2302b68556a63d1ce91c6
-SHA256: 0efa131139c7fe3d449dd0ea18bfcdee34819730f9d3558de4e0bd81419f0015
+Depends: libimecore0 (= 1.0.16-2), libimepinyin0 (= 1.0.16-2), libimetable0 (= 1.0.16-2), libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.17), libdouble-conversion3 (>= 3.1.5-5~), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./libime/libime-bin_1.0.16-2_amd64.deb
+Size: 225456
+MD5sum: 646b04c38fa6aafb68a7d1a61536c004
+SHA1: 6b1c503c590b55318808d3b6ba70e05c90497fac
+SHA256: 69ae55790e3ed4063b5a49f74f9383b33b75b2ac14eef12ced78e9240557808b
 Section: utils
 Priority: optional
 Homepage: https://github.com/fcitx/libime
@@ -4863,16 +4863,16 @@ Description: Generic Input Method Implementation (tools)
 
 Package: libime-data
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: all
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 30464
-Depends: libime-data-language-model (<< 1.0.14-1.1~), libime-data-language-model (>= 1.0.14-1)
-Filename: ./libime/libime-data_1.0.14-1_all.deb
-Size: 10719648
-MD5sum: 47248d0aa3dd3f6a7925fbe288a3cd32
-SHA1: eb2e926cc99dc3791f6cdb6962d56fd9d9d77f6e
-SHA256: a475b330bf8521e845e92ddd7eaae69fd1f935ec426592606f9501976436ccb6
+Depends: libime-data-language-model (<< 1.0.16-2.1~), libime-data-language-model (>= 1.0.16-2)
+Filename: ./libime/libime-data_1.0.16-2_all.deb
+Size: 10722456
+MD5sum: 2f25215c23429764456c19182424dab6
+SHA1: 38038c11a9c8545183e758a63098808b3401de63
+SHA256: 960f0cba71746021167063d0517cbdb089cbc95d850326c0d0a1d809cd2d3c06
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -4885,17 +4885,17 @@ Description: Generic Input Method Implementation library (data files)
 
 Package: libime-data-language-model
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 21522
 Breaks: libimecore0 (<< 1.0.1-2)
 Replaces: libimecore0 (<< 1.0.1-2)
-Filename: ./libime/libime-data-language-model_1.0.14-1_amd64.deb
-Size: 14387928
-MD5sum: 868cf71f398294b670cb9b4c45493a9e
-SHA1: e1f78e40d875e2dc4e092fb920e9345339cf4518
-SHA256: 709effe0590b8e65cbae44033a6feccde1c50ab644360c2730bd7def6de59f25
+Filename: ./libime/libime-data-language-model_1.0.16-2_amd64.deb
+Size: 14394292
+MD5sum: 1a9a8cd0c2c9a7bafbad9c5e98db5ebf
+SHA1: 146aee0c8cd92dd4776e319c9e1e5ac2a69d6193
+SHA256: e27116dc4ab90b2b6918d9ce8f4268484b54ed7c2f3443713fb8de237e4299ed
 Section: utils
 Priority: optional
 Multi-Arch: same
@@ -4908,16 +4908,16 @@ Description: Generic Input Method Implementation library (language model)
 
 Package: libimecore-dev
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 85
-Depends: libimecore0 (= 1.0.14-1)
-Filename: ./libime/libimecore-dev_1.0.14-1_amd64.deb
-Size: 17932
-MD5sum: 7e68f5fbf820f51ccfc817b533d152e0
-SHA1: 0373b21293a1cf7aa4df19ecb16a3171b08574cd
-SHA256: e18d2ed9551382811a2e5e3d0aafa361906ca7721b8eae066458a10fc5f1c9a6
+Installed-Size: 86
+Depends: libimecore0 (= 1.0.16-2)
+Filename: ./libime/libimecore-dev_1.0.16-2_amd64.deb
+Size: 18052
+MD5sum: fc2ef8cccf1fd837c56730addeea7bae
+SHA1: b461cfe57102e6a78b5ff8ab0b04029c5d0302b7
+SHA256: 066b20c2fb79efead27de7fd9e600a1c07ff4c621f6296e68e4edf8b6c58ec31
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4930,16 +4930,16 @@ Description: Generic Input Method Implementation (core dev files)
 
 Package: libimecore0
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 814
-Depends: libime-data (= 1.0.14-1), libc6 (>= 2.17), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Filename: ./libime/libimecore0_1.0.14-1_amd64.deb
-Size: 249072
-MD5sum: 7740e4495a80db0622ae27f3ab0f0ae3
-SHA1: 031a7785a1ac1e2a7664e56ed9aa15fe16cb8802
-SHA256: 16737c7117af6fcd073d1121af0a65ed1c5d09fdbe8a8a9dda16b76b555de20e
+Depends: libime-data (= 1.0.16-2), libc6 (>= 2.17), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./libime/libimecore0_1.0.16-2_amd64.deb
+Size: 249124
+MD5sum: f22ad94730e6f5a7f1c8a69e181001bb
+SHA1: 4d7b4fba3f945375ca30c019306a240c479c7f57
+SHA256: c4719425907e9e67549e099f961451d5082f1bf4fc1714baf1aee60192b3505c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4952,16 +4952,16 @@ Description: Generic Input Method Implementation (core library)
 
 Package: libimepinyin-dev
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 69
-Depends: libimepinyin0 (= 1.0.14-1)
-Filename: ./libime/libimepinyin-dev_1.0.14-1_amd64.deb
-Size: 14608
-MD5sum: a63281bbd93e4740516138f08a950a7d
-SHA1: 24186eb220d4115556066217489d2bf1d26141a1
-SHA256: 2de9864e1830d00f8a26c24ef6230e4f3ed7bebb3f2fcaeb54220146988ba5e6
+Depends: libimepinyin0 (= 1.0.16-2)
+Filename: ./libime/libimepinyin-dev_1.0.16-2_amd64.deb
+Size: 14804
+MD5sum: a2652f5412271f98fbf27c63dd905f89
+SHA1: 25c46291eadaf3f0c15475778281950844e480d9
+SHA256: 9d580cf63b25a8b8ad47abf21c5557bfecd1157f5699ee59455a0dfad65ca200
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4974,16 +4974,16 @@ Description: Generic Input Method Implementation (pinyin dev files)
 
 Package: libimepinyin0
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 466
-Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.14), libstdc++6 (>= 5.2)
-Filename: ./libime/libimepinyin0_1.0.14-1_amd64.deb
-Size: 140336
-MD5sum: 26a4867a536b531c34db2ef7bef519b5
-SHA1: 971a3350d4699eeeb8233d7050ea6c024f93b1d7
-SHA256: 8397540a301ffb38f49fe8afe55d256f2eeaa4758ef484f37f73ec733b35b97e
+Depends: libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.16), libstdc++6 (>= 5.2)
+Filename: ./libime/libimepinyin0_1.0.16-2_amd64.deb
+Size: 140592
+MD5sum: e0cbf496c816579998dda46990522609
+SHA1: 8930e63baf524f591f4b036ef269eec7aa710bdc
+SHA256: d5bb73dfe50eee5feae7fbcdd5f292cf905859c0949cc281806c8489e39152c6
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4996,16 +4996,16 @@ Description: Generic Input Method Implementation (pinyin library)
 
 Package: libimetable-dev
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 57
-Depends: libimetable0 (= 1.0.14-1)
-Filename: ./libime/libimetable-dev_1.0.14-1_amd64.deb
-Size: 13240
-MD5sum: 9e87032790afd6877e82fdd3ddde01e7
-SHA1: bd2efc044c59d1f9303d85ba9ea997fa37643c03
-SHA256: da3689ad63b0aa2644bf59a28df8d3f77fdec9ae42cc6f20bb6694bf8e5236e3
+Depends: libimetable0 (= 1.0.16-2)
+Filename: ./libime/libimetable-dev_1.0.16-2_amd64.deb
+Size: 13340
+MD5sum: 46b1a96e13474e5bd67eba87d2aade67
+SHA1: 9612e3406def6206e880b918f6565ed8295e50bc
+SHA256: d06ba694e8189c58eff426503a394ccf3a78c4ced0f2d476997d1be111cb18f6
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -5018,16 +5018,16 @@ Description: Generic Input Method Implementation (table dev files)
 
 Package: libimetable0
 Source: libime
-Version: 1.0.14-1
+Version: 1.0.16-2
 Architecture: amd64
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 334
-Depends: libboost-regex1.67.0 (>= 1.67.0-10), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.18), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.14), libstdc++6 (>= 5.2)
-Filename: ./libime/libimetable0_1.0.14-1_amd64.deb
-Size: 110284
-MD5sum: a9cf67c231dd7ba056d63be29f0ad106
-SHA1: 5134934468816c902d580904ef1e83f892a5df03
-SHA256: b832ac5774827c56e50a07236f26aa5581ede1e6ee5ebd84d39bcf49361088e8
+Depends: libboost-regex1.67.0 (>= 1.67.0-10), libc6 (>= 2.14), libfcitx5utils2 (>= 5.0.20), libgcc1 (>= 1:3.0), libimecore0 (>= 1.0.16), libstdc++6 (>= 5.2)
+Filename: ./libime/libimetable0_1.0.16-2_amd64.deb
+Size: 110152
+MD5sum: d1b9641a48414f12573cd860f393038b
+SHA1: 9b389dafd2fa0c52a5ebeb51cb93f351c1c1ac19
+SHA256: e6a7d54cd30a7e11124ef8fef820a22eceeb9d9b474b5835e43405605d938d31
 Section: libs
 Priority: optional
 Multi-Arch: same
